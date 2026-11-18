@@ -144,6 +144,15 @@ def verify(markdown=True):
     close(gqa[0]['weights'],[.4,.2,.4]);close(gqa[0]['output'],[1.6,2.4])
     close(gqa[1]['weights'],[.2,.4,.4]);close(gqa[1]['output'],[1.2,3.2])
     c=D['mla'];mlas=[mla(c['latents'],q,uk,uv) for q,uk,uv in zip(qs,c['key_up'],c['value_up'])]
+    # Figure 5-2 holds the query and the three original records fixed.
+    query = qs[0]
+    reads = {
+        'grouped': gqa[0]['output'],
+        'latent': mlas[0]['output'],
+        'last_two': attention(query, k[-2:], v[-2:])['output'],
+        'linear': linear_stream(k, v, [query] * len(k))[-1]['output'],
+    }
+    close(list(reads.values()), [[8/5, 12/5], [8/5, 12/5], [4/3, 4], [2, 2]])
     close(mlas[0]['output'],[1.6,2.4]);close(mlas[1]['output'],[2.25,0])
     close([sum(m['output'][i] for m in mlas) for i in range(2)],[3.85,2.4])
     # Decoupled RoPE: content and position scores share the sqrt(2+2) scale.
@@ -239,7 +248,7 @@ def verify(markdown=True):
     close(extended['expanded']['weights'],[2/9,1/9,2/9,4/9])
     close(extended['output'],[8/3,4/3])
     close(delta([[2],[4]],[1,0],[6],.25)['state'],[[3],[4]])
-    result=dict(gqa=gqa,mla=mlas,position_branch=pos,sparse=sparse,loaded_blocks=loaded,
+    result=dict(figure_5_2=reads,gqa=gqa,mla=mlas,position_branch=pos,sparse=sparse,loaded_blocks=loaded,
                 linear=stream,collision=coll,softmax_collision=soft_collision,delta=update,
                 diagonal_gate=diag,scalar_gate=scalar,interference=interference,budget=b,
                 max_reconstruction_gradient_error=grad_error,max_absorption_error=max_absorption_error,

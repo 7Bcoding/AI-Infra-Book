@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="414" viewBox="0 0 900 414" role="img" aria-labelledby="title desc">
+<title id="title">同一查询怎样读三条历史记录</title>
+<desc id="desc">上三行保留历史位置，窗口只读最近两项；最下一行累积键的第一维所对应的值与计数。右列分别给出二维输出。</desc>
+<style>text{font-family:"Noto Serif CJK SC","Songti SC","SimSun",serif;fill:#25333b;font-size:21px}.num{font-family:Georgia,"Times New Roman",serif;font-size:24px}.muted{fill:#505e67;font-size:18px}.label{font-size:19px}.note{font-size:17px;fill:#4b565d}</style>
+<rect width="900" height="414" fill="white"/>
+<text x="18" y="29" text-anchor="start" class="label">历史记录</text>
+<text x="331" y="29" text-anchor="middle" class="label">位置 0</text>
+<text x="478" y="29" text-anchor="middle" class="label">位置 1</text>
+<text x="625" y="29" text-anchor="middle" class="label">位置 2</text>
+<text x="801" y="29" text-anchor="middle" class="label">查询输出</text>
+<path d="M16 43 L884 43" fill="none" stroke="#c1c9ca" stroke-width="1.5" stroke-dasharray=""/>
+<text x="18" y="70" text-anchor="start" class="muted">键 k</text>
+<text x="331" y="70" text-anchor="middle" class="num">(1, 0)</text>
+<text x="478" y="70" text-anchor="middle" class="num">(0, 1)</text>
+<text x="625" y="70" text-anchor="middle" class="num">(1, 1)</text>
+<text x="18" y="100" text-anchor="start" class="muted">值 v</text>
+<text x="331" y="100" text-anchor="middle" class="num">(2, 0)</text>
+<text x="478" y="100" text-anchor="middle" class="num">(0, 4)</text>
+<text x="625" y="100" text-anchor="middle" class="num">(2, 4)</text>
+<path d="M16 113 L884 113" fill="none" stroke="#7c8f90" stroke-width="1.5" stroke-dasharray=""/>
+<text x="18" y="143" text-anchor="start" class="">GQA</text>
+<text x="18" y="167" text-anchor="start" class="note">同组的头共用各位置的键值</text>
+<rect x="275" y="127" width="112" height="34" rx="2" fill="#eef5f3" stroke="#4f7773" />
+<text x="331" y="152" text-anchor="middle" class="num">K, V</text>
+<rect x="422" y="127" width="112" height="34" rx="2" fill="#eef5f3" stroke="#4f7773" />
+<text x="478" y="152" text-anchor="middle" class="num">K, V</text>
+<rect x="569" y="127" width="112" height="34" rx="2" fill="#eef5f3" stroke="#4f7773" />
+<text x="625" y="152" text-anchor="middle" class="num">K, V</text>
+<text x="801" y="152" text-anchor="middle" class="num">(8/5, 12/5)</text>
+<path d="M16 181 L884 181" fill="none" stroke="#c1c9ca" stroke-width="1.5" stroke-dasharray=""/>
+<text x="18" y="208" text-anchor="start" class="">MLA</text>
+<text x="18" y="232" text-anchor="start" class="note">每个位置保存一个潜在向量</text>
+<rect x="275" y="192" width="112" height="34" rx="2" fill="#eef5f3" stroke="#4f7773" />
+<text x="331" y="217" text-anchor="middle" class="num">c₀</text>
+<rect x="422" y="192" width="112" height="34" rx="2" fill="#eef5f3" stroke="#4f7773" />
+<text x="478" y="217" text-anchor="middle" class="num">c₁</text>
+<rect x="569" y="192" width="112" height="34" rx="2" fill="#eef5f3" stroke="#4f7773" />
+<text x="625" y="217" text-anchor="middle" class="num">c₂</text>
+<text x="801" y="217" text-anchor="middle" class="num">(8/5, 12/5)</text>
+<path d="M16 246 L884 246" fill="none" stroke="#c1c9ca" stroke-width="1.5" stroke-dasharray=""/>
+<text x="18" y="273" text-anchor="start" class="">稀疏窗口</text>
+<text x="18" y="297" text-anchor="start" class="note">只在选中的位置间分配权重</text>
+<rect x="275" y="257" width="112" height="34" rx="2" fill="#fff" stroke="#859093" />
+<text x="331" y="282" text-anchor="middle" class="muted">跳过</text>
+<rect x="422" y="257" width="112" height="34" rx="2" fill="#eef5f3" stroke="#4f7773" />
+<text x="478" y="282" text-anchor="middle" class="num">K, V</text>
+<rect x="569" y="257" width="112" height="34" rx="2" fill="#eef5f3" stroke="#4f7773" />
+<text x="625" y="282" text-anchor="middle" class="num">K, V</text>
+<text x="801" y="282" text-anchor="middle" class="num">(4/3, 4)</text>
+<path d="M16 311 L884 311" fill="none" stroke="#c1c9ca" stroke-width="1.5" stroke-dasharray=""/>
+<text x="18" y="338" text-anchor="start" class="">归一化线性注意力</text>
+<text x="18" y="362" text-anchor="start" class="note">累计值与计数，供最后读取</text>
+<rect x="275" y="322" width="112" height="34" rx="2" fill="#eef5f3" stroke="#4f7773" />
+<text x="331" y="347" text-anchor="middle" class="num">(2, 0) / 1</text>
+<rect x="422" y="322" width="112" height="34" rx="2" fill="#eef5f3" stroke="#4f7773" />
+<text x="478" y="347" text-anchor="middle" class="num">(2, 0) / 1</text>
+<rect x="569" y="322" width="112" height="34" rx="2" fill="#eef5f3" stroke="#4f7773" />
+<text x="625" y="347" text-anchor="middle" class="num">(4, 4) / 2</text>
+<path d="M388 339 L420 339" fill="none" stroke="#486c68" stroke-width="1.5" stroke-dasharray=""/>
+<path d="M415 335 L420 339" fill="none" stroke="#486c68" stroke-width="1.5" stroke-dasharray=""/>
+<path d="M415 343 L420 339" fill="none" stroke="#486c68" stroke-width="1.5" stroke-dasharray=""/>
+<path d="M535 339 L567 339" fill="none" stroke="#486c68" stroke-width="1.5" stroke-dasharray=""/>
+<path d="M562 335 L567 339" fill="none" stroke="#486c68" stroke-width="1.5" stroke-dasharray=""/>
+<path d="M562 343 L567 339" fill="none" stroke="#486c68" stroke-width="1.5" stroke-dasharray=""/>
+<text x="801" y="347" text-anchor="middle" class="num">(2, 2)</text>
+<path d="M16 379 L884 379" fill="none" stroke="#c1c9ca" stroke-width="1.5" stroke-dasharray=""/>
+<text x="18" y="404" text-anchor="start" class="note">最下一行只展开当前查询用到的第一维。“累计值 / 计数”两项分别保存，直到读取时才相除。</text>
+</svg>

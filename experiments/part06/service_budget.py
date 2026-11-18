@@ -5,6 +5,8 @@ Each deliberately simple worker serializes per-request processing. No batching o
 overlap is modeled. These rates are inputs, not Azure or hardware measurements.
 """
 import argparse
+from bisect import bisect_right
+from dataclasses import dataclass
 import heapq
 import json
 from math import ceil
@@ -34,23 +36,50 @@ def capacity(rows, gib, page_tokens=16, output_limit=1024):
     return pages, max(reservations), pages // max(reservations)
 
 
+@dataclass
+class Replay:
+    arrivals: list[float]
+    starts: list[float]
+    finishes: list[float]
+    first_latencies: list[float]
+    end_latencies: list[float]
+
+    def waiting(self, timestamp):
+        # FCFS gives nondecreasing start times. Process all ties at timestamp.
+        return bisect_right(self.arrivals, timestamp) - bisect_right(self.starts, timestamp)
+
+    def window_metrics(self, workers):
+        begin, stop = self.arrivals[0], self.arrivals[-1]
+        capacity = workers * (stop - begin)
+        if capacity <= 0:
+            raise ValueError("Need a positive arrival span to normalize worker time")
+        total = sum(f - s for s, f in zip(self.starts, self.finishes))
+        in_window = sum(max(0., min(f, stop) - max(s, begin))
+                        for s, f in zip(self.starts, self.finishes))
+        return total / capacity, in_window / capacity, max(self.finishes) - stop
+
+    def deadlines(self):
+        first_ok = sum(t <= 1. for t in self.first_latencies)
+        end_ok = sum(t <= 4. for t in self.end_latencies)
+        both = sum(f <= 1. and e <= 4. for f, e in zip(self.first_latencies, self.end_latencies))
+        return first_ok, end_ok, both
+
+
 def replay(rows, workers, prefill_rate, decode_rate):
-    # Timeline is measured from the first recorded arrival.
     free_at = [0.] * workers
-    first_times, end_times, total_busy = [], [], 0.
+    result = Replay([], [], [], [], [])
     for tick, prompt, out in rows:
         arrival = tick / TICKS
         start = max(heapq.heappop(free_at), arrival)
         first = start + prompt / prefill_rate
-        duration = prompt / prefill_rate + (out - 1) / decode_rate
-        finish = start + duration
+        finish = first + (out - 1) / decode_rate
         heapq.heappush(free_at, finish)
-        total_busy += duration
-        first_times.append(first-arrival)
-        end_times.append(finish-arrival)
-    return (percentile(first_times, .95), percentile(end_times, .95),
-            sum(t <= 1. for t in first_times), sum(t <= 4. for t in end_times),
-            sum(f <= 1. and e <= 4. for f, e in zip(first_times, end_times)), total_busy)
+        result.arrivals.append(arrival)
+        result.starts.append(start)
+        result.finishes.append(finish)
+        result.first_latencies.append(first - arrival)
+        result.end_latencies.append(finish - arrival)
+    return result
 
 
 def main():
@@ -77,12 +106,26 @@ def main():
         pages, largest, fit = capacity(rows, gib)
         print(f"{gib} GiB: {pages} pages; largest reservation {largest}; {fit} such requests")
     for count in args.workers:
-        first, end, first_ok, end_ok, both, busy = replay(rows,count,args.prefill,args.decode)
-        print(f"{count}: busy_s={busy:.2f} utilization_by_arrival_span={busy/(count*duration):.4f}"
-              f" ttft_p95={first:.3f} e2e_p95={end:.3f} first_ok={first_ok} end_ok={end_ok} jointly_ok={both}")
-    tiny = [(0, 4, 2), (0, 4, 1)]
-    assert replay(tiny, 1, 4, 1) == (3, 3, 1, 2, 1, 3)
-    assert replay(tiny, 2, 4, 1) == (1, 2, 2, 2, 2, 3)
+        result = replay(rows, count, args.prefill, args.decode)
+        demand, busy, drain = result.window_metrics(count)
+        first_ok, end_ok, both = result.deadlines()
+        print(f"{count}: work_to_window_capacity={demand:.4f} window_busy_fraction={busy:.4f}"
+              f" drain_s={drain:.3f} waiting_at_last_arrival={result.waiting(result.arrivals[-1])}"
+              f" ttft_p95={percentile(result.first_latencies, .95):.3f}"
+              f" e2e_p95={percentile(result.end_latencies, .95):.3f}"
+              f" first_ok={first_ok} end_ok={end_ok} jointly_ok={both}")
+
+    # One worker, two simultaneous arrivals at t=0, then one at t=2 exactly
+    # when the first job finishes. The last job starts at t=3 and ends at t=4.
+    tiny = [(0, 4, 2), (0, 4, 1), (2*TICKS, 4, 1)]
+    result = replay(tiny, 1, 4, 1)
+    assert result.starts == [0, 2, 3] and result.finishes == [2, 3, 4]
+    assert [result.waiting(t) for t in [0, 2, 3, 4]] == [1, 1, 0, 0]
+    assert result.window_metrics(1) == (2, 1, 2)
+    assert result.deadlines() == (1, 3, 1)
+    parallel = replay(tiny, 2, 4, 1)
+    assert parallel.window_metrics(2) == (1, .75, 1)
+    assert parallel.deadlines() == (3, 3, 3)
 
 
 if __name__ == "__main__":
