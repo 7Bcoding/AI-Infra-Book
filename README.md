@@ -1,7 +1,5 @@
 # AI Infra 由浅入深
 
-**CQY 著**
-
 从数学模型的表达与学习，走进计算设备、算子与编译，再到分布式训练、在线服务和完整 AI 系统。本书面向具备数学基础的读者，在需要时建立计算机与深度学习基础，沿具体问题、推导、算例和图解逐步深入。
 
 [在线阅读](https://7Bcoding.github.io/AI-Infra-Book/) · [读全书 PDF](dist/AI-Infra-由浅入深-CQY.pdf) · [下载离线 HTML](dist/AI-Infra-全书.html) · [前言](book/前言.md) · [Markdown 分章与合订本](dist/AI-Infra-由浅入深.md) · [按问题查阅](book/appendices/六篇查阅与复算.md) · [下载合订稿、插图和实验](dist/AI-Infra-六篇实验.zip)
