@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="410" viewBox="0 0 1000 410" role="img" aria-labelledby="title desc">
+<title id="title">训练质量按数据量与经过时间比较</title><desc id="desc">配置A吞吐较低但更早达到同一验证门槛；曲线形状仅作示意。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<text x="40.000" y="30.000" class="small" text-anchor="start">（a）按处理量比较</text>
+<text x="545.000" y="30.000" class="small" text-anchor="start">（b）按经过时间比较</text>
+<line x1="80.000" y1="300.000" x2="430.000" y2="300.000" stroke="#66727b" stroke-width="1.3" marker-end="url(#arrow)"/>
+<line x1="80.000" y1="300.000" x2="80.000" y2="66.000" stroke="#66727b" stroke-width="1.3" marker-end="url(#arrow)"/>
+<line x1="80.000" y1="95.000" x2="420.000" y2="95.000" stroke="#66727b" stroke-width="1.3" stroke-dasharray="5 5"/>
+<text x="410.000" y="80.000" class="small" text-anchor="end">达标线 q*</text>
+<text x="74.000" y="56.000" class="small" text-anchor="start">验证表现</text>
+<polyline points="80.000,300.000 118.654,197.500 157.308,144.200 195.962,113.450 234.615,95.000" fill="none" stroke="#38677f" stroke-width="2.5"/>
+<circle cx="234.615" cy="95.000" r="4.5" fill="#38677f"/>
+<line x1="234.615" y1="95.000" x2="234.615" y2="300.000" stroke="#38677f" stroke-width="1.3" stroke-dasharray="5 5"/>
+<text x="234.615" y="327.000" class="small" text-anchor="middle" style="fill:#38677f">1.2</text>
+<text x="195.962" y="95.450" class="small" text-anchor="middle" style="fill:#38677f">A</text>
+<polyline points="80.000,300.000 157.308,205.700 234.615,152.400 311.923,115.500 389.231,95.000" fill="none" stroke="#a45b3e" stroke-width="2.5"/>
+<circle cx="389.231" cy="95.000" r="4.5" fill="#a45b3e"/>
+<line x1="389.231" y1="95.000" x2="389.231" y2="300.000" stroke="#a45b3e" stroke-width="1.3" stroke-dasharray="5 5"/>
+<text x="389.231" y="327.000" class="small" text-anchor="middle" style="fill:#a45b3e">2.4</text>
+<text x="311.923" y="140.500" class="small" text-anchor="middle" style="fill:#a45b3e">B</text>
+<text x="80.000" y="327.000" class="small" text-anchor="middle">0</text>
+<text x="245.000" y="363.000" class="small" text-anchor="middle">累计处理量（十亿 token）</text>
+<line x1="585.000" y1="300.000" x2="935.000" y2="300.000" stroke="#66727b" stroke-width="1.3" marker-end="url(#arrow)"/>
+<line x1="585.000" y1="300.000" x2="585.000" y2="66.000" stroke="#66727b" stroke-width="1.3" marker-end="url(#arrow)"/>
+<line x1="585.000" y1="95.000" x2="925.000" y2="95.000" stroke="#66727b" stroke-width="1.3" stroke-dasharray="5 5"/>
+<text x="915.000" y="80.000" class="small" text-anchor="end">达标线 q*</text>
+<text x="579.000" y="56.000" class="small" text-anchor="start">验证表现</text>
+<polyline points="585.000,300.000 645.688,197.500 706.377,144.200 767.065,113.450 827.754,95.000" fill="none" stroke="#38677f" stroke-width="2.5"/>
+<circle cx="827.754" cy="95.000" r="4.5" fill="#38677f"/>
+<line x1="827.754" y1="95.000" x2="827.754" y2="300.000" stroke="#38677f" stroke-width="1.3" stroke-dasharray="5 5"/>
+<text x="827.754" y="327.000" class="small" text-anchor="middle" style="fill:#38677f">33.33</text>
+<text x="767.065" y="95.450" class="small" text-anchor="middle" style="fill:#38677f">A</text>
+<polyline points="585.000,300.000 660.861,205.700 736.721,152.400 812.582,115.500 888.442,95.000" fill="none" stroke="#a45b3e" stroke-width="2.5"/>
+<circle cx="888.442" cy="95.000" r="4.5" fill="#a45b3e"/>
+<line x1="888.442" y1="95.000" x2="888.442" y2="300.000" stroke="#a45b3e" stroke-width="1.3" stroke-dasharray="5 5"/>
+<text x="888.442" y="327.000" class="small" text-anchor="middle" style="fill:#a45b3e">41.67</text>
+<text x="812.582" y="140.500" class="small" text-anchor="middle" style="fill:#a45b3e">B</text>
+<text x="585.000" y="327.000" class="small" text-anchor="middle">0</text>
+<text x="750.000" y="363.000" class="small" text-anchor="middle">训练阶段经过时间（小时）</text>
+</svg>

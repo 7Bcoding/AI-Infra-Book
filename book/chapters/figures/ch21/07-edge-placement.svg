@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="406" viewBox="0 0 1000 406" role="img" aria-labelledby="t d">
+<title id="t">同一张铭牌在两种上行速率下何时完成识别</title><desc id="d">每格一百毫秒。1 MB/s 时原图和小切口分别用 340 和 190 毫秒；8 MB/s 时分别为 130 和 155 毫秒。本机始终是 480 毫秒。</desc>
+<rect width="1000" height="406" fill="#fff"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="20" fill="#22343a">
+<text x="35" y="35">同一张图、同一质量约束</text>
+<rect x="440" y="18" width="22" height="16" fill="#566976"/><text x="471" y="34">固定时间</text><rect x="640" y="18" width="22" height="16" fill="#318379"/><text x="671" y="34">传输时间</text>
+<g stroke="#d9dfe0" stroke-width="1"><path d="M220 67V341 M350 67V341 M480 67V341 M610 67V341 M740 67V341 M870 67V341"/></g>
+<g font-size="18"><text x="35" y="87">上行 1 MB/s</text><text x="113" y="121">传原图</text><text x="113" y="161">传特征</text>
+<text x="35" y="207">上行 8 MB/s</text><text x="113" y="241">传原图</text><text x="113" y="281">传特征</text><text x="113" y="327">全本地</text></g>
+<g fill="#566976"><rect x="220" y="105" width="130" height="18"/><rect x="220" y="145" width="195" height="18"/><rect x="220" y="225" width="130" height="18"/><rect x="220" y="265" width="195" height="18"/><rect x="220" y="311" width="624" height="18"/></g>
+<g fill="#318379"><rect x="350" y="105" width="312" height="18"/><rect x="415" y="145" width="52" height="18"/><rect x="350" y="225" width="39" height="18"/><rect x="415" y="265" width="6.5" height="18"/></g>
+<g font-size="18"><text x="674" y="121">340</text><text x="480" y="161">190</text><text x="400" y="241">130</text><text x="434" y="281">155</text><text x="855" y="327">480</text></g>
+<path d="M220 341H870" fill="none" stroke="#25343c"/><g font-size="16" text-anchor="middle"><text x="220" y="365">0</text><text x="350" y="365">100</text><text x="480" y="365">200</text><text x="610" y="365">300</text><text x="740" y="365">400</text><text x="870" y="365">500</text></g>
+<text x="529" y="393" font-size="17">完成时间（ms）</text></g></svg>

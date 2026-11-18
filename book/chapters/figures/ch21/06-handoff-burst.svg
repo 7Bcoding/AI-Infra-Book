@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="422" viewBox="0 0 1000 422" role="img" aria-labelledby="title desc">
+  <title id="title">四份状态交接时，排队会从链路移到解码位</title>
+  <desc id="desc">甲乙在零毫秒、丙丁在四毫秒准备完。链路每份四毫秒时，第二词在七、十一、十五、十九毫秒返回；链路每份两毫秒时，第二词在五、八、十一、十四毫秒返回。</desc>
+  <style>
+    text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;fill:#26363c;font-size:20px}
+    .small{font-size:17px}.heading{font-size:22px;font-weight:bold}
+    .link{fill:#dcebea;stroke:#47716d}.decode{fill:#ece9df;stroke:#80765e}
+    .link,.decode{stroke-width:1.6}.ref{stroke:#d1d5d2;stroke-width:1;stroke-dasharray:3 4}
+  </style>
+  <rect width="1000" height="422" fill="white"/>
+  <text x="30" y="32" class="heading">四条请求共享一个出口和一个解码执行位</text>
+  <text x="150" y="66" class="small">甲、乙就绪</text><text x="306" y="66" class="small">丙、丁就绪</text>
+  <path d="M146 72V338 M306 72V338 M466 72V338 M626 72V338 M786 72V338 M946 72V338" class="ref"/>
+  <text x="26" y="99">每份交接 4 ms</text>
+  <g class="small" text-anchor="end"><text x="125" y="133">出口</text><text x="125" y="173">解码位</text><text x="125" y="263">出口</text><text x="125" y="303">解码位</text></g>
+  <g class="link"><rect x="146" y="109" width="160" height="32"/><rect x="306" y="109" width="160" height="32"/><rect x="466" y="109" width="160" height="32"/><rect x="626" y="109" width="160" height="32"/></g>
+  <g class="decode"><rect x="306" y="149" width="120" height="32"/><rect x="466" y="149" width="120" height="32"/><rect x="626" y="149" width="120" height="32"/><rect x="786" y="149" width="120" height="32"/></g>
+  <g text-anchor="middle"><text x="226" y="133">甲</text><text x="386" y="133">乙</text><text x="546" y="133">丙</text><text x="706" y="133">丁</text>
+    <text x="366" y="173">甲</text><text x="526" y="173">乙</text><text x="686" y="173">丙</text><text x="846" y="173">丁</text></g>
+  <text x="26" y="228">每份交接 2 ms</text>
+  <g class="link"><rect x="146" y="239" width="80" height="32"/><rect x="226" y="239" width="80" height="32"/><rect x="306" y="239" width="80" height="32"/><rect x="386" y="239" width="80" height="32"/></g>
+  <g class="decode"><rect x="226" y="279" width="120" height="32"/><rect x="346" y="279" width="120" height="32"/><rect x="466" y="279" width="120" height="32"/><rect x="586" y="279" width="120" height="32"/></g>
+  <g text-anchor="middle"><text x="186" y="263">甲</text><text x="266" y="263">乙</text><text x="346" y="263">丙</text><text x="426" y="263">丁</text>
+    <text x="286" y="303">甲</text><text x="406" y="303">乙</text><text x="526" y="303">丙</text><text x="646" y="303">丁</text></g>
+  <path d="M146 342H946 M146 339V348 M306 339V348 M466 339V348 M626 339V348 M786 339V348 M946 339V348" fill="none" stroke="#667771" stroke-width="1.5"/>
+  <g text-anchor="middle" class="small"><text x="146" y="370">0</text><text x="306" y="370">4</text><text x="466" y="370">8</text><text x="626" y="370">12</text><text x="786" y="370">16</text><text x="946" y="370">20</text></g>
+  <text x="946" y="403" text-anchor="end" class="small">首批预填充完成后的时间（ms）</text>
+</svg>

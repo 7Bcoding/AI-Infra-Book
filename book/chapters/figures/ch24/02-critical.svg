@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="385" viewBox="0 0 1000 385" role="img" aria-labelledby="title desc">
+<title id="title">任务的关键路径</title><desc id="desc">任务的关键路径</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<line x1="150.000" y1="33.000" x2="150.000" y2="281.000" stroke="#aeb9bf" stroke-width="1" stroke-dasharray="5 5"/>
+<text x="150.000" y="309.000" class="small" text-anchor="middle" style="fill:#25333b">0</text>
+<line x1="305.897" y1="33.000" x2="305.897" y2="281.000" stroke="#aeb9bf" stroke-width="1" stroke-dasharray="5 5"/>
+<text x="305.897" y="309.000" class="small" text-anchor="middle" style="fill:#25333b">80</text>
+<line x1="383.846" y1="33.000" x2="383.846" y2="281.000" stroke="#aeb9bf" stroke-width="1" stroke-dasharray="5 5"/>
+<text x="383.846" y="309.000" class="small" text-anchor="middle" style="fill:#25333b">120</text>
+<line x1="559.231" y1="33.000" x2="559.231" y2="281.000" stroke="#aeb9bf" stroke-width="1" stroke-dasharray="5 5"/>
+<text x="559.231" y="309.000" class="small" text-anchor="middle" style="fill:#25333b">210</text>
+<line x1="676.154" y1="33.000" x2="676.154" y2="281.000" stroke="#aeb9bf" stroke-width="1" stroke-dasharray="5 5"/>
+<text x="676.154" y="309.000" class="small" text-anchor="middle" style="fill:#25333b">270</text>
+<line x1="754.103" y1="33.000" x2="754.103" y2="281.000" stroke="#aeb9bf" stroke-width="1" stroke-dasharray="5 5"/>
+<text x="754.103" y="309.000" class="small" text-anchor="middle" style="fill:#25333b">310</text>
+<line x1="910.000" y1="33.000" x2="910.000" y2="281.000" stroke="#aeb9bf" stroke-width="1" stroke-dasharray="5 5"/>
+<text x="910.000" y="309.000" class="small" text-anchor="middle" style="fill:#25333b">390</text>
+<text x="22.000" y="71.000" class="small" text-anchor="start">视频</text>
+<line x1="150.000" y1="62.000" x2="910.000" y2="62.000" stroke="#aeb9bf" stroke-width="0.8"/>
+<rect x="150.000" y="47.000" width="233.846" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="266.923" y="70.000" class="" text-anchor="middle" style="fill:#25333b">编码</text>
+<text x="22.000" y="120.000" class="small" text-anchor="start">手册</text>
+<line x1="150.000" y1="111.000" x2="910.000" y2="111.000" stroke="#aeb9bf" stroke-width="0.8"/>
+<rect x="150.000" y="96.000" width="155.897" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="227.949" y="119.000" class="" text-anchor="middle" style="fill:#25333b">检索</text>
+<text x="22.000" y="169.000" class="small" text-anchor="start">语言模型</text>
+<line x1="150.000" y1="160.000" x2="910.000" y2="160.000" stroke="#aeb9bf" stroke-width="0.8"/>
+<rect x="383.846" y="145.000" width="175.385" height="32.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="471.538" y="168.000" class="" text-anchor="middle" style="fill:#25333b">参数</text>
+<rect x="754.103" y="145.000" width="136.410" height="32.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="822.308" y="168.000" class="" text-anchor="middle" style="fill:#25333b">拟单</text>
+<text x="22.000" y="218.000" class="small" text-anchor="start">执行环境</text>
+<line x1="150.000" y1="209.000" x2="910.000" y2="209.000" stroke="#aeb9bf" stroke-width="0.8"/>
+<rect x="559.231" y="194.000" width="116.923" height="32.000" fill="#ecedef" stroke="#aeb9bf" stroke-width="1"/>
+<text x="617.692" y="217.000" class="" text-anchor="middle" style="fill:#25333b">准备</text>
+<rect x="676.154" y="194.000" width="77.949" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="715.128" y="217.000" class="" text-anchor="middle" style="fill:#25333b">校验</text>
+<text x="22.000" y="267.000" class="small" text-anchor="start">账本</text>
+<line x1="150.000" y1="258.000" x2="910.000" y2="258.000" stroke="#aeb9bf" stroke-width="0.8"/>
+<rect x="890.513" y="243.000" width="19.487" height="32.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="530.000" y="347.000" class="small" text-anchor="middle" style="fill:#25333b">墙钟时间（ms）</text>
+</svg>

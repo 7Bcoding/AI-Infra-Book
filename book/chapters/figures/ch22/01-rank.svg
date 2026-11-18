@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="355" viewBox="0 0 1000 355" role="img" aria-labelledby="title desc">
+<title id="title">低秩增量的两条路径</title><desc id="desc">低秩增量的两条路径</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<text x="178.000" y="50.000" class="" text-anchor="middle" style="fill:#25333b">输入 X</text>
+<text x="505.000" y="50.000" class="" text-anchor="middle" style="fill:#25333b">投影</text>
+<text x="806.000" y="50.000" class="" text-anchor="middle" style="fill:#25333b">逐列相加</text>
+<rect x="75.000" y="118.000" width="200.000" height="54.000" fill="#ecedef" stroke="#aeb9bf" stroke-width="1"/>
+<text x="175.000" y="152.000" class="" text-anchor="middle" style="fill:#25333b">(1, 2)</text>
+<line x1="277.000" y1="134.000" x2="374.000" y2="94.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<line x1="277.000" y1="158.000" x2="374.000" y2="210.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="387.000" y="68.000" width="238.000" height="45.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="506.000" y="97.500" class="" text-anchor="middle" style="fill:#25333b">XW = (1, 2)</text>
+<rect x="387.000" y="169.000" width="238.000" height="43.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="506.000" y="197.500" class="" text-anchor="middle" style="fill:#25333b">XA = 1 + 4 = 5</text>
+<rect x="387.000" y="232.000" width="238.000" height="43.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="506.000" y="260.500" class="" text-anchor="middle" style="fill:#25333b">5B = (0.5, −1)</text>
+<line x1="506.000" y1="212.000" x2="506.000" y2="230.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<line x1="631.000" y1="91.000" x2="712.000" y2="142.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<line x1="631.000" y1="250.000" x2="712.000" y2="166.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="721.000" y="123.000" width="194.000" height="57.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="818.000" y="158.500" class="" text-anchor="middle" style="fill:#25333b">(1.5, 1)</text>
+<text x="500.000" y="325.000" class="small" text-anchor="middle" style="fill:#25333b">冻结 W；训练可改变下支路的 A 和 B。</text>
+</svg>

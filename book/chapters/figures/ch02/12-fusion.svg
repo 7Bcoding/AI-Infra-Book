@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="330" viewBox="0 0 1000 330" role="img" aria-labelledby="title desc">
+<title id="title">融合省去了哪些读写</title><desc id="desc">84字节减至52字节，省掉z和u各一次写出及重读。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<text x="36.000" y="32.000" class="" text-anchor="start">对同一条假定存储接口计数</text>
+<text x="35.000" y="119.000" class="small" text-anchor="start">分开执行</text>
+<rect x="200.000" y="90.000" width="416.000" height="48.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="408.000" y="120.000" class="small" text-anchor="middle">共同输入和最终输出：52 B</text>
+<rect x="616.000" y="90.000" width="128.000" height="48.000" fill="#efe0d5" stroke="#25333b" stroke-width="1"/>
+<text x="680.000" y="120.000" class="small" text-anchor="middle">z：16 B</text>
+<rect x="744.000" y="90.000" width="128.000" height="48.000" fill="#ecedef" stroke="#25333b" stroke-width="1"/>
+<text x="808.000" y="120.000" class="small" text-anchor="middle">u：16 B</text>
+<text x="940.000" y="76.000" class="small" text-anchor="end">84 B</text>
+<text x="35.000" y="229.000" class="small" text-anchor="start">融合执行</text>
+<rect x="200.000" y="200.000" width="416.000" height="48.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="408.000" y="230.000" class="small" text-anchor="middle">相同输入和最终输出：52 B</text>
+<text x="940.000" y="186.000" class="small" text-anchor="end">52 B</text>
+<line x1="200.000" y1="280.000" x2="872.000" y2="280.000" stroke="#66727b" stroke-width="1.3"/>
+<line x1="200.000" y1="275.000" x2="200.000" y2="285.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="200.000" y="312.000" class="small" text-anchor="middle">0</text>
+<line x1="328.000" y1="275.000" x2="328.000" y2="285.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="328.000" y="312.000" class="small" text-anchor="middle">16</text>
+<line x1="456.000" y1="275.000" x2="456.000" y2="285.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="456.000" y="312.000" class="small" text-anchor="middle">32</text>
+<line x1="584.000" y1="275.000" x2="584.000" y2="285.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="584.000" y="312.000" class="small" text-anchor="middle">48</text>
+<line x1="712.000" y1="275.000" x2="712.000" y2="285.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="712.000" y="312.000" class="small" text-anchor="middle">64</text>
+<line x1="840.000" y1="275.000" x2="840.000" y2="285.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="840.000" y="312.000" class="small" text-anchor="middle">80</text>
+<text x="940.000" y="312.000" class="small" text-anchor="end">bytes</text>
+</svg>

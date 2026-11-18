@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="280" viewBox="0 0 1000 280" role="img" aria-labelledby="title desc">
+<title id="title">输出块跨段累加</title><desc id="desc">第一段的左上格等于四，第二段贡献一，输出块的左上格最终等于五。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<text x="153.000" y="48.000" class="" text-anchor="middle" style="fill:#25333b">先算 k = 0, 1</text>
+<rect x="70.000" y="76.000" width="83.000" height="57.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="111.500" y="111.500" class="" text-anchor="middle" style="fill:#25333b">4</text>
+<rect x="153.000" y="76.000" width="83.000" height="57.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="194.500" y="111.500" class="" text-anchor="middle" style="fill:#25333b">5</text>
+<rect x="70.000" y="133.000" width="83.000" height="57.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="111.500" y="168.500" class="" text-anchor="middle" style="fill:#25333b">10</text>
+<rect x="153.000" y="133.000" width="83.000" height="57.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="194.500" y="168.500" class="" text-anchor="middle" style="fill:#25333b">9</text>
+<text x="488.000" y="48.000" class="" text-anchor="middle" style="fill:#25333b">再加 k = 2, 3</text>
+<rect x="405.000" y="76.000" width="83.000" height="57.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="446.500" y="111.500" class="" text-anchor="middle" style="fill:#25333b">1</text>
+<rect x="488.000" y="76.000" width="83.000" height="57.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="529.500" y="111.500" class="" text-anchor="middle" style="fill:#25333b">2</text>
+<rect x="405.000" y="133.000" width="83.000" height="57.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="446.500" y="168.500" class="" text-anchor="middle" style="fill:#25333b">-1</text>
+<rect x="488.000" y="133.000" width="83.000" height="57.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="529.500" y="168.500" class="" text-anchor="middle" style="fill:#25333b">1</text>
+<text x="833.000" y="48.000" class="" text-anchor="middle" style="fill:#25333b">同一块的最终值</text>
+<rect x="750.000" y="76.000" width="83.000" height="57.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="791.500" y="111.500" class="" text-anchor="middle" style="fill:#25333b">5</text>
+<rect x="833.000" y="76.000" width="83.000" height="57.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="874.500" y="111.500" class="" text-anchor="middle" style="fill:#25333b">7</text>
+<rect x="750.000" y="133.000" width="83.000" height="57.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="791.500" y="168.500" class="" text-anchor="middle" style="fill:#25333b">9</text>
+<rect x="833.000" y="133.000" width="83.000" height="57.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="874.500" y="168.500" class="" text-anchor="middle" style="fill:#25333b">10</text>
+<text x="322.000" y="146.000" class="" text-anchor="middle" style="fill:#25333b">+</text>
+<text x="666.000" y="146.000" class="" text-anchor="middle" style="fill:#25333b">=</text>
+<text x="500.000" y="252.000" class="small" text-anchor="middle" style="fill:#25333b">只追第一个格：第一段得 4，保留在累加器，第二段加 1。</text>
+</svg>

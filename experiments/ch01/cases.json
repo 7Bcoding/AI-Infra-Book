@@ -1,0 +1,31 @@
+{
+  "provenance": "Independent teaching assumptions, not hardware measurements",
+  "parameters": 6000000000,
+  "bytes_per_weight": 2,
+  "device_gib": 24,
+  "working_gib": 4,
+  "history_bytes_per_token": 131072,
+  "input_tokens": 4096,
+  "output_tokens": 256,
+  "compute_flops_per_second": 120000000000000,
+  "memory_bytes_per_second": 1000000000000,
+  "training_state_bytes": [2, 2, 4, 4, 4],
+  "training": [
+    {"label": "A", "tokens_per_second": 10000, "tokens_to_target": 1200000000, "gpus": 4},
+    {"label": "B", "tokens_per_second": 16000, "tokens_to_target": 2400000000, "gpus": 8}
+  ],
+  "request_trace_seconds": {
+    "arrival": 0,
+    "queue_end": 0.20,
+    "prepare_end": 0.25,
+    "prefill_end": 0.85,
+    "first_visible": 0.86,
+    "decode_interval": 0.025
+  },
+  "smooth_first": 0.60,
+  "smooth_last": 1.00,
+  "smooth_count": 10,
+  "stalled_token_times": [0.600, 0.625, 0.650, 0.675, 0.700, 0.900, 0.925, 0.950, 0.975, 1.000],
+  "sequential": {"prefill_first_seconds": 0.60, "decode_seconds": 0.025, "arrival_interval_seconds": 2},
+  "batch_size": 8
+}

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="485" viewBox="0 0 1000 485" role="img" aria-labelledby="title desc">
+<title id="title">缓存容量中每个因子对应的对象</title><desc id="desc">一层每位置的K和V各八个头、每头128元素，总计4KiB；32层共128KiB。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<text x="255.000" y="35.000" class="" text-anchor="middle">一层、一个位置的 K 和 V</text>
+<text x="58.000" y="130.000" class="math" text-anchor="start">K</text>
+<rect x="95.000" y="100.000" width="40.000" height="45.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="115.000" y="130.000" class="small" text-anchor="middle">0</text>
+<rect x="139.000" y="100.000" width="40.000" height="45.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="159.000" y="130.000" class="small" text-anchor="middle">1</text>
+<rect x="183.000" y="100.000" width="40.000" height="45.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="203.000" y="130.000" class="small" text-anchor="middle">2</text>
+<rect x="227.000" y="100.000" width="40.000" height="45.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="247.000" y="130.000" class="small" text-anchor="middle">3</text>
+<rect x="271.000" y="100.000" width="40.000" height="45.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="291.000" y="130.000" class="small" text-anchor="middle">4</text>
+<rect x="315.000" y="100.000" width="40.000" height="45.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="335.000" y="130.000" class="small" text-anchor="middle">5</text>
+<rect x="359.000" y="100.000" width="40.000" height="45.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="379.000" y="130.000" class="small" text-anchor="middle">6</text>
+<rect x="403.000" y="100.000" width="40.000" height="45.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="423.000" y="130.000" class="small" text-anchor="middle">7</text>
+<text x="58.000" y="210.000" class="math" text-anchor="start">V</text>
+<rect x="95.000" y="180.000" width="40.000" height="45.000" fill="#efe0d5" stroke="#25333b" stroke-width="1"/>
+<text x="115.000" y="210.000" class="small" text-anchor="middle">0</text>
+<rect x="139.000" y="180.000" width="40.000" height="45.000" fill="#efe0d5" stroke="#25333b" stroke-width="1"/>
+<text x="159.000" y="210.000" class="small" text-anchor="middle">1</text>
+<rect x="183.000" y="180.000" width="40.000" height="45.000" fill="#efe0d5" stroke="#25333b" stroke-width="1"/>
+<text x="203.000" y="210.000" class="small" text-anchor="middle">2</text>
+<rect x="227.000" y="180.000" width="40.000" height="45.000" fill="#efe0d5" stroke="#25333b" stroke-width="1"/>
+<text x="247.000" y="210.000" class="small" text-anchor="middle">3</text>
+<rect x="271.000" y="180.000" width="40.000" height="45.000" fill="#efe0d5" stroke="#25333b" stroke-width="1"/>
+<text x="291.000" y="210.000" class="small" text-anchor="middle">4</text>
+<rect x="315.000" y="180.000" width="40.000" height="45.000" fill="#efe0d5" stroke="#25333b" stroke-width="1"/>
+<text x="335.000" y="210.000" class="small" text-anchor="middle">5</text>
+<rect x="359.000" y="180.000" width="40.000" height="45.000" fill="#efe0d5" stroke="#25333b" stroke-width="1"/>
+<text x="379.000" y="210.000" class="small" text-anchor="middle">6</text>
+<rect x="403.000" y="180.000" width="40.000" height="45.000" fill="#efe0d5" stroke="#25333b" stroke-width="1"/>
+<text x="423.000" y="210.000" class="small" text-anchor="middle">7</text>
+<line x1="95.000" y1="256.000" x2="443.000" y2="256.000" stroke="#25333b" stroke-width="1.3"/>
+<line x1="95.000" y1="251.000" x2="95.000" y2="261.000" stroke="#25333b" stroke-width="1.3"/>
+<line x1="443.000" y1="251.000" x2="443.000" y2="261.000" stroke="#25333b" stroke-width="1.3"/>
+<text x="269.000" y="282.000" class="small" text-anchor="middle" style="fill:#25333b">每种状态 8 个 KV 头</text>
+<text x="255.000" y="325.000" class="small" text-anchor="middle">每头 128 个数，每个数 2 字节</text>
+<text x="255.000" y="368.000" class="small" text-anchor="middle">2 × 8 × 128 × 2 = 4096 字节</text>
+<line x1="475.000" y1="167.000" x2="555.000" y2="167.000" stroke="#66727b" stroke-width="1.3" marker-end="url(#arrow)"/>
+<text x="730.000" y="110.000" class="" text-anchor="middle">每个位置，跨 32 层</text>
+<rect x="620.000" y="142.000" width="218.000" height="45.000" fill="white" stroke="#38677f" stroke-width="1"/>
+<rect x="632.000" y="157.000" width="218.000" height="45.000" fill="white" stroke="#38677f" stroke-width="1"/>
+<rect x="644.000" y="172.000" width="218.000" height="45.000" fill="white" stroke="#38677f" stroke-width="1"/>
+<rect x="656.000" y="187.000" width="218.000" height="45.000" fill="white" stroke="#38677f" stroke-width="1"/>
+<text x="766.000" y="216.000" class="small" text-anchor="middle">… 共 32 层</text>
+<text x="730.000" y="292.000" class="" text-anchor="middle">32 × 4 KiB = 128 KiB</text>
+<text x="730.000" y="368.000" class="" text-anchor="middle">4096 个位置 → 512 MiB</text>
+<text x="500.000" y="453.000" class="small" text-anchor="middle">本例 32 个查询头共用 8 组 K、V；缓存容量按 8 组计算</text>
+</svg>

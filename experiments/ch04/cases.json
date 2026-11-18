@@ -1,0 +1,13 @@
+{
+  "vocabulary": ["我", "爱", "茶", "<eos>"],
+  "tokens": [0, 1, 2],
+  "targets": [1, 2, 3],
+  "prompt_tokens": [0, 1],
+  "rotation_radians_per_position": 1.5707963267948966,
+  "epsilon_for_hand_calculation": 0.0,
+  "epsilon_for_robustness_check": 0.000001,
+  "embedding": [[1.0, 1.0], [1.0, -1.0], [-1.0, 1.0], [-1.0, -1.0]],
+  "vocabulary_projection": [[-1.0, 1.0, 1.0, -1.0], [-1.0, 1.0, -1.0, 1.0]],
+  "large_model": {"layers": 32, "width": 4096, "query_heads": 32, "kv_heads": 8, "head_dim": 128, "ffn_width": 11008, "vocabulary": 32000, "cache_element_bytes": 2, "context": 4096},
+  "finite_difference_step": 0.00001
+}

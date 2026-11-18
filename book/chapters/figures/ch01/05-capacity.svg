@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="400" viewBox="0 0 1000 400" role="img" aria-labelledby="title desc">
+<title id="title">请求历史如何耗尽显存</title><desc id="desc">权重11.18GiB与4GiB预留之外，每条请求预留0.53125GiB。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<text x="35.000" y="30.000" class="" text-anchor="start">同一张 24 GiB 卡，权重只保留一份</text>
+<rect x="140.000" y="50.000" width="22.000" height="15.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="170.000" y="64.000" class="small" text-anchor="start">模型权重</text>
+<rect x="380.000" y="50.000" width="22.000" height="15.000" fill="#ecedef" stroke="#25333b" stroke-width="1"/>
+<text x="410.000" y="64.000" class="small" text-anchor="start">工作区等预留</text>
+<rect x="620.000" y="50.000" width="22.000" height="15.000" fill="#efe0d5" stroke="#25333b" stroke-width="1"/>
+<text x="650.000" y="64.000" class="small" text-anchor="start">请求历史</text>
+<text x="37.000" y="129.000" class="small" text-anchor="start">0 条请求</text>
+<rect x="140.000" y="103.000" width="335.276" height="37.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<rect x="475.276" y="103.000" width="120.000" height="37.000" fill="#ecedef" stroke="#25333b" stroke-width="1"/>
+<text x="307.638" y="128.000" class="small" text-anchor="middle">11.18</text>
+<text x="535.276" y="128.000" class="small" text-anchor="middle">4.00</text>
+<text x="945.000" y="128.000" class="small" text-anchor="end" style="fill:#25333b">15.18</text>
+<text x="37.000" y="190.000" class="small" text-anchor="start">8 条请求</text>
+<rect x="140.000" y="164.000" width="335.276" height="37.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<rect x="475.276" y="164.000" width="120.000" height="37.000" fill="#ecedef" stroke="#25333b" stroke-width="1"/>
+<rect x="595.276" y="164.000" width="127.500" height="37.000" fill="#efe0d5" stroke="#25333b" stroke-width="1"/>
+<text x="659.026" y="189.000" class="small" text-anchor="middle">4.25</text>
+<text x="945.000" y="189.000" class="small" text-anchor="end" style="fill:#25333b">19.43</text>
+<text x="37.000" y="251.000" class="small" text-anchor="start">16 条请求</text>
+<rect x="140.000" y="225.000" width="335.276" height="37.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<rect x="475.276" y="225.000" width="120.000" height="37.000" fill="#ecedef" stroke="#25333b" stroke-width="1"/>
+<rect x="595.276" y="225.000" width="255.000" height="37.000" fill="#efe0d5" stroke="#25333b" stroke-width="1"/>
+<text x="722.776" y="250.000" class="small" text-anchor="middle">8.50</text>
+<text x="945.000" y="250.000" class="small" text-anchor="end" style="fill:#25333b">23.68</text>
+<text x="37.000" y="312.000" class="small" text-anchor="start">17 条请求</text>
+<rect x="140.000" y="286.000" width="335.276" height="37.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<rect x="475.276" y="286.000" width="120.000" height="37.000" fill="#ecedef" stroke="#25333b" stroke-width="1"/>
+<rect x="595.276" y="286.000" width="270.938" height="37.000" fill="#efe0d5" stroke="#25333b" stroke-width="1"/>
+<text x="730.745" y="311.000" class="small" text-anchor="middle">9.03</text>
+<text x="945.000" y="311.000" class="small" text-anchor="end" style="fill:#a45b3e">24.21</text>
+<line x1="860.000" y1="85.000" x2="860.000" y2="337.000" stroke="#a45b3e" stroke-width="1.3" stroke-dasharray="5 5"/>
+<text x="945.000" y="88.000" class="small" text-anchor="end">合计</text>
+<line x1="140.000" y1="347.000" x2="860.000" y2="347.000" stroke="#66727b" stroke-width="1.3"/>
+<line x1="140.000" y1="347.000" x2="140.000" y2="354.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="140.000" y="378.000" class="small" text-anchor="middle">0</text>
+<line x1="260.000" y1="347.000" x2="260.000" y2="354.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="260.000" y="378.000" class="small" text-anchor="middle">4</text>
+<line x1="380.000" y1="347.000" x2="380.000" y2="354.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="380.000" y="378.000" class="small" text-anchor="middle">8</text>
+<line x1="500.000" y1="347.000" x2="500.000" y2="354.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="500.000" y="378.000" class="small" text-anchor="middle">12</text>
+<line x1="620.000" y1="347.000" x2="620.000" y2="354.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="620.000" y="378.000" class="small" text-anchor="middle">16</text>
+<line x1="740.000" y1="347.000" x2="740.000" y2="354.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="740.000" y="378.000" class="small" text-anchor="middle">20</text>
+<line x1="860.000" y1="347.000" x2="860.000" y2="354.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="860.000" y="378.000" class="small" text-anchor="middle">24</text>
+<text x="944.000" y="378.000" class="small" text-anchor="end">GiB</text>
+</svg>

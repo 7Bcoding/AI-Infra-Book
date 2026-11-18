@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="321" viewBox="0 0 1000 321" role="img" aria-labelledby="title desc">
+<title id="title">采样相位与短暂事件</title><desc id="desc">采样相位与短暂事件</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<rect x="205.800" y="67.000" width="230.400" height="142.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="321.000" y="48.000" class="small" text-anchor="middle" style="fill:#25333b">入箱事件：10 至 90 ms</text>
+<text x="18.000" y="113.000" class="small" text-anchor="start">相位 0 ms</text>
+<line x1="177.000" y1="107.000" x2="897.000" y2="107.000" stroke="#66727b" stroke-width="1"/>
+<circle cx="177.000" cy="107.000" r="7" fill="#38677f"/>
+<circle cx="537.000" cy="107.000" r="7" fill="#38677f"/>
+<circle cx="897.000" cy="107.000" r="7" fill="#38677f"/>
+<text x="18.000" y="177.000" class="small" text-anchor="start">相位 62.5 ms</text>
+<line x1="177.000" y1="171.000" x2="897.000" y2="171.000" stroke="#66727b" stroke-width="1"/>
+<circle cx="357.000" cy="171.000" r="7" fill="#a45b3e"/>
+<circle cx="717.000" cy="171.000" r="7" fill="#38677f"/>
+<text x="177.000" y="246.000" class="small" text-anchor="middle" style="fill:#25333b">0</text>
+<text x="357.000" y="246.000" class="small" text-anchor="middle" style="fill:#25333b">62.5</text>
+<text x="537.000" y="246.000" class="small" text-anchor="middle" style="fill:#25333b">125</text>
+<text x="717.000" y="246.000" class="small" text-anchor="middle" style="fill:#25333b">187.5</text>
+<text x="897.000" y="246.000" class="small" text-anchor="middle" style="fill:#25333b">250</text>
+<text x="507.000" y="292.000" class="small" text-anchor="middle" style="fill:#25333b">相对于第 2 秒的时间（ms）；两排的采样周期同为 125 ms。</text>
+</svg>

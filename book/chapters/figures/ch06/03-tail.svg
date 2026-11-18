@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="380" viewBox="0 0 1000 380" role="img" aria-labelledby="title desc">
+<title id="title">七十个元素的尾部</title><desc id="desc">第 6 章教材插图。七十个元素的尾部。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<text x="33.000" y="86.000" class="small" text-anchor="start">块 0 · warp 0</text>
+<rect x="230.000" y="64.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="251.000" y="64.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="272.000" y="64.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="293.000" y="64.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="314.000" y="64.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="335.000" y="64.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="356.000" y="64.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="377.000" y="64.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="398.000" y="64.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="419.000" y="64.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="440.000" y="64.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="461.000" y="64.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="482.000" y="64.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="503.000" y="64.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="524.000" y="64.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="545.000" y="64.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="566.000" y="64.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="587.000" y="64.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="608.000" y="64.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="629.000" y="64.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="650.000" y="64.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="671.000" y="64.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="692.000" y="64.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="713.000" y="64.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="734.000" y="64.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="755.000" y="64.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="776.000" y="64.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="797.000" y="64.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="818.000" y="64.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="839.000" y="64.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="860.000" y="64.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="881.000" y="64.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="944.000" y="87.000" class="" text-anchor="middle" style="fill:#25333b">32</text>
+<text x="33.000" y="152.000" class="small" text-anchor="start">块 0 · warp 1</text>
+<rect x="230.000" y="130.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="251.000" y="130.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="272.000" y="130.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="293.000" y="130.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="314.000" y="130.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="335.000" y="130.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="356.000" y="130.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="377.000" y="130.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="398.000" y="130.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="419.000" y="130.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="440.000" y="130.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="461.000" y="130.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="482.000" y="130.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="503.000" y="130.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="524.000" y="130.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="545.000" y="130.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="566.000" y="130.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="587.000" y="130.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="608.000" y="130.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="629.000" y="130.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="650.000" y="130.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="671.000" y="130.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="692.000" y="130.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="713.000" y="130.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="734.000" y="130.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="755.000" y="130.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="776.000" y="130.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="797.000" y="130.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="818.000" y="130.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="839.000" y="130.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="860.000" y="130.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="881.000" y="130.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="944.000" y="153.000" class="" text-anchor="middle" style="fill:#25333b">32</text>
+<text x="33.000" y="218.000" class="small" text-anchor="start">块 1 · warp 0</text>
+<rect x="230.000" y="196.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="251.000" y="196.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="272.000" y="196.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="293.000" y="196.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="314.000" y="196.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="335.000" y="196.000" width="21.000" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="356.000" y="196.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="377.000" y="196.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="398.000" y="196.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="419.000" y="196.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="440.000" y="196.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="461.000" y="196.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="482.000" y="196.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="503.000" y="196.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="524.000" y="196.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="545.000" y="196.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="566.000" y="196.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="587.000" y="196.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="608.000" y="196.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="629.000" y="196.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="650.000" y="196.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="671.000" y="196.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="692.000" y="196.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="713.000" y="196.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="734.000" y="196.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="755.000" y="196.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="776.000" y="196.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="797.000" y="196.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="818.000" y="196.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="839.000" y="196.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="860.000" y="196.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="881.000" y="196.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="944.000" y="219.000" class="" text-anchor="middle" style="fill:#25333b">6</text>
+<text x="33.000" y="284.000" class="small" text-anchor="start">块 1 · warp 1</text>
+<rect x="230.000" y="262.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="251.000" y="262.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="272.000" y="262.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="293.000" y="262.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="314.000" y="262.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="335.000" y="262.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="356.000" y="262.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="377.000" y="262.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="398.000" y="262.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="419.000" y="262.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="440.000" y="262.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="461.000" y="262.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="482.000" y="262.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="503.000" y="262.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="524.000" y="262.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="545.000" y="262.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="566.000" y="262.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="587.000" y="262.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="608.000" y="262.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="629.000" y="262.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="650.000" y="262.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="671.000" y="262.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="692.000" y="262.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="713.000" y="262.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="734.000" y="262.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="755.000" y="262.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="776.000" y="262.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="797.000" y="262.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="818.000" y="262.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="839.000" y="262.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="860.000" y="262.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="881.000" y="262.000" width="21.000" height="32.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="944.000" y="285.000" class="" text-anchor="middle" style="fill:#25333b">0</text>
+<text x="944.000" y="38.000" class="small" text-anchor="middle" style="fill:#25333b">有效</text>
+<text x="240.000" y="40.000" class="small" text-anchor="middle" style="fill:#25333b">0</text>
+<text x="387.000" y="40.000" class="small" text-anchor="middle" style="fill:#25333b">7</text>
+<text x="555.000" y="40.000" class="small" text-anchor="middle" style="fill:#25333b">15</text>
+<text x="723.000" y="40.000" class="small" text-anchor="middle" style="fill:#25333b">23</text>
+<text x="891.000" y="40.000" class="small" text-anchor="middle" style="fill:#25333b">31</text>
+<text x="500.000" y="352.000" class="small" text-anchor="middle" style="fill:#25333b">每小格一个通道。有效元素从 0 数到 69。</text>
+</svg>

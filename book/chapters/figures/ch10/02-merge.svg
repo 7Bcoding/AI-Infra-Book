@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="351" viewBox="0 0 1000 351" role="img" aria-labelledby="title desc">
+<title id="title">对齐两个局部归一化原点</title><desc id="desc">左右块的分母和加权值在不同最大值下计量，左块二者同时乘四分之一再相加。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<text x="116.000" y="62.000" class="small" text-anchor="middle" style="fill:#25333b">键位置</text>
+<text x="345.000" y="62.000" class="small" text-anchor="middle" style="fill:#25333b">本块 (ℓ, u)</text>
+<text x="591.000" y="62.000" class="small" text-anchor="middle" style="fill:#25333b">换到 ln 4 的倍数</text>
+<text x="835.000" y="62.000" class="small" text-anchor="middle" style="fill:#25333b">新单位 (ℓ, u)</text>
+<text x="116.000" y="110.000" class="" text-anchor="middle" style="fill:#25333b">0, 1</text>
+<text x="345.000" y="110.000" class="" text-anchor="middle" style="fill:#25333b">(2, 2)</text>
+<text x="591.000" y="110.000" class="" text-anchor="middle" style="fill:#25333b">× 1/4</text>
+<text x="835.000" y="110.000" class="" text-anchor="middle" style="fill:#25333b">(0.5, 0.5)</text>
+<line x1="54.000" y1="127.000" x2="900.000" y2="127.000" stroke="#aeb9bf" stroke-width="0.7"/>
+<text x="116.000" y="173.000" class="" text-anchor="middle" style="fill:#25333b">2, 3</text>
+<text x="345.000" y="173.000" class="" text-anchor="middle" style="fill:#25333b">(2, 18)</text>
+<text x="591.000" y="173.000" class="" text-anchor="middle" style="fill:#25333b">× 1</text>
+<text x="835.000" y="173.000" class="" text-anchor="middle" style="fill:#25333b">(2, 18)</text>
+<line x1="54.000" y1="190.000" x2="900.000" y2="190.000" stroke="#aeb9bf" stroke-width="0.7"/>
+<line x1="835.000" y1="199.000" x2="835.000" y2="232.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="835.000" y="265.000" class="" text-anchor="middle" style="fill:#a45b3e">(2.5, 18.5)</text>
+<text x="60.000" y="265.000" class="" text-anchor="start">保留新原点 m = ln 4，列内相加</text>
+<text x="500.000" y="325.000" class="small" text-anchor="middle" style="fill:#25333b">输出是 18.5 ÷ 2.5；分子和分母总按同一比例换算。</text>
+</svg>

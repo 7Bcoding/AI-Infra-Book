@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="347" viewBox="0 0 1000 347" role="img" aria-labelledby="title desc">
+<title id="title">一次访问两行使用的页</title><desc id="desc">两个查询的选择位置覆盖两个物理页，其中第一页可共同读取，但每行使用不同的掩码。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<text x="235.500" y="92.000" class="small" text-anchor="middle" style="fill:#25333b">0</text>
+<text x="322.500" y="92.000" class="small" text-anchor="middle" style="fill:#25333b">1</text>
+<text x="409.500" y="92.000" class="small" text-anchor="middle" style="fill:#25333b">2</text>
+<text x="496.500" y="92.000" class="small" text-anchor="middle" style="fill:#25333b">3</text>
+<text x="583.500" y="92.000" class="small" text-anchor="middle" style="fill:#25333b">4</text>
+<text x="670.500" y="92.000" class="small" text-anchor="middle" style="fill:#25333b">5</text>
+<text x="757.500" y="92.000" class="small" text-anchor="middle" style="fill:#25333b">6</text>
+<text x="844.500" y="92.000" class="small" text-anchor="middle" style="fill:#25333b">7</text>
+<text x="66.000" y="139.000" class="" text-anchor="start">查询甲</text>
+<rect x="192.000" y="105.000" width="87.000" height="55.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="235.500" y="139.500" class="" text-anchor="middle" style="fill:#25333b">·</text>
+<rect x="279.000" y="105.000" width="87.000" height="55.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="322.500" y="139.500" class="" text-anchor="middle" style="fill:#25333b">读</text>
+<rect x="366.000" y="105.000" width="87.000" height="55.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="409.500" y="139.500" class="" text-anchor="middle" style="fill:#25333b">·</text>
+<rect x="453.000" y="105.000" width="87.000" height="55.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="496.500" y="139.500" class="" text-anchor="middle" style="fill:#25333b">·</text>
+<rect x="540.000" y="105.000" width="87.000" height="55.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="583.500" y="139.500" class="" text-anchor="middle" style="fill:#25333b">·</text>
+<rect x="627.000" y="105.000" width="87.000" height="55.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="670.500" y="139.500" class="" text-anchor="middle" style="fill:#25333b">·</text>
+<rect x="714.000" y="105.000" width="87.000" height="55.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="757.500" y="139.500" class="" text-anchor="middle" style="fill:#25333b">读</text>
+<rect x="801.000" y="105.000" width="87.000" height="55.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="844.500" y="139.500" class="" text-anchor="middle" style="fill:#25333b">读</text>
+<text x="66.000" y="194.000" class="" text-anchor="start">查询乙</text>
+<rect x="192.000" y="160.000" width="87.000" height="55.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="235.500" y="194.500" class="" text-anchor="middle" style="fill:#25333b">读</text>
+<rect x="279.000" y="160.000" width="87.000" height="55.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="322.500" y="194.500" class="" text-anchor="middle" style="fill:#25333b">读</text>
+<rect x="366.000" y="160.000" width="87.000" height="55.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="409.500" y="194.500" class="" text-anchor="middle" style="fill:#25333b">读</text>
+<rect x="453.000" y="160.000" width="87.000" height="55.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="496.500" y="194.500" class="" text-anchor="middle" style="fill:#25333b">·</text>
+<rect x="540.000" y="160.000" width="87.000" height="55.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="583.500" y="194.500" class="" text-anchor="middle" style="fill:#25333b">·</text>
+<rect x="627.000" y="160.000" width="87.000" height="55.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="670.500" y="194.500" class="" text-anchor="middle" style="fill:#25333b">·</text>
+<rect x="714.000" y="160.000" width="87.000" height="55.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="757.500" y="194.500" class="" text-anchor="middle" style="fill:#25333b">·</text>
+<rect x="801.000" y="160.000" width="87.000" height="55.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="844.500" y="194.500" class="" text-anchor="middle" style="fill:#25333b">·</text>
+<line x1="540.000" y1="101.000" x2="540.000" y2="219.000" stroke="#25333b" stroke-width="3"/>
+<line x1="192.000" y1="235.000" x2="540.000" y2="235.000" stroke="#25333b" stroke-width="1.3"/>
+<line x1="192.000" y1="230.000" x2="192.000" y2="240.000" stroke="#25333b" stroke-width="1.3"/>
+<line x1="540.000" y1="230.000" x2="540.000" y2="240.000" stroke="#25333b" stroke-width="1.3"/>
+<text x="366.000" y="261.000" class="small" text-anchor="middle" style="fill:#25333b">页 0</text>
+<line x1="540.000" y1="235.000" x2="888.000" y2="235.000" stroke="#25333b" stroke-width="1.3"/>
+<line x1="540.000" y1="230.000" x2="540.000" y2="240.000" stroke="#25333b" stroke-width="1.3"/>
+<line x1="888.000" y1="230.000" x2="888.000" y2="240.000" stroke="#25333b" stroke-width="1.3"/>
+<text x="714.000" y="261.000" class="small" text-anchor="middle" style="fill:#25333b">页 1</text>
+<text x="500.000" y="316.000" class="small" text-anchor="middle" style="fill:#25333b">甲需要两页，乙只需第一页；共用页内数据时，仍按各自的行掩码计分。</text>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="353" viewBox="0 0 1000 353" role="img" aria-labelledby="title desc">
+<title id="title">图 14-3</title><desc id="desc">发送窗口逐步增大时可持续速率先沿直线上升，到四十 GB 每秒后变平。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<line x1="132.000" y1="268.000" x2="845.000" y2="268.000" stroke="#aeb9bf" stroke-width="0.9" stroke-dasharray="5 5"/>
+<text x="118.000" y="274.000" class="small" text-anchor="end">0</text>
+<line x1="132.000" y1="222.222" x2="845.000" y2="222.222" stroke="#aeb9bf" stroke-width="0.9" stroke-dasharray="5 5"/>
+<text x="118.000" y="228.222" class="small" text-anchor="end">10</text>
+<line x1="132.000" y1="176.444" x2="845.000" y2="176.444" stroke="#aeb9bf" stroke-width="0.9" stroke-dasharray="5 5"/>
+<text x="118.000" y="182.444" class="small" text-anchor="end">20</text>
+<line x1="132.000" y1="130.667" x2="845.000" y2="130.667" stroke="#aeb9bf" stroke-width="0.9" stroke-dasharray="5 5"/>
+<text x="118.000" y="136.667" class="small" text-anchor="end">30</text>
+<line x1="132.000" y1="84.889" x2="845.000" y2="84.889" stroke="#aeb9bf" stroke-width="0.9" stroke-dasharray="5 5"/>
+<text x="118.000" y="90.889" class="small" text-anchor="end">40</text>
+<line x1="132.000" y1="268.000" x2="132.000" y2="274.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="132.000" y="296.000" class="small" text-anchor="middle" style="fill:#25333b">0</text>
+<line x1="301.007" y1="268.000" x2="301.007" y2="274.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="301.007" y="296.000" class="small" text-anchor="middle" style="fill:#25333b">128</text>
+<line x1="470.015" y1="268.000" x2="470.015" y2="274.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="470.015" y="296.000" class="small" text-anchor="middle" style="fill:#25333b">256</text>
+<line x1="648.265" y1="268.000" x2="648.265" y2="274.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="648.265" y="296.000" class="small" text-anchor="middle" style="fill:#25333b">391</text>
+<line x1="808.030" y1="268.000" x2="808.030" y2="274.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="808.030" y="296.000" class="small" text-anchor="middle" style="fill:#25333b">512</text>
+<line x1="132.000" y1="268.000" x2="857.000" y2="268.000" stroke="#66727b" stroke-width="1.4" marker-end="url(#arrow)"/>
+<line x1="132.000" y1="268.000" x2="132.000" y2="52.000" stroke="#66727b" stroke-width="1.4" marker-end="url(#arrow)"/>
+<text x="47.000" y="32.000" class="small" text-anchor="start">速率（GB/s）</text>
+<text x="488.500" y="330.000" class="small" text-anchor="middle" style="fill:#25333b">可在途的有效载荷（KiB）</text>
+<polyline points="132.000,268.000 647.770,84.889 831.796,84.889" fill="none" stroke="#38677f" stroke-width="3"/>
+<line x1="470.015" y1="268.000" x2="470.015" y2="147.996" stroke="#a45b3e" stroke-width="1.5" stroke-dasharray="5 5"/>
+<circle cx="470.015" cy="147.996" r="4" fill="#38677f"/>
+<text x="467.015" y="131.996" class="small" text-anchor="end">26.21</text>
+<text x="665.430" y="70.889" class="small" text-anchor="start">端口上限</text>
+</svg>

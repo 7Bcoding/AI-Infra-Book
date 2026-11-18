@@ -1,0 +1,21 @@
+{
+  "provenance": "Original teaching examples; addresses and time units are illustrative",
+  "A": [[1, 2, 3], [4, 5, 6]],
+  "x": [2, -1, 1],
+  "bias": [-4, 1],
+  "itemsize_bytes": 4,
+  "storage_base": 1000,
+  "copy_base": 2000,
+  "bias_base": 3000,
+  "shape": [2, 3],
+  "strides_elements": [3, 1],
+  "transpose_shape": [3, 2],
+  "transpose_strides": [1, 3],
+  "slice_shape": [2, 2],
+  "slice_strides": [3, 1],
+  "slice_offset": 1,
+  "broadcast_shape": [2, 3],
+  "broadcast_strides": [1, 0],
+  "async_ms": {"submit_start": 0, "submit_end": 0.1, "device_start": 0.4, "device_end": 1.4, "host_ready": 1.6},
+  "float_example": [33554432, -33554432, 1]
+}

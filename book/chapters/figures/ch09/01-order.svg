@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="350" viewBox="0 0 1000 350" role="img" aria-labelledby="title desc">
+<title id="title">权重的读取次序</title><desc id="desc">同一输出行分别按内积或按权重行访问，列出权重元素地址与仍需保留的输出格。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<text x="34.000" y="86.000" class="" text-anchor="start">固定一格</text>
+<text x="34.000" y="124.000" class="tiny" text-anchor="start">权重下标 / 部分和</text>
+<rect x="201.000" y="46.000" width="108.000" height="41.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="255.000" y="73.500" class="" text-anchor="middle" style="fill:#25333b">0</text>
+<text x="255.000" y="123.000" class="" text-anchor="middle" style="fill:#25333b">2</text>
+<line x1="314.000" y1="67.000" x2="371.000" y2="67.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="377.000" y="46.000" width="108.000" height="41.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="431.000" y="73.500" class="" text-anchor="middle" style="fill:#25333b">2</text>
+<text x="431.000" y="123.000" class="" text-anchor="middle" style="fill:#25333b">4 ✓</text>
+<line x1="490.000" y1="67.000" x2="547.000" y2="67.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="553.000" y="46.000" width="108.000" height="41.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="607.000" y="73.500" class="" text-anchor="middle" style="fill:#25333b">1</text>
+<text x="607.000" y="123.000" class="" text-anchor="middle" style="fill:#25333b">−1</text>
+<line x1="666.000" y1="67.000" x2="723.000" y2="67.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="729.000" y="46.000" width="108.000" height="41.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="783.000" y="73.500" class="" text-anchor="middle" style="fill:#25333b">3</text>
+<text x="783.000" y="123.000" class="" text-anchor="middle" style="fill:#25333b">5 ✓</text>
+<text x="34.000" y="242.000" class="" text-anchor="start">并排两格</text>
+<text x="34.000" y="280.000" class="tiny" text-anchor="start">权重下标 / 部分和</text>
+<rect x="201.000" y="202.000" width="108.000" height="41.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="255.000" y="229.500" class="" text-anchor="middle" style="fill:#25333b">0</text>
+<text x="255.000" y="279.000" class="" text-anchor="middle" style="fill:#25333b">(2, 0)</text>
+<line x1="314.000" y1="223.000" x2="371.000" y2="223.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="377.000" y="202.000" width="108.000" height="41.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="431.000" y="229.500" class="" text-anchor="middle" style="fill:#25333b">1</text>
+<text x="431.000" y="279.000" class="" text-anchor="middle" style="fill:#25333b">(2, −1)</text>
+<line x1="490.000" y1="223.000" x2="547.000" y2="223.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="553.000" y="202.000" width="108.000" height="41.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="607.000" y="229.500" class="" text-anchor="middle" style="fill:#25333b">2</text>
+<text x="607.000" y="279.000" class="" text-anchor="middle" style="fill:#25333b">(4, −1)</text>
+<line x1="666.000" y1="223.000" x2="723.000" y2="223.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="729.000" y="202.000" width="108.000" height="41.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="783.000" y="229.500" class="" text-anchor="middle" style="fill:#25333b">3</text>
+<text x="783.000" y="279.000" class="" text-anchor="middle" style="fill:#25333b">(4, 5)</text>
+<text x="500.000" y="315.000" class="small" text-anchor="middle" style="fill:#25333b">✓ 表示该输出已经算完；下排括号内按输出列 0、1 排列。</text>
+</svg>

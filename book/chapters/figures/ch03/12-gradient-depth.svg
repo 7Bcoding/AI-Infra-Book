@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="440" viewBox="0 0 1000 440" role="img" aria-labelledby="title desc">
+<title id="title">局部导数的连乘</title><desc id="desc">十层标量链中0.5的十次方约0.000977，1.5的十次方约57.665。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<line x1="135.000" y1="355.000" x2="825.000" y2="355.000" stroke="#ecedef" stroke-width="1.3"/>
+<text x="120.000" y="361.000" class="small" text-anchor="end">10⁻⁴</text>
+<line x1="135.000" y1="308.333" x2="825.000" y2="308.333" stroke="#ecedef" stroke-width="1.3"/>
+<text x="120.000" y="314.333" class="small" text-anchor="end">10⁻³</text>
+<line x1="135.000" y1="261.667" x2="825.000" y2="261.667" stroke="#ecedef" stroke-width="1.3"/>
+<text x="120.000" y="267.667" class="small" text-anchor="end">10⁻²</text>
+<line x1="135.000" y1="215.000" x2="825.000" y2="215.000" stroke="#ecedef" stroke-width="1.3"/>
+<text x="120.000" y="221.000" class="small" text-anchor="end">10⁻¹</text>
+<line x1="135.000" y1="168.333" x2="825.000" y2="168.333" stroke="#ecedef" stroke-width="1.3"/>
+<text x="120.000" y="174.333" class="small" text-anchor="end">10⁰</text>
+<line x1="135.000" y1="121.667" x2="825.000" y2="121.667" stroke="#ecedef" stroke-width="1.3"/>
+<text x="120.000" y="127.667" class="small" text-anchor="end">10¹</text>
+<line x1="135.000" y1="75.000" x2="825.000" y2="75.000" stroke="#ecedef" stroke-width="1.3"/>
+<text x="120.000" y="81.000" class="small" text-anchor="end">10²</text>
+<line x1="135.000" y1="355.000" x2="850.000" y2="355.000" stroke="#66727b" stroke-width="1.3" marker-end="url(#arrow)"/>
+<line x1="135.000" y1="355.000" x2="135.000" y2="60.000" stroke="#66727b" stroke-width="1.3" marker-end="url(#arrow)"/>
+<line x1="135.000" y1="355.000" x2="135.000" y2="361.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="135.000" y="384.000" class="small" text-anchor="middle">0</text>
+<line x1="273.000" y1="355.000" x2="273.000" y2="361.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="273.000" y="384.000" class="small" text-anchor="middle">2</text>
+<line x1="411.000" y1="355.000" x2="411.000" y2="361.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="411.000" y="384.000" class="small" text-anchor="middle">4</text>
+<line x1="549.000" y1="355.000" x2="549.000" y2="361.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="549.000" y="384.000" class="small" text-anchor="middle">6</text>
+<line x1="687.000" y1="355.000" x2="687.000" y2="361.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="687.000" y="384.000" class="small" text-anchor="middle">8</text>
+<line x1="825.000" y1="355.000" x2="825.000" y2="361.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="825.000" y="384.000" class="small" text-anchor="middle">10</text>
+<text x="135.000" y="35.000" class="small" text-anchor="start">梯度乘子的绝对值（对数刻度）</text>
+<text x="855.000" y="384.000" class="small" text-anchor="start">层数</text>
+<polyline points="135.000,168.333 204.000,182.381 273.000,196.429 342.000,210.478 411.000,224.526 480.000,238.574 549.000,252.622 618.000,266.670 687.000,280.718 756.000,294.766 825.000,308.814" fill="none" stroke="#38677f" stroke-width="2.5"/>
+<circle cx="135.000" cy="168.333" r="3.5" fill="#38677f"/>
+<circle cx="204.000" cy="182.381" r="3.5" fill="#38677f"/>
+<circle cx="273.000" cy="196.429" r="3.5" fill="#38677f"/>
+<circle cx="342.000" cy="210.478" r="3.5" fill="#38677f"/>
+<circle cx="411.000" cy="224.526" r="3.5" fill="#38677f"/>
+<circle cx="480.000" cy="238.574" r="3.5" fill="#38677f"/>
+<circle cx="549.000" cy="252.622" r="3.5" fill="#38677f"/>
+<circle cx="618.000" cy="266.670" r="3.5" fill="#38677f"/>
+<circle cx="687.000" cy="280.718" r="3.5" fill="#38677f"/>
+<circle cx="756.000" cy="294.766" r="3.5" fill="#38677f"/>
+<circle cx="825.000" cy="308.814" r="3.5" fill="#38677f"/>
+<polyline points="135.000,168.333 204.000,160.116 273.000,151.898 342.000,143.681 411.000,135.463 480.000,127.245 549.000,119.028 618.000,110.810 687.000,102.593 756.000,94.375 825.000,86.157" fill="none" stroke="#a45b3e" stroke-width="2.5"/>
+<circle cx="135.000" cy="168.333" r="3.5" fill="#a45b3e"/>
+<circle cx="204.000" cy="160.116" r="3.5" fill="#a45b3e"/>
+<circle cx="273.000" cy="151.898" r="3.5" fill="#a45b3e"/>
+<circle cx="342.000" cy="143.681" r="3.5" fill="#a45b3e"/>
+<circle cx="411.000" cy="135.463" r="3.5" fill="#a45b3e"/>
+<circle cx="480.000" cy="127.245" r="3.5" fill="#a45b3e"/>
+<circle cx="549.000" cy="119.028" r="3.5" fill="#a45b3e"/>
+<circle cx="618.000" cy="110.810" r="3.5" fill="#a45b3e"/>
+<circle cx="687.000" cy="102.593" r="3.5" fill="#a45b3e"/>
+<circle cx="756.000" cy="94.375" r="3.5" fill="#a45b3e"/>
+<circle cx="825.000" cy="86.157" r="3.5" fill="#a45b3e"/>
+<text x="535.000" y="95.000" class="small" text-anchor="start" style="fill:#a45b3e">局部导数 1.5</text>
+<text x="460.000" y="276.000" class="small" text-anchor="start" style="fill:#38677f">局部导数 0.5</text>
+<text x="840.000" y="91.157" class="small" text-anchor="start" style="fill:#a45b3e">57.665</text>
+<text x="840.000" y="313.814" class="small" text-anchor="start" style="fill:#38677f">0.000977</text>
+<text x="500.000" y="426.000" class="small" text-anchor="middle">标量链的精确结果；真实网络需要分析矩阵连乘</text>
+</svg>

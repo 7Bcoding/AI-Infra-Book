@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="312" viewBox="0 0 1000 312" role="img" aria-labelledby="title desc">
+<title id="title">暂停队列的循环等待与释放</title><desc id="desc">三队列形成等待环，修改一个下一跳后依次释放。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<text x="155.000" y="42.000" class="" text-anchor="middle" style="fill:#25333b">所有队列均已满</text>
+<rect x="227.000" y="76.000" width="72.000" height="45.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="263.000" y="106.000" class="" text-anchor="middle" style="fill:#25333b">甲</text>
+<rect x="447.000" y="76.000" width="72.000" height="45.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="483.000" y="106.000" class="" text-anchor="middle" style="fill:#25333b">乙</text>
+<rect x="667.000" y="76.000" width="72.000" height="45.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="703.000" y="106.000" class="" text-anchor="middle" style="fill:#25333b">丙</text>
+<line x1="312.000" y1="96.000" x2="432.000" y2="96.000" stroke="#66727b" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="532.000" y1="96.000" x2="652.000" y2="96.000" stroke="#66727b" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="703.000,127.000 703.000,157.000 263.000,157.000" fill="none" stroke="#a45b3e" stroke-width="2.5"/>
+<line x1="263.000" y1="157.000" x2="263.000" y2="128.000" stroke="#a45b3e" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="481.000" y="185.000" class="small" text-anchor="middle" style="fill:#a45b3e">丙也在等甲</text>
+<line x1="32.000" y1="204.000" x2="960.000" y2="204.000" stroke="#aeb9bf" stroke-width="1.3"/>
+<text x="206.000" y="244.000" class="small" text-anchor="middle" style="fill:#38677f">时隙 1</text>
+<text x="206.000" y="280.000" class="" text-anchor="middle" style="fill:#25333b">丙 → 独立接收端</text>
+<text x="505.000" y="244.000" class="small" text-anchor="middle" style="fill:#38677f">时隙 2</text>
+<text x="505.000" y="280.000" class="" text-anchor="middle" style="fill:#25333b">乙 → 丙</text>
+<text x="806.000" y="244.000" class="small" text-anchor="middle" style="fill:#38677f">时隙 3</text>
+<text x="806.000" y="280.000" class="" text-anchor="middle" style="fill:#25333b">甲 → 乙</text>
+</svg>

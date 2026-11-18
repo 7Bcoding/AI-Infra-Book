@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="352" viewBox="0 0 1000 352" role="img" aria-labelledby="title desc">
+<title id="title">每份历史的质量和贡献</title><desc id="desc">四个位置的指数质量为一一四四，两段局部均值一和九在全行使用不同权重。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<text x="110.000" y="49.000" class="small" text-anchor="middle" style="fill:#25333b">位置</text>
+<text x="254.000" y="49.000" class="small" text-anchor="middle" style="fill:#25333b">值 v</text>
+<text x="511.000" y="49.000" class="small" text-anchor="middle" style="fill:#25333b">质量 exp(s)</text>
+<text x="805.000" y="49.000" class="small" text-anchor="middle" style="fill:#25333b">贡献 exp(s) × v</text>
+<text x="110.000" y="102.000" class="" text-anchor="middle" style="fill:#25333b">0</text>
+<text x="254.000" y="102.000" class="" text-anchor="middle" style="fill:#25333b">0</text>
+<rect x="385.000" y="82.000" width="55.000" height="24.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="454.000" y="103.000" class="small" text-anchor="start">1</text>
+<text x="805.000" y="102.000" class="" text-anchor="middle" style="fill:#25333b">0</text>
+<text x="110.000" y="153.000" class="" text-anchor="middle" style="fill:#25333b">1</text>
+<text x="254.000" y="153.000" class="" text-anchor="middle" style="fill:#25333b">2</text>
+<rect x="385.000" y="133.000" width="55.000" height="24.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="454.000" y="154.000" class="small" text-anchor="start">1</text>
+<text x="805.000" y="153.000" class="" text-anchor="middle" style="fill:#25333b">2</text>
+<text x="110.000" y="204.000" class="" text-anchor="middle" style="fill:#25333b">2</text>
+<text x="254.000" y="204.000" class="" text-anchor="middle" style="fill:#25333b">8</text>
+<rect x="385.000" y="184.000" width="220.000" height="24.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="619.000" y="205.000" class="small" text-anchor="start">4</text>
+<text x="805.000" y="204.000" class="" text-anchor="middle" style="fill:#25333b">32</text>
+<text x="110.000" y="255.000" class="" text-anchor="middle" style="fill:#25333b">3</text>
+<text x="254.000" y="255.000" class="" text-anchor="middle" style="fill:#25333b">10</text>
+<rect x="385.000" y="235.000" width="220.000" height="24.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="619.000" y="256.000" class="small" text-anchor="start">4</text>
+<text x="805.000" y="255.000" class="" text-anchor="middle" style="fill:#25333b">40</text>
+<text x="500.000" y="320.000" class="small" text-anchor="middle" style="fill:#25333b">左块贡献 2、质量 2；右块贡献 72、质量 8。合并后 74 ÷ 10 = 7.4。</text>
+</svg>

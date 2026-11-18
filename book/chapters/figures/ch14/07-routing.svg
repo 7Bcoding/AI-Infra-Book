@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="361" viewBox="0 0 1000 361" role="img" aria-labelledby="title desc">
+<title id="title">故障时的不一致转发表</title><desc id="desc">四个节点，故障前后出现不同下一跳。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<line x1="115.000" y1="185.000" x2="325.000" y2="81.000" stroke="#38677f" stroke-width="2"/>
+<text x="195.000" y="116.000" class="small" text-anchor="middle" style="fill:#25333b">1</text>
+<line x1="325.000" y1="81.000" x2="536.000" y2="185.000" stroke="#a45b3e" stroke-width="2" stroke-dasharray="5 5"/>
+<text x="464.000" y="125.000" class="small" text-anchor="middle" style="fill:#25333b">1</text>
+<line x1="115.000" y1="185.000" x2="325.000" y2="282.000" stroke="#38677f" stroke-width="2"/>
+<text x="211.000" y="264.000" class="small" text-anchor="middle" style="fill:#25333b">2</text>
+<line x1="325.000" y1="282.000" x2="536.000" y2="185.000" stroke="#38677f" stroke-width="2"/>
+<text x="465.000" y="264.000" class="small" text-anchor="middle" style="fill:#25333b">2</text>
+<line x1="325.000" y1="81.000" x2="325.000" y2="282.000" stroke="#38677f" stroke-width="2"/>
+<text x="343.000" y="185.000" class="small" text-anchor="middle" style="fill:#25333b">4</text>
+<circle cx="115.000" cy="185.000" r="21" fill="#dce7ed"/>
+<text x="115.000" y="192.000" class="" text-anchor="middle" style="fill:#25333b">S</text>
+<circle cx="325.000" cy="81.000" r="21" fill="#dce7ed"/>
+<text x="325.000" y="88.000" class="" text-anchor="middle" style="fill:#25333b">A</text>
+<circle cx="325.000" cy="282.000" r="21" fill="#dce7ed"/>
+<text x="325.000" y="289.000" class="" text-anchor="middle" style="fill:#25333b">B</text>
+<circle cx="536.000" cy="185.000" r="21" fill="#dce7ed"/>
+<text x="536.000" y="192.000" class="" text-anchor="middle" style="fill:#25333b">D</text>
+<line x1="425.000" y1="142.000" x2="444.000" y2="119.000" stroke="#a45b3e" stroke-width="3"/>
+<text x="615.000" y="100.000" class="" text-anchor="start" style="fill:#a45b3e">A 指向 S，S 仍指向 A</text>
+<text x="615.000" y="139.000" class="small" text-anchor="start">包经 A → S → A 循环。</text>
+<text x="615.000" y="219.000" class="" text-anchor="start" style="fill:#38677f">S 已切换，指向 B</text>
+<text x="615.000" y="258.000" class="small" text-anchor="start">包经 S → B → D 交付。</text>
+<text x="326.000" y="341.000" class="small" text-anchor="middle" style="fill:#25333b">边旁数字为代价，虚线表示断路。</text>
+</svg>

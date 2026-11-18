@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="462" viewBox="0 0 1000 462" role="img" aria-labelledby="title desc">
+<title id="title">五个输出块的两种分配方式</title><desc id="desc">上图四条同时工作的轨迹需八拍，因为 E 单独占据末四拍。下图每组五个面板，B、C、D 跨行各需合并一次。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<text x="34.000" y="46.000" class="" text-anchor="start">整块分工</text>
+<text x="240.000" y="48.000" class="small" text-anchor="middle">1</text>
+<text x="320.000" y="48.000" class="small" text-anchor="middle">2</text>
+<text x="400.000" y="48.000" class="small" text-anchor="middle">3</text>
+<text x="480.000" y="48.000" class="small" text-anchor="middle">4</text>
+<text x="560.000" y="48.000" class="small" text-anchor="middle">5</text>
+<text x="640.000" y="48.000" class="small" text-anchor="middle">6</text>
+<text x="720.000" y="48.000" class="small" text-anchor="middle">7</text>
+<text x="800.000" y="48.000" class="small" text-anchor="middle">8</text>
+<text x="175.000" y="84.000" class="small" text-anchor="end">组 1</text>
+<rect x="200.000" y="62.000" width="80.000" height="30.000" fill="#dce7ed" stroke="#b3bcc0" stroke-width="1"/>
+<text x="240.000" y="83.000" class="small" text-anchor="middle">A</text>
+<rect x="280.000" y="62.000" width="80.000" height="30.000" fill="#dce7ed" stroke="#b3bcc0" stroke-width="1"/>
+<text x="320.000" y="83.000" class="small" text-anchor="middle">A</text>
+<rect x="360.000" y="62.000" width="80.000" height="30.000" fill="#dce7ed" stroke="#b3bcc0" stroke-width="1"/>
+<text x="400.000" y="83.000" class="small" text-anchor="middle">A</text>
+<rect x="440.000" y="62.000" width="80.000" height="30.000" fill="#dce7ed" stroke="#b3bcc0" stroke-width="1"/>
+<text x="480.000" y="83.000" class="small" text-anchor="middle">A</text>
+<rect x="520.000" y="62.000" width="80.000" height="30.000" fill="#e8e3ed" stroke="#b3bcc0" stroke-width="1"/>
+<text x="560.000" y="83.000" class="small" text-anchor="middle">E</text>
+<rect x="600.000" y="62.000" width="80.000" height="30.000" fill="#e8e3ed" stroke="#b3bcc0" stroke-width="1"/>
+<text x="640.000" y="83.000" class="small" text-anchor="middle">E</text>
+<rect x="680.000" y="62.000" width="80.000" height="30.000" fill="#e8e3ed" stroke="#b3bcc0" stroke-width="1"/>
+<text x="720.000" y="83.000" class="small" text-anchor="middle">E</text>
+<rect x="760.000" y="62.000" width="80.000" height="30.000" fill="#e8e3ed" stroke="#b3bcc0" stroke-width="1"/>
+<text x="800.000" y="83.000" class="small" text-anchor="middle">E</text>
+<text x="175.000" y="116.000" class="small" text-anchor="end">组 2</text>
+<rect x="200.000" y="94.000" width="80.000" height="30.000" fill="#efe0d5" stroke="#b3bcc0" stroke-width="1"/>
+<text x="240.000" y="115.000" class="small" text-anchor="middle">B</text>
+<rect x="280.000" y="94.000" width="80.000" height="30.000" fill="#efe0d5" stroke="#b3bcc0" stroke-width="1"/>
+<text x="320.000" y="115.000" class="small" text-anchor="middle">B</text>
+<rect x="360.000" y="94.000" width="80.000" height="30.000" fill="#efe0d5" stroke="#b3bcc0" stroke-width="1"/>
+<text x="400.000" y="115.000" class="small" text-anchor="middle">B</text>
+<rect x="440.000" y="94.000" width="80.000" height="30.000" fill="#efe0d5" stroke="#b3bcc0" stroke-width="1"/>
+<text x="480.000" y="115.000" class="small" text-anchor="middle">B</text>
+<rect x="520.000" y="94.000" width="80.000" height="30.000" fill="white" stroke="#b3bcc0" stroke-width="1"/>
+<rect x="600.000" y="94.000" width="80.000" height="30.000" fill="white" stroke="#b3bcc0" stroke-width="1"/>
+<rect x="680.000" y="94.000" width="80.000" height="30.000" fill="white" stroke="#b3bcc0" stroke-width="1"/>
+<rect x="760.000" y="94.000" width="80.000" height="30.000" fill="white" stroke="#b3bcc0" stroke-width="1"/>
+<text x="175.000" y="148.000" class="small" text-anchor="end">组 3</text>
+<rect x="200.000" y="126.000" width="80.000" height="30.000" fill="#e4eadf" stroke="#b3bcc0" stroke-width="1"/>
+<text x="240.000" y="147.000" class="small" text-anchor="middle">C</text>
+<rect x="280.000" y="126.000" width="80.000" height="30.000" fill="#e4eadf" stroke="#b3bcc0" stroke-width="1"/>
+<text x="320.000" y="147.000" class="small" text-anchor="middle">C</text>
+<rect x="360.000" y="126.000" width="80.000" height="30.000" fill="#e4eadf" stroke="#b3bcc0" stroke-width="1"/>
+<text x="400.000" y="147.000" class="small" text-anchor="middle">C</text>
+<rect x="440.000" y="126.000" width="80.000" height="30.000" fill="#e4eadf" stroke="#b3bcc0" stroke-width="1"/>
+<text x="480.000" y="147.000" class="small" text-anchor="middle">C</text>
+<rect x="520.000" y="126.000" width="80.000" height="30.000" fill="white" stroke="#b3bcc0" stroke-width="1"/>
+<rect x="600.000" y="126.000" width="80.000" height="30.000" fill="white" stroke="#b3bcc0" stroke-width="1"/>
+<rect x="680.000" y="126.000" width="80.000" height="30.000" fill="white" stroke="#b3bcc0" stroke-width="1"/>
+<rect x="760.000" y="126.000" width="80.000" height="30.000" fill="white" stroke="#b3bcc0" stroke-width="1"/>
+<text x="175.000" y="180.000" class="small" text-anchor="end">组 4</text>
+<rect x="200.000" y="158.000" width="80.000" height="30.000" fill="#eee6cf" stroke="#b3bcc0" stroke-width="1"/>
+<text x="240.000" y="179.000" class="small" text-anchor="middle">D</text>
+<rect x="280.000" y="158.000" width="80.000" height="30.000" fill="#eee6cf" stroke="#b3bcc0" stroke-width="1"/>
+<text x="320.000" y="179.000" class="small" text-anchor="middle">D</text>
+<rect x="360.000" y="158.000" width="80.000" height="30.000" fill="#eee6cf" stroke="#b3bcc0" stroke-width="1"/>
+<text x="400.000" y="179.000" class="small" text-anchor="middle">D</text>
+<rect x="440.000" y="158.000" width="80.000" height="30.000" fill="#eee6cf" stroke="#b3bcc0" stroke-width="1"/>
+<text x="480.000" y="179.000" class="small" text-anchor="middle">D</text>
+<rect x="520.000" y="158.000" width="80.000" height="30.000" fill="white" stroke="#b3bcc0" stroke-width="1"/>
+<rect x="600.000" y="158.000" width="80.000" height="30.000" fill="white" stroke="#b3bcc0" stroke-width="1"/>
+<rect x="680.000" y="158.000" width="80.000" height="30.000" fill="white" stroke="#b3bcc0" stroke-width="1"/>
+<rect x="760.000" y="158.000" width="80.000" height="30.000" fill="white" stroke="#b3bcc0" stroke-width="1"/>
+<line x1="520.000" y1="57.000" x2="520.000" y2="190.000" stroke="#66727b" stroke-width="1.6" stroke-dasharray="5 5"/>
+<text x="683.000" y="212.000" class="small" text-anchor="middle" style="fill:#a45b3e">只余 E 的四个面板</text>
+<text x="34.000" y="247.000" class="" text-anchor="start">归约面板均分</text>
+<text x="240.000" y="249.000" class="small" text-anchor="middle">1</text>
+<text x="320.000" y="249.000" class="small" text-anchor="middle">2</text>
+<text x="400.000" y="249.000" class="small" text-anchor="middle">3</text>
+<text x="480.000" y="249.000" class="small" text-anchor="middle">4</text>
+<text x="560.000" y="249.000" class="small" text-anchor="middle">5</text>
+<text x="640.000" y="249.000" class="small" text-anchor="middle">6</text>
+<text x="720.000" y="249.000" class="small" text-anchor="middle">7</text>
+<text x="800.000" y="249.000" class="small" text-anchor="middle">8</text>
+<text x="175.000" y="285.000" class="small" text-anchor="end">组 1</text>
+<rect x="200.000" y="263.000" width="80.000" height="30.000" fill="#dce7ed" stroke="#b3bcc0" stroke-width="1"/>
+<text x="240.000" y="284.000" class="small" text-anchor="middle">A</text>
+<rect x="280.000" y="263.000" width="80.000" height="30.000" fill="#dce7ed" stroke="#b3bcc0" stroke-width="1"/>
+<text x="320.000" y="284.000" class="small" text-anchor="middle">A</text>
+<rect x="360.000" y="263.000" width="80.000" height="30.000" fill="#dce7ed" stroke="#b3bcc0" stroke-width="1"/>
+<text x="400.000" y="284.000" class="small" text-anchor="middle">A</text>
+<rect x="440.000" y="263.000" width="80.000" height="30.000" fill="#dce7ed" stroke="#b3bcc0" stroke-width="1"/>
+<text x="480.000" y="284.000" class="small" text-anchor="middle">A</text>
+<rect x="520.000" y="263.000" width="80.000" height="30.000" fill="#efe0d5" stroke="#b3bcc0" stroke-width="1"/>
+<text x="560.000" y="284.000" class="small" text-anchor="middle">B</text>
+<rect x="600.000" y="263.000" width="80.000" height="30.000" fill="white" stroke="#b3bcc0" stroke-width="1"/>
+<rect x="680.000" y="263.000" width="80.000" height="30.000" fill="white" stroke="#b3bcc0" stroke-width="1"/>
+<rect x="760.000" y="263.000" width="80.000" height="30.000" fill="white" stroke="#b3bcc0" stroke-width="1"/>
+<text x="175.000" y="317.000" class="small" text-anchor="end">组 2</text>
+<rect x="200.000" y="295.000" width="80.000" height="30.000" fill="#efe0d5" stroke="#b3bcc0" stroke-width="1"/>
+<text x="240.000" y="316.000" class="small" text-anchor="middle">B</text>
+<rect x="280.000" y="295.000" width="80.000" height="30.000" fill="#efe0d5" stroke="#b3bcc0" stroke-width="1"/>
+<text x="320.000" y="316.000" class="small" text-anchor="middle">B</text>
+<rect x="360.000" y="295.000" width="80.000" height="30.000" fill="#efe0d5" stroke="#b3bcc0" stroke-width="1"/>
+<text x="400.000" y="316.000" class="small" text-anchor="middle">B</text>
+<rect x="440.000" y="295.000" width="80.000" height="30.000" fill="#e4eadf" stroke="#b3bcc0" stroke-width="1"/>
+<text x="480.000" y="316.000" class="small" text-anchor="middle">C</text>
+<rect x="520.000" y="295.000" width="80.000" height="30.000" fill="#e4eadf" stroke="#b3bcc0" stroke-width="1"/>
+<text x="560.000" y="316.000" class="small" text-anchor="middle">C</text>
+<rect x="600.000" y="295.000" width="80.000" height="30.000" fill="white" stroke="#b3bcc0" stroke-width="1"/>
+<rect x="680.000" y="295.000" width="80.000" height="30.000" fill="white" stroke="#b3bcc0" stroke-width="1"/>
+<rect x="760.000" y="295.000" width="80.000" height="30.000" fill="white" stroke="#b3bcc0" stroke-width="1"/>
+<text x="175.000" y="349.000" class="small" text-anchor="end">组 3</text>
+<rect x="200.000" y="327.000" width="80.000" height="30.000" fill="#e4eadf" stroke="#b3bcc0" stroke-width="1"/>
+<text x="240.000" y="348.000" class="small" text-anchor="middle">C</text>
+<rect x="280.000" y="327.000" width="80.000" height="30.000" fill="#e4eadf" stroke="#b3bcc0" stroke-width="1"/>
+<text x="320.000" y="348.000" class="small" text-anchor="middle">C</text>
+<rect x="360.000" y="327.000" width="80.000" height="30.000" fill="#eee6cf" stroke="#b3bcc0" stroke-width="1"/>
+<text x="400.000" y="348.000" class="small" text-anchor="middle">D</text>
+<rect x="440.000" y="327.000" width="80.000" height="30.000" fill="#eee6cf" stroke="#b3bcc0" stroke-width="1"/>
+<text x="480.000" y="348.000" class="small" text-anchor="middle">D</text>
+<rect x="520.000" y="327.000" width="80.000" height="30.000" fill="#eee6cf" stroke="#b3bcc0" stroke-width="1"/>
+<text x="560.000" y="348.000" class="small" text-anchor="middle">D</text>
+<rect x="600.000" y="327.000" width="80.000" height="30.000" fill="white" stroke="#b3bcc0" stroke-width="1"/>
+<rect x="680.000" y="327.000" width="80.000" height="30.000" fill="white" stroke="#b3bcc0" stroke-width="1"/>
+<rect x="760.000" y="327.000" width="80.000" height="30.000" fill="white" stroke="#b3bcc0" stroke-width="1"/>
+<text x="175.000" y="381.000" class="small" text-anchor="end">组 4</text>
+<rect x="200.000" y="359.000" width="80.000" height="30.000" fill="#eee6cf" stroke="#b3bcc0" stroke-width="1"/>
+<text x="240.000" y="380.000" class="small" text-anchor="middle">D</text>
+<rect x="280.000" y="359.000" width="80.000" height="30.000" fill="#e8e3ed" stroke="#b3bcc0" stroke-width="1"/>
+<text x="320.000" y="380.000" class="small" text-anchor="middle">E</text>
+<rect x="360.000" y="359.000" width="80.000" height="30.000" fill="#e8e3ed" stroke="#b3bcc0" stroke-width="1"/>
+<text x="400.000" y="380.000" class="small" text-anchor="middle">E</text>
+<rect x="440.000" y="359.000" width="80.000" height="30.000" fill="#e8e3ed" stroke="#b3bcc0" stroke-width="1"/>
+<text x="480.000" y="380.000" class="small" text-anchor="middle">E</text>
+<rect x="520.000" y="359.000" width="80.000" height="30.000" fill="#e8e3ed" stroke="#b3bcc0" stroke-width="1"/>
+<text x="560.000" y="380.000" class="small" text-anchor="middle">E</text>
+<rect x="600.000" y="359.000" width="80.000" height="30.000" fill="white" stroke="#b3bcc0" stroke-width="1"/>
+<rect x="680.000" y="359.000" width="80.000" height="30.000" fill="white" stroke="#b3bcc0" stroke-width="1"/>
+<rect x="760.000" y="359.000" width="80.000" height="30.000" fill="white" stroke="#b3bcc0" stroke-width="1"/>
+<line x1="600.000" y1="258.000" x2="600.000" y2="391.000" stroke="#66727b" stroke-width="1.6" stroke-dasharray="5 5"/>
+<text x="400.000" y="418.000" class="small" text-anchor="middle">B、C、D 各跨两组，部分和要再合并。</text>
+<text x="895.000" y="48.000" class="small" text-anchor="start">拍</text>
+<text x="895.000" y="249.000" class="small" text-anchor="start">拍</text>
+</svg>

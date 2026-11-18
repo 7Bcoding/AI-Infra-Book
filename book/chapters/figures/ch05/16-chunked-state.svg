@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="550" viewBox="0 0 1000 550" role="img" aria-labelledby="title desc">
+<title id="title">读取块前状态与本块记录的两部分贡献</title><desc id="desc">第三查询在历史状态得到二零，在本块得到二四，相加再除二得二二。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<text x="500.000" y="35.000" class="" text-anchor="middle">第一块含位置 0、1；第二块只含位置 2，查询为 (1, 0)</text>
+<text x="180.000" y="98.000" class="small" text-anchor="middle">块前状态 Sᵢₙ</text>
+<rect x="115.000" y="120.000" width="65.000" height="50.000" fill="#dce7ed" stroke="#b6c0c6" stroke-width="1"/>
+<text x="147.500" y="152.000" class="" text-anchor="middle">2</text>
+<rect x="180.000" y="120.000" width="65.000" height="50.000" fill="#dce7ed" stroke="#b6c0c6" stroke-width="1"/>
+<text x="212.500" y="152.000" class="" text-anchor="middle">0</text>
+<rect x="115.000" y="170.000" width="65.000" height="50.000" fill="#dce7ed" stroke="#b6c0c6" stroke-width="1"/>
+<text x="147.500" y="202.000" class="" text-anchor="middle">0</text>
+<rect x="180.000" y="170.000" width="65.000" height="50.000" fill="#dce7ed" stroke="#b6c0c6" stroke-width="1"/>
+<text x="212.500" y="202.000" class="" text-anchor="middle">4</text>
+<text x="500.000" y="98.000" class="small" text-anchor="middle">本块新增外积</text>
+<rect x="435.000" y="120.000" width="65.000" height="50.000" fill="#efe0d5" stroke="#b6c0c6" stroke-width="1"/>
+<text x="467.500" y="152.000" class="" text-anchor="middle">2</text>
+<rect x="500.000" y="120.000" width="65.000" height="50.000" fill="#efe0d5" stroke="#b6c0c6" stroke-width="1"/>
+<text x="532.500" y="152.000" class="" text-anchor="middle">4</text>
+<rect x="435.000" y="170.000" width="65.000" height="50.000" fill="#efe0d5" stroke="#b6c0c6" stroke-width="1"/>
+<text x="467.500" y="202.000" class="" text-anchor="middle">2</text>
+<rect x="500.000" y="170.000" width="65.000" height="50.000" fill="#efe0d5" stroke="#b6c0c6" stroke-width="1"/>
+<text x="532.500" y="202.000" class="" text-anchor="middle">4</text>
+<text x="825.000" y="98.000" class="small" text-anchor="middle">两部分共同贡献</text>
+<text x="180.000" y="273.000" class="small" text-anchor="middle">查询读到 (2, 0)</text>
+<text x="500.000" y="273.000" class="small" text-anchor="middle">查询读到 (2, 4)</text>
+<text x="825.000" y="170.000" class="" text-anchor="middle">分子 (4, 4)</text>
+<text x="825.000" y="214.000" class="small" text-anchor="middle">分母 1 + 1 = 2</text>
+<text x="825.000" y="273.000" class="" text-anchor="middle">输出 (2, 2)</text>
+<text x="340.000" y="271.000" class="" text-anchor="middle">+</text>
+<line x1="603.000" y1="265.000" x2="708.000" y2="265.000" stroke="#66727b" stroke-width="1.3" marker-end="url(#arrow)"/>
+<line x1="45.000" y1="321.000" x2="955.000" y2="321.000" stroke="#ecedef" stroke-width="1.3"/>
+<text x="500.000" y="366.000" class="" text-anchor="middle">回到位置 0：当时只能看到第一条记录</text>
+<text x="300.000" y="426.000" class="small" text-anchor="middle" style="fill:#38677f">正确前缀 → 输出 (2, 0)</text>
+<text x="735.000" y="426.000" class="small" text-anchor="middle" style="fill:#a45b3e">误用最终状态 → 输出 (2, 2)</text>
+<text x="500.000" y="506.000" class="small" text-anchor="middle">块末状态供后续位置使用，不能回填给本块所有较早查询</text>
+</svg>

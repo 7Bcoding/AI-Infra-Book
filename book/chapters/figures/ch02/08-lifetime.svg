@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="385" viewBox="0 0 1000 385" role="img" aria-labelledby="title desc">
+<title id="title">值的最后使用决定何时可覆盖</title><desc id="desc">增加平方和分支后，原始z必须继续保留，不能在生成u后立刻覆盖。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<text x="35.000" y="32.000" class="" text-anchor="start">一种合法的执行顺序：各阶段不等时</text>
+<line x1="150.000" y1="58.000" x2="150.000" y2="281.000" stroke="#ecedef" stroke-width="1.3"/>
+<line x1="350.000" y1="58.000" x2="350.000" y2="281.000" stroke="#ecedef" stroke-width="1.3"/>
+<line x1="550.000" y1="58.000" x2="550.000" y2="281.000" stroke="#ecedef" stroke-width="1.3"/>
+<line x1="750.000" y1="58.000" x2="750.000" y2="281.000" stroke="#ecedef" stroke-width="1.3"/>
+<line x1="920.000" y1="58.000" x2="920.000" y2="281.000" stroke="#ecedef" stroke-width="1.3"/>
+<text x="35.000" y="111.000" class="small" text-anchor="start">原始 z</text>
+<rect x="150.000" y="91.000" width="600.000" height="28.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="35.000" y="171.000" class="small" text-anchor="start">中间 u</text>
+<rect x="350.000" y="151.000" width="200.000" height="28.000" fill="#efe0d5" stroke="#25333b" stroke-width="1"/>
+<text x="35.000" y="231.000" class="small" text-anchor="start">输出 y</text>
+<rect x="550.000" y="211.000" width="370.000" height="28.000" fill="#ecedef" stroke="#25333b" stroke-width="1"/>
+<text x="35.000" y="287.000" class="small" text-anchor="start">输出 E</text>
+<rect x="750.000" y="267.000" width="170.000" height="28.000" fill="#ecedef" stroke="#25333b" stroke-width="1"/>
+<line x1="350.000" y1="75.000" x2="750.000" y2="75.000" stroke="#a45b3e" stroke-width="1.3"/>
+<line x1="350.000" y1="70.000" x2="350.000" y2="80.000" stroke="#a45b3e" stroke-width="1.3"/>
+<line x1="750.000" y1="70.000" x2="750.000" y2="80.000" stroke="#a45b3e" stroke-width="1.3"/>
+<text x="550.000" y="65.000" class="small" text-anchor="middle" style="fill:#a45b3e">增加 E 后，这段不能提前覆盖</text>
+<line x1="150.000" y1="316.000" x2="950.000" y2="316.000" stroke="#66727b" stroke-width="1.3" marker-end="url(#arrow)"/>
+<text x="150.000" y="349.000" class="small" text-anchor="middle">z 产生</text>
+<text x="350.000" y="349.000" class="small" text-anchor="middle">u 已读完 z</text>
+<text x="550.000" y="349.000" class="small" text-anchor="middle">y 产生</text>
+<text x="750.000" y="349.000" class="small" text-anchor="middle">E 已读完 z</text>
+<text x="920.000" y="349.000" class="small" text-anchor="middle">后续使用</text>
+<text x="750.000" y="376.000" class="small" text-anchor="middle" style="fill:#a45b3e">原始 z 可回收</text>
+</svg>

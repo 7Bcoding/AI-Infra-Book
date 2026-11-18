@@ -1,0 +1,12 @@
+{
+  "parameters": {"W": [[1.0, 0.0], [0.0, 1.0]], "b": [0.0, 0.0], "v": [1.0, -1.0], "c": 1.0},
+  "sample": {"x": [1.0, 2.0], "y": 1.0},
+  "learning_rate": 0.1,
+  "second_training_sample": {"x": [2.0, 3.0], "y": 0.0},
+  "validation_sample": {"x": [1.0, 3.0], "y": 0.0},
+  "inactive_sample": {"x": [1.0, -2.0], "y": 0.0},
+  "finite_difference_step": 0.00001,
+  "adam": {"beta1": 0.9, "beta2": 0.999, "epsilon": 1e-8, "gradients": [-0.5, 0.5]},
+  "normalization": {"a": [1.0, 3.0, 5.0], "upstream": [1.0, 2.0, 0.0]},
+  "large_layer": {"batch": 32, "input_width": 1024, "output_width": 2048, "element_bytes": 4}
+}

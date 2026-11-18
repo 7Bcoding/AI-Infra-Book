@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="434" viewBox="0 0 1000 434" role="img" aria-labelledby="title desc">
+<title id="title">编译产物何时摊平</title><desc id="desc">累计时间的两条直线从不同截距出发，在两千次复用处相交。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<line x1="129.000" y1="328.000" x2="829.000" y2="328.000" stroke="#aeb9bf" stroke-width="1" stroke-dasharray="5 5"/>
+<text x="106.000" y="334.000" class="small" text-anchor="end">0</text>
+<line x1="129.000" y1="258.000" x2="829.000" y2="258.000" stroke="#aeb9bf" stroke-width="1" stroke-dasharray="5 5"/>
+<text x="106.000" y="264.000" class="small" text-anchor="end">56</text>
+<line x1="129.000" y1="153.000" x2="829.000" y2="153.000" stroke="#aeb9bf" stroke-width="1" stroke-dasharray="5 5"/>
+<text x="106.000" y="159.000" class="small" text-anchor="end">140</text>
+<line x1="129.000" y1="65.500" x2="829.000" y2="65.500" stroke="#aeb9bf" stroke-width="1" stroke-dasharray="5 5"/>
+<text x="106.000" y="71.500" class="small" text-anchor="end">210</text>
+<text x="129.000" y="359.000" class="small" text-anchor="middle" style="fill:#25333b">0</text>
+<text x="362.333" y="359.000" class="small" text-anchor="middle" style="fill:#25333b">1000</text>
+<text x="595.667" y="359.000" class="small" text-anchor="middle" style="fill:#25333b">2000</text>
+<text x="829.000" y="359.000" class="small" text-anchor="middle" style="fill:#25333b">3000</text>
+<line x1="129.000" y1="328.000" x2="848.000" y2="328.000" stroke="#66727b" stroke-width="1.2" marker-end="url(#arrow)"/>
+<line x1="129.000" y1="328.000" x2="129.000" y2="42.000" stroke="#66727b" stroke-width="1.2" marker-end="url(#arrow)"/>
+<polyline points="129.000,328.000 829.000,65.500" fill="none" stroke="#38677f" stroke-width="3"/>
+<polyline points="129.000,258.000 829.000,100.500" fill="none" stroke="#a45b3e" stroke-width="3"/>
+<line x1="595.667" y1="153.000" x2="595.667" y2="328.000" stroke="#66727b" stroke-width="1.1" stroke-dasharray="5 5"/>
+<circle cx="595.667" cy="153.000" r="5" fill="#38677f"/>
+<text x="843.000" y="70.500" class="small" text-anchor="start" style="fill:#38677f">即时</text>
+<text x="843.000" y="106.500" class="small" text-anchor="start" style="fill:#a45b3e">含编译</text>
+<text x="62.000" y="30.000" class="small" text-anchor="start">累计时间（ms）</text>
+<text x="500.000" y="408.000" class="small" text-anchor="middle" style="fill:#25333b">同一形状的调用次数；在 2000 次处，两条路径都用 140 ms。</text>
+</svg>

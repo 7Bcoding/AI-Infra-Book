@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="456" viewBox="0 0 1000 456" role="img" aria-labelledby="title desc">
+  <title id="title">再猜一步能抵多少验证时间</title>
+  <desc id="desc">最初一千轮中，依次通过前三枚的轮数为九百、七百二十、二百一十六。猜第三枚的盈亏分界是零点九一毫秒。</desc>
+  <style>
+    text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:20px;fill:#23343a}
+    .small{font-size:17px}.heading{font-size:22px;font-weight:bold}
+    .grid{stroke:#d1d8d8;stroke-width:1}.bar{stroke:#416a70;stroke-width:6}.dot{fill:#416a70}
+  </style>
+  <rect width="1000" height="456" fill="#fff"/>
+  <text x="36" y="34" class="heading">从同一千轮出发，数有多少轮走到了这里</text>
+  <g class="grid"><path d="M205 66V218 M535 66V218 M865 66V218"/></g>
+  <g class="small" text-anchor="middle"><text x="205" y="61">0</text><text x="535" y="61">500</text><text x="865" y="61">1,000 轮</text></g>
+  <g text-anchor="end"><text x="184" y="95">开始验证</text><text x="184" y="133">第一枚通过</text><text x="184" y="171">前两枚通过</text><text x="184" y="209">前三枚通过</text></g>
+  <g class="bar"><path d="M205 88H865 M205 126H799 M205 164H680.2 M205 202H347.56"/></g>
+  <g class="dot"><circle cx="865" cy="88" r="6"/><circle cx="799" cy="126" r="6"/><circle cx="680.2" cy="164" r="6"/><circle cx="347.56" cy="202" r="7"/></g>
+  <g class="small"><text x="880" y="95">1,000</text><text x="814" y="133">900</text><text x="695" y="171">720</text><text x="363" y="209">216</text></g>
+  <path d="M36 244H964" stroke="#cdd5d3"/>
+  <text x="36" y="280" class="heading">再猜第三枚，比较额外花费与每轮预期收益</text>
+  <path d="M205 349H905" stroke="#64747a" stroke-width="2"/>
+  <path d="M205 343V355 M380 343V355 M555 343V355 M730 343V355 M905 343V355" stroke="#64747a" stroke-width="2"/>
+  <g class="small" text-anchor="middle"><text x="205" y="377">0</text><text x="380" y="377">0.5</text><text x="555" y="377">1.0</text><text x="730" y="377">1.5</text><text x="905" y="377">2.0 ms</text></g>
+  <path d="M522.4 312V349" stroke="#8a573c" stroke-width="2" stroke-dasharray="5 4"/>
+  <text x="522" y="309" text-anchor="middle" fill="#8a573c" class="small">0.91 ms，收支相等</text>
+  <circle cx="380" cy="349" r="7" fill="#416a70"/><circle cx="905" cy="349" r="7" fill="white" stroke="#416a70" stroke-width="3"/>
+  <path d="M380 386V398 M905 386V398" stroke="#879694"/>
+  <text x="380" y="426" text-anchor="middle">设备乙：多猜一枚划算</text>
+  <text x="936" y="426" text-anchor="end">设备甲：停在两枚</text>
+</svg>

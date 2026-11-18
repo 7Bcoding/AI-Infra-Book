@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="347" viewBox="0 0 1000 347" role="img" aria-labelledby="title desc">
+<title id="title">静态形状的命中顺序</title><desc id="desc">行数序列二二三二在静态形状捕获下依次生成第一份图、复用、生成第二份图、再次复用第一份。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<text x="112.000" y="46.000" class="small" text-anchor="middle" style="fill:#25333b">调用</text>
+<text x="323.000" y="46.000" class="small" text-anchor="middle" style="fill:#25333b">输入行数</text>
+<text x="550.000" y="46.000" class="small" text-anchor="middle" style="fill:#25333b">静态形状条件</text>
+<text x="819.000" y="46.000" class="small" text-anchor="middle" style="fill:#25333b">观察后端</text>
+<text x="112.000" y="94.000" class="" text-anchor="middle" style="fill:#25333b">1</text>
+<text x="323.000" y="94.000" class="" text-anchor="middle" style="fill:#25333b">2</text>
+<text x="550.000" y="94.000" class="" text-anchor="middle" style="fill:#25333b">未见 M = 2</text>
+<text x="819.000" y="94.000" class="" text-anchor="middle" style="fill:#25333b">捕获图 A</text>
+<line x1="50.000" y1="111.000" x2="884.000" y2="111.000" stroke="#aeb9bf" stroke-width="0.7"/>
+<text x="112.000" y="146.000" class="" text-anchor="middle" style="fill:#25333b">2</text>
+<text x="323.000" y="146.000" class="" text-anchor="middle" style="fill:#25333b">2</text>
+<text x="550.000" y="146.000" class="" text-anchor="middle" style="fill:#25333b">命中 M = 2</text>
+<text x="819.000" y="146.000" class="" text-anchor="middle" style="fill:#25333b">复用 A</text>
+<line x1="50.000" y1="163.000" x2="884.000" y2="163.000" stroke="#aeb9bf" stroke-width="0.7"/>
+<text x="112.000" y="198.000" class="" text-anchor="middle" style="fill:#25333b">3</text>
+<text x="323.000" y="198.000" class="" text-anchor="middle" style="fill:#25333b">3</text>
+<text x="550.000" y="198.000" class="" text-anchor="middle" style="fill:#25333b">未见 M = 3</text>
+<text x="819.000" y="198.000" class="" text-anchor="middle" style="fill:#25333b">捕获图 B</text>
+<line x1="50.000" y1="215.000" x2="884.000" y2="215.000" stroke="#aeb9bf" stroke-width="0.7"/>
+<text x="112.000" y="250.000" class="" text-anchor="middle" style="fill:#25333b">4</text>
+<text x="323.000" y="250.000" class="" text-anchor="middle" style="fill:#25333b">2</text>
+<text x="550.000" y="250.000" class="" text-anchor="middle" style="fill:#25333b">再命中 M = 2</text>
+<text x="819.000" y="250.000" class="" text-anchor="middle" style="fill:#25333b">复用 A</text>
+<line x1="50.000" y1="267.000" x2="884.000" y2="267.000" stroke="#aeb9bf" stroke-width="0.7"/>
+<text x="500.000" y="316.000" class="small" text-anchor="middle" style="fill:#25333b">四次都执行同一投影、偏置与激活。在这次 CPU 记录里，后端只收到两张图。</text>
+</svg>

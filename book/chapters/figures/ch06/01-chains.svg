@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="385" viewBox="0 0 1000 385" role="img" aria-labelledby="title desc">
+<title id="title">四个独立累加器</title><desc id="desc">第 6 章教材插图。四个独立累加器。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<text x="185.000" y="42.000" class="" text-anchor="middle" style="fill:#25333b">输出坐标</text>
+<text x="420.000" y="42.000" class="" text-anchor="middle" style="fill:#25333b">第一项乘加后</text>
+<text x="760.000" y="42.000" class="" text-anchor="middle" style="fill:#25333b">第二项乘加后</text>
+<text x="185.000" y="102.000" class="" text-anchor="middle" style="fill:#25333b">(0, 0)</text>
+<rect x="350.000" y="72.000" width="140.000" height="45.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="420.000" y="101.500" class="" text-anchor="middle" style="fill:#25333b">2</text>
+<line x1="505.000" y1="95.000" x2="670.000" y2="95.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="690.000" y="72.000" width="140.000" height="45.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="760.000" y="101.500" class="" text-anchor="middle" style="fill:#25333b">4</text>
+<text x="185.000" y="169.000" class="" text-anchor="middle" style="fill:#25333b">(0, 1)</text>
+<rect x="350.000" y="139.000" width="140.000" height="45.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="420.000" y="168.500" class="" text-anchor="middle" style="fill:#25333b">-1</text>
+<line x1="505.000" y1="162.000" x2="670.000" y2="162.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="690.000" y="139.000" width="140.000" height="45.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="760.000" y="168.500" class="" text-anchor="middle" style="fill:#25333b">5</text>
+<text x="185.000" y="236.000" class="" text-anchor="middle" style="fill:#25333b">(1, 0)</text>
+<rect x="350.000" y="206.000" width="140.000" height="45.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="420.000" y="235.500" class="" text-anchor="middle" style="fill:#25333b">6</text>
+<line x1="505.000" y1="229.000" x2="670.000" y2="229.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="690.000" y="206.000" width="140.000" height="45.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="760.000" y="235.500" class="" text-anchor="middle" style="fill:#25333b">10</text>
+<text x="185.000" y="303.000" class="" text-anchor="middle" style="fill:#25333b">(1, 1)</text>
+<rect x="350.000" y="273.000" width="140.000" height="45.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="420.000" y="302.500" class="" text-anchor="middle" style="fill:#25333b">-3</text>
+<line x1="505.000" y1="296.000" x2="670.000" y2="296.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="690.000" y="273.000" width="140.000" height="45.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="760.000" y="302.500" class="" text-anchor="middle" style="fill:#25333b">9</text>
+</svg>

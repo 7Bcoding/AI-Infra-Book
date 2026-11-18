@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="356" viewBox="0 0 1000 356" role="img" aria-labelledby="title desc">
+<title id="title">候选树与祖先掩码</title><desc id="desc">五个非根节点对照只读祖先的可见矩阵</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<line x1="92.000" y1="172.000" x2="163.000" y2="106.000" stroke="#66727b" stroke-width="1.5"/>
+<line x1="92.000" y1="172.000" x2="163.000" y2="246.000" stroke="#66727b" stroke-width="1.5"/>
+<line x1="221.000" y1="106.000" x2="310.000" y2="64.000" stroke="#66727b" stroke-width="1.5"/>
+<line x1="221.000" y1="106.000" x2="310.000" y2="150.000" stroke="#66727b" stroke-width="1.5"/>
+<line x1="221.000" y1="246.000" x2="310.000" y2="246.000" stroke="#66727b" stroke-width="1.5"/>
+<rect x="34.000" y="154.000" width="60.000" height="36.000" fill="#ecedef" stroke="#aeb9bf" stroke-width="1"/>
+<text x="64.000" y="178.000" class="small" text-anchor="middle" style="fill:#25333b">根</text>
+<rect x="163.000" y="88.000" width="60.000" height="36.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="193.000" y="112.000" class="small" text-anchor="middle" style="fill:#25333b">甲</text>
+<rect x="163.000" y="228.000" width="60.000" height="36.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="193.000" y="252.000" class="small" text-anchor="middle" style="fill:#25333b">乙</text>
+<rect x="310.000" y="46.000" width="60.000" height="36.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="340.000" y="70.000" class="small" text-anchor="middle" style="fill:#25333b">甲丙</text>
+<rect x="310.000" y="132.000" width="60.000" height="36.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="340.000" y="156.000" class="small" text-anchor="middle" style="fill:#25333b">甲丁</text>
+<rect x="310.000" y="228.000" width="60.000" height="36.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="340.000" y="252.000" class="small" text-anchor="middle" style="fill:#25333b">乙丙</text>
+<text x="594.000" y="44.000" class="small" text-anchor="middle" style="fill:#25333b">甲</text>
+<text x="662.000" y="44.000" class="small" text-anchor="middle" style="fill:#25333b">乙</text>
+<text x="730.000" y="44.000" class="small" text-anchor="middle" style="fill:#25333b">甲丙</text>
+<text x="798.000" y="44.000" class="small" text-anchor="middle" style="fill:#25333b">甲丁</text>
+<text x="866.000" y="44.000" class="small" text-anchor="middle" style="fill:#25333b">乙丙</text>
+<text x="475.000" y="85.000" class="small" text-anchor="start">甲</text>
+<rect x="563.000" y="57.000" width="62.000" height="42.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="594.000" y="85.000" class="" text-anchor="middle" style="fill:#25333b">●</text>
+<rect x="631.000" y="57.000" width="62.000" height="42.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="699.000" y="57.000" width="62.000" height="42.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="767.000" y="57.000" width="62.000" height="42.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="835.000" y="57.000" width="62.000" height="42.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="475.000" y="131.000" class="small" text-anchor="start">乙</text>
+<rect x="563.000" y="103.000" width="62.000" height="42.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="631.000" y="103.000" width="62.000" height="42.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="662.000" y="131.000" class="" text-anchor="middle" style="fill:#25333b">●</text>
+<rect x="699.000" y="103.000" width="62.000" height="42.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="767.000" y="103.000" width="62.000" height="42.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="835.000" y="103.000" width="62.000" height="42.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="475.000" y="177.000" class="small" text-anchor="start">甲丙</text>
+<rect x="563.000" y="149.000" width="62.000" height="42.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="594.000" y="177.000" class="" text-anchor="middle" style="fill:#25333b">●</text>
+<rect x="631.000" y="149.000" width="62.000" height="42.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="699.000" y="149.000" width="62.000" height="42.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="730.000" y="177.000" class="" text-anchor="middle" style="fill:#25333b">●</text>
+<rect x="767.000" y="149.000" width="62.000" height="42.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="835.000" y="149.000" width="62.000" height="42.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="475.000" y="223.000" class="small" text-anchor="start">甲丁</text>
+<rect x="563.000" y="195.000" width="62.000" height="42.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="594.000" y="223.000" class="" text-anchor="middle" style="fill:#25333b">●</text>
+<rect x="631.000" y="195.000" width="62.000" height="42.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="699.000" y="195.000" width="62.000" height="42.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="767.000" y="195.000" width="62.000" height="42.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="798.000" y="223.000" class="" text-anchor="middle" style="fill:#25333b">●</text>
+<rect x="835.000" y="195.000" width="62.000" height="42.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="475.000" y="269.000" class="small" text-anchor="start">乙丙</text>
+<rect x="563.000" y="241.000" width="62.000" height="42.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="631.000" y="241.000" width="62.000" height="42.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="662.000" y="269.000" class="" text-anchor="middle" style="fill:#25333b">●</text>
+<rect x="699.000" y="241.000" width="62.000" height="42.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="767.000" y="241.000" width="62.000" height="42.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="835.000" y="241.000" width="62.000" height="42.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="866.000" y="269.000" class="" text-anchor="middle" style="fill:#25333b">●</text>
+<text x="517.000" y="332.000" class="small" text-anchor="middle" style="fill:#25333b">横列是可读的位置，纵行是正在计算的位置。</text>
+</svg>

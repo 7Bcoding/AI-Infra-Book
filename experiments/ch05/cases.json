@@ -1,0 +1,27 @@
+{
+  "shared_keys": [[1, 0], [0, 1], [1, 1]],
+  "shared_values": [[2, 0], [0, 4], [2, 4]],
+  "mla": {
+    "latents": [[1, 0], [0, 1], [1, 1]],
+    "key_up": [[[1, 0], [0, 1]], [[1, 1], [0, 1]]],
+    "value_up": [[[2, 0], [0, 4]], [[1, -1], [2, 1]]]
+  },
+  "sparse": {
+    "exponentials": [1, 8, 1, 1, 1, 1, 2, 2],
+    "values": [0, 10, 0, 0, 0, 0, 1, 1],
+    "window": [5, 6, 7],
+    "top_three": [1, 6, 7],
+    "selected_block_and_recent": [0, 1, 6, 7],
+    "scattered_tokens": [0, 4, 7],
+    "block_size": 2
+  },
+  "collision": {"values_a": [[2, 0], [4, 0], [6, 0]], "values_b": [[3, 0], [5, 0], [5, 0]]},
+  "budget": {
+    "layers": 32, "query_heads": 32, "kv_heads": 8, "head_dim": 128,
+    "cache_bytes": 2, "latent_dim": 512, "position_dim": 64,
+    "short_context": 4096, "long_context": 131072, "generated_choices": 256,
+    "hypothetical_bandwidth_bytes_per_second": 3000000000000,
+    "recurrent_layers": 24, "recurrent_heads": 32, "state_key_dim": 128,
+    "state_value_dim": 128, "state_bytes": 4
+  }
+}

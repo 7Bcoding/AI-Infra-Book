@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="385" viewBox="0 0 1000 385" role="img" aria-labelledby="title desc">
+<title id="title">一次发布和领取</title><desc id="desc">箭头连接两列，共同规定普通载荷的先后。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<text x="230.000" y="43.000" class="" text-anchor="middle" style="fill:#25333b">块 A · 生产者</text>
+<text x="230.000" y="107.000" class="" text-anchor="middle" style="fill:#25333b">写入 value = 7</text>
+<text x="230.000" y="229.000" class="" text-anchor="middle" style="fill:#25333b">发布 ready = 1</text>
+<line x1="230.000" y1="121.000" x2="230.000" y2="196.000" stroke="#38677f" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="770.000" y="43.000" class="" text-anchor="middle" style="fill:#25333b">块 B · 消费者</text>
+<text x="770.000" y="229.000" class="" text-anchor="middle" style="fill:#25333b">领取，读到 ready = 1</text>
+<text x="770.000" y="350.000" class="" text-anchor="middle" style="fill:#25333b">读取 value</text>
+<line x1="770.000" y1="244.000" x2="770.000" y2="319.000" stroke="#38677f" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="345.000" y1="222.000" x2="628.000" y2="222.000" stroke="#a45b3e" stroke-width="2.4" marker-end="url(#arrow)"/>
+<text x="486.000" y="200.000" class="small" text-anchor="middle" style="fill:#a45b3e">同一设备范围</text>
+<text x="486.000" y="258.000" class="small" text-anchor="middle" style="fill:#a45b3e">读到本次发布</text>
+</svg>

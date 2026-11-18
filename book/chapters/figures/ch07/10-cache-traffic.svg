@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="328" viewBox="0 0 1000 328" role="img" aria-labelledby="title desc">
+<title id="title">同一段系数的三笔账</title><desc id="desc">对数轴上对照 128、512 与 4096 字节。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<line x1="345.000" y1="68.000" x2="345.000" y2="240.000" stroke="#aeb9bf" stroke-width="0.7" stroke-dasharray="5 5"/>
+<text x="345.000" y="271.000" class="small" text-anchor="middle" style="fill:#25333b">128</text>
+<line x1="448.000" y1="68.000" x2="448.000" y2="240.000" stroke="#aeb9bf" stroke-width="0.7" stroke-dasharray="5 5"/>
+<text x="448.000" y="271.000" class="small" text-anchor="middle" style="fill:#25333b">256</text>
+<line x1="551.000" y1="68.000" x2="551.000" y2="240.000" stroke="#aeb9bf" stroke-width="0.7" stroke-dasharray="5 5"/>
+<text x="551.000" y="271.000" class="small" text-anchor="middle" style="fill:#25333b">512</text>
+<line x1="654.000" y1="68.000" x2="654.000" y2="240.000" stroke="#aeb9bf" stroke-width="0.7" stroke-dasharray="5 5"/>
+<text x="654.000" y="271.000" class="small" text-anchor="middle" style="fill:#25333b">1024</text>
+<line x1="757.000" y1="68.000" x2="757.000" y2="240.000" stroke="#aeb9bf" stroke-width="0.7" stroke-dasharray="5 5"/>
+<text x="757.000" y="271.000" class="small" text-anchor="middle" style="fill:#25333b">2048</text>
+<line x1="860.000" y1="68.000" x2="860.000" y2="240.000" stroke="#aeb9bf" stroke-width="0.7" stroke-dasharray="5 5"/>
+<text x="860.000" y="271.000" class="small" text-anchor="middle" style="fill:#25333b">4096</text>
+<text x="66.000" y="100.000" class="" text-anchor="start">SM 消费</text>
+<line x1="345.000" y1="89.000" x2="860.000" y2="89.000" stroke="#38677f" stroke-width="2"/>
+<circle cx="860.000" cy="89.000" r="4" fill="#38677f"/>
+<line x1="345.000" y1="101.000" x2="860.000" y2="101.000" stroke="#a45b3e" stroke-width="2"/>
+<circle cx="860.000" cy="101.000" r="4" fill="#a45b3e"/>
+<text x="66.000" y="160.000" class="" text-anchor="start">送到 L2</text>
+<line x1="345.000" y1="149.000" x2="551.000" y2="149.000" stroke="#38677f" stroke-width="2"/>
+<circle cx="551.000" cy="149.000" r="4" fill="#38677f"/>
+<line x1="345.000" y1="161.000" x2="860.000" y2="161.000" stroke="#a45b3e" stroke-width="2"/>
+<circle cx="860.000" cy="161.000" r="4" fill="#a45b3e"/>
+<text x="66.000" y="220.000" class="" text-anchor="start">HBM 填充</text>
+<line x1="345.000" y1="209.000" x2="345.000" y2="209.000" stroke="#38677f" stroke-width="2"/>
+<circle cx="345.000" cy="209.000" r="4" fill="#38677f"/>
+<line x1="345.000" y1="221.000" x2="345.000" y2="221.000" stroke="#a45b3e" stroke-width="2"/>
+<circle cx="345.000" cy="221.000" r="4" fill="#a45b3e"/>
+<text x="349.000" y="36.000" class="small" text-anchor="start" style="fill:#38677f">上：各自 L1 命中</text>
+<text x="610.000" y="36.000" class="small" text-anchor="start" style="fill:#a45b3e">下：绕过 L1</text>
+<text x="600.000" y="311.000" class="small" text-anchor="middle" style="fill:#25333b">有效载荷（B，对数刻度）</text>
+</svg>

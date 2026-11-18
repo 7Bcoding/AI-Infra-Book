@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="470" viewBox="0 0 1000 470" role="img" aria-labelledby="title desc">
+<title id="title">RoPE 对键向量做真实旋转</title><desc id="desc">三个位置采用零度、九十度、一百八十度，虚线原向量、实线新向量。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<text x="170.000" y="35.000" class="" text-anchor="middle">位置 0：旋转 0°</text>
+<line x1="54.000" y1="230.000" x2="294.000" y2="230.000" stroke="#ecedef" stroke-width="1.3" marker-end="url(#arrow)"/>
+<line x1="170.000" y1="349.000" x2="170.000" y2="105.000" stroke="#ecedef" stroke-width="1.3" marker-end="url(#arrow)"/>
+<text x="295.000" y="255.000" class="tiny" text-anchor="end">分量 0</text>
+<text x="182.000" y="108.000" class="tiny" text-anchor="start">分量 1</text>
+<line x1="170.000" y1="230.000" x2="243.000" y2="157.000" stroke="#66727b" stroke-width="2" stroke-dasharray="5 5" marker-end="url(#arrow)"/>
+<line x1="170.000" y1="230.000" x2="243.000" y2="157.000" stroke="#38677f" stroke-width="2.5" marker-end="url(#arrow)"/>
+<circle cx="243.000" cy="157.000" r="4" fill="#66727b"/>
+<circle cx="243.000" cy="157.000" r="5" fill="#38677f"/>
+<text x="170.000" y="390.000" class="small" text-anchor="middle" style="fill:#66727b">旋转前 (1, 1)</text>
+<text x="170.000" y="424.000" class="small" text-anchor="middle" style="fill:#38677f">旋转后 (1, 1)</text>
+<text x="500.000" y="35.000" class="" text-anchor="middle">位置 1：旋转 90°</text>
+<line x1="384.000" y1="230.000" x2="624.000" y2="230.000" stroke="#ecedef" stroke-width="1.3" marker-end="url(#arrow)"/>
+<line x1="500.000" y1="349.000" x2="500.000" y2="105.000" stroke="#ecedef" stroke-width="1.3" marker-end="url(#arrow)"/>
+<text x="625.000" y="255.000" class="tiny" text-anchor="end">分量 0</text>
+<text x="512.000" y="108.000" class="tiny" text-anchor="start">分量 1</text>
+<line x1="500.000" y1="230.000" x2="573.000" y2="303.000" stroke="#66727b" stroke-width="2" stroke-dasharray="5 5" marker-end="url(#arrow)"/>
+<polyline points="529.698,259.698 530.842,258.510 531.937,257.277 532.983,256.002 533.979,254.687 534.922,253.334 535.811,251.945 536.645,250.522 537.422,249.068 538.142,247.584 538.803,246.073 539.404,244.537 539.944,242.979 540.423,241.400 540.840,239.805 541.193,238.194 541.483,236.570 541.709,234.937 541.871,233.295 541.968,231.649 542.000,230.000 541.968,228.351 541.871,226.705 541.709,225.063 541.483,223.430 541.193,221.806 540.840,220.195 540.423,218.600 539.944,217.021 539.404,215.463 538.803,213.927 538.142,212.416 537.422,210.932 536.645,209.478 535.811,208.055 534.922,206.666 533.979,205.313 532.983,203.998 531.937,202.723 530.842,201.490 529.698,200.302" fill="none" stroke="#a45b3e" stroke-width="1.8"/>
+<line x1="530.842" y1="201.490" x2="529.698" y2="200.302" stroke="#a45b3e" stroke-width="1.3" marker-end="url(#arrow)"/>
+<line x1="500.000" y1="230.000" x2="573.000" y2="157.000" stroke="#38677f" stroke-width="2.5" marker-end="url(#arrow)"/>
+<circle cx="573.000" cy="303.000" r="4" fill="#66727b"/>
+<circle cx="573.000" cy="157.000" r="5" fill="#38677f"/>
+<text x="500.000" y="390.000" class="small" text-anchor="middle" style="fill:#66727b">旋转前 (1, −1)</text>
+<text x="500.000" y="424.000" class="small" text-anchor="middle" style="fill:#38677f">旋转后 (1, 1)</text>
+<text x="830.000" y="35.000" class="" text-anchor="middle">位置 2：旋转 180°</text>
+<line x1="714.000" y1="230.000" x2="954.000" y2="230.000" stroke="#ecedef" stroke-width="1.3" marker-end="url(#arrow)"/>
+<line x1="830.000" y1="349.000" x2="830.000" y2="105.000" stroke="#ecedef" stroke-width="1.3" marker-end="url(#arrow)"/>
+<text x="955.000" y="255.000" class="tiny" text-anchor="end">分量 0</text>
+<text x="842.000" y="108.000" class="tiny" text-anchor="start">分量 1</text>
+<line x1="830.000" y1="230.000" x2="757.000" y2="157.000" stroke="#66727b" stroke-width="2" stroke-dasharray="5 5" marker-end="url(#arrow)"/>
+<polyline points="800.302,200.302 798.063,202.723 796.021,205.313 794.189,208.055 792.578,210.932 791.197,213.927 790.056,217.021 789.160,220.195 788.517,223.430 788.129,226.705 788.000,230.000 788.129,233.295 788.517,236.570 789.160,239.805 790.056,242.979 791.197,246.073 792.578,249.068 794.189,251.945 796.021,254.687 798.063,257.277 800.302,259.698 802.723,261.937 805.313,263.979 808.055,265.811 810.932,267.422 813.927,268.803 817.021,269.944 820.195,270.840 823.430,271.483 826.705,271.871 830.000,272.000 833.295,271.871 836.570,271.483 839.805,270.840 842.979,269.944 846.073,268.803 849.068,267.422 851.945,265.811 854.687,263.979 857.277,261.937 859.698,259.698" fill="none" stroke="#a45b3e" stroke-width="1.8"/>
+<line x1="857.277" y1="261.937" x2="859.698" y2="259.698" stroke="#a45b3e" stroke-width="1.3" marker-end="url(#arrow)"/>
+<line x1="830.000" y1="230.000" x2="903.000" y2="303.000" stroke="#38677f" stroke-width="2.5" marker-end="url(#arrow)"/>
+<circle cx="757.000" cy="157.000" r="4" fill="#66727b"/>
+<circle cx="903.000" cy="303.000" r="5" fill="#38677f"/>
+<text x="830.000" y="390.000" class="small" text-anchor="middle" style="fill:#66727b">旋转前 (−1, 1)</text>
+<text x="830.000" y="424.000" class="small" text-anchor="middle" style="fill:#38677f">旋转后 (1, −1)</text>
+</svg>

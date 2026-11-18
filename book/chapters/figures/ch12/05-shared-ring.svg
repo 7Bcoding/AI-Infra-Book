@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="349" viewBox="0 0 1000 349" role="img" aria-labelledby="title desc">
+<title id="title">环形缓冲区槽位的复用</title><desc id="desc">槽位写入、释放和循环复用的三个状态。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<text x="47.000" y="112.000" class="" text-anchor="start">写完 0 至 3</text>
+<rect x="288.000" y="80.000" width="115.000" height="47.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="346.000" y="110.000" class="small" text-anchor="middle" style="fill:#25333b">序号 0</text>
+<rect x="428.000" y="80.000" width="115.000" height="47.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="486.000" y="110.000" class="small" text-anchor="middle" style="fill:#25333b">序号 1</text>
+<rect x="568.000" y="80.000" width="115.000" height="47.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="626.000" y="110.000" class="small" text-anchor="middle" style="fill:#25333b">序号 2</text>
+<rect x="708.000" y="80.000" width="115.000" height="47.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="766.000" y="110.000" class="small" text-anchor="middle" style="fill:#25333b">序号 3</text>
+<text x="47.000" y="185.000" class="" text-anchor="start">读完并释放 0</text>
+<rect x="288.000" y="153.000" width="115.000" height="47.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="346.000" y="183.000" class="small" text-anchor="middle" style="fill:#25333b">空</text>
+<rect x="428.000" y="153.000" width="115.000" height="47.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="486.000" y="183.000" class="small" text-anchor="middle" style="fill:#25333b">序号 1</text>
+<rect x="568.000" y="153.000" width="115.000" height="47.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="626.000" y="183.000" class="small" text-anchor="middle" style="fill:#25333b">序号 2</text>
+<rect x="708.000" y="153.000" width="115.000" height="47.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="766.000" y="183.000" class="small" text-anchor="middle" style="fill:#25333b">序号 3</text>
+<text x="47.000" y="258.000" class="" text-anchor="start">发布序号 4</text>
+<rect x="288.000" y="226.000" width="115.000" height="47.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="346.000" y="256.000" class="small" text-anchor="middle" style="fill:#25333b">序号 4</text>
+<rect x="428.000" y="226.000" width="115.000" height="47.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="486.000" y="256.000" class="small" text-anchor="middle" style="fill:#25333b">序号 1</text>
+<rect x="568.000" y="226.000" width="115.000" height="47.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="626.000" y="256.000" class="small" text-anchor="middle" style="fill:#25333b">序号 2</text>
+<rect x="708.000" y="226.000" width="115.000" height="47.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="766.000" y="256.000" class="small" text-anchor="middle" style="fill:#25333b">序号 3</text>
+<text x="346.000" y="53.000" class="small" text-anchor="middle" style="fill:#25333b">槽 0</text>
+<text x="486.000" y="53.000" class="small" text-anchor="middle" style="fill:#25333b">槽 1</text>
+<text x="626.000" y="53.000" class="small" text-anchor="middle" style="fill:#25333b">槽 2</text>
+<text x="766.000" y="53.000" class="small" text-anchor="middle" style="fill:#25333b">槽 3</text>
+<text x="517.000" y="318.000" class="small" text-anchor="middle" style="fill:#25333b">槽 0 可以再次发布；槽 1 仍有读取方。</text>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="362" viewBox="0 0 1000 362" role="img" aria-labelledby="title desc">
+<title id="title">缓存行的重用间隔</title><desc id="desc">第 7 章教材插图。缓存行的重用间隔。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<text x="42.000" y="120.000" class="small" text-anchor="start">4 次命中</text>
+<rect x="166.000" y="88.000" width="76.000" height="50.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="204.000" y="120.000" class="" text-anchor="middle" style="fill:#25333b">A</text>
+<text x="204.000" y="166.000" class="small" text-anchor="middle" style="fill:#25333b">读入</text>
+<rect x="262.000" y="88.000" width="76.000" height="50.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="300.000" y="120.000" class="" text-anchor="middle" style="fill:#25333b">B</text>
+<text x="300.000" y="166.000" class="small" text-anchor="middle" style="fill:#25333b">读入</text>
+<rect x="358.000" y="88.000" width="76.000" height="50.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="396.000" y="120.000" class="" text-anchor="middle" style="fill:#25333b">A</text>
+<text x="396.000" y="166.000" class="small" text-anchor="middle" style="fill:#25333b">命中</text>
+<rect x="454.000" y="88.000" width="76.000" height="50.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="492.000" y="120.000" class="" text-anchor="middle" style="fill:#25333b">B</text>
+<text x="492.000" y="166.000" class="small" text-anchor="middle" style="fill:#25333b">命中</text>
+<rect x="550.000" y="88.000" width="76.000" height="50.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="588.000" y="120.000" class="" text-anchor="middle" style="fill:#25333b">C</text>
+<text x="588.000" y="166.000" class="small" text-anchor="middle" style="fill:#25333b">读入</text>
+<rect x="646.000" y="88.000" width="76.000" height="50.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="684.000" y="120.000" class="" text-anchor="middle" style="fill:#25333b">D</text>
+<text x="684.000" y="166.000" class="small" text-anchor="middle" style="fill:#25333b">读入</text>
+<rect x="742.000" y="88.000" width="76.000" height="50.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="780.000" y="120.000" class="" text-anchor="middle" style="fill:#25333b">C</text>
+<text x="780.000" y="166.000" class="small" text-anchor="middle" style="fill:#25333b">命中</text>
+<rect x="838.000" y="88.000" width="76.000" height="50.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="876.000" y="120.000" class="" text-anchor="middle" style="fill:#25333b">D</text>
+<text x="876.000" y="166.000" class="small" text-anchor="middle" style="fill:#25333b">命中</text>
+<text x="42.000" y="241.000" class="small" text-anchor="start">0 次命中</text>
+<rect x="166.000" y="209.000" width="76.000" height="50.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="204.000" y="241.000" class="" text-anchor="middle" style="fill:#25333b">A</text>
+<text x="204.000" y="287.000" class="small" text-anchor="middle" style="fill:#25333b">读入</text>
+<rect x="262.000" y="209.000" width="76.000" height="50.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="300.000" y="241.000" class="" text-anchor="middle" style="fill:#25333b">B</text>
+<text x="300.000" y="287.000" class="small" text-anchor="middle" style="fill:#25333b">读入</text>
+<rect x="358.000" y="209.000" width="76.000" height="50.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="396.000" y="241.000" class="" text-anchor="middle" style="fill:#25333b">C</text>
+<text x="396.000" y="287.000" class="small" text-anchor="middle" style="fill:#25333b">读入</text>
+<rect x="454.000" y="209.000" width="76.000" height="50.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="492.000" y="241.000" class="" text-anchor="middle" style="fill:#25333b">D</text>
+<text x="492.000" y="287.000" class="small" text-anchor="middle" style="fill:#25333b">读入</text>
+<rect x="550.000" y="209.000" width="76.000" height="50.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="588.000" y="241.000" class="" text-anchor="middle" style="fill:#25333b">A</text>
+<text x="588.000" y="287.000" class="small" text-anchor="middle" style="fill:#25333b">读入</text>
+<rect x="646.000" y="209.000" width="76.000" height="50.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="684.000" y="241.000" class="" text-anchor="middle" style="fill:#25333b">B</text>
+<text x="684.000" y="287.000" class="small" text-anchor="middle" style="fill:#25333b">读入</text>
+<rect x="742.000" y="209.000" width="76.000" height="50.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="780.000" y="241.000" class="" text-anchor="middle" style="fill:#25333b">C</text>
+<text x="780.000" y="287.000" class="small" text-anchor="middle" style="fill:#25333b">读入</text>
+<rect x="838.000" y="209.000" width="76.000" height="50.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="876.000" y="241.000" class="" text-anchor="middle" style="fill:#25333b">D</text>
+<text x="876.000" y="287.000" class="small" text-anchor="middle" style="fill:#25333b">读入</text>
+<text x="500.000" y="338.000" class="small" text-anchor="middle" style="fill:#25333b">两行容量、初始为空；最近用过的行优先保留。</text>
+</svg>

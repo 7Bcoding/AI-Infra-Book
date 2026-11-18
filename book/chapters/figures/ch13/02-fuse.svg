@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="357" viewBox="0 0 1000 357" role="img" aria-labelledby="title desc">
+<title id="title">融合消去的全局交接</title><desc id="desc">三个独立算子、只融合逐元素操作、完整输出融合的读写序列，对同一块分别剩下四、二、零次中间传输。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<text x="336.000" y="51.000" class="" text-anchor="middle" style="fill:#25333b">写 P</text>
+<text x="478.000" y="51.000" class="" text-anchor="middle" style="fill:#25333b">读 P</text>
+<text x="620.000" y="51.000" class="" text-anchor="middle" style="fill:#25333b">写 Z</text>
+<text x="762.000" y="51.000" class="" text-anchor="middle" style="fill:#25333b">读 Z</text>
+<text x="34.000" y="111.000" class="small" text-anchor="start">三个算子</text>
+<rect x="287.000" y="86.000" width="98.000" height="40.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="336.000" y="113.000" class="" text-anchor="middle" style="fill:#25333b">1 MiB</text>
+<rect x="429.000" y="86.000" width="98.000" height="40.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="478.000" y="113.000" class="" text-anchor="middle" style="fill:#25333b">1 MiB</text>
+<rect x="571.000" y="86.000" width="98.000" height="40.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="620.000" y="113.000" class="" text-anchor="middle" style="fill:#25333b">1 MiB</text>
+<rect x="713.000" y="86.000" width="98.000" height="40.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="762.000" y="113.000" class="" text-anchor="middle" style="fill:#25333b">1 MiB</text>
+<text x="909.000" y="112.000" class="small" text-anchor="middle" style="fill:#25333b">4 MiB</text>
+<text x="34.000" y="180.000" class="small" text-anchor="start">融合偏置与激活</text>
+<rect x="287.000" y="155.000" width="98.000" height="40.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="336.000" y="182.000" class="" text-anchor="middle" style="fill:#25333b">1 MiB</text>
+<rect x="429.000" y="155.000" width="98.000" height="40.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="478.000" y="182.000" class="" text-anchor="middle" style="fill:#25333b">1 MiB</text>
+<rect x="571.000" y="155.000" width="98.000" height="40.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="620.000" y="182.000" class="" text-anchor="middle" style="fill:#25333b">—</text>
+<rect x="713.000" y="155.000" width="98.000" height="40.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="762.000" y="182.000" class="" text-anchor="middle" style="fill:#25333b">—</text>
+<text x="909.000" y="181.000" class="small" text-anchor="middle" style="fill:#25333b">2 MiB</text>
+<text x="34.000" y="249.000" class="small" text-anchor="start">融合到 GEMM 写回</text>
+<rect x="287.000" y="224.000" width="98.000" height="40.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="336.000" y="251.000" class="" text-anchor="middle" style="fill:#25333b">—</text>
+<rect x="429.000" y="224.000" width="98.000" height="40.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="478.000" y="251.000" class="" text-anchor="middle" style="fill:#25333b">—</text>
+<rect x="571.000" y="224.000" width="98.000" height="40.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="620.000" y="251.000" class="" text-anchor="middle" style="fill:#25333b">—</text>
+<rect x="713.000" y="224.000" width="98.000" height="40.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="762.000" y="251.000" class="" text-anchor="middle" style="fill:#25333b">—</text>
+<text x="909.000" y="250.000" class="small" text-anchor="middle" style="fill:#25333b">0 MiB</text>
+<text x="500.000" y="329.000" class="small" text-anchor="middle" style="fill:#25333b">每格对应指定的 128 × 4096 两字节中间张量的一次完整交接。</text>
+</svg>

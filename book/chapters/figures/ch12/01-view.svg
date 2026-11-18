@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="360" viewBox="0 0 1000 360" role="img" aria-labelledby="title desc">
+<title id="title">转置前后的同一地址</title><desc id="desc">原张量和转置视图以不同步长指向同一排四个数，标出共享的第二个地址。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<rect x="280.000" y="122.000" width="102.000" height="64.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="331.000" y="161.000" class="" text-anchor="middle" style="fill:#25333b">1</text>
+<text x="331.000" y="213.000" class="small" text-anchor="middle" style="fill:#25333b">+0 B</text>
+<rect x="382.000" y="122.000" width="102.000" height="64.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="433.000" y="161.000" class="" text-anchor="middle" style="fill:#25333b">2</text>
+<text x="433.000" y="213.000" class="small" text-anchor="middle" style="fill:#25333b">+4 B</text>
+<rect x="484.000" y="122.000" width="102.000" height="64.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="535.000" y="161.000" class="" text-anchor="middle" style="fill:#25333b">3</text>
+<text x="535.000" y="213.000" class="small" text-anchor="middle" style="fill:#25333b">+8 B</text>
+<rect x="586.000" y="122.000" width="102.000" height="64.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="637.000" y="161.000" class="" text-anchor="middle" style="fill:#25333b">4</text>
+<text x="637.000" y="213.000" class="small" text-anchor="middle" style="fill:#25333b">+12 B</text>
+<text x="40.000" y="74.000" class="" text-anchor="start">X[0, 1]，步长 (2, 1)</text>
+<line x1="259.000" y1="71.000" x2="420.000" y2="117.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="534.000" y="275.000" class="" text-anchor="start">Xᵀ[1, 0]，步长 (1, 2)</text>
+<line x1="547.000" y1="248.000" x2="446.000" y2="215.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="500.000" y="330.000" class="small" text-anchor="middle" style="fill:#25333b">逻辑坐标变了，存储起点与偏移量相同，读到的都是数值 2。</text>
+</svg>

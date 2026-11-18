@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="465" viewBox="0 0 1000 465" role="img" aria-labelledby="title desc">
+<title id="title">不同相似度生成不同读取权重</title><desc id="desc">指数相似度权重为点四点二点四，线性核为点五零点五。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<line x1="100.000" y1="360.000" x2="880.000" y2="360.000" stroke="#ecedef" stroke-width="1.3"/>
+<text x="88.000" y="366.000" class="small" text-anchor="end">0</text>
+<line x1="100.000" y1="273.333" x2="880.000" y2="273.333" stroke="#ecedef" stroke-width="1.3"/>
+<text x="88.000" y="279.333" class="small" text-anchor="end">0.2</text>
+<line x1="100.000" y1="186.667" x2="880.000" y2="186.667" stroke="#ecedef" stroke-width="1.3"/>
+<text x="88.000" y="192.667" class="small" text-anchor="end">0.4</text>
+<line x1="100.000" y1="100.000" x2="880.000" y2="100.000" stroke="#ecedef" stroke-width="1.3"/>
+<text x="88.000" y="106.000" class="small" text-anchor="end">0.6</text>
+<line x1="295.000" y1="360.000" x2="295.000" y2="366.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="295.000" y="390.000" class="small" text-anchor="middle">位置 0</text>
+<line x1="490.000" y1="360.000" x2="490.000" y2="366.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="490.000" y="390.000" class="small" text-anchor="middle">位置 1</text>
+<line x1="685.000" y1="360.000" x2="685.000" y2="366.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="685.000" y="390.000" class="small" text-anchor="middle">位置 2</text>
+<line x1="100.000" y1="360.000" x2="890.000" y2="360.000" stroke="#66727b" stroke-width="1.3" marker-end="url(#arrow)"/>
+<line x1="100.000" y1="360.000" x2="100.000" y2="88.000" stroke="#66727b" stroke-width="1.3" marker-end="url(#arrow)"/>
+<text x="100.000" y="72.000" class="small" text-anchor="start">归一化读取权重</text>
+<text x="880.000" y="427.000" class="small" text-anchor="end"></text>
+<text x="180.000" y="35.000" class="small" text-anchor="start" style="fill:#38677f">指数相似度：输出 (1.6, 2.4)</text>
+<text x="570.000" y="35.000" class="small" text-anchor="start" style="fill:#a45b3e">非负内积：输出 (2, 2)</text>
+<rect x="245.000" y="186.667" width="44.000" height="173.333" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="267.000" y="171.667" class="small" text-anchor="middle">0.4</text>
+<rect x="301.000" y="143.333" width="44.000" height="216.667" fill="#efe0d5" stroke="#25333b" stroke-width="1"/>
+<text x="323.000" y="128.333" class="small" text-anchor="middle">0.5</text>
+<rect x="440.000" y="273.333" width="44.000" height="86.667" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="462.000" y="258.333" class="small" text-anchor="middle">0.2</text>
+<line x1="496.000" y1="360.000" x2="540.000" y2="360.000" stroke="#a45b3e" stroke-width="2"/>
+<text x="518.000" y="345.000" class="small" text-anchor="middle">0</text>
+<rect x="635.000" y="186.667" width="44.000" height="173.333" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="657.000" y="171.667" class="small" text-anchor="middle">0.4</text>
+<rect x="691.000" y="143.333" width="44.000" height="216.667" fill="#efe0d5" stroke="#25333b" stroke-width="1"/>
+<text x="713.000" y="128.333" class="small" text-anchor="middle">0.5</text>
+<text x="500.000" y="448.000" class="small" text-anchor="middle">相同查询方向与历史，改变相似度后，位置 1 的贡献由 1/5 变为 0</text>
+</svg>

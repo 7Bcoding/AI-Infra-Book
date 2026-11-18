@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="465" viewBox="0 0 1000 465" role="img" aria-labelledby="title desc">
+<title id="title">批量大小与一步期望损失</title><desc id="desc">批量大小与一步期望损失；数值与章节教学例一致。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<text x="55.000" y="35.000" class="" text-anchor="start">一步更新后的期望损失</text>
+<line x1="120.000" y1="90.000" x2="120.000" y2="350.000" stroke="#25333b" stroke-width="1.3"/>
+<line x1="120.000" y1="350.000" x2="910.000" y2="350.000" stroke="#25333b" stroke-width="1.3"/>
+<line x1="115.000" y1="350.000" x2="120.000" y2="350.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="108.000" y="356.000" class="small" text-anchor="end">0</text>
+<line x1="115.000" y1="303.571" x2="120.000" y2="303.571" stroke="#66727b" stroke-width="1.3"/>
+<text x="108.000" y="309.571" class="small" text-anchor="end">0.125</text>
+<line x1="120.000" y1="303.571" x2="910.000" y2="303.571" stroke="#ecedef" stroke-width="1.3"/>
+<line x1="115.000" y1="257.143" x2="120.000" y2="257.143" stroke="#66727b" stroke-width="1.3"/>
+<text x="108.000" y="263.143" class="small" text-anchor="end">0.25</text>
+<line x1="120.000" y1="257.143" x2="910.000" y2="257.143" stroke="#ecedef" stroke-width="1.3"/>
+<line x1="115.000" y1="164.286" x2="120.000" y2="164.286" stroke="#66727b" stroke-width="1.3"/>
+<text x="108.000" y="170.286" class="small" text-anchor="end">0.5</text>
+<line x1="120.000" y1="164.286" x2="910.000" y2="164.286" stroke="#ecedef" stroke-width="1.3"/>
+<line x1="120.000" y1="164.286" x2="910.000" y2="164.286" stroke="#a45b3e" stroke-width="1.6" stroke-dasharray="5 5"/>
+<text x="920.000" y="170.286" class="small" text-anchor="start">原值</text>
+<rect x="200.000" y="303.571" width="100.000" height="46.429" fill="#ecedef" stroke="#25333b" stroke-width="1"/>
+<rect x="200.000" y="117.857" width="100.000" height="185.714" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="250.000" y="105.857" class="" text-anchor="middle" style="fill:#25333b">0.625</text>
+<text x="250.000" y="382.000" class="small" text-anchor="middle" style="fill:#25333b">B = 1</text>
+<rect x="470.000" y="303.571" width="100.000" height="46.429" fill="#ecedef" stroke="#25333b" stroke-width="1"/>
+<rect x="470.000" y="257.143" width="100.000" height="46.429" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="520.000" y="245.143" class="" text-anchor="middle" style="fill:#25333b">0.25</text>
+<text x="520.000" y="382.000" class="small" text-anchor="middle" style="fill:#25333b">B = 4</text>
+<rect x="740.000" y="303.571" width="100.000" height="46.429" fill="#ecedef" stroke="#25333b" stroke-width="1"/>
+<rect x="740.000" y="291.964" width="100.000" height="11.607" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="790.000" y="279.964" class="" text-anchor="middle" style="fill:#25333b">0.15625</text>
+<text x="790.000" y="382.000" class="small" text-anchor="middle" style="fill:#25333b">B = 16</text>
+<rect x="165.000" y="418.000" width="22.000" height="18.000" fill="#ecedef" stroke="#25333b" stroke-width="1"/>
+<text x="200.000" y="434.000" class="small" text-anchor="start">未消除的距离：0.125</text>
+<rect x="570.000" y="418.000" width="22.000" height="18.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="605.000" y="434.000" class="small" text-anchor="start">噪声贡献：0.5 / B</text>
+</svg>

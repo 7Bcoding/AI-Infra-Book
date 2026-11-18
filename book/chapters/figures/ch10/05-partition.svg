@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="371" viewBox="0 0 1000 371" role="img" aria-labelledby="title desc">
+<title id="title">归一化与工作分配</title><desc id="desc">分键和分查询两种切分示意，同一行是否跨越参与者决定是否需要跨组归约。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<text x="260.000" y="43.000" class="" text-anchor="middle" style="fill:#25333b">两组分键位置</text>
+<rect x="80.000" y="72.000" width="86.000" height="45.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="123.000" y="101.500" class="" text-anchor="middle" style="fill:#25333b">甲</text>
+<rect x="166.000" y="72.000" width="86.000" height="45.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="209.000" y="101.500" class="" text-anchor="middle" style="fill:#25333b">甲</text>
+<rect x="252.000" y="72.000" width="86.000" height="45.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="295.000" y="101.500" class="" text-anchor="middle" style="fill:#25333b">乙</text>
+<rect x="338.000" y="72.000" width="86.000" height="45.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="381.000" y="101.500" class="" text-anchor="middle" style="fill:#25333b">乙</text>
+<rect x="80.000" y="117.000" width="86.000" height="45.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="123.000" y="146.500" class="" text-anchor="middle" style="fill:#25333b">甲</text>
+<rect x="166.000" y="117.000" width="86.000" height="45.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="209.000" y="146.500" class="" text-anchor="middle" style="fill:#25333b">甲</text>
+<rect x="252.000" y="117.000" width="86.000" height="45.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="295.000" y="146.500" class="" text-anchor="middle" style="fill:#25333b">乙</text>
+<rect x="338.000" y="117.000" width="86.000" height="45.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="381.000" y="146.500" class="" text-anchor="middle" style="fill:#25333b">乙</text>
+<rect x="80.000" y="162.000" width="86.000" height="45.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="123.000" y="191.500" class="" text-anchor="middle" style="fill:#25333b">甲</text>
+<rect x="166.000" y="162.000" width="86.000" height="45.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="209.000" y="191.500" class="" text-anchor="middle" style="fill:#25333b">甲</text>
+<rect x="252.000" y="162.000" width="86.000" height="45.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="295.000" y="191.500" class="" text-anchor="middle" style="fill:#25333b">乙</text>
+<rect x="338.000" y="162.000" width="86.000" height="45.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="381.000" y="191.500" class="" text-anchor="middle" style="fill:#25333b">乙</text>
+<rect x="80.000" y="207.000" width="86.000" height="45.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="123.000" y="236.500" class="" text-anchor="middle" style="fill:#25333b">甲</text>
+<rect x="166.000" y="207.000" width="86.000" height="45.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="209.000" y="236.500" class="" text-anchor="middle" style="fill:#25333b">甲</text>
+<rect x="252.000" y="207.000" width="86.000" height="45.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="295.000" y="236.500" class="" text-anchor="middle" style="fill:#25333b">乙</text>
+<rect x="338.000" y="207.000" width="86.000" height="45.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="381.000" y="236.500" class="" text-anchor="middle" style="fill:#25333b">乙</text>
+<text x="251.000" y="290.000" class="small" text-anchor="middle" style="fill:#25333b">每行横跨甲、乙，需合并</text>
+<text x="735.000" y="43.000" class="" text-anchor="middle" style="fill:#25333b">两组分查询行</text>
+<rect x="555.000" y="72.000" width="86.000" height="45.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="598.000" y="101.500" class="" text-anchor="middle" style="fill:#25333b">甲</text>
+<rect x="641.000" y="72.000" width="86.000" height="45.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="684.000" y="101.500" class="" text-anchor="middle" style="fill:#25333b">甲</text>
+<rect x="727.000" y="72.000" width="86.000" height="45.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="770.000" y="101.500" class="" text-anchor="middle" style="fill:#25333b">甲</text>
+<rect x="813.000" y="72.000" width="86.000" height="45.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="856.000" y="101.500" class="" text-anchor="middle" style="fill:#25333b">甲</text>
+<rect x="555.000" y="117.000" width="86.000" height="45.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="598.000" y="146.500" class="" text-anchor="middle" style="fill:#25333b">甲</text>
+<rect x="641.000" y="117.000" width="86.000" height="45.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="684.000" y="146.500" class="" text-anchor="middle" style="fill:#25333b">甲</text>
+<rect x="727.000" y="117.000" width="86.000" height="45.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="770.000" y="146.500" class="" text-anchor="middle" style="fill:#25333b">甲</text>
+<rect x="813.000" y="117.000" width="86.000" height="45.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="856.000" y="146.500" class="" text-anchor="middle" style="fill:#25333b">甲</text>
+<rect x="555.000" y="162.000" width="86.000" height="45.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="598.000" y="191.500" class="" text-anchor="middle" style="fill:#25333b">乙</text>
+<rect x="641.000" y="162.000" width="86.000" height="45.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="684.000" y="191.500" class="" text-anchor="middle" style="fill:#25333b">乙</text>
+<rect x="727.000" y="162.000" width="86.000" height="45.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="770.000" y="191.500" class="" text-anchor="middle" style="fill:#25333b">乙</text>
+<rect x="813.000" y="162.000" width="86.000" height="45.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="856.000" y="191.500" class="" text-anchor="middle" style="fill:#25333b">乙</text>
+<rect x="555.000" y="207.000" width="86.000" height="45.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="598.000" y="236.500" class="" text-anchor="middle" style="fill:#25333b">乙</text>
+<rect x="641.000" y="207.000" width="86.000" height="45.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="684.000" y="236.500" class="" text-anchor="middle" style="fill:#25333b">乙</text>
+<rect x="727.000" y="207.000" width="86.000" height="45.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="770.000" y="236.500" class="" text-anchor="middle" style="fill:#25333b">乙</text>
+<rect x="813.000" y="207.000" width="86.000" height="45.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="856.000" y="236.500" class="" text-anchor="middle" style="fill:#25333b">乙</text>
+<text x="726.000" y="290.000" class="small" text-anchor="middle" style="fill:#25333b">每行由一组线程处理</text>
+<text x="500.000" y="342.000" class="small" text-anchor="middle" style="fill:#25333b">每个小格是一对查询与键；归一化沿同一行进行。</text>
+</svg>

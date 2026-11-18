@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="435" viewBox="0 0 1000 435" role="img" aria-labelledby="title desc">
+<title id="title">参数与Adam状态逐坐标对应</title><desc id="desc">九个参数各有一个梯度和两个矩状态，第一列给出W00的首步数值。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<text x="232.000" y="40.000" class="small" text-anchor="middle">W₀₀</text>
+<text x="312.000" y="40.000" class="small" text-anchor="middle">W₀₁</text>
+<text x="392.000" y="40.000" class="small" text-anchor="middle">W₁₀</text>
+<text x="472.000" y="40.000" class="small" text-anchor="middle">W₁₁</text>
+<text x="552.000" y="40.000" class="small" text-anchor="middle">b₀</text>
+<text x="632.000" y="40.000" class="small" text-anchor="middle">b₁</text>
+<text x="712.000" y="40.000" class="small" text-anchor="middle">v₀</text>
+<text x="792.000" y="40.000" class="small" text-anchor="middle">v₁</text>
+<text x="872.000" y="40.000" class="small" text-anchor="middle">c</text>
+<text x="35.000" y="106.000" class="small" text-anchor="start">旧参数</text>
+<rect x="192.000" y="65.000" width="80.000" height="65.000" fill="#efe0d5" stroke="#25333b" stroke-width="1"/>
+<text x="232.000" y="105.000" class="small" text-anchor="middle">1</text>
+<rect x="272.000" y="65.000" width="80.000" height="65.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="312.000" y="105.000" class="small" text-anchor="middle">0</text>
+<rect x="352.000" y="65.000" width="80.000" height="65.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="392.000" y="105.000" class="small" text-anchor="middle">0</text>
+<rect x="432.000" y="65.000" width="80.000" height="65.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="472.000" y="105.000" class="small" text-anchor="middle">1</text>
+<rect x="512.000" y="65.000" width="80.000" height="65.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="552.000" y="105.000" class="small" text-anchor="middle">0</text>
+<rect x="592.000" y="65.000" width="80.000" height="65.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="632.000" y="105.000" class="small" text-anchor="middle">0</text>
+<rect x="672.000" y="65.000" width="80.000" height="65.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="712.000" y="105.000" class="small" text-anchor="middle">1</text>
+<rect x="752.000" y="65.000" width="80.000" height="65.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="792.000" y="105.000" class="small" text-anchor="middle">−1</text>
+<rect x="832.000" y="65.000" width="80.000" height="65.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="872.000" y="105.000" class="small" text-anchor="middle">1</text>
+<text x="35.000" y="184.000" class="small" text-anchor="start">本次梯度</text>
+<rect x="192.000" y="143.000" width="80.000" height="65.000" fill="#efe0d5" stroke="#25333b" stroke-width="1"/>
+<text x="232.000" y="183.000" class="small" text-anchor="middle">−0.5</text>
+<rect x="272.000" y="143.000" width="80.000" height="65.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="312.000" y="183.000" class="small" text-anchor="middle">−1</text>
+<rect x="352.000" y="143.000" width="80.000" height="65.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="392.000" y="183.000" class="small" text-anchor="middle">0.5</text>
+<rect x="432.000" y="143.000" width="80.000" height="65.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="472.000" y="183.000" class="small" text-anchor="middle">1</text>
+<rect x="512.000" y="143.000" width="80.000" height="65.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="552.000" y="183.000" class="small" text-anchor="middle">−0.5</text>
+<rect x="592.000" y="143.000" width="80.000" height="65.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="632.000" y="183.000" class="small" text-anchor="middle">0.5</text>
+<rect x="672.000" y="143.000" width="80.000" height="65.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="712.000" y="183.000" class="small" text-anchor="middle">−0.5</text>
+<rect x="752.000" y="143.000" width="80.000" height="65.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="792.000" y="183.000" class="small" text-anchor="middle">−1</text>
+<rect x="832.000" y="143.000" width="80.000" height="65.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="872.000" y="183.000" class="small" text-anchor="middle">−0.5</text>
+<text x="35.000" y="262.000" class="small" text-anchor="start">一阶矩 m₁</text>
+<rect x="192.000" y="221.000" width="80.000" height="65.000" fill="#efe0d5" stroke="#25333b" stroke-width="1"/>
+<text x="232.000" y="261.000" class="small" text-anchor="middle">−0.05</text>
+<rect x="272.000" y="221.000" width="80.000" height="65.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="312.000" y="261.000" class="small" text-anchor="middle">−0.1</text>
+<rect x="352.000" y="221.000" width="80.000" height="65.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="392.000" y="261.000" class="small" text-anchor="middle">0.05</text>
+<rect x="432.000" y="221.000" width="80.000" height="65.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="472.000" y="261.000" class="small" text-anchor="middle">0.1</text>
+<rect x="512.000" y="221.000" width="80.000" height="65.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="552.000" y="261.000" class="small" text-anchor="middle">−0.05</text>
+<rect x="592.000" y="221.000" width="80.000" height="65.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="632.000" y="261.000" class="small" text-anchor="middle">0.05</text>
+<rect x="672.000" y="221.000" width="80.000" height="65.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="712.000" y="261.000" class="small" text-anchor="middle">−0.05</text>
+<rect x="752.000" y="221.000" width="80.000" height="65.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="792.000" y="261.000" class="small" text-anchor="middle">−0.1</text>
+<rect x="832.000" y="221.000" width="80.000" height="65.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="872.000" y="261.000" class="small" text-anchor="middle">−0.05</text>
+<text x="35.000" y="340.000" class="small" text-anchor="start">二阶矩 s₁</text>
+<rect x="192.000" y="299.000" width="80.000" height="65.000" fill="#efe0d5" stroke="#25333b" stroke-width="1"/>
+<text x="232.000" y="339.000" class="small" text-anchor="middle">0.00025</text>
+<rect x="272.000" y="299.000" width="80.000" height="65.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="312.000" y="339.000" class="small" text-anchor="middle">0.001</text>
+<rect x="352.000" y="299.000" width="80.000" height="65.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="392.000" y="339.000" class="small" text-anchor="middle">0.00025</text>
+<rect x="432.000" y="299.000" width="80.000" height="65.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="472.000" y="339.000" class="small" text-anchor="middle">0.001</text>
+<rect x="512.000" y="299.000" width="80.000" height="65.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="552.000" y="339.000" class="small" text-anchor="middle">0.00025</text>
+<rect x="592.000" y="299.000" width="80.000" height="65.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="632.000" y="339.000" class="small" text-anchor="middle">0.00025</text>
+<rect x="672.000" y="299.000" width="80.000" height="65.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="712.000" y="339.000" class="small" text-anchor="middle">0.00025</text>
+<rect x="752.000" y="299.000" width="80.000" height="65.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="792.000" y="339.000" class="small" text-anchor="middle">0.001</text>
+<rect x="832.000" y="299.000" width="80.000" height="65.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="872.000" y="339.000" class="small" text-anchor="middle">0.00025</text>
+<text x="550.000" y="414.000" class="small" text-anchor="middle">每一列对应一个参数；每行 9 个数，按 FP32 存储占 36 字节</text>
+</svg>

@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg aria-labelledby="title desc" xmlns="http://www.w3.org/2000/svg" width="1000" height="274" viewBox="0 0 1000 274" role="img">
+  <title id="title">计算顺序决定第一个可发送的整行</title>
+  <desc id="desc">列优先时最后一行在第十三拍末完成回传，行优先时第十拍末完成。每个方格是一拍，同色对应同一行。</desc>
+  <style>text{font-family:"Noto Serif CJK SC","SimSun",serif;fill:#23373c;font-size:19px} .small{font-size:17px} .id{font-family:Georgia,serif;font-size:20px}</style>
+  <rect x="0" y="0" width="1000" height="274" fill="#fff" />
+  <line x1="208" y1="41" x2="208" y2="241" stroke="#dfe6e5" />
+  <text x="208" y="28" text-anchor="middle" class="small">0</text>
+  <line x1="263" y1="41" x2="263" y2="241" stroke="#dfe6e5" />
+  <text x="263" y="28" text-anchor="middle" class="small">1</text>
+  <line x1="318" y1="41" x2="318" y2="241" stroke="#dfe6e5" />
+  <text x="318" y="28" text-anchor="middle" class="small">2</text>
+  <line x1="373" y1="41" x2="373" y2="241" stroke="#dfe6e5" />
+  <text x="373" y="28" text-anchor="middle" class="small">3</text>
+  <line x1="428" y1="41" x2="428" y2="241" stroke="#dfe6e5" />
+  <text x="428" y="28" text-anchor="middle" class="small">4</text>
+  <line x1="483" y1="41" x2="483" y2="241" stroke="#dfe6e5" />
+  <text x="483" y="28" text-anchor="middle" class="small">5</text>
+  <line x1="538" y1="41" x2="538" y2="241" stroke="#dfe6e5" />
+  <text x="538" y="28" text-anchor="middle" class="small">6</text>
+  <line x1="593" y1="41" x2="593" y2="241" stroke="#dfe6e5" />
+  <text x="593" y="28" text-anchor="middle" class="small">7</text>
+  <line x1="648" y1="41" x2="648" y2="241" stroke="#dfe6e5" />
+  <text x="648" y="28" text-anchor="middle" class="small">8</text>
+  <line x1="703" y1="41" x2="703" y2="241" stroke="#dfe6e5" />
+  <text x="703" y="28" text-anchor="middle" class="small">9</text>
+  <line x1="758" y1="41" x2="758" y2="241" stroke="#dfe6e5" />
+  <text x="758" y="28" text-anchor="middle" class="small">10</text>
+  <line x1="813" y1="41" x2="813" y2="241" stroke="#dfe6e5" />
+  <text x="813" y="28" text-anchor="middle" class="small">11</text>
+  <line x1="868" y1="41" x2="868" y2="241" stroke="#dfe6e5" />
+  <text x="868" y="28" text-anchor="middle" class="small">12</text>
+  <line x1="923" y1="41" x2="923" y2="241" stroke="#dfe6e5" />
+  <text x="923" y="28" text-anchor="middle" class="small">13</text>
+  <text x="45" y="28" text-anchor="start" class="">时间 / 拍</text>
+  <text x="25" y="82" text-anchor="start" class="">按列</text>
+  <text x="25" y="185" text-anchor="start" class="">按行</text>
+  <text x="191" y="77" text-anchor="end" class="small">算坐标</text>
+  <rect x="209" y="58" width="53" height="27" fill="#f0f5f4" stroke="#7a938d" />
+  <text x="235.5" y="78" text-anchor="middle" class="id">1</text>
+  <rect x="264" y="58" width="53" height="27" fill="#dcebe8" stroke="#7a938d" />
+  <text x="290.5" y="78" text-anchor="middle" class="id">2</text>
+  <rect x="319" y="58" width="53" height="27" fill="#cbded8" stroke="#7a938d" />
+  <text x="345.5" y="78" text-anchor="middle" class="id">3</text>
+  <rect x="374" y="58" width="53" height="27" fill="#aacdc4" stroke="#7a938d" />
+  <text x="400.5" y="78" text-anchor="middle" class="id">4</text>
+  <rect x="429" y="58" width="53" height="27" fill="#f0f5f4" stroke="#7a938d" />
+  <text x="455.5" y="78" text-anchor="middle" class="id">1</text>
+  <rect x="484" y="58" width="53" height="27" fill="#dcebe8" stroke="#7a938d" />
+  <text x="510.5" y="78" text-anchor="middle" class="id">2</text>
+  <rect x="539" y="58" width="53" height="27" fill="#cbded8" stroke="#7a938d" />
+  <text x="565.5" y="78" text-anchor="middle" class="id">3</text>
+  <rect x="594" y="58" width="53" height="27" fill="#aacdc4" stroke="#7a938d" />
+  <text x="620.5" y="78" text-anchor="middle" class="id">4</text>
+  <text x="191" y="118" text-anchor="end" class="small">传整行</text>
+  <rect x="484" y="99" width="108" height="27" fill="#f0f5f4" stroke="#7a938d" />
+  <text x="538.0" y="119" text-anchor="middle" class="id">1</text>
+  <rect x="594" y="99" width="108" height="27" fill="#dcebe8" stroke="#7a938d" />
+  <text x="648.0" y="119" text-anchor="middle" class="id">2</text>
+  <rect x="704" y="99" width="108" height="27" fill="#cbded8" stroke="#7a938d" />
+  <text x="758.0" y="119" text-anchor="middle" class="id">3</text>
+  <rect x="814" y="99" width="108" height="27" fill="#aacdc4" stroke="#7a938d" />
+  <text x="868.0" y="119" text-anchor="middle" class="id">4</text>
+  <line x1="24" y1="148" x2="951" y2="148" stroke="#b8c8c5" />
+  <text x="191" y="182" text-anchor="end" class="small">算坐标</text>
+  <rect x="209" y="163" width="53" height="27" fill="#f0f5f4" stroke="#7a938d" />
+  <text x="235.5" y="183" text-anchor="middle" class="id">1</text>
+  <rect x="264" y="163" width="53" height="27" fill="#f0f5f4" stroke="#7a938d" />
+  <text x="290.5" y="183" text-anchor="middle" class="id">1</text>
+  <rect x="319" y="163" width="53" height="27" fill="#dcebe8" stroke="#7a938d" />
+  <text x="345.5" y="183" text-anchor="middle" class="id">2</text>
+  <rect x="374" y="163" width="53" height="27" fill="#dcebe8" stroke="#7a938d" />
+  <text x="400.5" y="183" text-anchor="middle" class="id">2</text>
+  <rect x="429" y="163" width="53" height="27" fill="#cbded8" stroke="#7a938d" />
+  <text x="455.5" y="183" text-anchor="middle" class="id">3</text>
+  <rect x="484" y="163" width="53" height="27" fill="#cbded8" stroke="#7a938d" />
+  <text x="510.5" y="183" text-anchor="middle" class="id">3</text>
+  <rect x="539" y="163" width="53" height="27" fill="#aacdc4" stroke="#7a938d" />
+  <text x="565.5" y="183" text-anchor="middle" class="id">4</text>
+  <rect x="594" y="163" width="53" height="27" fill="#aacdc4" stroke="#7a938d" />
+  <text x="620.5" y="183" text-anchor="middle" class="id">4</text>
+  <text x="191" y="223" text-anchor="end" class="small">传整行</text>
+  <rect x="319" y="204" width="108" height="27" fill="#f0f5f4" stroke="#7a938d" />
+  <text x="373.0" y="224" text-anchor="middle" class="id">1</text>
+  <rect x="429" y="204" width="108" height="27" fill="#dcebe8" stroke="#7a938d" />
+  <text x="483.0" y="224" text-anchor="middle" class="id">2</text>
+  <rect x="539" y="204" width="108" height="27" fill="#cbded8" stroke="#7a938d" />
+  <text x="593.0" y="224" text-anchor="middle" class="id">3</text>
+  <rect x="649" y="204" width="108" height="27" fill="#aacdc4" stroke="#7a938d" />
+  <text x="703.0" y="224" text-anchor="middle" class="id">4</text>
+  <text x="208" y="260" text-anchor="start" class="small">每行两个坐标；下方长格占用一条共享链路两拍。</text>
+</svg>

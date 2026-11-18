@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="432" viewBox="0 0 1000 432" role="img" aria-labelledby="title desc">
+<title id="title">尾块和归约填充</title><desc id="desc">五行三列的输出按二乘二切块，右侧与下侧余块显示有效格和填充格。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<rect x="93.000" y="55.000" width="62.000" height="42.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="124.000" y="83.000" class="" text-anchor="middle" style="fill:#25333b">·</text>
+<rect x="155.000" y="55.000" width="62.000" height="42.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="186.000" y="83.000" class="" text-anchor="middle" style="fill:#25333b">·</text>
+<rect x="217.000" y="55.000" width="62.000" height="42.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="248.000" y="83.000" class="" text-anchor="middle" style="fill:#25333b">·</text>
+<rect x="279.000" y="55.000" width="62.000" height="42.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="310.000" y="83.000" class="" text-anchor="middle" style="fill:#25333b">×</text>
+<rect x="93.000" y="97.000" width="62.000" height="42.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="124.000" y="125.000" class="" text-anchor="middle" style="fill:#25333b">·</text>
+<rect x="155.000" y="97.000" width="62.000" height="42.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="186.000" y="125.000" class="" text-anchor="middle" style="fill:#25333b">·</text>
+<rect x="217.000" y="97.000" width="62.000" height="42.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="248.000" y="125.000" class="" text-anchor="middle" style="fill:#25333b">·</text>
+<rect x="279.000" y="97.000" width="62.000" height="42.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="310.000" y="125.000" class="" text-anchor="middle" style="fill:#25333b">×</text>
+<rect x="93.000" y="139.000" width="62.000" height="42.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="124.000" y="167.000" class="" text-anchor="middle" style="fill:#25333b">·</text>
+<rect x="155.000" y="139.000" width="62.000" height="42.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="186.000" y="167.000" class="" text-anchor="middle" style="fill:#25333b">·</text>
+<rect x="217.000" y="139.000" width="62.000" height="42.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="248.000" y="167.000" class="" text-anchor="middle" style="fill:#25333b">·</text>
+<rect x="279.000" y="139.000" width="62.000" height="42.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="310.000" y="167.000" class="" text-anchor="middle" style="fill:#25333b">×</text>
+<rect x="93.000" y="181.000" width="62.000" height="42.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="124.000" y="209.000" class="" text-anchor="middle" style="fill:#25333b">·</text>
+<rect x="155.000" y="181.000" width="62.000" height="42.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="186.000" y="209.000" class="" text-anchor="middle" style="fill:#25333b">·</text>
+<rect x="217.000" y="181.000" width="62.000" height="42.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="248.000" y="209.000" class="" text-anchor="middle" style="fill:#25333b">·</text>
+<rect x="279.000" y="181.000" width="62.000" height="42.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="310.000" y="209.000" class="" text-anchor="middle" style="fill:#25333b">×</text>
+<rect x="93.000" y="223.000" width="62.000" height="42.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="124.000" y="251.000" class="" text-anchor="middle" style="fill:#25333b">·</text>
+<rect x="155.000" y="223.000" width="62.000" height="42.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="186.000" y="251.000" class="" text-anchor="middle" style="fill:#25333b">·</text>
+<rect x="217.000" y="223.000" width="62.000" height="42.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="248.000" y="251.000" class="" text-anchor="middle" style="fill:#25333b">·</text>
+<rect x="279.000" y="223.000" width="62.000" height="42.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="310.000" y="251.000" class="" text-anchor="middle" style="fill:#25333b">×</text>
+<rect x="93.000" y="265.000" width="62.000" height="42.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="124.000" y="293.000" class="" text-anchor="middle" style="fill:#25333b">×</text>
+<rect x="155.000" y="265.000" width="62.000" height="42.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="186.000" y="293.000" class="" text-anchor="middle" style="fill:#25333b">×</text>
+<rect x="217.000" y="265.000" width="62.000" height="42.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="248.000" y="293.000" class="" text-anchor="middle" style="fill:#25333b">×</text>
+<rect x="279.000" y="265.000" width="62.000" height="42.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="310.000" y="293.000" class="" text-anchor="middle" style="fill:#25333b">×</text>
+<line x1="93.000" y1="55.000" x2="93.000" y2="307.000" stroke="#38677f" stroke-width="2.3"/>
+<line x1="217.000" y1="55.000" x2="217.000" y2="307.000" stroke="#38677f" stroke-width="2.3"/>
+<line x1="341.000" y1="55.000" x2="341.000" y2="307.000" stroke="#38677f" stroke-width="2.3"/>
+<line x1="93.000" y1="55.000" x2="341.000" y2="55.000" stroke="#38677f" stroke-width="2.3"/>
+<line x1="93.000" y1="139.000" x2="341.000" y2="139.000" stroke="#38677f" stroke-width="2.3"/>
+<line x1="93.000" y1="223.000" x2="341.000" y2="223.000" stroke="#38677f" stroke-width="2.3"/>
+<line x1="93.000" y1="307.000" x2="341.000" y2="307.000" stroke="#38677f" stroke-width="2.3"/>
+<text x="215.000" y="346.000" class="" text-anchor="middle" style="fill:#25333b">输出平面　15 / 24</text>
+<text x="690.000" y="98.000" class="" text-anchor="middle" style="fill:#25333b">一个合法输出的归约方向</text>
+<rect x="470.000" y="139.000" width="75.000" height="51.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="507.500" y="171.500" class="" text-anchor="middle" style="fill:#25333b">0</text>
+<rect x="545.000" y="139.000" width="75.000" height="51.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="582.500" y="171.500" class="" text-anchor="middle" style="fill:#25333b">1</text>
+<rect x="620.000" y="139.000" width="75.000" height="51.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="657.500" y="171.500" class="" text-anchor="middle" style="fill:#25333b">2</text>
+<rect x="695.000" y="139.000" width="75.000" height="51.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="732.500" y="171.500" class="" text-anchor="middle" style="fill:#25333b">3</text>
+<rect x="770.000" y="139.000" width="75.000" height="51.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="807.500" y="171.500" class="" text-anchor="middle" style="fill:#25333b">4</text>
+<rect x="845.000" y="139.000" width="75.000" height="51.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="882.500" y="171.500" class="" text-anchor="middle" style="fill:#25333b">×</text>
+<line x1="472.000" y1="202.000" x2="618.000" y2="202.000" stroke="#25333b" stroke-width="1.3"/>
+<line x1="472.000" y1="197.000" x2="472.000" y2="207.000" stroke="#25333b" stroke-width="1.3"/>
+<line x1="618.000" y1="197.000" x2="618.000" y2="207.000" stroke="#25333b" stroke-width="1.3"/>
+<text x="545.000" y="228.000" class="small" text-anchor="middle" style="fill:#25333b">段 0</text>
+<line x1="622.000" y1="202.000" x2="768.000" y2="202.000" stroke="#25333b" stroke-width="1.3"/>
+<line x1="622.000" y1="197.000" x2="622.000" y2="207.000" stroke="#25333b" stroke-width="1.3"/>
+<line x1="768.000" y1="197.000" x2="768.000" y2="207.000" stroke="#25333b" stroke-width="1.3"/>
+<text x="695.000" y="228.000" class="small" text-anchor="middle" style="fill:#25333b">段 1</text>
+<line x1="772.000" y1="202.000" x2="918.000" y2="202.000" stroke="#25333b" stroke-width="1.3"/>
+<line x1="772.000" y1="197.000" x2="772.000" y2="207.000" stroke="#25333b" stroke-width="1.3"/>
+<line x1="918.000" y1="197.000" x2="918.000" y2="207.000" stroke="#25333b" stroke-width="1.3"/>
+<text x="845.000" y="228.000" class="small" text-anchor="middle" style="fill:#25333b">段 2</text>
+<text x="694.000" y="287.000" class="small" text-anchor="middle" style="fill:#25333b">k = 5 读入零，5 / 6 项有效</text>
+<text x="500.000" y="403.000" class="small" text-anchor="middle" style="fill:#25333b">实点参与计算，叉为边界填充。两项比例相乘是 75 / 144。</text>
+</svg>

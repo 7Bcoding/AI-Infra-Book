@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="377" viewBox="0 0 1000 377" role="img" aria-labelledby="title desc">
+<title id="title">一行分数的导数</title><desc id="desc">逐位置比较值与输出均值，以概率为系数生成四个有符号的分数梯度，最后求和为零。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<line x1="499.000" y1="53.000" x2="499.000" y2="279.000" stroke="#66727b" stroke-width="1.6"/>
+<text x="40.000" y="83.000" class="" text-anchor="start">v = 0， p = 0.1</text>
+<rect x="294.020" y="61.000" width="204.980" height="26.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="284.020" y="82.000" class="small" text-anchor="end">-0.74</text>
+<text x="40.000" y="138.000" class="" text-anchor="start">v = 2， p = 0.1</text>
+<rect x="349.420" y="116.000" width="149.580" height="26.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="339.420" y="137.000" class="small" text-anchor="end">-0.54</text>
+<text x="40.000" y="193.000" class="" text-anchor="start">v = 8， p = 0.4</text>
+<rect x="499.000" y="171.000" width="66.480" height="26.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="575.480" y="192.000" class="small" text-anchor="start">+0.24</text>
+<text x="40.000" y="248.000" class="" text-anchor="start">v = 10， p = 0.4</text>
+<rect x="499.000" y="226.000" width="288.080" height="26.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="797.080" y="247.000" class="small" text-anchor="start">+1.04</text>
+<text x="499.000" y="307.000" class="small" text-anchor="middle" style="fill:#25333b">0</text>
+<text x="500.000" y="350.000" class="small" text-anchor="middle" style="fill:#25333b">同一比例尺上，负侧合计 −1.28，正侧合计 +1.28。</text>
+</svg>

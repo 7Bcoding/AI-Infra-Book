@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="486" viewBox="0 0 1000 486" role="img" aria-labelledby="title desc">
+<title id="title">相同的完成时刻，两种不同的等待</title><desc id="desc">以第一份梯度就绪为零点。汇聚时两个组同传、耗时翻倍；晚到时一组延后开始，两组独自传输的时间相同。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:22px;fill:#25333b}.s{font-size:19px}.t{font-size:18px}</style>
+<rect width="100%" height="100%" fill="#fff"/>
+<text x="40" y="39" class="" text-anchor="start">甲　两个组同时挤进 rail 0</text>
+<text x="50" y="87" class="s" text-anchor="start">组 0（0、2）</text>
+<rect x="246" y="64" width="642" height="29" fill="#c4d0d6" stroke="#667c87"/>
+<text x="567" y="85" class="t" text-anchor="middle">共享一个出口</text>
+<text x="50" y="136" class="s" text-anchor="start">组 1（1、3）</text>
+<rect x="246" y="113" width="642" height="29" fill="#c4d0d6" stroke="#667c87"/>
+<text x="567" y="134" class="t" text-anchor="middle">共享一个出口</text>
+<text x="245" y="180" class="s" text-anchor="end">端口发送量</text>
+<text x="268" y="180" class="s" text-anchor="start">rail 0：64 MiB　　rail 1：0</text>
+<line x1="36" y1="203" x2="963" y2="203" stroke="#b9c4c9" stroke-width="1" stroke-dasharray=""/>
+<text x="40" y="244" class="" text-anchor="start">乙　rank 3 晚到一个传输时段</text>
+<text x="50" y="290" class="s" text-anchor="start">组 0（0、2）</text>
+<rect x="246" y="267" width="321" height="29" fill="#d9e7ed" stroke="#667c87"/>
+<text x="406.5" y="288" class="t" text-anchor="middle">独占出口</text>
+<text x="50" y="339" class="s" text-anchor="start">组 1（1、3）</text>
+<rect x="246" y="316" width="321" height="29" fill="#eee1d7" stroke="#96755e"/>
+<text x="406.5" y="337" class="t" text-anchor="middle">等最晚贡献</text>
+<rect x="567" y="316" width="321" height="29" fill="#d9e7ed" stroke="#667c87"/>
+<text x="727.5" y="337" class="t" text-anchor="middle">独占出口</text>
+<text x="245" y="385" class="s" text-anchor="end">端口发送量</text>
+<text x="268" y="385" class="s" text-anchor="start">rail 0：32 MiB　　rail 1：32 MiB</text>
+<line x1="246" y1="414" x2="888" y2="414" stroke="#526572" stroke-width="2" stroke-dasharray=""/>
+<line x1="246" y1="407" x2="246" y2="420" stroke="#526572" stroke-width="2" stroke-dasharray=""/>
+<text x="246" y="448" class="s" text-anchor="middle">0</text>
+<line x1="567" y1="407" x2="567" y2="420" stroke="#526572" stroke-width="2" stroke-dasharray=""/>
+<text x="567" y="448" class="s" text-anchor="middle">0.839</text>
+<line x1="888" y1="407" x2="888" y2="420" stroke="#526572" stroke-width="2" stroke-dasharray=""/>
+<text x="888" y="448" class="s" text-anchor="middle">1.678</text>
+<text x="567" y="477" class="s" text-anchor="middle">相对时刻（ms）</text>
+</svg>

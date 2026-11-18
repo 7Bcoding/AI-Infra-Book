@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="540" viewBox="0 0 1000 540" role="img" aria-labelledby="title desc">
+<title id="title">权重怎样变化，又怎样被复用</title><desc id="desc">训练时参数按步更新；服务时固定同一权重，两个请求的状态独立增长。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<text x="38.000" y="36.000" class="" text-anchor="start">（a）训练：参数随更新改变</text>
+<rect x="130.000" y="75.000" width="20.000" height="20.000" fill="#dce7ed" stroke="white" stroke-width="1"/>
+<rect x="150.000" y="75.000" width="20.000" height="20.000" fill="#bdd1db" stroke="white" stroke-width="1"/>
+<rect x="170.000" y="75.000" width="20.000" height="20.000" fill="#8baebf" stroke="white" stroke-width="1"/>
+<rect x="190.000" y="75.000" width="20.000" height="20.000" fill="#dce7ed" stroke="white" stroke-width="1"/>
+<rect x="130.000" y="95.000" width="20.000" height="20.000" fill="#dce7ed" stroke="white" stroke-width="1"/>
+<rect x="150.000" y="95.000" width="20.000" height="20.000" fill="#bdd1db" stroke="white" stroke-width="1"/>
+<rect x="170.000" y="95.000" width="20.000" height="20.000" fill="#8baebf" stroke="white" stroke-width="1"/>
+<rect x="190.000" y="95.000" width="20.000" height="20.000" fill="#dce7ed" stroke="white" stroke-width="1"/>
+<rect x="130.000" y="115.000" width="20.000" height="20.000" fill="#dce7ed" stroke="white" stroke-width="1"/>
+<rect x="150.000" y="115.000" width="20.000" height="20.000" fill="#bdd1db" stroke="white" stroke-width="1"/>
+<rect x="170.000" y="115.000" width="20.000" height="20.000" fill="#8baebf" stroke="white" stroke-width="1"/>
+<rect x="190.000" y="115.000" width="20.000" height="20.000" fill="#dce7ed" stroke="white" stroke-width="1"/>
+<rect x="130.000" y="75.000" width="80.000" height="60.000" fill="none" stroke="#38677f" stroke-width="1"/>
+<text x="170.000" y="166.000" class="math" text-anchor="middle">θ₀</text>
+<line x1="226.000" y1="105.000" x2="329.000" y2="105.000" stroke="#66727b" stroke-width="1.3" marker-end="url(#arrow)"/>
+<text x="277.500" y="85.000" class="small" text-anchor="middle">计算梯度</text>
+<text x="277.500" y="133.000" class="small" text-anchor="middle">更新参数</text>
+<rect x="345.000" y="75.000" width="20.000" height="20.000" fill="#bdd1db" stroke="white" stroke-width="1"/>
+<rect x="365.000" y="75.000" width="20.000" height="20.000" fill="#8baebf" stroke="white" stroke-width="1"/>
+<rect x="385.000" y="75.000" width="20.000" height="20.000" fill="#dce7ed" stroke="white" stroke-width="1"/>
+<rect x="405.000" y="75.000" width="20.000" height="20.000" fill="#bdd1db" stroke="white" stroke-width="1"/>
+<rect x="345.000" y="95.000" width="20.000" height="20.000" fill="#8baebf" stroke="white" stroke-width="1"/>
+<rect x="365.000" y="95.000" width="20.000" height="20.000" fill="#dce7ed" stroke="white" stroke-width="1"/>
+<rect x="385.000" y="95.000" width="20.000" height="20.000" fill="#bdd1db" stroke="white" stroke-width="1"/>
+<rect x="405.000" y="95.000" width="20.000" height="20.000" fill="#8baebf" stroke="white" stroke-width="1"/>
+<rect x="345.000" y="115.000" width="20.000" height="20.000" fill="#dce7ed" stroke="white" stroke-width="1"/>
+<rect x="365.000" y="115.000" width="20.000" height="20.000" fill="#bdd1db" stroke="white" stroke-width="1"/>
+<rect x="385.000" y="115.000" width="20.000" height="20.000" fill="#8baebf" stroke="white" stroke-width="1"/>
+<rect x="405.000" y="115.000" width="20.000" height="20.000" fill="#dce7ed" stroke="white" stroke-width="1"/>
+<rect x="345.000" y="75.000" width="80.000" height="60.000" fill="none" stroke="#38677f" stroke-width="1"/>
+<text x="385.000" y="166.000" class="math" text-anchor="middle">θ₁</text>
+<line x1="441.000" y1="105.000" x2="544.000" y2="105.000" stroke="#66727b" stroke-width="1.3" marker-end="url(#arrow)"/>
+<text x="492.500" y="85.000" class="small" text-anchor="middle">计算梯度</text>
+<text x="492.500" y="133.000" class="small" text-anchor="middle">更新参数</text>
+<rect x="560.000" y="75.000" width="20.000" height="20.000" fill="#8baebf" stroke="white" stroke-width="1"/>
+<rect x="580.000" y="75.000" width="20.000" height="20.000" fill="#dce7ed" stroke="white" stroke-width="1"/>
+<rect x="600.000" y="75.000" width="20.000" height="20.000" fill="#8baebf" stroke="white" stroke-width="1"/>
+<rect x="620.000" y="75.000" width="20.000" height="20.000" fill="#dce7ed" stroke="white" stroke-width="1"/>
+<rect x="560.000" y="95.000" width="20.000" height="20.000" fill="#8baebf" stroke="white" stroke-width="1"/>
+<rect x="580.000" y="95.000" width="20.000" height="20.000" fill="#dce7ed" stroke="white" stroke-width="1"/>
+<rect x="600.000" y="95.000" width="20.000" height="20.000" fill="#8baebf" stroke="white" stroke-width="1"/>
+<rect x="620.000" y="95.000" width="20.000" height="20.000" fill="#dce7ed" stroke="white" stroke-width="1"/>
+<rect x="560.000" y="115.000" width="20.000" height="20.000" fill="#8baebf" stroke="white" stroke-width="1"/>
+<rect x="580.000" y="115.000" width="20.000" height="20.000" fill="#dce7ed" stroke="white" stroke-width="1"/>
+<rect x="600.000" y="115.000" width="20.000" height="20.000" fill="#8baebf" stroke="white" stroke-width="1"/>
+<rect x="620.000" y="115.000" width="20.000" height="20.000" fill="#dce7ed" stroke="white" stroke-width="1"/>
+<rect x="560.000" y="75.000" width="80.000" height="60.000" fill="none" stroke="#38677f" stroke-width="1"/>
+<text x="600.000" y="166.000" class="math" text-anchor="middle">θ₂</text>
+<line x1="656.000" y1="105.000" x2="759.000" y2="105.000" stroke="#66727b" stroke-width="1.3" marker-end="url(#arrow)"/>
+<text x="707.500" y="85.000" class="small" text-anchor="middle">计算梯度</text>
+<text x="707.500" y="133.000" class="small" text-anchor="middle">更新参数</text>
+<rect x="775.000" y="75.000" width="20.000" height="20.000" fill="#dce7ed" stroke="white" stroke-width="1"/>
+<rect x="795.000" y="75.000" width="20.000" height="20.000" fill="#bdd1db" stroke="white" stroke-width="1"/>
+<rect x="815.000" y="75.000" width="20.000" height="20.000" fill="#8baebf" stroke="white" stroke-width="1"/>
+<rect x="835.000" y="75.000" width="20.000" height="20.000" fill="#dce7ed" stroke="white" stroke-width="1"/>
+<rect x="775.000" y="95.000" width="20.000" height="20.000" fill="#dce7ed" stroke="white" stroke-width="1"/>
+<rect x="795.000" y="95.000" width="20.000" height="20.000" fill="#bdd1db" stroke="white" stroke-width="1"/>
+<rect x="815.000" y="95.000" width="20.000" height="20.000" fill="#8baebf" stroke="white" stroke-width="1"/>
+<rect x="835.000" y="95.000" width="20.000" height="20.000" fill="#dce7ed" stroke="white" stroke-width="1"/>
+<rect x="775.000" y="115.000" width="20.000" height="20.000" fill="#dce7ed" stroke="white" stroke-width="1"/>
+<rect x="795.000" y="115.000" width="20.000" height="20.000" fill="#bdd1db" stroke="white" stroke-width="1"/>
+<rect x="815.000" y="115.000" width="20.000" height="20.000" fill="#8baebf" stroke="white" stroke-width="1"/>
+<rect x="835.000" y="115.000" width="20.000" height="20.000" fill="#dce7ed" stroke="white" stroke-width="1"/>
+<rect x="775.000" y="75.000" width="80.000" height="60.000" fill="none" stroke="#38677f" stroke-width="1"/>
+<text x="815.000" y="166.000" class="math" text-anchor="middle">θ₃</text>
+<text x="815.000" y="198.000" class="small" text-anchor="middle">通过验证的版本 θ*</text>
+<line x1="38.000" y1="218.000" x2="962.000" y2="218.000" stroke="#ecedef" stroke-width="1.3"/>
+<text x="38.000" y="250.000" class="" text-anchor="start">（b）服务：权重固定，请求状态各自增长</text>
+<text x="290.000" y="290.000" class="small" text-anchor="middle">较早时刻</text>
+<text x="70.000" y="340.000" class="small" text-anchor="start">共享权重</text>
+<rect x="190.000" y="307.000" width="20.000" height="20.000" fill="#dce7ed" stroke="white" stroke-width="1"/>
+<rect x="210.000" y="307.000" width="20.000" height="20.000" fill="#bdd1db" stroke="white" stroke-width="1"/>
+<rect x="230.000" y="307.000" width="20.000" height="20.000" fill="#dce7ed" stroke="white" stroke-width="1"/>
+<rect x="250.000" y="307.000" width="20.000" height="20.000" fill="#bdd1db" stroke="white" stroke-width="1"/>
+<rect x="190.000" y="327.000" width="20.000" height="20.000" fill="#dce7ed" stroke="white" stroke-width="1"/>
+<rect x="210.000" y="327.000" width="20.000" height="20.000" fill="#bdd1db" stroke="white" stroke-width="1"/>
+<rect x="230.000" y="327.000" width="20.000" height="20.000" fill="#dce7ed" stroke="white" stroke-width="1"/>
+<rect x="250.000" y="327.000" width="20.000" height="20.000" fill="#bdd1db" stroke="white" stroke-width="1"/>
+<rect x="190.000" y="347.000" width="20.000" height="20.000" fill="#dce7ed" stroke="white" stroke-width="1"/>
+<rect x="210.000" y="347.000" width="20.000" height="20.000" fill="#bdd1db" stroke="white" stroke-width="1"/>
+<rect x="230.000" y="347.000" width="20.000" height="20.000" fill="#dce7ed" stroke="white" stroke-width="1"/>
+<rect x="250.000" y="347.000" width="20.000" height="20.000" fill="#bdd1db" stroke="white" stroke-width="1"/>
+<rect x="190.000" y="307.000" width="80.000" height="60.000" fill="none" stroke="#38677f" stroke-width="1"/>
+<text x="286.000" y="340.000" class="math" text-anchor="start">θ*</text>
+<text x="70.000" y="432.000" class="small" text-anchor="start">A 的历史</text>
+<rect x="190.000" y="410.000" width="33.000" height="31.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<rect x="223.000" y="410.000" width="33.000" height="31.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<rect x="256.000" y="410.000" width="33.000" height="31.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="70.000" y="487.000" class="small" text-anchor="start">B 的历史</text>
+<rect x="190.000" y="465.000" width="33.000" height="31.000" fill="#efe0d5" stroke="#25333b" stroke-width="1"/>
+<line x1="425.000" y1="385.000" x2="425.000" y2="493.000" stroke="#ecedef" stroke-width="1.3"/>
+<text x="755.000" y="290.000" class="small" text-anchor="middle">较晚时刻</text>
+<text x="535.000" y="340.000" class="small" text-anchor="start">共享权重</text>
+<rect x="655.000" y="307.000" width="20.000" height="20.000" fill="#dce7ed" stroke="white" stroke-width="1"/>
+<rect x="675.000" y="307.000" width="20.000" height="20.000" fill="#bdd1db" stroke="white" stroke-width="1"/>
+<rect x="695.000" y="307.000" width="20.000" height="20.000" fill="#dce7ed" stroke="white" stroke-width="1"/>
+<rect x="715.000" y="307.000" width="20.000" height="20.000" fill="#bdd1db" stroke="white" stroke-width="1"/>
+<rect x="655.000" y="327.000" width="20.000" height="20.000" fill="#dce7ed" stroke="white" stroke-width="1"/>
+<rect x="675.000" y="327.000" width="20.000" height="20.000" fill="#bdd1db" stroke="white" stroke-width="1"/>
+<rect x="695.000" y="327.000" width="20.000" height="20.000" fill="#dce7ed" stroke="white" stroke-width="1"/>
+<rect x="715.000" y="327.000" width="20.000" height="20.000" fill="#bdd1db" stroke="white" stroke-width="1"/>
+<rect x="655.000" y="347.000" width="20.000" height="20.000" fill="#dce7ed" stroke="white" stroke-width="1"/>
+<rect x="675.000" y="347.000" width="20.000" height="20.000" fill="#bdd1db" stroke="white" stroke-width="1"/>
+<rect x="695.000" y="347.000" width="20.000" height="20.000" fill="#dce7ed" stroke="white" stroke-width="1"/>
+<rect x="715.000" y="347.000" width="20.000" height="20.000" fill="#bdd1db" stroke="white" stroke-width="1"/>
+<rect x="655.000" y="307.000" width="80.000" height="60.000" fill="none" stroke="#38677f" stroke-width="1"/>
+<text x="751.000" y="340.000" class="math" text-anchor="start">θ*</text>
+<text x="535.000" y="432.000" class="small" text-anchor="start">A 的历史</text>
+<rect x="655.000" y="410.000" width="33.000" height="31.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<rect x="688.000" y="410.000" width="33.000" height="31.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<rect x="721.000" y="410.000" width="33.000" height="31.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<rect x="754.000" y="410.000" width="33.000" height="31.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<rect x="787.000" y="410.000" width="33.000" height="31.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<rect x="820.000" y="410.000" width="33.000" height="31.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="535.000" y="487.000" class="small" text-anchor="start">B 的历史</text>
+<rect x="655.000" y="465.000" width="33.000" height="31.000" fill="#efe0d5" stroke="#25333b" stroke-width="1"/>
+<rect x="688.000" y="465.000" width="33.000" height="31.000" fill="#efe0d5" stroke="#25333b" stroke-width="1"/>
+<rect x="721.000" y="465.000" width="33.000" height="31.000" fill="#efe0d5" stroke="#25333b" stroke-width="1"/>
+<rect x="754.000" y="465.000" width="33.000" height="31.000" fill="#efe0d5" stroke="#25333b" stroke-width="1"/>
+<line x1="890.000" y1="385.000" x2="890.000" y2="493.000" stroke="#ecedef" stroke-width="1.3"/>
+<line x1="450.000" y1="275.000" x2="570.000" y2="275.000" stroke="#66727b" stroke-width="1.3" marker-end="url(#arrow)"/>
+<text x="510.000" y="308.000" class="small" text-anchor="middle">时间推进</text>
+</svg>

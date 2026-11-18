@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="395" viewBox="0 0 1000 395" role="img" aria-labelledby="title desc">
+<title id="title">复制与计算双缓冲</title><desc id="desc">第 7 章教材插图。复制与计算双缓冲。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<text x="43.000" y="120.000" class="" text-anchor="start">复制引擎</text>
+<rect x="172.000" y="89.000" width="96.000" height="48.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="220.000" y="120.000" class="" text-anchor="middle" style="fill:#25333b">A · 0</text>
+<rect x="268.000" y="89.000" width="96.000" height="48.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="316.000" y="120.000" class="" text-anchor="middle" style="fill:#25333b">B · 1</text>
+<rect x="428.000" y="89.000" width="96.000" height="48.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="476.000" y="120.000" class="" text-anchor="middle" style="fill:#25333b">A · 2</text>
+<rect x="588.000" y="89.000" width="96.000" height="48.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="636.000" y="120.000" class="" text-anchor="middle" style="fill:#25333b">B · 3</text>
+<text x="43.000" y="220.000" class="" text-anchor="start">计算单元</text>
+<rect x="268.000" y="189.000" width="160.000" height="48.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="348.000" y="220.000" class="" text-anchor="middle" style="fill:#25333b">A · 0</text>
+<rect x="428.000" y="189.000" width="160.000" height="48.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="508.000" y="220.000" class="" text-anchor="middle" style="fill:#25333b">B · 1</text>
+<rect x="588.000" y="189.000" width="160.000" height="48.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="668.000" y="220.000" class="" text-anchor="middle" style="fill:#25333b">A · 2</text>
+<rect x="748.000" y="189.000" width="160.000" height="48.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="828.000" y="220.000" class="" text-anchor="middle" style="fill:#25333b">B · 3</text>
+<line x1="172.000" y1="275.000" x2="920.000" y2="275.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<line x1="172.000" y1="270.000" x2="172.000" y2="282.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="172.000" y="306.000" class="small" text-anchor="middle" style="fill:#25333b">0</text>
+<line x1="268.000" y1="270.000" x2="268.000" y2="282.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="268.000" y="306.000" class="small" text-anchor="middle" style="fill:#25333b">3</text>
+<line x1="364.000" y1="270.000" x2="364.000" y2="282.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="364.000" y="306.000" class="small" text-anchor="middle" style="fill:#25333b">6</text>
+<line x1="428.000" y1="270.000" x2="428.000" y2="282.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="428.000" y="306.000" class="small" text-anchor="middle" style="fill:#25333b">8</text>
+<line x1="524.000" y1="270.000" x2="524.000" y2="282.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="524.000" y="306.000" class="small" text-anchor="middle" style="fill:#25333b">11</text>
+<line x1="588.000" y1="270.000" x2="588.000" y2="282.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="588.000" y="306.000" class="small" text-anchor="middle" style="fill:#25333b">13</text>
+<line x1="684.000" y1="270.000" x2="684.000" y2="282.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="684.000" y="306.000" class="small" text-anchor="middle" style="fill:#25333b">16</text>
+<line x1="748.000" y1="270.000" x2="748.000" y2="282.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="748.000" y="306.000" class="small" text-anchor="middle" style="fill:#25333b">18</text>
+<line x1="908.000" y1="270.000" x2="908.000" y2="282.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="908.000" y="306.000" class="small" text-anchor="middle" style="fill:#25333b">23</text>
+<text x="500.000" y="362.000" class="small" text-anchor="middle" style="fill:#25333b">字母表示共享缓冲区，数字表示 k 段号。</text>
+</svg>

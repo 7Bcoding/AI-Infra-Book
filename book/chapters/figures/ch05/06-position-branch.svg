@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="420" viewBox="0 0 1000 420" role="img" aria-labelledby="title desc">
+<title id="title">内容与位置的两部分分数</title><desc id="desc">同一尺度下内容项一零一，位置项负一零一，合计零零二。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<text x="500.000" y="33.000" class="" text-anchor="middle">以下分数均以 ln 2 为单位，已除以共同尺度 2</text>
+<text x="90.000" y="98.000" class="small" text-anchor="middle">位置</text>
+<text x="290.000" y="98.000" class="small" text-anchor="middle">内容项</text>
+<text x="505.000" y="98.000" class="small" text-anchor="middle">位置项</text>
+<text x="700.000" y="98.000" class="small" text-anchor="middle">相加后分数</text>
+<text x="875.000" y="98.000" class="small" text-anchor="middle">最终权重</text>
+<text x="90.000" y="170.000" class="" text-anchor="middle">0</text>
+<rect x="230.000" y="134.000" width="120.000" height="58.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="290.000" y="170.000" class="" text-anchor="middle">1</text>
+<rect x="445.000" y="134.000" width="120.000" height="58.000" fill="#efe0d5" stroke="#25333b" stroke-width="1"/>
+<text x="505.000" y="170.000" class="" text-anchor="middle">−1</text>
+<text x="700.000" y="170.000" class="" text-anchor="middle">0</text>
+<text x="875.000" y="170.000" class="" text-anchor="middle">1/6</text>
+<text x="395.000" y="170.000" class="" text-anchor="middle">+</text>
+<text x="607.000" y="170.000" class="" text-anchor="middle">=</text>
+<text x="90.000" y="244.000" class="" text-anchor="middle">1</text>
+<rect x="230.000" y="208.000" width="120.000" height="58.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="290.000" y="244.000" class="" text-anchor="middle">0</text>
+<rect x="445.000" y="208.000" width="120.000" height="58.000" fill="#efe0d5" stroke="#25333b" stroke-width="1"/>
+<text x="505.000" y="244.000" class="" text-anchor="middle">0</text>
+<text x="700.000" y="244.000" class="" text-anchor="middle">0</text>
+<text x="875.000" y="244.000" class="" text-anchor="middle">1/6</text>
+<text x="395.000" y="244.000" class="" text-anchor="middle">+</text>
+<text x="607.000" y="244.000" class="" text-anchor="middle">=</text>
+<text x="90.000" y="318.000" class="" text-anchor="middle">2</text>
+<rect x="230.000" y="282.000" width="120.000" height="58.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="290.000" y="318.000" class="" text-anchor="middle">1</text>
+<rect x="445.000" y="282.000" width="120.000" height="58.000" fill="#efe0d5" stroke="#25333b" stroke-width="1"/>
+<text x="505.000" y="318.000" class="" text-anchor="middle">1</text>
+<text x="700.000" y="318.000" class="" text-anchor="middle">2</text>
+<text x="875.000" y="318.000" class="" text-anchor="middle">4/6</text>
+<text x="395.000" y="318.000" class="" text-anchor="middle">+</text>
+<text x="607.000" y="318.000" class="" text-anchor="middle">=</text>
+<text x="500.000" y="392.000" class="small" text-anchor="middle">一次 softmax：exp(0), exp(0), exp(2 ln 2) = 1, 1, 4</text>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="348" viewBox="0 0 1000 348" role="img" aria-labelledby="title desc">
+<title id="title">一次外积的操作数复用</title><desc id="desc">两项左输入与两项右输入沿行列配对，在一个归约位置形成四个寄存器更新。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<rect x="500.000" y="34.000" width="114.000" height="42.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="557.000" y="62.000" class="" text-anchor="middle" style="fill:#25333b">2</text>
+<line x1="557.000" y1="80.000" x2="557.000" y2="120.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="664.000" y="34.000" width="114.000" height="42.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="721.000" y="62.000" class="" text-anchor="middle" style="fill:#25333b">-1</text>
+<line x1="721.000" y1="80.000" x2="721.000" y2="120.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="282.000" y="131.000" width="92.000" height="48.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="328.000" y="162.000" class="" text-anchor="middle" style="fill:#25333b">1</text>
+<line x1="380.000" y1="155.000" x2="474.000" y2="155.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="500.000" y="131.000" width="114.000" height="48.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="557.000" y="162.000" class="" text-anchor="middle" style="fill:#25333b">2</text>
+<rect x="664.000" y="131.000" width="114.000" height="48.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="721.000" y="162.000" class="" text-anchor="middle" style="fill:#25333b">-1</text>
+<rect x="282.000" y="208.000" width="92.000" height="48.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="328.000" y="239.000" class="" text-anchor="middle" style="fill:#25333b">3</text>
+<line x1="380.000" y1="232.000" x2="474.000" y2="232.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="500.000" y="208.000" width="114.000" height="48.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="557.000" y="239.000" class="" text-anchor="middle" style="fill:#25333b">6</text>
+<rect x="664.000" y="208.000" width="114.000" height="48.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="721.000" y="239.000" class="" text-anchor="middle" style="fill:#25333b">-3</text>
+<text x="60.000" y="162.000" class="" text-anchor="start">X 的第 0 列</text>
+<text x="817.000" y="62.000" class="small" text-anchor="start">W 的第 0 行</text>
+<text x="500.000" y="315.000" class="small" text-anchor="middle" style="fill:#25333b">每个交点是一格独立累加器；两个同行的格共用一个左操作数。</text>
+</svg>

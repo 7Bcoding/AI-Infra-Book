@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="342" viewBox="0 0 1000 342" role="img" aria-labelledby="title desc">
+<title id="title">图 15-4</title><desc id="desc">两台服务器之间的切线标出平铺环和分层归约每方向经过的字节。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<text x="170.000" y="42.000" class="" text-anchor="middle" style="fill:#25333b">rank 0</text>
+<text x="340.000" y="42.000" class="" text-anchor="middle" style="fill:#25333b">rank 1</text>
+<text x="660.000" y="42.000" class="" text-anchor="middle" style="fill:#25333b">rank 2</text>
+<text x="830.000" y="42.000" class="" text-anchor="middle" style="fill:#25333b">rank 3</text>
+<line x1="500.000" y1="57.000" x2="500.000" y2="288.000" stroke="#66727b" stroke-width="1.4" stroke-dasharray="5 5"/>
+<rect x="133.000" y="72.000" width="74.000" height="40.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="170.000" y="99.000" class="" text-anchor="middle" style="fill:#25333b">0</text>
+<rect x="303.000" y="72.000" width="74.000" height="40.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="340.000" y="99.000" class="" text-anchor="middle" style="fill:#25333b">1</text>
+<rect x="623.000" y="72.000" width="74.000" height="40.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="660.000" y="99.000" class="" text-anchor="middle" style="fill:#25333b">2</text>
+<rect x="793.000" y="72.000" width="74.000" height="40.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="830.000" y="99.000" class="" text-anchor="middle" style="fill:#25333b">3</text>
+<line x1="211.000" y1="92.000" x2="299.000" y2="92.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<line x1="381.000" y1="92.000" x2="619.000" y2="92.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<line x1="701.000" y1="92.000" x2="789.000" y2="92.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<polyline points="830.000,117.000 830.000,151.000 170.000,151.000 170.000,120.000" fill="none" stroke="#66727b" stroke-width="1.5"/>
+<line x1="212.000" y1="151.000" x2="174.000" y2="151.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="500.000" y="179.000" class="small" text-anchor="middle" style="fill:#25333b">平铺环：两条反向跨机边，每向 48 MiB</text>
+<rect x="133.000" y="221.000" width="74.000" height="40.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="170.000" y="248.000" class="" text-anchor="middle" style="fill:#25333b">0</text>
+<rect x="303.000" y="221.000" width="74.000" height="40.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="340.000" y="248.000" class="" text-anchor="middle" style="fill:#25333b">1</text>
+<rect x="623.000" y="221.000" width="74.000" height="40.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="660.000" y="248.000" class="" text-anchor="middle" style="fill:#25333b">2</text>
+<rect x="793.000" y="221.000" width="74.000" height="40.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="830.000" y="248.000" class="" text-anchor="middle" style="fill:#25333b">3</text>
+<line x1="210.000" y1="242.000" x2="297.000" y2="242.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<line x1="790.000" y1="242.000" x2="703.000" y2="242.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<line x1="381.000" y1="230.000" x2="619.000" y2="230.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<line x1="619.000" y1="252.000" x2="381.000" y2="252.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="500.000" y="309.000" class="small" text-anchor="middle" style="fill:#25333b">分层：先机内汇总，代表之间每向 32 MiB，最后在机内广播。</text>
+</svg>

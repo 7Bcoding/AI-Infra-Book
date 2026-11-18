@@ -1,0 +1,37 @@
+{
+  "kind": "synthetic_teaching_case_not_hardware_measurement",
+  "experiment": {
+    "claim": "Compare complete tasks under identical quality and latency constraints",
+    "versions": {"code": "replace-with-commit", "model": "replace-with-digest", "data": "replace-with-manifest", "tokenizer": "replace-with-digest"},
+    "environment": {"devices": "record-model-and-count", "precision": "record-operation-and-accumulation-types", "topology": "record-placement-and-link-sharing", "power_limit": "record-watts-per-device"},
+    "measurement": {"clock": "one_client_monotonic_clock", "load": "open_loop_fixed_arrivals", "warmup": "separate_from_reported_window", "quality": "fixed_task_checker", "boundary": "scheduled_arrival_to_complete_response"}
+  },
+  "window": {"start_ms": 0, "stop_injection_ms": 60, "observe_until_ms": 72, "slo_ms": 20},
+  "scheduled": [
+    {"id": "r1", "arrival_ms": 0}, {"id": "r2", "arrival_ms": 10},
+    {"id": "r3", "arrival_ms": 20}, {"id": "r4", "arrival_ms": 30},
+    {"id": "r5", "arrival_ms": 40}, {"id": "r6", "arrival_ms": 50}
+  ],
+  "outcomes": [
+    {"id": "r1", "sent_ms": 0, "finish_ms": 12, "status": "success", "correct": true},
+    {"id": "r2", "sent_ms": 10, "finish_ms": 24, "status": "success", "correct": true},
+    {"id": "r3", "sent_ms": 20, "finish_ms": 36, "status": "success", "correct": true},
+    {"id": "r4", "sent_ms": 30, "finish_ms": 48, "status": "success", "correct": true},
+    {"id": "r5", "sent_ms": 40, "finish_ms": 60, "status": "success", "correct": true},
+    {"id": "r6", "sent_ms": 50, "finish_ms": 72, "status": "success", "correct": true}
+  ],
+  "paired_windows": [
+    {"old_ms": 100, "new_ms": 92}, {"old_ms": 100, "new_ms": 88},
+    {"old_ms": 100, "new_ms": 90}, {"old_ms": 100, "new_ms": 94},
+    {"old_ms": 100, "new_ms": 86}
+  ],
+  "candidates": [
+    {"name": "A", "good_tasks_s": 60, "p99_ms": 120, "joules_per_good_task": 12},
+    {"name": "B", "good_tasks_s": 55, "p99_ms": 120, "joules_per_good_task": 10},
+    {"name": "C", "good_tasks_s": 65, "p99_ms": 180, "joules_per_good_task": 15},
+    {"name": "D", "good_tasks_s": 50, "p99_ms": 150, "joules_per_good_task": 14}
+  ],
+  "power_samples": [{"t_s": 0, "watts": 600}, {"t_s": 30, "watts": 600}, {"t_s": 60, "watts": 600}],
+  "power_scope": "whole_node_including_failed_work",
+  "good_tasks_in_energy_window": 3000
+}

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="287" viewBox="0 0 1000 287" role="img" aria-labelledby="title desc">
+<title id="title">整数小计的单位</title><desc id="desc">两行整数小计都等于四，按各组尺度解码后分别得到十和四。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<text x="114.000" y="65.000" class="small" text-anchor="middle" style="fill:#25333b">输入行</text>
+<text x="345.000" y="65.000" class="small" text-anchor="middle" style="fill:#25333b">组 0，单位 1</text>
+<text x="590.000" y="65.000" class="small" text-anchor="middle" style="fill:#25333b">组 1，单位 4</text>
+<text x="845.000" y="65.000" class="small" text-anchor="middle" style="fill:#25333b">实数输出</text>
+<text x="114.000" y="113.000" class="" text-anchor="middle" style="fill:#25333b">甲</text>
+<text x="345.000" y="113.000" class="" text-anchor="middle" style="fill:#25333b">2 × 1</text>
+<text x="590.000" y="113.000" class="" text-anchor="middle" style="fill:#25333b">2 × 4</text>
+<text x="845.000" y="113.000" class="" text-anchor="middle" style="fill:#25333b">10</text>
+<line x1="52.000" y1="130.000" x2="910.000" y2="130.000" stroke="#aeb9bf" stroke-width="0.7"/>
+<text x="114.000" y="180.000" class="" text-anchor="middle" style="fill:#25333b">乙</text>
+<text x="345.000" y="180.000" class="" text-anchor="middle" style="fill:#25333b">4 × 1</text>
+<text x="590.000" y="180.000" class="" text-anchor="middle" style="fill:#25333b">0 × 4</text>
+<text x="845.000" y="180.000" class="" text-anchor="middle" style="fill:#25333b">4</text>
+<line x1="52.000" y1="197.000" x2="910.000" y2="197.000" stroke="#aeb9bf" stroke-width="0.7"/>
+<text x="500.000" y="254.000" class="small" text-anchor="middle" style="fill:#25333b">两行各有 4 个整数单位，但单位的大小不同。只保留整数总和会丢信息。</text>
+</svg>

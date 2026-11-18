@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="337" viewBox="0 0 900 337" role="img" aria-labelledby="title desc">
+<title id="title">同一搬运接口上两槽与四槽的八段计算</title><desc id="desc">深色点表示搬运发出，矩形标出计算。两槽的第三段只能在第十二拍发出，到第二十一拍就绪。四槽提前发出第三、第四段，计算从第九到第三十三拍连续进行。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun",serif;fill:#26343b;font-size:17px}.small{font-size:14px}.title{font-size:20px}</style><rect width="900" height="337" fill="white"/>
+<path d="M120 49v218" fill="none" stroke="#c2cdcf" stroke-dasharray="3 5"/><text class="small" text-anchor="middle" x="120" y="292">0</text>
+<path d="M246 49v218" fill="none" stroke="#c2cdcf" stroke-dasharray="3 5"/><text class="small" text-anchor="middle" x="246" y="292">9</text>
+<path d="M330 49v218" fill="none" stroke="#c2cdcf" stroke-dasharray="3 5"/><text class="small" text-anchor="middle" x="330" y="292">15</text>
+<path d="M414 49v218" fill="none" stroke="#c2cdcf" stroke-dasharray="3 5"/><text class="small" text-anchor="middle" x="414" y="292">21</text>
+<path d="M498 49v218" fill="none" stroke="#c2cdcf" stroke-dasharray="3 5"/><text class="small" text-anchor="middle" x="498" y="292">27</text>
+<path d="M582 49v218" fill="none" stroke="#c2cdcf" stroke-dasharray="3 5"/><text class="small" text-anchor="middle" x="582" y="292">33</text>
+<path d="M666 49v218" fill="none" stroke="#c2cdcf" stroke-dasharray="3 5"/><text class="small" text-anchor="middle" x="666" y="292">39</text>
+<path d="M750 49v218" fill="none" stroke="#c2cdcf" stroke-dasharray="3 5"/><text class="small" text-anchor="middle" x="750" y="292">45</text>
+<path d="M834 49v218" fill="none" stroke="#c2cdcf" stroke-dasharray="3 5"/><text class="small" text-anchor="middle" x="834" y="292">51</text>
+<text class="title" x="12" y="90">双槽</text>
+<text x="64" y="71">发出</text>
+<text x="64" y="114">计算</text>
+<circle cx="120" cy="66" r="3.2" fill="#435e6d"/><text class="small" text-anchor="middle" x="120" y="56">0</text>
+<rect x="246" y="90" width="42" height="34" fill="#f2e9de" stroke="#4d646d"/><text class="small" text-anchor="middle" x="267" y="112">0</text>
+<circle cx="148" cy="66" r="3.2" fill="#435e6d"/><text class="small" text-anchor="middle" x="148" y="56">1</text>
+<rect x="288" y="90" width="42" height="34" fill="#dce8eb" stroke="#4d646d"/><text class="small" text-anchor="middle" x="309" y="112">1</text>
+<circle cx="288" cy="66" r="3.2" fill="#435e6d"/><text class="small" text-anchor="middle" x="288" y="56">2</text>
+<rect x="414" y="90" width="42" height="34" fill="#f2e9de" stroke="#4d646d"/><text class="small" text-anchor="middle" x="435" y="112">2</text>
+<circle cx="330" cy="66" r="3.2" fill="#435e6d"/><text class="small" text-anchor="middle" x="330" y="56">3</text>
+<rect x="456" y="90" width="42" height="34" fill="#dce8eb" stroke="#4d646d"/><text class="small" text-anchor="middle" x="477" y="112">3</text>
+<circle cx="456" cy="66" r="3.2" fill="#435e6d"/><text class="small" text-anchor="middle" x="456" y="56">4</text>
+<rect x="582" y="90" width="42" height="34" fill="#f2e9de" stroke="#4d646d"/><text class="small" text-anchor="middle" x="603" y="112">4</text>
+<circle cx="498" cy="66" r="3.2" fill="#435e6d"/><text class="small" text-anchor="middle" x="498" y="56">5</text>
+<rect x="624" y="90" width="42" height="34" fill="#dce8eb" stroke="#4d646d"/><text class="small" text-anchor="middle" x="645" y="112">5</text>
+<circle cx="624" cy="66" r="3.2" fill="#435e6d"/><text class="small" text-anchor="middle" x="624" y="56">6</text>
+<rect x="750" y="90" width="42" height="34" fill="#f2e9de" stroke="#4d646d"/><text class="small" text-anchor="middle" x="771" y="112">6</text>
+<circle cx="666" cy="66" r="3.2" fill="#435e6d"/><text class="small" text-anchor="middle" x="666" y="56">7</text>
+<rect x="792" y="90" width="42" height="34" fill="#dce8eb" stroke="#4d646d"/><text class="small" text-anchor="middle" x="813" y="112">7</text>
+<text class="title" x="12" y="214">四槽</text>
+<text x="64" y="195">发出</text>
+<text x="64" y="238">计算</text>
+<circle cx="120" cy="190" r="3.2" fill="#435e6d"/><text class="small" text-anchor="middle" x="120" y="180">0</text>
+<rect x="246" y="214" width="42" height="34" fill="#f2e9de" stroke="#4d646d"/><text class="small" text-anchor="middle" x="267" y="236">0</text>
+<circle cx="148" cy="190" r="3.2" fill="#435e6d"/><text class="small" text-anchor="middle" x="148" y="180">1</text>
+<rect x="288" y="214" width="42" height="34" fill="#dce8eb" stroke="#4d646d"/><text class="small" text-anchor="middle" x="309" y="236">1</text>
+<circle cx="176" cy="190" r="3.2" fill="#435e6d"/><text class="small" text-anchor="middle" x="176" y="180">2</text>
+<rect x="330" y="214" width="42" height="34" fill="#f2e9de" stroke="#4d646d"/><text class="small" text-anchor="middle" x="351" y="236">2</text>
+<circle cx="204" cy="190" r="3.2" fill="#435e6d"/><text class="small" text-anchor="middle" x="204" y="180">3</text>
+<rect x="372" y="214" width="42" height="34" fill="#dce8eb" stroke="#4d646d"/><text class="small" text-anchor="middle" x="393" y="236">3</text>
+<circle cx="288" cy="190" r="3.2" fill="#435e6d"/><text class="small" text-anchor="middle" x="288" y="180">4</text>
+<rect x="414" y="214" width="42" height="34" fill="#f2e9de" stroke="#4d646d"/><text class="small" text-anchor="middle" x="435" y="236">4</text>
+<circle cx="330" cy="190" r="3.2" fill="#435e6d"/><text class="small" text-anchor="middle" x="330" y="180">5</text>
+<rect x="456" y="214" width="42" height="34" fill="#dce8eb" stroke="#4d646d"/><text class="small" text-anchor="middle" x="477" y="236">5</text>
+<circle cx="372" cy="190" r="3.2" fill="#435e6d"/><text class="small" text-anchor="middle" x="372" y="180">6</text>
+<rect x="498" y="214" width="42" height="34" fill="#f2e9de" stroke="#4d646d"/><text class="small" text-anchor="middle" x="519" y="236">6</text>
+<circle cx="414" cy="190" r="3.2" fill="#435e6d"/><text class="small" text-anchor="middle" x="414" y="180">7</text>
+<rect x="540" y="214" width="42" height="34" fill="#dce8eb" stroke="#4d646d"/><text class="small" text-anchor="middle" x="561" y="236">7</text>
+<text x="467" y="323" text-anchor="middle">时间（拍）　　点和矩形里的编号对应同一份面板</text></svg>

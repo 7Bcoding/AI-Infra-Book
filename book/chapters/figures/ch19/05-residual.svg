@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="334" viewBox="0 0 1000 334" role="img" aria-labelledby="tit desc">
+<title id="tit">一个忙期里正在运行的任务还剩多久</title><desc id="desc">横轴是时间，纵轴为正在执行任务的余时。短项九个，每项二毫秒；随后是八十二毫秒的长项。第 50 毫秒时，余时为 50 毫秒。</desc>
+<style>text{font-family:"Noto Serif CJK SC",SimSun,"Songti SC",serif;fill:#263941} .axis{stroke:#54636c;stroke-width:1.5}.grid{stroke:#b9c2c8;stroke-width:1;stroke-dasharray:5 5}</style><rect width="1000" height="334" fill="white"/>
+<text x="38" y="33" text-anchor="start" font-size="20">在办任务的余时（ms）</text>
+<text x="186.85" y="73" text-anchor="middle" font-size="20">9 项 × 2 ms</text>
+<text x="569.35" y="73" text-anchor="middle" font-size="20">1 项 × 82 ms</text>
+<path d="M118 84v5H255.7v-5 M255.7 84v5H883v-5" fill="none" stroke="#6e8089"/>
+<line x1="118" y1="95" x2="118" y2="249" class="axis"/>
+<text x="104" y="250" text-anchor="end" font-size="17">0</text><line x1="118" y1="245" x2="883" y2="245" class="grid"/>
+<text x="104" y="160" text-anchor="end" font-size="17">50</text><line x1="118" y1="155" x2="883" y2="155" class="grid"/>
+<text x="104" y="102.4" text-anchor="end" font-size="17">82</text><line x1="118" y1="97.4" x2="883" y2="97.4" class="grid"/>
+<path d="M118 245V241.4 L133.3 245 Z" fill="#e7ded4" stroke="#785342" stroke-width="1.6"/>
+<path d="M133.3 245V241.4 L148.6 245 Z" fill="#e7ded4" stroke="#785342" stroke-width="1.6"/>
+<path d="M148.6 245V241.4 L163.9 245 Z" fill="#e7ded4" stroke="#785342" stroke-width="1.6"/>
+<path d="M163.9 245V241.4 L179.2 245 Z" fill="#e7ded4" stroke="#785342" stroke-width="1.6"/>
+<path d="M179.2 245V241.4 L194.5 245 Z" fill="#e7ded4" stroke="#785342" stroke-width="1.6"/>
+<path d="M194.5 245V241.4 L209.8 245 Z" fill="#e7ded4" stroke="#785342" stroke-width="1.6"/>
+<path d="M209.8 245V241.4 L225.1 245 Z" fill="#e7ded4" stroke="#785342" stroke-width="1.6"/>
+<path d="M225.1 245V241.4 L240.4 245 Z" fill="#e7ded4" stroke="#785342" stroke-width="1.6"/>
+<path d="M240.4 245V241.4 L255.7 245 Z" fill="#e7ded4" stroke="#785342" stroke-width="1.6"/>
+<path d="M255.7 245V97.4 L883 245 Z" fill="#dbe6ec" stroke="#466a7a" stroke-width="1.6"/>
+<line x1="500.5" y1="245" x2="500.5" y2="155" stroke="#844f38" stroke-width="2" stroke-dasharray="6 4"/><circle cx="500.5" cy="155" r="4" fill="#844f38"/>
+<text x="518.5" y="144" text-anchor="start" font-size="20">余时 50 ms</text>
+<line x1="118" y1="245" x2="895" y2="245" class="axis"/>
+<line x1="118" y1="245" x2="118" y2="252" class="axis"/><text x="118" y="275" text-anchor="middle" font-size="17">0</text>
+<line x1="255.7" y1="245" x2="255.7" y2="252" class="axis"/><text x="255.7" y="275" text-anchor="middle" font-size="17">18</text>
+<line x1="500.5" y1="245" x2="500.5" y2="252" class="axis"/><text x="500.5" y="275" text-anchor="middle" font-size="17">50</text>
+<line x1="883" y1="245" x2="883" y2="252" class="axis"/><text x="883" y="275" text-anchor="middle" font-size="17">100</text>
+<text x="500.5" y="312" text-anchor="middle" font-size="20">忙期中的时刻（ms）</text>
+</svg>

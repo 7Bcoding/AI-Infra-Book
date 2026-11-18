@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="430" viewBox="0 0 1000 430" role="img" aria-labelledby="title desc">
+<title id="title">切片不是自动压紧的独立数组</title><desc id="desc">最后两列的四个元素仍以原行步长3分布在存储中。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<text x="36.000" y="34.000" class="" text-anchor="start">底层存储：只选出最后两列</text>
+<rect x="140.000" y="65.000" width="120.000" height="72.000" fill="#ecedef" stroke="#25333b" stroke-width="1"/>
+<text x="200.000" y="95.240" class="" text-anchor="middle">1</text>
+<text x="200.000" y="123.320" class="small" text-anchor="middle" style="fill:#66727b">1000</text>
+<rect x="260.000" y="65.000" width="120.000" height="72.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="320.000" y="95.240" class="" text-anchor="middle">2</text>
+<text x="320.000" y="123.320" class="small" text-anchor="middle" style="fill:#66727b">1004</text>
+<rect x="380.000" y="65.000" width="120.000" height="72.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="440.000" y="95.240" class="" text-anchor="middle">3</text>
+<text x="440.000" y="123.320" class="small" text-anchor="middle" style="fill:#66727b">1008</text>
+<rect x="500.000" y="65.000" width="120.000" height="72.000" fill="#ecedef" stroke="#25333b" stroke-width="1"/>
+<text x="560.000" y="95.240" class="" text-anchor="middle">4</text>
+<text x="560.000" y="123.320" class="small" text-anchor="middle" style="fill:#66727b">1012</text>
+<rect x="620.000" y="65.000" width="120.000" height="72.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="680.000" y="95.240" class="" text-anchor="middle">5</text>
+<text x="680.000" y="123.320" class="small" text-anchor="middle" style="fill:#66727b">1016</text>
+<rect x="740.000" y="65.000" width="120.000" height="72.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="800.000" y="95.240" class="" text-anchor="middle">6</text>
+<text x="800.000" y="123.320" class="small" text-anchor="middle" style="fill:#66727b">1020</text>
+<line x1="560.000" y1="139.000" x2="560.000" y2="164.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="560.000" y="187.000" class="small" text-anchor="middle">这里仍有原来的数 4</text>
+<text x="36.000" y="244.000" class="" text-anchor="start">切片 S</text>
+<rect x="360.000" y="225.000" width="120.000" height="75.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="420.000" y="256.500" class="" text-anchor="middle">2</text>
+<text x="420.000" y="285.750" class="small" text-anchor="middle" style="fill:#66727b">1004</text>
+<rect x="480.000" y="225.000" width="120.000" height="75.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="540.000" y="256.500" class="" text-anchor="middle">3</text>
+<text x="540.000" y="285.750" class="small" text-anchor="middle" style="fill:#66727b">1008</text>
+<rect x="360.000" y="300.000" width="120.000" height="75.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="420.000" y="331.500" class="" text-anchor="middle">5</text>
+<text x="420.000" y="360.750" class="small" text-anchor="middle" style="fill:#66727b">1016</text>
+<rect x="480.000" y="300.000" width="120.000" height="75.000" fill="#dce7ed" stroke="#25333b" stroke-width="1"/>
+<text x="540.000" y="331.500" class="" text-anchor="middle">6</text>
+<text x="540.000" y="360.750" class="small" text-anchor="middle" style="fill:#66727b">1020</text>
+<text x="690.000" y="255.000" class="small" text-anchor="start">形状 (2, 2)</text>
+<text x="690.000" y="291.000" class="small" text-anchor="start">偏移 1 个元素</text>
+<text x="690.000" y="327.000" class="small" text-anchor="start">步长仍为 (3, 1)</text>
+<text x="480.000" y="412.000" class="small" text-anchor="middle">跨到下一行，要走过 3 个元素</text>
+</svg>

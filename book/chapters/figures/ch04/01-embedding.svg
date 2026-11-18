@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="430" viewBox="0 0 1000 430" role="img" aria-labelledby="title desc">
+<title id="title">嵌入按词元编号取行</title><desc id="desc">四项词表、两维嵌入，三项输入取出前三行。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<text x="220.000" y="38.000" class="" text-anchor="middle">共享嵌入表 E：4 × 2</text>
+<text x="727.000" y="38.000" class="" text-anchor="middle">输入矩阵 X：3 × 2</text>
+<text x="155.000" y="132.000" class="small" text-anchor="end">0  我</text>
+<rect x="170.000" y="95.000" width="75.000" height="62.000" fill="#dce7ed" stroke="#b6c0c6" stroke-width="1"/>
+<text x="207.500" y="133.000" class="" text-anchor="middle">1</text>
+<rect x="245.000" y="95.000" width="75.000" height="62.000" fill="#dce7ed" stroke="#b6c0c6" stroke-width="1"/>
+<text x="282.500" y="133.000" class="" text-anchor="middle">1</text>
+<text x="155.000" y="194.000" class="small" text-anchor="end">1  爱</text>
+<rect x="170.000" y="157.000" width="75.000" height="62.000" fill="#dce7ed" stroke="#b6c0c6" stroke-width="1"/>
+<text x="207.500" y="195.000" class="" text-anchor="middle">1</text>
+<rect x="245.000" y="157.000" width="75.000" height="62.000" fill="#dce7ed" stroke="#b6c0c6" stroke-width="1"/>
+<text x="282.500" y="195.000" class="" text-anchor="middle">−1</text>
+<text x="155.000" y="256.000" class="small" text-anchor="end">2  茶</text>
+<rect x="170.000" y="219.000" width="75.000" height="62.000" fill="#dce7ed" stroke="#b6c0c6" stroke-width="1"/>
+<text x="207.500" y="257.000" class="" text-anchor="middle">−1</text>
+<rect x="245.000" y="219.000" width="75.000" height="62.000" fill="#dce7ed" stroke="#b6c0c6" stroke-width="1"/>
+<text x="282.500" y="257.000" class="" text-anchor="middle">1</text>
+<text x="155.000" y="318.000" class="small" text-anchor="end">3  结束</text>
+<rect x="170.000" y="281.000" width="75.000" height="62.000" fill="#ecedef" stroke="#b6c0c6" stroke-width="1"/>
+<text x="207.500" y="319.000" class="" text-anchor="middle">−1</text>
+<rect x="245.000" y="281.000" width="75.000" height="62.000" fill="#ecedef" stroke="#b6c0c6" stroke-width="1"/>
+<text x="282.500" y="319.000" class="" text-anchor="middle">−1</text>
+<text x="655.000" y="132.000" class="small" text-anchor="end">位置 0</text>
+<rect x="670.000" y="95.000" width="75.000" height="62.000" fill="#dce7ed" stroke="#b6c0c6" stroke-width="1"/>
+<text x="707.500" y="133.000" class="" text-anchor="middle">1</text>
+<rect x="745.000" y="95.000" width="75.000" height="62.000" fill="#dce7ed" stroke="#b6c0c6" stroke-width="1"/>
+<text x="782.500" y="133.000" class="" text-anchor="middle">1</text>
+<text x="655.000" y="194.000" class="small" text-anchor="end">位置 1</text>
+<rect x="670.000" y="157.000" width="75.000" height="62.000" fill="#dce7ed" stroke="#b6c0c6" stroke-width="1"/>
+<text x="707.500" y="195.000" class="" text-anchor="middle">1</text>
+<rect x="745.000" y="157.000" width="75.000" height="62.000" fill="#dce7ed" stroke="#b6c0c6" stroke-width="1"/>
+<text x="782.500" y="195.000" class="" text-anchor="middle">−1</text>
+<text x="655.000" y="256.000" class="small" text-anchor="end">位置 2</text>
+<rect x="670.000" y="219.000" width="75.000" height="62.000" fill="#dce7ed" stroke="#b6c0c6" stroke-width="1"/>
+<text x="707.500" y="257.000" class="" text-anchor="middle">−1</text>
+<rect x="745.000" y="219.000" width="75.000" height="62.000" fill="#dce7ed" stroke="#b6c0c6" stroke-width="1"/>
+<text x="782.500" y="257.000" class="" text-anchor="middle">1</text>
+<line x1="340.000" y1="126.000" x2="564.000" y2="126.000" stroke="#38677f" stroke-width="1.3" marker-end="url(#arrow)"/>
+<text x="450.000" y="113.000" class="small" text-anchor="middle">编号 0 → 取第 0 行</text>
+<line x1="340.000" y1="188.000" x2="564.000" y2="188.000" stroke="#38677f" stroke-width="1.3" marker-end="url(#arrow)"/>
+<text x="450.000" y="175.000" class="small" text-anchor="middle">编号 1 → 取第 1 行</text>
+<line x1="340.000" y1="250.000" x2="564.000" y2="250.000" stroke="#38677f" stroke-width="1.3" marker-end="url(#arrow)"/>
+<text x="450.000" y="237.000" class="small" text-anchor="middle">编号 2 → 取第 2 行</text>
+<text x="244.000" y="77.000" class="small" text-anchor="middle">特征 0      特征 1</text>
+<text x="744.000" y="77.000" class="small" text-anchor="middle">特征 0      特征 1</text>
+<text x="500.000" y="395.000" class="small" text-anchor="middle">编号用于寻址；两个特征值才进入后续数值计算</text>
+</svg>

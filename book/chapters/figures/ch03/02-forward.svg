@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="435" viewBox="0 0 1000 435" role="img" aria-labelledby="title desc">
+<title id="title">九参数网络的完整前向</title><desc id="desc">输入为1和2，隐藏值为1和2，分数0，概率0.5，正类损失ln2。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<text x="100.000" y="35.000" class="" text-anchor="middle">输入</text>
+<text x="330.000" y="35.000" class="" text-anchor="middle">隐藏层</text>
+<text x="570.000" y="35.000" class="" text-anchor="middle">分数</text>
+<text x="745.000" y="35.000" class="" text-anchor="middle">概率</text>
+<text x="910.000" y="35.000" class="" text-anchor="middle">损失</text>
+<line x1="130.000" y1="140.000" x2="298.000" y2="140.000" stroke="#38677f" stroke-width="1.3" marker-end="url(#arrow)"/>
+<line x1="130.000" y1="325.000" x2="298.000" y2="325.000" stroke="#38677f" stroke-width="1.3" marker-end="url(#arrow)"/>
+<line x1="126.000" y1="157.000" x2="303.000" y2="303.000" stroke="#66727b" stroke-width="1.3" stroke-dasharray="5 5" marker-end="url(#arrow)"/>
+<line x1="126.000" y1="308.000" x2="303.000" y2="162.000" stroke="#66727b" stroke-width="1.3" stroke-dasharray="5 5" marker-end="url(#arrow)"/>
+<text x="210.000" y="124.000" class="small" text-anchor="middle">1</text>
+<text x="210.000" y="353.000" class="small" text-anchor="middle">1</text>
+<text x="174.000" y="214.000" class="small" text-anchor="middle" style="fill:#66727b">0</text>
+<text x="255.000" y="218.000" class="small" text-anchor="middle" style="fill:#66727b">0</text>
+<line x1="357.000" y1="151.000" x2="540.000" y2="220.000" stroke="#38677f" stroke-width="1.3" marker-end="url(#arrow)"/>
+<line x1="357.000" y1="314.000" x2="540.000" y2="241.000" stroke="#38677f" stroke-width="1.3" marker-end="url(#arrow)"/>
+<text x="451.000" y="171.000" class="small" text-anchor="middle">v₀ = 1</text>
+<text x="451.000" y="310.000" class="small" text-anchor="middle">v₁ = −1</text>
+<line x1="602.000" y1="232.000" x2="710.000" y2="232.000" stroke="#66727b" stroke-width="1.3" marker-end="url(#arrow)"/>
+<text x="658.000" y="209.000" class="small" text-anchor="middle">sigmoid</text>
+<line x1="779.000" y1="232.000" x2="875.000" y2="232.000" stroke="#66727b" stroke-width="1.3" marker-end="url(#arrow)"/>
+<text x="828.000" y="209.000" class="small" text-anchor="middle">−ln p</text>
+<circle cx="100.000" cy="140.000" r="29" fill="#dce7ed"/>
+<text x="100.000" y="147.000" class="" text-anchor="middle">1</text>
+<text x="100.000" y="93.000" class="small" text-anchor="middle">x₀</text>
+<circle cx="100.000" cy="325.000" r="29" fill="#dce7ed"/>
+<text x="100.000" y="332.000" class="" text-anchor="middle">2</text>
+<text x="100.000" y="278.000" class="small" text-anchor="middle">x₁</text>
+<circle cx="330.000" cy="140.000" r="29" fill="#dce7ed"/>
+<text x="330.000" y="147.000" class="" text-anchor="middle">1</text>
+<text x="330.000" y="93.000" class="small" text-anchor="middle">a₀ = h₀</text>
+<circle cx="330.000" cy="325.000" r="29" fill="#dce7ed"/>
+<text x="330.000" y="332.000" class="" text-anchor="middle">2</text>
+<text x="330.000" y="278.000" class="small" text-anchor="middle">a₁ = h₁</text>
+<circle cx="570.000" cy="232.000" r="29" fill="#dce7ed"/>
+<text x="570.000" y="239.000" class="" text-anchor="middle">0</text>
+<circle cx="745.000" cy="232.000" r="29" fill="#dce7ed"/>
+<text x="745.000" y="239.000" class="" text-anchor="middle">0.5</text>
+<text x="745.000" y="185.000" class="small" text-anchor="middle">p</text>
+<circle cx="910.000" cy="232.000" r="29" fill="#dce7ed"/>
+<text x="910.000" y="239.000" class="" text-anchor="middle">ln 2</text>
+<text x="570.000" y="286.000" class="math" text-anchor="middle">z</text>
+<text x="910.000" y="286.000" class="math" text-anchor="middle">ℓ</text>
+<text x="570.000" y="114.000" class="small" text-anchor="middle">c = 1</text>
+<line x1="570.000" y1="126.000" x2="570.000" y2="195.000" stroke="#66727b" stroke-width="1.3" marker-end="url(#arrow)"/>
+<text x="910.000" y="114.000" class="small" text-anchor="middle">标签 y = 1</text>
+<line x1="910.000" y1="126.000" x2="910.000" y2="195.000" stroke="#66727b" stroke-width="1.3" marker-end="url(#arrow)"/>
+<text x="330.000" y="397.000" class="small" text-anchor="middle">隐藏偏置 b₀ = b₁ = 0</text>
+<text x="748.000" y="397.000" class="small" text-anchor="middle">标签在损失端与预测相遇</text>
+</svg>

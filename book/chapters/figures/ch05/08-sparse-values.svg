@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="505" viewBox="0 0 1000 505" role="img" aria-labelledby="title desc">
+<title id="title">固定分数和值只改变读取集合</title><desc id="desc">八位置完整输出84/17，窗口0.8，分数最高三项7。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<text x="248.500" y="39.000" class="small" text-anchor="middle">0</text>
+<text x="325.500" y="39.000" class="small" text-anchor="middle">1</text>
+<text x="402.500" y="39.000" class="small" text-anchor="middle">2</text>
+<text x="479.500" y="39.000" class="small" text-anchor="middle">3</text>
+<text x="556.500" y="39.000" class="small" text-anchor="middle">4</text>
+<text x="633.500" y="39.000" class="small" text-anchor="middle">5</text>
+<text x="710.500" y="39.000" class="small" text-anchor="middle">6</text>
+<text x="787.500" y="39.000" class="small" text-anchor="middle">7</text>
+<text x="175.000" y="101.000" class="small" text-anchor="end">分数的指数</text>
+<rect x="210.000" y="65.000" width="77.000" height="55.000" fill="white" stroke="#b6c0c6" stroke-width="1"/>
+<text x="248.500" y="99.500" class="" text-anchor="middle">1</text>
+<rect x="287.000" y="65.000" width="77.000" height="55.000" fill="white" stroke="#b6c0c6" stroke-width="1"/>
+<text x="325.500" y="99.500" class="" text-anchor="middle">8</text>
+<rect x="364.000" y="65.000" width="77.000" height="55.000" fill="white" stroke="#b6c0c6" stroke-width="1"/>
+<text x="402.500" y="99.500" class="" text-anchor="middle">1</text>
+<rect x="441.000" y="65.000" width="77.000" height="55.000" fill="white" stroke="#b6c0c6" stroke-width="1"/>
+<text x="479.500" y="99.500" class="" text-anchor="middle">1</text>
+<rect x="518.000" y="65.000" width="77.000" height="55.000" fill="white" stroke="#b6c0c6" stroke-width="1"/>
+<text x="556.500" y="99.500" class="" text-anchor="middle">1</text>
+<rect x="595.000" y="65.000" width="77.000" height="55.000" fill="white" stroke="#b6c0c6" stroke-width="1"/>
+<text x="633.500" y="99.500" class="" text-anchor="middle">1</text>
+<rect x="672.000" y="65.000" width="77.000" height="55.000" fill="white" stroke="#b6c0c6" stroke-width="1"/>
+<text x="710.500" y="99.500" class="" text-anchor="middle">2</text>
+<rect x="749.000" y="65.000" width="77.000" height="55.000" fill="white" stroke="#b6c0c6" stroke-width="1"/>
+<text x="787.500" y="99.500" class="" text-anchor="middle">2</text>
+<text x="175.000" y="161.000" class="small" text-anchor="end">值</text>
+<rect x="210.000" y="125.000" width="77.000" height="55.000" fill="white" stroke="#b6c0c6" stroke-width="1"/>
+<text x="248.500" y="159.500" class="" text-anchor="middle">0</text>
+<rect x="287.000" y="125.000" width="77.000" height="55.000" fill="white" stroke="#b6c0c6" stroke-width="1"/>
+<text x="325.500" y="159.500" class="" text-anchor="middle">10</text>
+<rect x="364.000" y="125.000" width="77.000" height="55.000" fill="white" stroke="#b6c0c6" stroke-width="1"/>
+<text x="402.500" y="159.500" class="" text-anchor="middle">0</text>
+<rect x="441.000" y="125.000" width="77.000" height="55.000" fill="white" stroke="#b6c0c6" stroke-width="1"/>
+<text x="479.500" y="159.500" class="" text-anchor="middle">0</text>
+<rect x="518.000" y="125.000" width="77.000" height="55.000" fill="white" stroke="#b6c0c6" stroke-width="1"/>
+<text x="556.500" y="159.500" class="" text-anchor="middle">0</text>
+<rect x="595.000" y="125.000" width="77.000" height="55.000" fill="white" stroke="#b6c0c6" stroke-width="1"/>
+<text x="633.500" y="159.500" class="" text-anchor="middle">0</text>
+<rect x="672.000" y="125.000" width="77.000" height="55.000" fill="white" stroke="#b6c0c6" stroke-width="1"/>
+<text x="710.500" y="159.500" class="" text-anchor="middle">1</text>
+<rect x="749.000" y="125.000" width="77.000" height="55.000" fill="white" stroke="#b6c0c6" stroke-width="1"/>
+<text x="787.500" y="159.500" class="" text-anchor="middle">1</text>
+<text x="175.000" y="268.000" class="small" text-anchor="end">完整读取</text>
+<rect x="210.000" y="233.000" width="77.000" height="55.000" fill="#dce7ed" stroke="white" stroke-width="1"/>
+<text x="248.500" y="268.000" class="small" text-anchor="middle">读</text>
+<rect x="287.000" y="233.000" width="77.000" height="55.000" fill="#dce7ed" stroke="white" stroke-width="1"/>
+<text x="325.500" y="268.000" class="small" text-anchor="middle">读</text>
+<rect x="364.000" y="233.000" width="77.000" height="55.000" fill="#dce7ed" stroke="white" stroke-width="1"/>
+<text x="402.500" y="268.000" class="small" text-anchor="middle">读</text>
+<rect x="441.000" y="233.000" width="77.000" height="55.000" fill="#dce7ed" stroke="white" stroke-width="1"/>
+<text x="479.500" y="268.000" class="small" text-anchor="middle">读</text>
+<rect x="518.000" y="233.000" width="77.000" height="55.000" fill="#dce7ed" stroke="white" stroke-width="1"/>
+<text x="556.500" y="268.000" class="small" text-anchor="middle">读</text>
+<rect x="595.000" y="233.000" width="77.000" height="55.000" fill="#dce7ed" stroke="white" stroke-width="1"/>
+<text x="633.500" y="268.000" class="small" text-anchor="middle">读</text>
+<rect x="672.000" y="233.000" width="77.000" height="55.000" fill="#dce7ed" stroke="white" stroke-width="1"/>
+<text x="710.500" y="268.000" class="small" text-anchor="middle">读</text>
+<rect x="749.000" y="233.000" width="77.000" height="55.000" fill="#dce7ed" stroke="white" stroke-width="1"/>
+<text x="787.500" y="268.000" class="small" text-anchor="middle">读</text>
+<text x="920.000" y="268.000" class="" text-anchor="middle">84/17</text>
+<text x="175.000" y="350.000" class="small" text-anchor="end">最近三项</text>
+<rect x="210.000" y="315.000" width="77.000" height="55.000" fill="#ecedef" stroke="white" stroke-width="1"/>
+<text x="248.500" y="350.000" class="small" text-anchor="middle">×</text>
+<rect x="287.000" y="315.000" width="77.000" height="55.000" fill="#ecedef" stroke="white" stroke-width="1"/>
+<text x="325.500" y="350.000" class="small" text-anchor="middle">×</text>
+<rect x="364.000" y="315.000" width="77.000" height="55.000" fill="#ecedef" stroke="white" stroke-width="1"/>
+<text x="402.500" y="350.000" class="small" text-anchor="middle">×</text>
+<rect x="441.000" y="315.000" width="77.000" height="55.000" fill="#ecedef" stroke="white" stroke-width="1"/>
+<text x="479.500" y="350.000" class="small" text-anchor="middle">×</text>
+<rect x="518.000" y="315.000" width="77.000" height="55.000" fill="#ecedef" stroke="white" stroke-width="1"/>
+<text x="556.500" y="350.000" class="small" text-anchor="middle">×</text>
+<rect x="595.000" y="315.000" width="77.000" height="55.000" fill="#dce7ed" stroke="white" stroke-width="1"/>
+<text x="633.500" y="350.000" class="small" text-anchor="middle">读</text>
+<rect x="672.000" y="315.000" width="77.000" height="55.000" fill="#dce7ed" stroke="white" stroke-width="1"/>
+<text x="710.500" y="350.000" class="small" text-anchor="middle">读</text>
+<rect x="749.000" y="315.000" width="77.000" height="55.000" fill="#dce7ed" stroke="white" stroke-width="1"/>
+<text x="787.500" y="350.000" class="small" text-anchor="middle">读</text>
+<text x="920.000" y="350.000" class="" text-anchor="middle">0.8</text>
+<text x="175.000" y="432.000" class="small" text-anchor="end">最高三项</text>
+<rect x="210.000" y="397.000" width="77.000" height="55.000" fill="#ecedef" stroke="white" stroke-width="1"/>
+<text x="248.500" y="432.000" class="small" text-anchor="middle">×</text>
+<rect x="287.000" y="397.000" width="77.000" height="55.000" fill="#dce7ed" stroke="white" stroke-width="1"/>
+<text x="325.500" y="432.000" class="small" text-anchor="middle">读</text>
+<rect x="364.000" y="397.000" width="77.000" height="55.000" fill="#ecedef" stroke="white" stroke-width="1"/>
+<text x="402.500" y="432.000" class="small" text-anchor="middle">×</text>
+<rect x="441.000" y="397.000" width="77.000" height="55.000" fill="#ecedef" stroke="white" stroke-width="1"/>
+<text x="479.500" y="432.000" class="small" text-anchor="middle">×</text>
+<rect x="518.000" y="397.000" width="77.000" height="55.000" fill="#ecedef" stroke="white" stroke-width="1"/>
+<text x="556.500" y="432.000" class="small" text-anchor="middle">×</text>
+<rect x="595.000" y="397.000" width="77.000" height="55.000" fill="#ecedef" stroke="white" stroke-width="1"/>
+<text x="633.500" y="432.000" class="small" text-anchor="middle">×</text>
+<rect x="672.000" y="397.000" width="77.000" height="55.000" fill="#dce7ed" stroke="white" stroke-width="1"/>
+<text x="710.500" y="432.000" class="small" text-anchor="middle">读</text>
+<rect x="749.000" y="397.000" width="77.000" height="55.000" fill="#dce7ed" stroke="white" stroke-width="1"/>
+<text x="787.500" y="432.000" class="small" text-anchor="middle">读</text>
+<text x="920.000" y="432.000" class="" text-anchor="middle">7</text>
+<text x="920.000" y="192.000" class="small" text-anchor="middle">输出</text>
+<text x="500.000" y="487.000" class="small" text-anchor="middle">保留集合内重新归一化；最高三项也不等于完整读取</text>
+</svg>

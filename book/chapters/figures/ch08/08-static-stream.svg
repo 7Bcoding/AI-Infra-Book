@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="371" viewBox="0 0 1000 371" role="img" aria-labelledby="title desc">
+<title id="title">确定性流水中的四项输入</title><desc id="desc">按事件编号和时钟拍读取同一流水。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<text x="225.000" y="52.000" class="small" text-anchor="middle" style="fill:#25333b">0</text>
+<line x1="225.000" y1="69.000" x2="225.000" y2="300.000" stroke="#aeb9bf" stroke-width="1" stroke-dasharray="5 5"/>
+<text x="296.000" y="52.000" class="small" text-anchor="middle" style="fill:#25333b">1</text>
+<line x1="296.000" y1="69.000" x2="296.000" y2="300.000" stroke="#aeb9bf" stroke-width="1" stroke-dasharray="5 5"/>
+<text x="367.000" y="52.000" class="small" text-anchor="middle" style="fill:#25333b">2</text>
+<line x1="367.000" y1="69.000" x2="367.000" y2="300.000" stroke="#aeb9bf" stroke-width="1" stroke-dasharray="5 5"/>
+<text x="438.000" y="52.000" class="small" text-anchor="middle" style="fill:#25333b">3</text>
+<line x1="438.000" y1="69.000" x2="438.000" y2="300.000" stroke="#aeb9bf" stroke-width="1" stroke-dasharray="5 5"/>
+<text x="509.000" y="52.000" class="small" text-anchor="middle" style="fill:#25333b">4</text>
+<line x1="509.000" y1="69.000" x2="509.000" y2="300.000" stroke="#aeb9bf" stroke-width="1" stroke-dasharray="5 5"/>
+<text x="580.000" y="52.000" class="small" text-anchor="middle" style="fill:#25333b">5</text>
+<line x1="580.000" y1="69.000" x2="580.000" y2="300.000" stroke="#aeb9bf" stroke-width="1" stroke-dasharray="5 5"/>
+<text x="651.000" y="52.000" class="small" text-anchor="middle" style="fill:#25333b">6</text>
+<line x1="651.000" y1="69.000" x2="651.000" y2="300.000" stroke="#aeb9bf" stroke-width="1" stroke-dasharray="5 5"/>
+<text x="722.000" y="52.000" class="small" text-anchor="middle" style="fill:#25333b">7</text>
+<line x1="722.000" y1="69.000" x2="722.000" y2="300.000" stroke="#aeb9bf" stroke-width="1" stroke-dasharray="5 5"/>
+<text x="793.000" y="52.000" class="small" text-anchor="middle" style="fill:#25333b">8</text>
+<line x1="793.000" y1="69.000" x2="793.000" y2="300.000" stroke="#aeb9bf" stroke-width="1" stroke-dasharray="5 5"/>
+<text x="864.000" y="52.000" class="small" text-anchor="middle" style="fill:#25333b">9</text>
+<line x1="864.000" y1="69.000" x2="864.000" y2="300.000" stroke="#aeb9bf" stroke-width="1" stroke-dasharray="5 5"/>
+<text x="82.000" y="52.000" class="" text-anchor="start">拍号</text>
+<text x="60.000" y="107.000" class="" text-anchor="start">发起取数</text>
+<rect x="205.000" y="82.000" width="40.000" height="35.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="225.000" y="107.000" class="small" text-anchor="middle" style="fill:#25333b">A</text>
+<rect x="276.000" y="82.000" width="40.000" height="35.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="296.000" y="107.000" class="small" text-anchor="middle" style="fill:#25333b">B</text>
+<rect x="347.000" y="82.000" width="40.000" height="35.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="367.000" y="107.000" class="small" text-anchor="middle" style="fill:#25333b">C</text>
+<rect x="418.000" y="82.000" width="40.000" height="35.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="438.000" y="107.000" class="small" text-anchor="middle" style="fill:#25333b">D</text>
+<text x="60.000" y="167.000" class="" text-anchor="start">发起乘法</text>
+<rect x="347.000" y="142.000" width="40.000" height="35.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="367.000" y="167.000" class="small" text-anchor="middle" style="fill:#25333b">A</text>
+<rect x="418.000" y="142.000" width="40.000" height="35.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="438.000" y="167.000" class="small" text-anchor="middle" style="fill:#25333b">B</text>
+<rect x="489.000" y="142.000" width="40.000" height="35.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="509.000" y="167.000" class="small" text-anchor="middle" style="fill:#25333b">C</text>
+<rect x="560.000" y="142.000" width="40.000" height="35.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="580.000" y="167.000" class="small" text-anchor="middle" style="fill:#25333b">D</text>
+<text x="60.000" y="227.000" class="" text-anchor="start">发起加法</text>
+<rect x="560.000" y="202.000" width="40.000" height="35.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="580.000" y="227.000" class="small" text-anchor="middle" style="fill:#25333b">A</text>
+<rect x="631.000" y="202.000" width="40.000" height="35.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="651.000" y="227.000" class="small" text-anchor="middle" style="fill:#25333b">B</text>
+<rect x="702.000" y="202.000" width="40.000" height="35.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="722.000" y="227.000" class="small" text-anchor="middle" style="fill:#25333b">C</text>
+<rect x="773.000" y="202.000" width="40.000" height="35.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="793.000" y="227.000" class="small" text-anchor="middle" style="fill:#25333b">D</text>
+<text x="60.000" y="287.000" class="" text-anchor="start">完成</text>
+<rect x="631.000" y="262.000" width="40.000" height="35.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="651.000" y="287.000" class="small" text-anchor="middle" style="fill:#25333b">A</text>
+<rect x="702.000" y="262.000" width="40.000" height="35.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="722.000" y="287.000" class="small" text-anchor="middle" style="fill:#25333b">B</text>
+<rect x="773.000" y="262.000" width="40.000" height="35.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="793.000" y="287.000" class="small" text-anchor="middle" style="fill:#25333b">C</text>
+<rect x="844.000" y="262.000" width="40.000" height="35.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="864.000" y="287.000" class="small" text-anchor="middle" style="fill:#25333b">D</text>
+<text x="510.000" y="345.000" class="small" text-anchor="middle" style="fill:#25333b">A 在第 6 拍完成；D 只晚发三拍，在第 9 拍完成。</text>
+</svg>

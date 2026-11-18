@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="307" viewBox="0 0 1000 307" role="img" aria-labelledby="title desc">
+<title id="title">选簇与短码的两种误差</title><desc id="desc">在一维放大坐标上观察查询、最近文档、簇边界与重构位置。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<line x1="184.000" y1="123.000" x2="900.750" y2="123.000" stroke="#aeb9bf" stroke-width="1.5"/>
+<line x1="184.000" y1="254.000" x2="900.750" y2="254.000" stroke="#aeb9bf" stroke-width="1.5"/>
+<text x="31.000" y="129.000" class="" text-anchor="start">原始位置</text>
+<text x="31.000" y="260.000" class="" text-anchor="start">短码还原</text>
+<line x1="550.000" y1="57.000" x2="550.000" y2="159.000" stroke="#a45b3e" stroke-width="1.4" stroke-dasharray="5 5"/>
+<text x="559.000" y="53.000" class="small" text-anchor="start" style="fill:#a45b3e">选簇分界 5</text>
+<circle cx="245.000" cy="123.000" r="6" fill="#25333b"/>
+<text x="245.000" y="104.000" class="small" text-anchor="middle" style="fill:#25333b">甲 4</text>
+<circle cx="580.500" cy="123.000" r="6" fill="#25333b"/>
+<text x="580.500" y="104.000" class="small" text-anchor="middle" style="fill:#25333b">乙 5.1</text>
+<circle cx="519.500" cy="123.000" r="5" fill="#38677f"/>
+<text x="519.500" y="154.000" class="small" text-anchor="middle" style="fill:#38677f">查询 4.9</text>
+<circle cx="245.000" cy="254.000" r="6" fill="#25333b"/>
+<text x="245.000" y="235.000" class="small" text-anchor="middle" style="fill:#25333b">甲 4</text>
+<circle cx="855.000" cy="254.000" r="6" fill="#25333b"/>
+<text x="868.000" y="247.000" class="small" text-anchor="start">乙 6</text>
+<circle cx="519.500" cy="254.000" r="5" fill="#38677f"/>
+<text x="519.500" y="285.000" class="small" text-anchor="middle" style="fill:#38677f">查询 4.9</text>
+<line x1="588.500" y1="147.000" x2="847.000" y2="231.000" stroke="#66727b" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text x="798.000" y="186.000" class="small" text-anchor="middle">编码改变位置</text>
+</svg>

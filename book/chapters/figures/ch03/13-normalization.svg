@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="460" viewBox="0 0 1000 460" role="img" aria-labelledby="title desc">
+<title id="title">中心与尺度怎样改变一条向量</title><desc id="desc">向量1、3、5减均值再除标准差，形成归一化表示。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<line x1="570.000" y1="65.000" x2="570.000" y2="408.000" stroke="#ecedef" stroke-width="1.3" stroke-dasharray="5 5"/>
+<text x="35.000" y="101.000" class="small" text-anchor="start">原始 a</text>
+<line x1="220.000" y1="95.000" x2="938.000" y2="95.000" stroke="#66727b" stroke-width="1.3" marker-end="url(#arrow)"/>
+<line x1="220.000" y1="90.000" x2="220.000" y2="100.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="220.000" y="125.000" class="small" text-anchor="middle">0</text>
+<line x1="336.667" y1="90.000" x2="336.667" y2="100.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="336.667" y="125.000" class="small" text-anchor="middle">1</text>
+<line x1="570.000" y1="90.000" x2="570.000" y2="100.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="570.000" y="125.000" class="small" text-anchor="middle">3</text>
+<line x1="803.333" y1="90.000" x2="803.333" y2="100.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="803.333" y="125.000" class="small" text-anchor="middle">5</text>
+<line x1="920.000" y1="90.000" x2="920.000" y2="100.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="920.000" y="125.000" class="small" text-anchor="middle">6</text>
+<circle cx="336.667" cy="95.000" r="7" fill="#38677f"/>
+<text x="336.667" y="74.000" class="" text-anchor="middle">1</text>
+<circle cx="570.000" cy="95.000" r="7" fill="#66727b"/>
+<text x="570.000" y="74.000" class="" text-anchor="middle">3</text>
+<circle cx="803.333" cy="95.000" r="7" fill="#a45b3e"/>
+<text x="803.333" y="74.000" class="" text-anchor="middle">5</text>
+<text x="35.000" y="241.000" class="small" text-anchor="start">减去 μ = 3</text>
+<line x1="220.000" y1="235.000" x2="938.000" y2="235.000" stroke="#66727b" stroke-width="1.3" marker-end="url(#arrow)"/>
+<line x1="220.000" y1="230.000" x2="220.000" y2="240.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="220.000" y="265.000" class="small" text-anchor="middle">−3</text>
+<line x1="336.667" y1="230.000" x2="336.667" y2="240.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="336.667" y="265.000" class="small" text-anchor="middle">−2</text>
+<line x1="570.000" y1="230.000" x2="570.000" y2="240.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="570.000" y="265.000" class="small" text-anchor="middle">0</text>
+<line x1="803.333" y1="230.000" x2="803.333" y2="240.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="803.333" y="265.000" class="small" text-anchor="middle">2</text>
+<line x1="920.000" y1="230.000" x2="920.000" y2="240.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="920.000" y="265.000" class="small" text-anchor="middle">3</text>
+<circle cx="336.667" cy="235.000" r="7" fill="#38677f"/>
+<text x="336.667" y="214.000" class="" text-anchor="middle">−2</text>
+<circle cx="570.000" cy="235.000" r="7" fill="#66727b"/>
+<text x="570.000" y="214.000" class="" text-anchor="middle">0</text>
+<circle cx="803.333" cy="235.000" r="7" fill="#a45b3e"/>
+<text x="803.333" y="214.000" class="" text-anchor="middle">2</text>
+<text x="35.000" y="381.000" class="small" text-anchor="start">再除以 √(8/3)</text>
+<line x1="220.000" y1="375.000" x2="938.000" y2="375.000" stroke="#66727b" stroke-width="1.3" marker-end="url(#arrow)"/>
+<line x1="220.000" y1="370.000" x2="220.000" y2="380.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="220.000" y="405.000" class="small" text-anchor="middle">−2</text>
+<line x1="395.000" y1="370.000" x2="395.000" y2="380.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="395.000" y="405.000" class="small" text-anchor="middle">−1</text>
+<line x1="570.000" y1="370.000" x2="570.000" y2="380.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="570.000" y="405.000" class="small" text-anchor="middle">0</text>
+<line x1="745.000" y1="370.000" x2="745.000" y2="380.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="745.000" y="405.000" class="small" text-anchor="middle">1</text>
+<line x1="920.000" y1="370.000" x2="920.000" y2="380.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="920.000" y="405.000" class="small" text-anchor="middle">2</text>
+<circle cx="355.670" cy="375.000" r="7" fill="#38677f"/>
+<text x="355.670" y="354.000" class="" text-anchor="middle">−1.225</text>
+<circle cx="570.000" cy="375.000" r="7" fill="#66727b"/>
+<text x="570.000" y="354.000" class="" text-anchor="middle">0</text>
+<circle cx="784.330" cy="375.000" r="7" fill="#a45b3e"/>
+<text x="784.330" y="354.000" class="" text-anchor="middle">1.225</text>
+<text x="570.000" y="445.000" class="small" text-anchor="middle">同一颜色对应同一个分量；每一行使用标出的数值刻度</text>
+</svg>
