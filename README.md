@@ -2,7 +2,7 @@
 
 从数学模型的表达与学习，走进计算设备、算子与编译，再到分布式训练、在线服务和完整 AI 系统。本书面向具备数学基础的读者，在需要时建立计算机与深度学习基础，沿具体问题、推导、算例和图解逐步深入。
 
-[在线阅读](https://7Bcoding.github.io/AI-Infra-Book/) · [读全书 PDF](dist/AI-Infra-由浅入深-CQY.pdf) · [下载离线 HTML](dist/AI-Infra-全书.html) · [前言](book/前言.md) · [Markdown 分章与合订本](dist/AI-Infra-由浅入深.md) · [按问题查阅](book/appendices/六篇查阅与复算.md) · [下载合订稿、插图和实验](dist/AI-Infra-六篇实验.zip)
+[在线阅读](https://7Bcoding.github.io/AI-Infra-Book/) · [读全书 PDF](dist/AI-Infra-由浅入深-残差宇.pdf) · [下载离线 HTML](dist/AI-Infra-全书.html) · [前言](book/前言.md) · [Markdown 分章与合订本](dist/AI-Infra-由浅入深.md) · [按问题查阅](book/appendices/六篇查阅与复算.md) · [下载合订稿、插图和实验](dist/AI-Infra-六篇实验.zip)
 
 在 GitHub 上点下方章名即可开始，每章末尾可翻到相邻章节。PDF 带印刷页码、分篇书签和可点击目录；下载 HTML 后，可断网放大插图、查看公式并取得实验程序。
 
@@ -84,4 +84,4 @@ python experiments/part06/service_budget.py --workers 8 16 24
 
 ## 版权与反馈
 
-© 2026 CQY。保留版权，免费阅读和下载；使用范围见 [LICENSE](LICENSE)，第三方材料见 [说明](THIRD_PARTY_NOTICES.md)。发现问题可在 [Issues](https://github.com/7Bcoding/AI-Infra-Book/issues) 提交章节、页码与建议。
+© 2026 残差宇。保留版权，免费阅读和下载；使用范围见 [LICENSE](LICENSE)，第三方材料见 [说明](THIRD_PARTY_NOTICES.md)。发现问题可在 [Issues](https://github.com/7Bcoding/AI-Infra-Book/issues) 提交章节、页码与建议。
