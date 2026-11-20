@@ -1,5 +1,5 @@
 {
-  "vocabulary": ["我", "爱", "茶", "<eos>"],
+  "vocabulary": ["我", "爱", "你", "<eos>"],
   "tokens": [0, 1, 2],
   "targets": [1, 2, 3],
   "prompt_tokens": [0, 1],

@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="385" viewBox="0 0 1000 385" role="img" aria-labelledby="title desc">
-<title id="title">每个位置的四项词表概率</title><desc id="desc">列是词表词元，与注意力中输入位置作为列不同。高亮目标为爱、茶和结束。</desc>
+<title id="title">每个位置的四项词表概率</title><desc id="desc">列是词表词元，与注意力中输入位置作为列不同。高亮目标为爱、你和结束。</desc>
 <style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
 <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
 <rect width="1000" height="100%" fill="white"/>
 <text x="315.000" y="68.000" class="" text-anchor="middle">我</text>
 <text x="485.000" y="68.000" class="" text-anchor="middle">爱</text>
-<text x="655.000" y="68.000" class="" text-anchor="middle">茶</text>
+<text x="655.000" y="68.000" class="" text-anchor="middle">你</text>
 <text x="825.000" y="68.000" class="" text-anchor="middle">&lt;eos&gt;</text>
 <text x="215.000" y="141.000" class="small" text-anchor="end">位置 0 → 爱</text>
 <rect x="230.000" y="100.000" width="170.000" height="70.000" fill="white" stroke="#b6c0c6" stroke-width="1"/>
@@ -16,7 +16,7 @@
 <text x="655.000" y="142.000" class="" text-anchor="middle">0.104994</text>
 <rect x="740.000" y="100.000" width="170.000" height="70.000" fill="white" stroke="#b6c0c6" stroke-width="1"/>
 <text x="825.000" y="142.000" class="" text-anchor="middle">0.104994</text>
-<text x="215.000" y="211.000" class="small" text-anchor="end">位置 1 → 茶</text>
+<text x="215.000" y="211.000" class="small" text-anchor="end">位置 1 → 你</text>
 <rect x="230.000" y="170.000" width="170.000" height="70.000" fill="white" stroke="#b6c0c6" stroke-width="1"/>
 <text x="315.000" y="212.000" class="" text-anchor="middle">0.046832</text>
 <rect x="400.000" y="170.000" width="170.000" height="70.000" fill="white" stroke="#b6c0c6" stroke-width="1"/>
