@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="460" viewBox="0 0 1000 460" role="img" aria-labelledby="title desc">
+<title id="title">四代数据中心 GPU 的矩阵路径</title><desc id="desc">四代数据中心 GPU 的矩阵路径</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<text x="18.000" y="65.000" class="" text-anchor="start">V100</text>
+<rect x="130.000" y="33.000" width="169.000" height="49.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="214.500" y="64.500" class="" text-anchor="middle" style="fill:#25333b">全局面板</text>
+<line x1="303.000" y1="58.000" x2="333.000" y2="58.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="341.000" y="33.000" width="169.000" height="49.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="425.500" y="64.500" class="" text-anchor="middle" style="fill:#25333b">线程寄存器</text>
+<line x1="514.000" y1="58.000" x2="544.000" y2="58.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="552.000" y="33.000" width="169.000" height="49.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="636.500" y="64.500" class="" text-anchor="middle" style="fill:#25333b">共享槽</text>
+<line x1="725.000" y1="58.000" x2="755.000" y2="58.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="763.000" y="33.000" width="169.000" height="49.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="847.500" y="64.500" class="" text-anchor="middle" style="fill:#25333b">矩阵乘加</text>
+<text x="530.000" y="113.000" class="small" text-anchor="middle" style="fill:#25333b">普通加载和共享存储写入占用线程指令</text>
+<text x="18.000" y="170.000" class="" text-anchor="start">A100</text>
+<rect x="130.000" y="138.000" width="169.000" height="49.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="214.500" y="169.500" class="" text-anchor="middle" style="fill:#25333b">全局面板</text>
+<line x1="303.000" y1="163.000" x2="333.000" y2="163.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="341.000" y="138.000" width="169.000" height="49.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="425.500" y="169.500" class="" text-anchor="middle" style="fill:#25333b">异步拷贝</text>
+<line x1="514.000" y1="163.000" x2="544.000" y2="163.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="552.000" y="138.000" width="169.000" height="49.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="636.500" y="169.500" class="" text-anchor="middle" style="fill:#25333b">共享槽</text>
+<line x1="725.000" y1="163.000" x2="755.000" y2="163.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="763.000" y="138.000" width="169.000" height="49.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="847.500" y="169.500" class="" text-anchor="middle" style="fill:#25333b">矩阵乘加</text>
+<text x="530.000" y="218.000" class="small" text-anchor="middle" style="fill:#25333b">异步拷贝可省去线程寄存器中转</text>
+<text x="18.000" y="275.000" class="" text-anchor="start">H100</text>
+<rect x="130.000" y="243.000" width="169.000" height="49.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="214.500" y="274.500" class="" text-anchor="middle" style="fill:#25333b">全局面板</text>
+<line x1="303.000" y1="268.000" x2="333.000" y2="268.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="341.000" y="243.000" width="169.000" height="49.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="425.500" y="274.500" class="" text-anchor="middle" style="fill:#25333b">TMA 搬运</text>
+<line x1="514.000" y1="268.000" x2="544.000" y2="268.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="552.000" y="243.000" width="169.000" height="49.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="636.500" y="274.500" class="" text-anchor="middle" style="fill:#25333b">共享槽</text>
+<line x1="725.000" y1="268.000" x2="755.000" y2="268.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="763.000" y="243.000" width="169.000" height="49.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="847.500" y="274.500" class="" text-anchor="middle" style="fill:#25333b">异步矩阵乘</text>
+<text x="530.000" y="323.000" class="small" text-anchor="middle" style="fill:#25333b">按描述符搬二维面板，消费者等待就绪</text>
+<text x="18.000" y="380.000" class="" text-anchor="start">B200</text>
+<rect x="130.000" y="348.000" width="169.000" height="49.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="214.500" y="379.500" class="" text-anchor="middle" style="fill:#25333b">共享面板</text>
+<line x1="303.000" y1="373.000" x2="333.000" y2="373.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="341.000" y="348.000" width="169.000" height="49.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="425.500" y="379.500" class="" text-anchor="middle" style="fill:#25333b">矩阵乘加</text>
+<line x1="514.000" y1="373.000" x2="544.000" y2="373.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="552.000" y="348.000" width="169.000" height="49.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="636.500" y="379.500" class="" text-anchor="middle" style="fill:#25333b">TMEM 累加</text>
+<line x1="725.000" y1="373.000" x2="755.000" y2="373.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="763.000" y="348.000" width="169.000" height="49.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="847.500" y="379.500" class="" text-anchor="middle" style="fill:#25333b">输出处理</text>
+<text x="530.000" y="428.000" class="small" text-anchor="middle" style="fill:#25333b">此行放大计算端：部分和可跨内积轮次留在 TMEM</text>
+</svg>

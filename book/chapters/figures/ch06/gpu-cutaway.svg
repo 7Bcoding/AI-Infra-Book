@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="350" viewBox="0 0 1000 350" role="img" aria-labelledby="title desc">
+<title id="title">从线程块到 SM</title><desc id="desc">从线程块到 SM</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<text x="130.000" y="42.000" class="" text-anchor="middle" style="fill:#25333b">工作网格</text>
+<rect x="32.000" y="89.000" width="94.000" height="55.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="79.000" y="123.500" class="" text-anchor="middle" style="fill:#25333b">块 0</text>
+<rect x="131.000" y="89.000" width="94.000" height="55.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="178.000" y="123.500" class="" text-anchor="middle" style="fill:#25333b">块 1</text>
+<rect x="32.000" y="149.000" width="94.000" height="55.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="79.000" y="183.500" class="" text-anchor="middle" style="fill:#25333b">块 2</text>
+<rect x="131.000" y="149.000" width="94.000" height="55.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="178.000" y="183.500" class="" text-anchor="middle" style="fill:#25333b">块 3</text>
+<line x1="243.000" y1="142.000" x2="308.000" y2="142.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="319.000" y="57.000" width="650.000" height="262.000" fill="white" stroke="#66727b" stroke-width="1"/>
+<text x="647.000" y="86.000" class="" text-anchor="middle" style="fill:#25333b">一颗 GPU 的局部</text>
+<rect x="336.000" y="103.000" width="292.000" height="196.000" fill="white" stroke="#66727b" stroke-width="1"/>
+<text x="482.000" y="133.000" class="" text-anchor="middle" style="fill:#25333b">SM 0 · 块 0、块 3</text>
+<text x="482.000" y="171.000" class="small" text-anchor="middle" style="fill:#25333b">就绪 warp → 调度器</text>
+<rect x="349.000" y="192.000" width="120.000" height="52.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="409.000" y="225.000" class="" text-anchor="middle" style="fill:#25333b">寄存器</text>
+<line x1="473.000" y1="218.000" x2="499.000" y2="218.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="504.000" y="192.000" width="110.000" height="52.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="559.000" y="225.000" class="" text-anchor="middle" style="fill:#25333b">运算单元</text>
+<text x="482.000" y="275.000" class="small" text-anchor="middle" style="fill:#25333b">块内共享存储</text>
+<rect x="658.000" y="103.000" width="292.000" height="196.000" fill="white" stroke="#66727b" stroke-width="1"/>
+<text x="804.000" y="133.000" class="" text-anchor="middle" style="fill:#25333b">SM 1 · 块 2、块 1</text>
+<text x="804.000" y="171.000" class="small" text-anchor="middle" style="fill:#25333b">就绪 warp → 调度器</text>
+<rect x="671.000" y="192.000" width="120.000" height="52.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="731.000" y="225.000" class="" text-anchor="middle" style="fill:#25333b">寄存器</text>
+<line x1="795.000" y1="218.000" x2="821.000" y2="218.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="826.000" y="192.000" width="110.000" height="52.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="881.000" y="225.000" class="" text-anchor="middle" style="fill:#25333b">运算单元</text>
+<text x="804.000" y="275.000" class="small" text-anchor="middle" style="fill:#25333b">块内共享存储</text>
+</svg>

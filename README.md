@@ -22,11 +22,11 @@
 
 ### 第二篇　计算架构与存储系统
 
-以矩阵乘法为例，理解处理器的计算能力、存储层次与性能限制。 [连续阅读第二篇](dist/AI-Infra-第二篇.html)
+跟随一个词元进入 GPU，看一个线程块怎样分工、权重如何抵达矩阵单元，再把同一层模型交给昇腾和 TPU，比较三条执行路径。 [连续阅读第二篇](dist/AI-Infra-第二篇.html)
 
-- [第 6 章　从 CPU 到 GPU：怎样让许多计算同时进行](book/chapters/ch06.md) · [离线](dist/AI-Infra-第6章.html)
-- [第 7 章　GPU 存储系统：数据如何到达计算单元](book/chapters/ch07.md) · [离线](dist/AI-Infra-第7章.html)
-- [第 8 章　从 GPU 到 TPU 与 NPU：架构的取舍和性能边界](book/chapters/ch08.md) · [离线](dist/AI-Infra-第8章.html)
+- [第 6 章　GPU 的由来与执行结构](book/chapters/ch06.md) · [离线](dist/AI-Infra-第6章.html)
+- [第 7 章　GPU 存储层次与矩阵乘法的数据流](book/chapters/ch07.md) · [离线](dist/AI-Infra-第7章.html)
+- [第 8 章　GPU、昇腾与 TPU 的架构取舍](book/chapters/ch08.md) · [离线](dist/AI-Infra-第8章.html)
 
 ### 第三篇　算子优化与模型编译
 
