@@ -1,4 +1,4 @@
-"""Worked examples from chapters 22–25. Run with Python 3; no network or GPU."""
+"""Worked examples from post-training, applications and capacity planning. Run with Python 3; no network or GPU."""
 from contextlib import closing
 from fractions import Fraction as F
 from hashlib import sha256

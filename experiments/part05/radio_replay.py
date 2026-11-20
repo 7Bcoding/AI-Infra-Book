@@ -1,4 +1,4 @@
-"""Replay the recorded Verizon LTE uplink for the three placements in chapter 21.
+"""Replay the recorded Verizon LTE uplink for the three placements in chapter 26.
 
 python experiments/part05/radio_replay.py
 python experiments/part05/radio_replay.py --source Verizon-LTE-short.up

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="338" viewBox="0 0 1000 338" role="img" aria-labelledby="title desc">
+<title id="title">用户承诺与违约数</title><desc id="desc">用户承诺与违约数</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<text x="27.000" y="123.000" class="" text-anchor="start">X</text>
+<rect x="100.000" y="98.000" width="150.000" height="38.000" fill="#ecedef" stroke="#aeb9bf" stroke-width="1"/>
+<text x="175.000" y="124.000" class="" text-anchor="middle" style="fill:#25333b">30</text>
+<rect x="250.000" y="98.000" width="500.000" height="38.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="500.000" y="124.000" class="" text-anchor="middle" style="fill:#25333b">100</text>
+<rect x="750.000" y="98.000" width="110.000" height="38.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="805.000" y="124.000" class="" text-anchor="middle" style="fill:#25333b">22</text>
+<text x="870.000" y="123.000" class="small" text-anchor="start">152</text>
+<text x="27.000" y="203.000" class="" text-anchor="start">Y</text>
+<rect x="100.000" y="178.000" width="50.000" height="38.000" fill="#ecedef" stroke="#aeb9bf" stroke-width="1"/>
+<text x="125.000" y="204.000" class="" text-anchor="middle" style="fill:#25333b">10</text>
+<rect x="150.000" y="178.000" width="210.000" height="38.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="255.000" y="204.000" class="" text-anchor="middle" style="fill:#25333b">42</text>
+<rect x="360.000" y="178.000" width="90.000" height="38.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="405.000" y="204.000" class="" text-anchor="middle" style="fill:#25333b">18</text>
+<text x="460.000" y="203.000" class="small" text-anchor="start">70</text>
+<line x1="500.000" y1="56.000" x2="500.000" y2="235.000" stroke="#a45b3e" stroke-width="1" stroke-dasharray="5 5"/>
+<text x="500.000" y="51.000" class="small" text-anchor="middle" style="fill:#25333b">80 条</text>
+<line x1="600.000" y1="87.000" x2="600.000" y2="235.000" stroke="#a45b3e" stroke-width="1" stroke-dasharray="5 5"/>
+<text x="600.000" y="82.000" class="small" text-anchor="middle" style="fill:#25333b">100 条</text>
+<rect x="118.000" y="290.000" width="26.000" height="19.000" fill="#ecedef" stroke="#aeb9bf" stroke-width="1"/>
+<text x="158.000" y="308.000" class="small" text-anchor="start">失败或错误</text>
+<rect x="395.000" y="290.000" width="26.000" height="19.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="435.000" y="308.000" class="small" text-anchor="start">首词超时</text>
+<rect x="672.000" y="290.000" width="26.000" height="19.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="712.000" y="308.000" class="small" text-anchor="start">后续超时</text>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="360" viewBox="0 0 1000 360" role="img" aria-labelledby="title desc">
+<title id="title">组内差异与题目难度</title><desc id="desc">组内差异与题目难度</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<text x="30.000" y="32.000" class="" text-anchor="start">四次独立作答中，有对也有错的概率</text>
+<line x1="105.000" y1="272.000" x2="875.000" y2="272.000" stroke="#aeb9bf" stroke-width="1"/>
+<text x="74.000" y="278.000" class="small" text-anchor="middle" style="fill:#25333b">0</text>
+<line x1="105.000" y1="164.500" x2="875.000" y2="164.500" stroke="#aeb9bf" stroke-width="1" stroke-dasharray="5 5"/>
+<text x="74.000" y="170.500" class="small" text-anchor="middle" style="fill:#25333b">0.5</text>
+<line x1="105.000" y1="57.000" x2="875.000" y2="57.000" stroke="#aeb9bf" stroke-width="1" stroke-dasharray="5 5"/>
+<text x="74.000" y="63.000" class="small" text-anchor="middle" style="fill:#25333b">1</text>
+<text x="105.000" y="300.000" class="small" text-anchor="middle" style="fill:#25333b">0</text>
+<text x="182.000" y="300.000" class="small" text-anchor="middle" style="fill:#25333b">0.1</text>
+<text x="490.000" y="300.000" class="small" text-anchor="middle" style="fill:#25333b">0.5</text>
+<text x="798.000" y="300.000" class="small" text-anchor="middle" style="fill:#25333b">0.9</text>
+<text x="875.000" y="300.000" class="small" text-anchor="middle" style="fill:#25333b">1</text>
+<polyline points="105.000,272.000 112.700,263.528 120.400,255.309 128.100,247.338 135.800,239.610 143.500,232.120 151.200,224.864 158.900,217.836 166.600,211.033 174.300,204.450 182.000,198.083 189.700,191.927 197.400,185.979 205.100,180.234 212.800,174.689 220.500,169.340 228.200,164.183 235.900,159.215 243.600,154.432 251.300,149.831 259.000,145.408 266.700,141.161 274.400,137.086 282.100,133.181 289.800,129.442 297.500,125.867 305.200,122.454 312.900,119.199 320.600,116.100 328.300,113.156 336.000,110.363 343.700,107.720 351.400,105.224 359.100,102.875 366.800,100.669 374.500,98.605 382.200,96.682 389.900,94.898 397.600,93.252 405.300,91.742 413.000,90.368 420.700,89.128 428.400,88.021 436.100,87.046 443.800,86.203 451.500,85.490 459.200,84.908 466.900,84.456 474.600,84.133 482.300,83.940 490.000,83.875 497.700,83.940 505.400,84.133 513.100,84.456 520.800,84.908 528.500,85.490 536.200,86.203 543.900,87.046 551.600,88.021 559.300,89.128 567.000,90.368 574.700,91.742 582.400,93.252 590.100,94.898 597.800,96.682 605.500,98.605 613.200,100.669 620.900,102.875 628.600,105.224 636.300,107.720 644.000,110.363 651.700,113.156 659.400,116.100 667.100,119.199 674.800,122.454 682.500,125.867 690.200,129.442 697.900,133.181 705.600,137.086 713.300,141.161 721.000,145.408 728.700,149.831 736.400,154.432 744.100,159.215 751.800,164.183 759.500,169.340 767.200,174.689 774.900,180.234 782.600,185.979 790.300,191.927 798.000,198.083 805.700,204.450 813.400,211.033 821.100,217.836 828.800,224.864 836.500,232.120 844.200,239.610 851.900,247.338 859.600,255.309 867.300,263.528 875.000,272.000" fill="none" stroke="#38677f" stroke-width="3"/>
+<line x1="182.000" y1="198.083" x2="182.000" y2="272.000" stroke="#aeb9bf" stroke-width="1" stroke-dasharray="5 5"/>
+<circle cx="182.000" cy="198.083" r="5" fill="#a45b3e"/>
+<text x="137.000" y="191.000" class="small" text-anchor="middle" style="fill:#25333b">0.3438</text>
+<line x1="490.000" y1="83.875" x2="490.000" y2="272.000" stroke="#aeb9bf" stroke-width="1" stroke-dasharray="5 5"/>
+<circle cx="490.000" cy="83.875" r="5" fill="#a45b3e"/>
+<text x="490.000" y="47.000" class="small" text-anchor="middle" style="fill:#25333b">0.875</text>
+<line x1="798.000" y1="198.083" x2="798.000" y2="272.000" stroke="#aeb9bf" stroke-width="1" stroke-dasharray="5 5"/>
+<circle cx="798.000" cy="198.083" r="5" fill="#a45b3e"/>
+<text x="844.000" y="191.000" class="small" text-anchor="middle" style="fill:#25333b">0.3438</text>
+<text x="495.000" y="340.000" class="small" text-anchor="middle" style="fill:#25333b">横轴为这一道题单次通过的概率</text>
+</svg>

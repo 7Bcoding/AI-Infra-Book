@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="389" viewBox="0 0 1000 389" role="img" aria-labelledby="title desc">
+<title id="title">首词到第二词的依赖时间</title><desc id="desc">迁移、排队和计算依次完成</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<text x="47.000" y="113.000" class="small" text-anchor="start">交接</text>
+<line x1="158.000" y1="102.000" x2="911.774" y2="102.000" stroke="#aeb9bf" stroke-width="0.7"/>
+<rect x="158.000" y="86.000" width="113.774" height="34.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="47.000" y="185.000" class="small" text-anchor="start">D 排队</text>
+<line x1="158.000" y1="174.000" x2="911.774" y2="174.000" stroke="#aeb9bf" stroke-width="0.7"/>
+<rect x="271.774" y="158.000" width="384.000" height="34.000" fill="#ecedef" stroke="#aeb9bf" stroke-width="1"/>
+<text x="47.000" y="257.000" class="small" text-anchor="start">D 解码</text>
+<line x1="158.000" y1="246.000" x2="911.774" y2="246.000" stroke="#aeb9bf" stroke-width="0.7"/>
+<rect x="655.774" y="230.000" width="256.000" height="34.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<line x1="158.000" y1="60.000" x2="158.000" y2="281.000" stroke="#66727b" stroke-width="1" stroke-dasharray="5 5"/>
+<text x="158.000" y="315.000" class="small" text-anchor="middle" style="fill:#25333b">0</text>
+<line x1="271.774" y1="60.000" x2="271.774" y2="281.000" stroke="#66727b" stroke-width="1" stroke-dasharray="5 5"/>
+<text x="271.774" y="315.000" class="small" text-anchor="middle" style="fill:#25333b">3.56</text>
+<line x1="655.774" y1="60.000" x2="655.774" y2="281.000" stroke="#66727b" stroke-width="1" stroke-dasharray="5 5"/>
+<text x="655.774" y="315.000" class="small" text-anchor="middle" style="fill:#25333b">15.56</text>
+<line x1="911.774" y1="60.000" x2="911.774" y2="281.000" stroke="#66727b" stroke-width="1" stroke-dasharray="5 5"/>
+<text x="911.774" y="315.000" class="small" text-anchor="middle" style="fill:#25333b">23.56</text>
+<text x="158.000" y="47.000" class="" text-anchor="middle" style="fill:#25333b">首词</text>
+<text x="911.774" y="47.000" class="" text-anchor="middle" style="fill:#25333b">第二词</text>
+<text x="536.000" y="364.000" class="small" text-anchor="middle" style="fill:#25333b">首词之后的时间（ms）。交接包含固定启动与 128 MiB 有效载荷。</text>
+</svg>

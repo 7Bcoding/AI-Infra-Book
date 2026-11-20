@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="405" viewBox="0 0 1000 405" role="img" aria-labelledby="title desc">
+<title id="title">图 21-4</title><desc id="desc">八个词元形成五一一一的桶，高度为二的容量线切掉最热专家的三项。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<rect x="179.000" y="255.000" width="96.000" height="38.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="227.000" y="281.000" class="" text-anchor="middle" style="fill:#25333b">1 行</text>
+<rect x="179.000" y="217.000" width="96.000" height="38.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="227.000" y="243.000" class="" text-anchor="middle" style="fill:#25333b">1 行</text>
+<rect x="179.000" y="179.000" width="96.000" height="38.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="227.000" y="205.000" class="" text-anchor="middle" style="fill:#25333b">1 行</text>
+<rect x="179.000" y="141.000" width="96.000" height="38.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="227.000" y="167.000" class="" text-anchor="middle" style="fill:#25333b">1 行</text>
+<rect x="179.000" y="103.000" width="96.000" height="38.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="227.000" y="129.000" class="" text-anchor="middle" style="fill:#25333b">1 行</text>
+<text x="227.000" y="330.000" class="small" text-anchor="middle" style="fill:#25333b">专家 0</text>
+<rect x="355.000" y="255.000" width="96.000" height="38.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="403.000" y="281.000" class="" text-anchor="middle" style="fill:#25333b">1 行</text>
+<text x="403.000" y="330.000" class="small" text-anchor="middle" style="fill:#25333b">专家 1</text>
+<rect x="531.000" y="255.000" width="96.000" height="38.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="579.000" y="281.000" class="" text-anchor="middle" style="fill:#25333b">1 行</text>
+<text x="579.000" y="330.000" class="small" text-anchor="middle" style="fill:#25333b">专家 2</text>
+<rect x="707.000" y="255.000" width="96.000" height="38.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="755.000" y="281.000" class="" text-anchor="middle" style="fill:#25333b">1 行</text>
+<text x="755.000" y="330.000" class="small" text-anchor="middle" style="fill:#25333b">专家 3</text>
+<line x1="114.000" y1="217.000" x2="896.000" y2="217.000" stroke="#a45b3e" stroke-width="2" stroke-dasharray="5 5"/>
+<text x="666.000" y="199.000" class="small" text-anchor="start" style="fill:#a45b3e">容量 2</text>
+<text x="500.000" y="376.000" class="small" text-anchor="middle" style="fill:#25333b">每个小格是一条真实记录；最热桶决定当前批的最后完成时刻。</text>
+</svg>

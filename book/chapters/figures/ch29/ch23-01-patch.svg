@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="272" viewBox="0 0 1000 272" role="img" aria-labelledby="title desc">
+<title id="title">图块投影与镜像</title><desc id="desc">图块投影与镜像</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<text x="236.000" y="42.000" class="" text-anchor="middle" style="fill:#25333b">原图</text>
+<rect x="115.000" y="74.000" width="60.000" height="50.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="145.000" y="106.000" class="" text-anchor="middle" style="fill:#25333b">1</text>
+<rect x="175.000" y="74.000" width="60.000" height="50.000" fill="#ecedef" stroke="#aeb9bf" stroke-width="1"/>
+<text x="205.000" y="106.000" class="" text-anchor="middle" style="fill:#25333b">3</text>
+<rect x="115.000" y="124.000" width="60.000" height="50.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="145.000" y="156.000" class="" text-anchor="middle" style="fill:#25333b">2</text>
+<rect x="175.000" y="124.000" width="60.000" height="50.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="205.000" y="156.000" class="" text-anchor="middle" style="fill:#25333b">4</text>
+<line x1="241.000" y1="124.000" x2="314.000" y2="124.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="369.000" y="117.000" class="small" text-anchor="middle" style="fill:#25333b">均值 2.5</text>
+<text x="369.000" y="156.000" class="small" text-anchor="middle" style="fill:#25333b">左右差 4</text>
+<text x="726.000" y="42.000" class="" text-anchor="middle" style="fill:#25333b">水平翻转</text>
+<rect x="605.000" y="74.000" width="60.000" height="50.000" fill="#ecedef" stroke="#aeb9bf" stroke-width="1"/>
+<text x="635.000" y="106.000" class="" text-anchor="middle" style="fill:#25333b">3</text>
+<rect x="665.000" y="74.000" width="60.000" height="50.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="695.000" y="106.000" class="" text-anchor="middle" style="fill:#25333b">1</text>
+<rect x="605.000" y="124.000" width="60.000" height="50.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="635.000" y="156.000" class="" text-anchor="middle" style="fill:#25333b">4</text>
+<rect x="665.000" y="124.000" width="60.000" height="50.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="695.000" y="156.000" class="" text-anchor="middle" style="fill:#25333b">2</text>
+<line x1="731.000" y1="124.000" x2="804.000" y2="124.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="859.000" y="117.000" class="small" text-anchor="middle" style="fill:#25333b">均值 2.5</text>
+<text x="859.000" y="156.000" class="small" text-anchor="middle" style="fill:#25333b">左右差 -4</text>
+<text x="500.000" y="242.000" class="small" text-anchor="middle" style="fill:#25333b">每一行使用相同的两个投影。左右差 = 右列和 − 左列和。</text>
+</svg>

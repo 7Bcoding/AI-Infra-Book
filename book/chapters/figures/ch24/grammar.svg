@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 188" width="720" height="188" role="img"><title>简化整数参数的解析状态</title>
+<rect x="22" y="82" width="126" height="43" fill="#e6edf0" stroke="none"/>
+<text x="85" y="111" text-anchor="middle" fill="#263641" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21">等待整数</text>
+<rect x="294" y="82" width="126" height="43" fill="#e6edf0" stroke="none"/>
+<text x="357" y="111" text-anchor="middle" fill="#263641" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21">已有数字</text>
+<rect x="567" y="82" width="126" height="43" fill="#e6edf0" stroke="none"/>
+<text x="630" y="111" text-anchor="middle" fill="#263641" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21">对象完整</text>
+<line x1="152" y1="102" x2="277" y2="102" stroke="#477394" stroke-width="2" stroke-dasharray="none"/>
+<path d="M271,97 L281,102 L271,107" fill="none" stroke="#477394" stroke-width="2"/>
+<text x="216" y="87" text-anchor="middle" fill="#263641" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18">数字</text>
+<line x1="425" y1="102" x2="556" y2="102" stroke="#477394" stroke-width="2" stroke-dasharray="none"/>
+<path d="M550,97 L560,102 L550,107" fill="none" stroke="#477394" stroke-width="2"/>
+<text x="489" y="87" text-anchor="middle" fill="#263641" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18">闭括号</text>
+<path d="M320,80 C280,10 440,10 395,78 L394,65 M395,78 L407,74" fill="none" stroke="#317c72" stroke-width="2"/>
+<text x="357" y="21" text-anchor="middle" fill="#263641" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="17">再读一位</text>
+<text x="357" y="166" text-anchor="middle" fill="#263641" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18">接受多位整数时，同一状态可以再次接收数字。</text>
+</svg>

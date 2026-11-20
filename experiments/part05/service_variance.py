@@ -1,4 +1,4 @@
-"""Compare two service-time distributions on the same Poisson arrival trace (chapter 19)."""
+"""Compare two service-time distributions on the same Poisson arrival trace (chapter 23)."""
 import argparse
 import math
 import random

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="360" viewBox="0 0 1000 360" role="img" aria-labelledby="title desc">
+<title id="title">三批采样训练流水</title><desc id="desc">三批采样训练流水</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<line x1="140.000" y1="39.000" x2="140.000" y2="221.000" stroke="#aeb9bf" stroke-width="1" stroke-dasharray="5 5"/>
+<text x="140.000" y="249.000" class="small" text-anchor="middle" style="fill:#25333b">0</text>
+<line x1="342.667" y1="39.000" x2="342.667" y2="221.000" stroke="#aeb9bf" stroke-width="1" stroke-dasharray="5 5"/>
+<text x="342.667" y="249.000" class="small" text-anchor="middle" style="fill:#25333b">8</text>
+<line x1="494.667" y1="39.000" x2="494.667" y2="221.000" stroke="#aeb9bf" stroke-width="1" stroke-dasharray="5 5"/>
+<text x="494.667" y="249.000" class="small" text-anchor="middle" style="fill:#25333b">14</text>
+<line x1="545.333" y1="39.000" x2="545.333" y2="221.000" stroke="#aeb9bf" stroke-width="1" stroke-dasharray="5 5"/>
+<text x="545.333" y="249.000" class="small" text-anchor="middle" style="fill:#25333b">16</text>
+<line x1="697.333" y1="39.000" x2="697.333" y2="221.000" stroke="#aeb9bf" stroke-width="1" stroke-dasharray="5 5"/>
+<text x="697.333" y="249.000" class="small" text-anchor="middle" style="fill:#25333b">22</text>
+<line x1="748.000" y1="39.000" x2="748.000" y2="221.000" stroke="#aeb9bf" stroke-width="1" stroke-dasharray="5 5"/>
+<text x="748.000" y="249.000" class="small" text-anchor="middle" style="fill:#25333b">24</text>
+<line x1="900.000" y1="39.000" x2="900.000" y2="221.000" stroke="#aeb9bf" stroke-width="1" stroke-dasharray="5 5"/>
+<text x="900.000" y="249.000" class="small" text-anchor="middle" style="fill:#25333b">30</text>
+<text x="22.000" y="77.000" class="small" text-anchor="start">生成</text>
+<line x1="140.000" y1="68.000" x2="900.000" y2="68.000" stroke="#aeb9bf" stroke-width="0.8"/>
+<rect x="140.000" y="53.000" width="202.667" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="241.333" y="76.000" class="" text-anchor="middle" style="fill:#25333b">1</text>
+<rect x="342.667" y="53.000" width="202.667" height="32.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="444.000" y="76.000" class="" text-anchor="middle" style="fill:#25333b">2</text>
+<rect x="545.333" y="53.000" width="202.667" height="32.000" fill="#ecedef" stroke="#aeb9bf" stroke-width="1"/>
+<text x="646.667" y="76.000" class="" text-anchor="middle" style="fill:#25333b">3</text>
+<text x="22.000" y="142.000" class="small" text-anchor="start">验证</text>
+<line x1="140.000" y1="133.000" x2="900.000" y2="133.000" stroke="#aeb9bf" stroke-width="0.8"/>
+<rect x="342.667" y="118.000" width="50.667" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="368.000" y="141.000" class="" text-anchor="middle" style="fill:#25333b">1</text>
+<rect x="545.333" y="118.000" width="50.667" height="32.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="570.667" y="141.000" class="" text-anchor="middle" style="fill:#25333b">2</text>
+<rect x="748.000" y="118.000" width="50.667" height="32.000" fill="#ecedef" stroke="#aeb9bf" stroke-width="1"/>
+<text x="773.333" y="141.000" class="" text-anchor="middle" style="fill:#25333b">3</text>
+<text x="22.000" y="207.000" class="small" text-anchor="start">更新</text>
+<line x1="140.000" y1="198.000" x2="900.000" y2="198.000" stroke="#aeb9bf" stroke-width="0.8"/>
+<rect x="393.333" y="183.000" width="101.333" height="32.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="444.000" y="206.000" class="" text-anchor="middle" style="fill:#25333b">1</text>
+<rect x="596.000" y="183.000" width="101.333" height="32.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="646.667" y="206.000" class="" text-anchor="middle" style="fill:#25333b">2</text>
+<rect x="798.667" y="183.000" width="101.333" height="32.000" fill="#ecedef" stroke="#aeb9bf" stroke-width="1"/>
+<text x="849.333" y="206.000" class="" text-anchor="middle" style="fill:#25333b">3</text>
+<text x="520.000" y="287.000" class="small" text-anchor="middle" style="fill:#25333b">秒</text>
+<text x="506.000" y="337.000" class="small" text-anchor="middle" style="fill:#25333b">块内数字为批号。阶段资源独立，允许不同采样版本在途。</text>
+</svg>

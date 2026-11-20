@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 219" width="720" height="219" role="img"><title>串行打开对象与连续读取的一批输入时间</title>
+<text x="14" y="52" text-anchor="start" fill="#263641" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="19">256 次打开</text>
+<text x="14" y="110" text-anchor="start" fill="#263641" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="19">一片顺读</text>
+<rect x="148" y="34" width="471.04" height="21" fill="#477394" stroke="none"/>
+<text x="626.04" y="52" text-anchor="start" fill="#263641" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="17">512 ms</text>
+<rect x="148" y="92" width="3.6340000000000003" height="21" fill="#317c72" stroke="none"/>
+<text x="161" y="110" text-anchor="start" fill="#263641" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="19">约 4 ms</text>
+<line x1="240.0" y1="20" x2="240.0" y2="138" stroke="#a4553f" stroke-width="2" stroke-dasharray="5 4"/>
+<text x="240.0" y="165" text-anchor="middle" fill="#a4553f" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18">设备下批期限 100 ms</text>
+<line x1="148" y1="187" x2="655" y2="187" stroke="#263641" stroke-width="2" stroke-dasharray="none"/>
+<text x="656" y="211" text-anchor="end" fill="#263641" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18">时间 / ms</text>
+</svg>

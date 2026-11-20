@@ -1,4 +1,4 @@
-"""Checkpoint/replay for the Chapter 17 projection and experts, standard Python only.
+"""Checkpoint/replay for the Chapter 21 projection and experts, standard Python only.
 Optionally pass --directory PATH to keep artifacts in a new run folder.
 """
 import argparse
