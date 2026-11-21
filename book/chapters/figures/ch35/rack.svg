@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 236" width="720" height="236" role="img"><title>两台设备的合计功率随相位改变</title>
+<rect x="114" y="53" width="100" height="128" fill="#cbdfe0" stroke="none"/>
+<text x="166.0" y="45" text-anchor="middle" fill="#263641" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="19">16</text>
+<rect x="218" y="149" width="100" height="32" fill="#cbdfe0" stroke="none"/>
+<text x="270.0" y="141" text-anchor="middle" fill="#263641" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="19">4</text>
+<line x1="106" y1="85" x2="327" y2="85" stroke="#a4553f" stroke-width="2" stroke-dasharray="5 4"/>
+<line x1="111" y1="181" x2="322" y2="181" stroke="#263641" stroke-width="2" stroke-dasharray="none"/>
+<text x="218" y="212" text-anchor="middle" fill="#263641" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18">同步 · 每段 1 min</text>
+<rect x="421" y="101" width="100" height="80" fill="#cbdfe0" stroke="none"/>
+<text x="473.0" y="93" text-anchor="middle" fill="#263641" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="19">10</text>
+<rect x="525" y="101" width="100" height="80" fill="#cbdfe0" stroke="none"/>
+<text x="577.0" y="93" text-anchor="middle" fill="#263641" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="19">10</text>
+<line x1="413" y1="85" x2="634" y2="85" stroke="#a4553f" stroke-width="2" stroke-dasharray="5 4"/>
+<line x1="418" y1="181" x2="629" y2="181" stroke="#263641" stroke-width="2" stroke-dasharray="none"/>
+<text x="525" y="212" text-anchor="middle" fill="#263641" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18">错开 · 每段 1 min</text>
+<text x="12" y="24" text-anchor="start" fill="#263641" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="17">总功率 / kW</text>
+<text x="13" y="89" text-anchor="start" fill="#a4553f" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18">额度 12</text>
+</svg>

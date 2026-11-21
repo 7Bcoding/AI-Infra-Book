@@ -1,4 +1,4 @@
-"""Chapter 9: measure two row tiles of an FP32 projection on an OpenCL GPU.
+"""Chapter 10: measure two row tiles of an FP32 projection on an OpenCL GPU.
 
 --replay reads a measurement with only Python's standard library. Measuring
 requires numpy, pyopencl and a vendor OpenCL GPU driver. --record saves both

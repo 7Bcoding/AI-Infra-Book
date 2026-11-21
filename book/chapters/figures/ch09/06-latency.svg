@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="378" viewBox="0 0 1000 378" role="img" aria-labelledby="title desc">
+<title id="title">局部优化对请求时间的影响</title><desc id="desc">第 9 章教材插图。局部优化对请求时间的影响。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<text x="40.000" y="121.000" class="" text-anchor="start">原始</text>
+<rect x="180.000" y="89.000" width="71.000" height="47.000" fill="#ecedef" stroke="#aeb9bf" stroke-width="1"/>
+<text x="215.500" y="119.500" class="" text-anchor="middle" style="fill:#25333b">1</text>
+<rect x="251.000" y="89.000" width="142.000" height="47.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="322.000" y="119.500" class="" text-anchor="middle" style="fill:#25333b">2</text>
+<rect x="393.000" y="89.000" width="355.000" height="47.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="570.500" y="119.500" class="" text-anchor="middle" style="fill:#25333b">5</text>
+<rect x="748.000" y="89.000" width="142.000" height="47.000" fill="#dde6df" stroke="#aeb9bf" stroke-width="1"/>
+<text x="819.000" y="119.500" class="" text-anchor="middle" style="fill:#25333b">2</text>
+<text x="903.000" y="119.000" class="small" text-anchor="start">10 ms</text>
+<text x="40.000" y="199.000" class="" text-anchor="start">投影加速</text>
+<rect x="180.000" y="167.000" width="71.000" height="47.000" fill="#ecedef" stroke="#aeb9bf" stroke-width="1"/>
+<text x="215.500" y="197.500" class="" text-anchor="middle" style="fill:#25333b">1</text>
+<rect x="251.000" y="167.000" width="35.500" height="47.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="268.750" y="197.500" class="" text-anchor="middle" style="fill:#25333b">0.5</text>
+<rect x="286.500" y="167.000" width="355.000" height="47.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="464.000" y="197.500" class="" text-anchor="middle" style="fill:#25333b">5</text>
+<rect x="641.500" y="167.000" width="142.000" height="47.000" fill="#dde6df" stroke="#aeb9bf" stroke-width="1"/>
+<text x="712.500" y="197.500" class="" text-anchor="middle" style="fill:#25333b">2</text>
+<text x="796.500" y="197.000" class="small" text-anchor="start">8.5 ms</text>
+<text x="40.000" y="277.000" class="" text-anchor="start">KV 加速</text>
+<rect x="180.000" y="245.000" width="71.000" height="47.000" fill="#ecedef" stroke="#aeb9bf" stroke-width="1"/>
+<text x="215.500" y="275.500" class="" text-anchor="middle" style="fill:#25333b">1</text>
+<rect x="251.000" y="245.000" width="142.000" height="47.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="322.000" y="275.500" class="" text-anchor="middle" style="fill:#25333b">2</text>
+<rect x="393.000" y="245.000" width="177.500" height="47.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="481.750" y="275.500" class="" text-anchor="middle" style="fill:#25333b">2.5</text>
+<rect x="570.500" y="245.000" width="142.000" height="47.000" fill="#dde6df" stroke="#aeb9bf" stroke-width="1"/>
+<text x="641.500" y="275.500" class="" text-anchor="middle" style="fill:#25333b">2</text>
+<text x="725.500" y="275.000" class="small" text-anchor="start">7.5 ms</text>
+<rect x="140.000" y="23.000" width="25.000" height="19.000" fill="#ecedef" stroke="#aeb9bf" stroke-width="1"/>
+<text x="178.000" y="40.000" class="small" text-anchor="start">主机准备</text>
+<rect x="357.000" y="23.000" width="25.000" height="19.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="395.000" y="40.000" class="small" text-anchor="start">投影</text>
+<rect x="574.000" y="23.000" width="25.000" height="19.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="612.000" y="40.000" class="small" text-anchor="start">KV 读取</text>
+<rect x="791.000" y="23.000" width="25.000" height="19.000" fill="#dde6df" stroke="#aeb9bf" stroke-width="1"/>
+<text x="829.000" y="40.000" class="small" text-anchor="start">其余阶段</text>
+<text x="500.000" y="350.000" class="small" text-anchor="middle" style="fill:#25333b">横条长度按毫秒绘制；段内的数字为该段耗时。</text>
+</svg>

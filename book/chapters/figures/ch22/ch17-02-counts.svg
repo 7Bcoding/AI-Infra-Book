@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="293" viewBox="0 0 1000 293" role="img" aria-labelledby="title desc">
+<title id="title">图 22-2</title><desc id="desc">按来源卡和目的专家画出两行两列的记录数，方阵的非对角项才产生跨卡激活发送。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<text x="262.000" y="63.000" class="small" text-anchor="middle" style="fill:#25333b">专家甲</text>
+<text x="369.000" y="63.000" class="small" text-anchor="middle" style="fill:#25333b">专家乙</text>
+<text x="76.000" y="124.000" class="small" text-anchor="start">来源甲</text>
+<text x="76.000" y="181.000" class="small" text-anchor="start">来源乙</text>
+<rect x="208.000" y="87.000" width="107.000" height="57.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="261.500" y="122.500" class="" text-anchor="middle" style="fill:#25333b">64</text>
+<rect x="315.000" y="87.000" width="107.000" height="57.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="368.500" y="122.500" class="" text-anchor="middle" style="fill:#25333b">64</text>
+<rect x="208.000" y="144.000" width="107.000" height="57.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="261.500" y="179.500" class="" text-anchor="middle" style="fill:#25333b">64</text>
+<rect x="315.000" y="144.000" width="107.000" height="57.000" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<text x="368.500" y="179.500" class="" text-anchor="middle" style="fill:#25333b">64</text>
+<text x="518.000" y="103.000" class="" text-anchor="start">每个暖色格有 64 条跨卡记录。</text>
+<text x="518.000" y="150.000" class="" text-anchor="start">1 行 = 4096 × 2 B = 8 KiB</text>
+<text x="518.000" y="197.000" class="" text-anchor="start">每卡一程发送 64 × 8 = 512 KiB</text>
+<text x="500.000" y="262.000" class="small" text-anchor="middle" style="fill:#25333b">对角项只在本地处理。沿一行求和是该来源的全部专家任务数。</text>
+</svg>

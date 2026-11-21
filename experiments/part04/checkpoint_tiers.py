@@ -1,4 +1,4 @@
-"""Replay committed snapshot generations for the two failure domains in chapter 22."""
+"""Replay committed snapshot generations for the two failure domains in chapter 23."""
 
 import argparse
 from fractions import Fraction

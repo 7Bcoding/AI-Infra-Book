@@ -1,4 +1,4 @@
-"""Reconstruct chapter 18's message after a gap and a repeated arrival."""
+"""Reconstruct chapter 19's message after a gap and a repeated arrival."""
 from itertools import combinations
 
 FRAGMENTS = 8

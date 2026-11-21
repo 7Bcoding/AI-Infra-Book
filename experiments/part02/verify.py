@@ -155,6 +155,12 @@ def check_storage():
     assert copy_compute(4, 3, 5)[-1][-1] == 23
     assert copy_compute(3, 5, 2) == [(0,0,5,5,7), (1,5,10,10,12), (0,10,15,15,17)]
     assert isclose(16*GIB/32e9, 0.536870912)
+    assert round(16*GIB/3e12*1000, 2) == 5.73
+    assert round(16*GIB/64/32e9*1000, 2) == 8.39
+    assert (32_000_000_000 * 12 // 1000) // (64*KIB) == 5859
+    assert isclose(6000 * 64*KIB / 32e9 * 1000, 12.288)
+    assert sum(cache_hits(list(range(12))*2, slots=8)) == 0
+    assert [round(64*MIB / b * 1000, 2) for b in (24e9,12e9)] == [2.80,5.59]
     assert [value/0.002/1e12 for value in (3e9, 2e9, 1e9)] == [1.5,1,.5]
 
 
@@ -179,7 +185,7 @@ def check_architecture():
 
 
 def check_manuscripts():
-    for chapter in (6,7,8):
+    for chapter in (6, 7, 8, 9):
         path = ROOT / f"book/chapters/ch{chapter:02}.md"
         source = path.read_text(encoding="utf-8")
         snippets = re.findall(r"^```python\n(.*?)^```", source, re.M | re.S)

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="374" viewBox="0 0 1000 374" role="img" aria-labelledby="title desc">
+<title id="title">矩阵结果在哪里交接</title><desc id="desc">第 9 章教材插图。矩阵结果在哪里交接。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<text x="160.000" y="42.000" class="" text-anchor="middle" style="fill:#25333b">矩阵乘法</text>
+<text x="506.000" y="42.000" class="" text-anchor="middle" style="fill:#25333b">中间结果</text>
+<text x="827.000" y="42.000" class="" text-anchor="middle" style="fill:#25333b">偏置与激活</text>
+<rect x="70.000" y="77.000" width="60.000" height="40.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="100.000" y="104.000" class="" text-anchor="middle" style="fill:#25333b">4</text>
+<rect x="130.000" y="77.000" width="60.000" height="40.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="160.000" y="104.000" class="" text-anchor="middle" style="fill:#25333b">5</text>
+<rect x="70.000" y="117.000" width="60.000" height="40.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="100.000" y="144.000" class="" text-anchor="middle" style="fill:#25333b">10</text>
+<rect x="130.000" y="117.000" width="60.000" height="40.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="160.000" y="144.000" class="" text-anchor="middle" style="fill:#25333b">9</text>
+<line x1="208.000" y1="116.000" x2="371.000" y2="116.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="382.000" y="90.000" width="249.000" height="53.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="506.500" y="123.500" class="" text-anchor="middle" style="fill:#25333b">片上累加块</text>
+<line x1="645.000" y1="116.000" x2="739.000" y2="116.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="756.000" y="77.000" width="60.000" height="40.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="786.000" y="104.000" class="" text-anchor="middle" style="fill:#25333b">0</text>
+<rect x="816.000" y="77.000" width="60.000" height="40.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="846.000" y="104.000" class="" text-anchor="middle" style="fill:#25333b">6</text>
+<rect x="756.000" y="117.000" width="60.000" height="40.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="786.000" y="144.000" class="" text-anchor="middle" style="fill:#25333b">4</text>
+<rect x="816.000" y="117.000" width="60.000" height="40.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="846.000" y="144.000" class="" text-anchor="middle" style="fill:#25333b">10</text>
+<rect x="70.000" y="223.000" width="60.000" height="40.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="100.000" y="250.000" class="" text-anchor="middle" style="fill:#25333b">4</text>
+<rect x="130.000" y="223.000" width="60.000" height="40.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="160.000" y="250.000" class="" text-anchor="middle" style="fill:#25333b">5</text>
+<rect x="70.000" y="263.000" width="60.000" height="40.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="100.000" y="290.000" class="" text-anchor="middle" style="fill:#25333b">10</text>
+<rect x="130.000" y="263.000" width="60.000" height="40.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="160.000" y="290.000" class="" text-anchor="middle" style="fill:#25333b">9</text>
+<line x1="208.000" y1="262.000" x2="371.000" y2="262.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="382.000" y="236.000" width="249.000" height="53.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="506.500" y="269.500" class="" text-anchor="middle" style="fill:#25333b">全局中间张量</text>
+<line x1="645.000" y1="262.000" x2="739.000" y2="262.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="756.000" y="223.000" width="60.000" height="40.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="786.000" y="250.000" class="" text-anchor="middle" style="fill:#25333b">0</text>
+<rect x="816.000" y="223.000" width="60.000" height="40.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="846.000" y="250.000" class="" text-anchor="middle" style="fill:#25333b">6</text>
+<rect x="756.000" y="263.000" width="60.000" height="40.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="786.000" y="290.000" class="" text-anchor="middle" style="fill:#25333b">4</text>
+<rect x="816.000" y="263.000" width="60.000" height="40.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="846.000" y="290.000" class="" text-anchor="middle" style="fill:#25333b">10</text>
+<text x="500.000" y="341.000" class="small" text-anchor="middle" style="fill:#25333b">两路对相同的输入计算相同的结果，交接时经过的存储位置不同。</text>
+</svg>

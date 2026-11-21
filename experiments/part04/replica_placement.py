@@ -1,4 +1,4 @@
-"""Sweep physical placements for the two-expert inference example in chapter 21."""
+"""Sweep physical placements for the two-expert inference example in chapter 22."""
 import argparse
 from math import ceil
 

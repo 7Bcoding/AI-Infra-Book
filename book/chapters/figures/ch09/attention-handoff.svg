@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="416" viewBox="0 0 1000 416" role="img" aria-labelledby="title desc">
+<title id="title">一行注意力在三类架构上的依赖</title><desc id="desc">一行注意力在三类架构上的依赖</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<text x="284.000" y="46.000" class="" text-anchor="middle" style="fill:#25333b">Q 与 K 的点积</text>
+<text x="547.000" y="46.000" class="" text-anchor="middle" style="fill:#25333b">行内归一化</text>
+<text x="810.000" y="46.000" class="" text-anchor="middle" style="fill:#25333b">权重与 V 相乘</text>
+<text x="25.000" y="123.000" class="" text-anchor="start">GPU</text>
+<rect x="175.000" y="87.000" width="222.000" height="56.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="286.000" y="122.000" class="" text-anchor="middle" style="fill:#25333b">矩阵 / 线程乘加</text>
+<line x1="401.000" y1="115.000" x2="430.000" y2="115.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="438.000" y="87.000" width="222.000" height="56.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="549.000" y="122.000" class="" text-anchor="middle" style="fill:#25333b">线程归约、逐项计算</text>
+<line x1="664.000" y1="115.000" x2="693.000" y2="115.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="701.000" y="87.000" width="222.000" height="56.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="812.000" y="122.000" class="" text-anchor="middle" style="fill:#25333b">矩阵 / 线程乘加</text>
+<text x="25.000" y="214.000" class="" text-anchor="start">昇腾</text>
+<rect x="175.000" y="178.000" width="222.000" height="56.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="286.000" y="213.000" class="" text-anchor="middle" style="fill:#25333b">Cube</text>
+<line x1="401.000" y1="206.000" x2="430.000" y2="206.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="438.000" y="178.000" width="222.000" height="56.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="549.000" y="213.000" class="" text-anchor="middle" style="fill:#25333b">Vector</text>
+<line x1="664.000" y1="206.000" x2="693.000" y2="206.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="701.000" y="178.000" width="222.000" height="56.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="812.000" y="213.000" class="" text-anchor="middle" style="fill:#25333b">Cube</text>
+<text x="25.000" y="305.000" class="" text-anchor="start">TPU</text>
+<rect x="175.000" y="269.000" width="222.000" height="56.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="286.000" y="304.000" class="" text-anchor="middle" style="fill:#25333b">MXU</text>
+<line x1="401.000" y1="297.000" x2="430.000" y2="297.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="438.000" y="269.000" width="222.000" height="56.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="549.000" y="304.000" class="" text-anchor="middle" style="fill:#25333b">向量单元</text>
+<line x1="664.000" y1="297.000" x2="693.000" y2="297.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="701.000" y="269.000" width="222.000" height="56.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="812.000" y="304.000" class="" text-anchor="middle" style="fill:#25333b">MXU</text>
+<text x="500.000" y="388.000" class="small" text-anchor="middle" style="fill:#25333b">箭头上传的是一行分数或概率；选定形状后，还要核对实际使用的指令。</text>
+</svg>

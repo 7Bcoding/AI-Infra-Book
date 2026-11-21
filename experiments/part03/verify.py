@@ -53,13 +53,17 @@ def tiled(a, b, m, n, k):
     return out, reads
 
 
-def pipeline(stages, count, copy, compute):
+def pipeline(stages, count, copy, compute, issue_interval=None):
+    """A slot is reusable when its computation finishes; copies may be pipelined."""
+    if issue_interval is None:
+        issue_interval = copy
     free = [0]*stages
-    copy_end = compute_end = 0
+    next_issue = compute_end = 0
     records = []
     for i in range(count):
         buf = i % stages
-        copy_start = max(copy_end, free[buf])
+        copy_start = max(next_issue, free[buf])
+        next_issue = copy_start + issue_interval
         copy_end = copy_start + copy
         compute_start = max(copy_end, compute_end)
         compute_end = compute_start + compute
@@ -88,6 +92,11 @@ def check_gemm(rng):
     assert record == [(0,5,5,8),(5,10,10,13),(10,15,15,18),(15,20,20,23)]
     assert pipeline(1,4,5,3)[-1][-1] == 32
     assert pipeline(3,4,5,3)[-1][-1] == 23
+    runs = [pipeline(slots, 8, copy=9, compute=3, issue_interval=2)
+            for slots in (1, 2, 3, 4)]
+    assert [run[-1][-1] for run in runs] == [96, 51, 39, 33]
+    assert [[step[0] for step in run[:4]] for run in runs] == [
+        [0,12,24,36], [0,2,12,15], [0,2,4,12], [0,2,4,6]]
     for k, bytes_, flops in [(16,6144,262144),(32,12288,524288)]:
         assert 2*(64+128)*k == bytes_ and 2*64*128*k == flops
         close(flops/bytes_, 128/3)

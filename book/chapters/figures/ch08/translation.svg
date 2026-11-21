@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 190" width="720" height="190" role="img"><title>虚拟地址翻译与驻留</title>
+<text x="16" y="45" text-anchor="start" fill="#317c72" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21">缓存命中</text>
+<line x1="155" y1="37" x2="218" y2="37" stroke="#263641" stroke-width="2" stroke-dasharray="none"/>
+<path d="M212,32 L222,37 L212,42" fill="none" stroke="#263641" stroke-width="2"/>
+<text x="240" y="45" text-anchor="start" fill="#263641" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21">已有映射</text>
+<line x1="365" y1="37" x2="426" y2="37" stroke="#263641" stroke-width="2" stroke-dasharray="none"/>
+<path d="M420,32 L430,37 L420,42" fill="none" stroke="#263641" stroke-width="2"/>
+<text x="448" y="45" text-anchor="start" fill="#263641" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21">直接访问本地页框</text>
+<text x="16" y="100" text-anchor="start" fill="#477394" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21">映射未命中</text>
+<line x1="155" y1="92" x2="218" y2="92" stroke="#263641" stroke-width="2" stroke-dasharray="none"/>
+<path d="M212,87 L222,92 L212,97" fill="none" stroke="#263641" stroke-width="2"/>
+<text x="240" y="100" text-anchor="start" fill="#263641" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21">查页表</text>
+<line x1="365" y1="92" x2="426" y2="92" stroke="#263641" stroke-width="2" stroke-dasharray="none"/>
+<path d="M420,87 L430,92 L420,97" fill="none" stroke="#263641" stroke-width="2"/>
+<text x="448" y="100" text-anchor="start" fill="#263641" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21">取得本地页框再读</text>
+<text x="16" y="155" text-anchor="start" fill="#a4553f" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21">未驻留</text>
+<line x1="155" y1="147" x2="218" y2="147" stroke="#263641" stroke-width="2" stroke-dasharray="none"/>
+<path d="M212,142 L222,147 L212,152" fill="none" stroke="#263641" stroke-width="2"/>
+<text x="240" y="155" text-anchor="start" fill="#263641" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21">查页表</text>
+<line x1="365" y1="147" x2="426" y2="147" stroke="#263641" stroke-width="2" stroke-dasharray="none"/>
+<path d="M420,142 L430,147 L420,152" fill="none" stroke="#263641" stroke-width="2"/>
+<text x="448" y="155" text-anchor="start" fill="#263641" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21">访问远端或处理缺页</text>
+</svg>

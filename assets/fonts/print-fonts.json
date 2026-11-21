@@ -3,24 +3,24 @@
     "file": "BookSerif-Regular.woff2",
     "source": "https://raw.githubusercontent.com/notofonts/noto-cjk/Serif2.003/Serif/OTF/SimplifiedChinese/NotoSerifCJKsc-Regular.otf",
     "upstream_sha256": "2a2eae2628df83556c54018c41e20fa532c1b862c5256ae8b3f23feb918d12ca",
-    "sha256": "a6dc89bb3dce917410ab7490a833b03e5b005ca2e73bc61651fbd30af975c6d8",
-    "bytes": 660496,
+    "sha256": "2dd58b7ba05fbf97baae3e269147ba4112500ee8052416f287cc4b3e7258770f",
+    "bytes": 660776,
     "cjk_characters": 1336
   },
   {
     "file": "BookSans-Regular.woff2",
     "source": "https://raw.githubusercontent.com/notofonts/noto-cjk/Sans2.004/Sans/OTF/SimplifiedChinese/NotoSansCJKsc-Regular.otf",
     "upstream_sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
-    "sha256": "3273cb9afb29e954f00ec8706156daa36e38cec626d04995712b62860b82513a",
-    "bytes": 480540,
+    "sha256": "d12e9ca2e91e04b264a9653708b070817179b702f1e8b0d6921640d3b6b52087",
+    "bytes": 480412,
     "cjk_characters": 1336
   },
   {
     "file": "BookSans-Bold.woff2",
     "source": "https://raw.githubusercontent.com/notofonts/noto-cjk/Sans2.004/Sans/OTF/SimplifiedChinese/NotoSansCJKsc-Bold.otf",
     "upstream_sha256": "b5f0d1a190a7f9b43c310a8850630af12553df32c4c050543f9059732d9b4c0a",
-    "sha256": "7216ac544733eb9d97949488fd97687d42fb82e4a4cb98807f5e32890112749c",
-    "bytes": 492604,
+    "sha256": "4002e4ff787e0a306ecc423ed098fd90d259022d481c744808ec2b655eb245b9",
+    "bytes": 493408,
     "cjk_characters": 1336
   }
 ]

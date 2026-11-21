@@ -1,4 +1,4 @@
-"""第 20 章的双卡因果注意力模拟。无需设备或第三方库。"""
+"""第 21 章的双卡因果注意力模拟。无需设备或第三方库。"""
 import argparse
 from math import exp, isclose, sin, sqrt
 

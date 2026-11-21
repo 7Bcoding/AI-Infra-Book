@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="299" viewBox="0 0 1000 299" role="img" aria-labelledby="title desc">
+<title id="title">图 20-5</title><desc id="desc">各层反向就绪点、逐桶传输与等齐后合并传输用同一时间轴表示。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<line x1="170.000" y1="63.000" x2="170.000" y2="176.000" stroke="#aeb9bf" stroke-width="1" stroke-dasharray="5 5"/>
+<text x="170.000" y="203.000" class="small" text-anchor="middle" style="fill:#25333b">0</text>
+<line x1="280.370" y1="63.000" x2="280.370" y2="176.000" stroke="#aeb9bf" stroke-width="1" stroke-dasharray="5 5"/>
+<text x="280.370" y="203.000" class="small" text-anchor="middle" style="fill:#25333b">4</text>
+<line x1="390.741" y1="63.000" x2="390.741" y2="176.000" stroke="#aeb9bf" stroke-width="1" stroke-dasharray="5 5"/>
+<text x="390.741" y="203.000" class="small" text-anchor="middle" style="fill:#25333b">8</text>
+<line x1="501.111" y1="63.000" x2="501.111" y2="176.000" stroke="#aeb9bf" stroke-width="1" stroke-dasharray="5 5"/>
+<text x="501.111" y="203.000" class="small" text-anchor="middle" style="fill:#25333b">12</text>
+<line x1="611.481" y1="63.000" x2="611.481" y2="176.000" stroke="#aeb9bf" stroke-width="1" stroke-dasharray="5 5"/>
+<text x="611.481" y="203.000" class="small" text-anchor="middle" style="fill:#25333b">16</text>
+<line x1="694.259" y1="63.000" x2="694.259" y2="176.000" stroke="#aeb9bf" stroke-width="1" stroke-dasharray="5 5"/>
+<text x="694.259" y="203.000" class="small" text-anchor="middle" style="fill:#25333b">19</text>
+<line x1="901.204" y1="63.000" x2="901.204" y2="176.000" stroke="#aeb9bf" stroke-width="1" stroke-dasharray="5 5"/>
+<text x="901.204" y="203.000" class="small" text-anchor="middle" style="fill:#25333b">26.5</text>
+<text x="36.000" y="102.000" class="small" text-anchor="start">逐桶发送</text>
+<rect x="280.370" y="75.000" width="82.778" height="39.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="321.759" y="101.500" class="" text-anchor="middle" style="fill:#25333b">1</text>
+<rect x="390.741" y="75.000" width="82.778" height="39.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="432.130" y="101.500" class="" text-anchor="middle" style="fill:#25333b">2</text>
+<rect x="501.111" y="75.000" width="82.778" height="39.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="542.500" y="101.500" class="" text-anchor="middle" style="fill:#25333b">3</text>
+<rect x="611.481" y="75.000" width="82.778" height="39.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="652.870" y="101.500" class="" text-anchor="middle" style="fill:#25333b">4</text>
+<text x="36.000" y="164.000" class="small" text-anchor="start">合成一桶</text>
+<rect x="611.481" y="137.000" width="289.722" height="39.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="756.343" y="163.500" class="" text-anchor="middle" style="fill:#25333b">固定 0.5 + 数据 10</text>
+<text x="500.000" y="270.000" class="small" text-anchor="middle" style="fill:#25333b">时间（ms）；四份梯度分别在 4、8、12、16 ms 就绪。</text>
+</svg>

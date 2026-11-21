@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="344" viewBox="0 0 1000 344" role="img" aria-labelledby="title desc">
+<title id="title">图 23-4</title><desc id="desc">同一训练步按机内和跨机分别拆出张量并行、专家交换、接口和梯度同步的发送量。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<text x="39.000" y="161.000" class="small" text-anchor="start">每卡跨机</text>
+<rect x="227.000" y="135.000" width="317.440" height="37.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="385.720" y="160.000" class="small" text-anchor="middle" style="fill:#25333b">稠密梯度　512</text>
+<rect x="544.440" y="135.000" width="19.840" height="37.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="579.440" y="160.000" class="small" text-anchor="start">32</text>
+<text x="39.000" y="235.000" class="small" text-anchor="start">同机两卡</text>
+<rect x="227.000" y="209.000" width="337.280" height="37.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="395.640" y="234.000" class="small" text-anchor="middle" style="fill:#25333b">rank 0　544</text>
+<rect x="564.280" y="209.000" width="337.280" height="37.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="732.920" y="234.000" class="small" text-anchor="middle" style="fill:#25333b">rank 1　544</text>
+<text x="40.000" y="49.000" class="" text-anchor="start">每卡机内：稠密 TP 128 + 专家四程 8 + 接口 2 = 138 MiB</text>
+<text x="40.000" y="92.000" class="" text-anchor="start">每卡跨机：512 + 32 = 544 MiB，同向出口汇总两卡。</text>
+<text x="500.000" y="314.000" class="small" text-anchor="middle" style="fill:#25333b">条长共用 MiB 刻度，第二行合计 1088 MiB。这里只数发送，不把接收再加一遍。</text>
+</svg>
