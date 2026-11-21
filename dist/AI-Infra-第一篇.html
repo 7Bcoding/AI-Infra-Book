@@ -58,7 +58,7 @@ dialog::backdrop { background: rgba(29,40,46,.54); }
   h2, h3 {break-after: avoid;} p {widows: 3; orphans: 3;} @page {size: A4; margin: 20mm;}
 }
 
-</style></head><body><main><section class="cover" id="contents"><header><p class="book">AI Infra 由浅入深</p><h1>第一篇　模型表示与学习原理</h1><p class="author">残差宇 著</p></header><ol start="1"><li><a href="#ch01">AI Infra 解决什么问题</a></li><li><a href="#ch02">从数学表达式到程序</a></li><li><a href="#ch03">神经网络怎样学会一项任务</a></li><li><a href="#ch04">一个 Transformer 的两种运行方式</a></li><li><a href="#ch05">长上下文与模型记忆</a></li></ol></section><article id="ch01"><header><h1>第 1 章　AI Infra 解决什么问题</h1></header><p>下载模型权重、启动程序、输入一句话，屏幕上便出现了回答。模型能回答问题，只是把它用于实际服务的第一步。接下来还需要考虑请求同时到达、用户等待、设备容量和运行成本。</p>
+</style></head><body><main><section class="cover" id="contents"><header><p class="book">AI Infra 由浅入深</p><h1>第一篇　模型表示与学习原理</h1><p class="author">权参 著</p></header><ol start="1"><li><a href="#ch01">AI Infra 解决什么问题</a></li><li><a href="#ch02">从数学表达式到程序</a></li><li><a href="#ch03">神经网络怎样学会一项任务</a></li><li><a href="#ch04">一个 Transformer 的两种运行方式</a></li><li><a href="#ch05">长上下文与模型记忆</a></li></ol></section><article id="ch01"><header><h1>第 1 章　AI Infra 解决什么问题</h1></header><p>下载模型权重、启动程序、输入一句话，屏幕上便出现了回答。模型能回答问题，只是把它用于实际服务的第一步。接下来还需要考虑请求同时到达、用户等待、设备容量和运行成本。</p>
 <p>当第二位用户提交一篇很长的文档时，第一位用户还在接收回答，两人的输出都变慢了。再增加几位用户，程序便报告显存不足。换一张算力更强的卡，速度却没有按规格表上的比例提高。团队决定用自己的数据继续训练，结果同一份权重在推理时可以加载，训练时却连第一步都走不完。</p>
 <p>这些现象说明，要让模型在实际负载下稳定运行，还需要解决一系列系统问题。</p>
 <p><strong>AI Infra 是组织计算设备、存储、网络及其软件，让模型训练和推理能够有效运行的基础设施。</strong> 理解 AI Infra 需要认识各个部件，也需要了解模型产生的计算任务及其数据依赖、数据的存储和传输，以及并发任务如何竞争资源。</p>

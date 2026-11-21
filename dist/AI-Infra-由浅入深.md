@@ -1,8 +1,8 @@
 # AI Infra 由浅入深
 
-**残差宇 著**
+**权参 著**
 
-[下载 Markdown 合订本、插图和实验](AI-Infra-全书实验.zip) · [连续在线阅读](https://7bcoding.github.io/AI-Infra-Book/downloads/book.html) · [下载 PDF](AI-Infra-由浅入深-残差宇.pdf)
+[下载 Markdown 合订本、插图和实验](AI-Infra-全书实验.zip) · [连续在线阅读](https://7bcoding.github.io/AI-Infra-Book/downloads/book.html) · [下载 PDF](AI-Infra-由浅入深-权参.pdf)
 
 解压后打开根目录的《AI-Infra-由浅入深.md》。在 GitHub 上阅读，可从下列章名进入正文。
 

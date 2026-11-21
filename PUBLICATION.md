@@ -1,6 +1,6 @@
 # 阅读与发布说明
 
-《AI Infra 由浅入深》由残差宇撰写。可在 [GitHub 目录](README.md) 逐章阅读，也可从[阅读站](https://7bcoding.github.io/AI-Infra-Book/) 下载带书签的 PDF、离线 HTML 或 Markdown 与实验包。
+《AI Infra 由浅入深》由权参撰写。可在 [GitHub 目录](README.md) 逐章阅读，也可从[阅读站](https://7bcoding.github.io/AI-Infra-Book/) 下载带书签的 PDF、离线 HTML 或 Markdown 与实验包。
 
 本版分为八篇三十五章。旧书签若指向分布式训练、推理或平台，请按主题在新目录里定位。分布式训练在第 18 至 22 章，在线推理在第 23 至 26 章，后训练与应用在第 27 至 31 章，平台工程在第 32 至 35 章。两版之间的修订可在 GitHub 提交记录中查阅。
 

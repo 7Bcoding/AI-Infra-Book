@@ -1,10 +1,10 @@
 # AI Infra 由浅入深
 
-**残差宇 著**
+**权参 著**
 
 一次模型请求，从数学公式到用户屏幕，中间要经过哪些计算？为什么换了更快的 GPU，有时仍要等同样久？本书从可手算的小模型讲起，沿着数据走过算子、加速器、集群和在线服务。具备线性代数、微积分与概率基础就可以开始读。
 
-[在线阅读](https://7bcoding.github.io/AI-Infra-Book/) · [下载 PDF](dist/AI-Infra-由浅入深-残差宇.pdf) · [下载离线 HTML](dist/AI-Infra-全书.html) · [前言](book/前言.md) · [Markdown 合订本与实验包](dist/AI-Infra-全书实验.zip)
+[在线阅读](https://7bcoding.github.io/AI-Infra-Book/) · [下载 PDF](dist/AI-Infra-由浅入深-权参.pdf) · [下载离线 HTML](dist/AI-Infra-全书.html) · [前言](book/前言.md) · [Markdown 合订本与实验包](dist/AI-Infra-全书实验.zip)
 
 在 GitHub 上点章名可以直接读正文。需要找一幅图、一道题或某个工程问题时，可以翻到[图解索引](docs/全书图解索引.md)、[练习与解答索引](docs/练习答案核对.md)或[查阅与复算附录](book/appendices/全书查阅与复算.md)。PDF 的目录和书签均可跳转。离线 HTML 内置公式、插图和实验包。
 
@@ -101,4 +101,4 @@ python experiments/part06/service_budget.py --workers 8 16 24
 
 ## 版权与反馈
 
-© 2026 残差宇。保留版权，免费阅读和下载。使用范围见 [LICENSE](LICENSE)，第三方材料见[说明](THIRD_PARTY_NOTICES.md)。发现问题时，欢迎在 [Issues](https://github.com/7Bcoding/AI-Infra-Book/issues) 留下章节、图号或页码。
+© 2026 权参。保留版权，免费阅读和下载。使用范围见 [LICENSE](LICENSE)，第三方材料见[说明](THIRD_PARTY_NOTICES.md)。发现问题时，欢迎在 [Issues](https://github.com/7Bcoding/AI-Infra-Book/issues) 留下章节、图号或页码。
