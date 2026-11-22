@@ -1,7 +1,5 @@
 # AI Infra 由浅入深
 
-**权参 著**
-
 一次模型请求，从数学公式到用户屏幕，中间要经过哪些计算？为什么换了更快的 GPU，有时仍要等同样久？本书从可手算的小模型讲起，沿着数据走过算子、加速器、集群和在线服务。具备线性代数、微积分与概率基础就可以开始读。
 
 [在线阅读](https://7bcoding.github.io/AI-Infra-Book/) · [下载 PDF](dist/AI-Infra-由浅入深-权参.pdf) · [下载离线 HTML](dist/AI-Infra-全书.html) · [前言](book/前言.md) · [Markdown 合订本与实验包](dist/AI-Infra-全书实验.zip)
