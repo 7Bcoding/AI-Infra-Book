@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="373" viewBox="0 0 1000 373" role="img" aria-labelledby="title desc">
+<title id="title">图 20-5</title><desc id="desc">四个 rank 的物理位置与通信组示意。同机横边每微批反复通信，跨机纵边在累积结束后归约。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<text x="46.000" y="103.000" class="" text-anchor="start">服务器甲</text>
+<rect x="212.000" y="54.000" width="656.000" height="82.000" fill="none" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="285.000" y="71.000" width="102.000" height="46.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="336.000" y="101.000" class="" text-anchor="middle" style="fill:#25333b">卡 0</text>
+<rect x="695.000" y="71.000" width="102.000" height="46.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="746.000" y="101.000" class="" text-anchor="middle" style="fill:#25333b">卡 1</text>
+<line x1="405.000" y1="88.000" x2="680.000" y2="88.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<line x1="680.000" y1="105.000" x2="405.000" y2="105.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="541.000" y="74.000" class="small" text-anchor="middle" style="fill:#25333b">TP：分特征</text>
+<text x="46.000" y="260.000" class="" text-anchor="start">服务器乙</text>
+<rect x="212.000" y="211.000" width="656.000" height="82.000" fill="none" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="285.000" y="228.000" width="102.000" height="46.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="336.000" y="258.000" class="" text-anchor="middle" style="fill:#25333b">卡 2</text>
+<rect x="695.000" y="228.000" width="102.000" height="46.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="746.000" y="258.000" class="" text-anchor="middle" style="fill:#25333b">卡 3</text>
+<line x1="405.000" y1="245.000" x2="680.000" y2="245.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<line x1="680.000" y1="262.000" x2="405.000" y2="262.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="541.000" y="231.000" class="small" text-anchor="middle" style="fill:#25333b">TP：分特征</text>
+<line x1="329.000" y1="142.000" x2="329.000" y2="202.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<line x1="343.000" y1="202.000" x2="343.000" y2="142.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="426.000" y="179.000" class="small" text-anchor="middle" style="fill:#25333b">DP：同参数片</text>
+<line x1="739.000" y1="142.000" x2="739.000" y2="202.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<line x1="753.000" y1="202.000" x2="753.000" y2="142.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="836.000" y="179.000" class="small" text-anchor="middle" style="fill:#25333b">DP：同参数片</text>
+<text x="500.000" y="345.000" class="small" text-anchor="middle" style="fill:#25333b">两条竖线是不同的通信组，物理上仍可能共用一个跨机出口。</text>
+</svg>

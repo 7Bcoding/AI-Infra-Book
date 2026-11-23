@@ -2,6 +2,7 @@
 from collections import Counter
 from math import ceil, gcd, isclose
 from pathlib import Path
+from xml.etree import ElementTree
 import re
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -185,7 +186,7 @@ def check_architecture():
 
 
 def check_manuscripts():
-    for chapter in (6, 7, 8, 9):
+    for chapter in (6, 7, 8):
         path = ROOT / f"book/chapters/ch{chapter:02}.md"
         source = path.read_text(encoding="utf-8")
         snippets = re.findall(r"^```python\n(.*?)^```", source, re.M | re.S)
@@ -197,10 +198,52 @@ def check_manuscripts():
         print(f"Chapter {chapter}: {len(snippets)} Python examples and {len(questions)} worked exercises.")
 
 
+def check_system_paths():
+    size = 16 * GIB
+    assert [round(size / bps * 1000, 2) for bps in (3.35e12, 4.8e12, 22e12)] == [5.13, 3.58, 0.78]
+    assert round(size / 0.004 / 4.8e12 * 100, 1) == 89.5
+    assert round(size / (4.8e12 * 0.8) * 1000, 2) == 4.47
+    assert [width * 8 / 8 for width in (1024, 2048)] == [1024, 2048]
+
+    payload = 64 * MIB
+    host_scratch_traffic = 2 * (payload + payload)
+    assert host_scratch_traffic == 256 * MIB
+    link = 400e9 / 8
+    assert [round(4 * payload / (n * link) * 1000, 2) for n in (1, 2)] == [5.37, 2.68]
+    assert ceil(4 * payload / (0.002 * link)) == 3
+    assert ceil(link * 4e-6 / (4 * KIB)) == 49
+    assert isclose(16 * 4 * KIB / 4e-6, 16.384e9)
+    assert [round(speed * 16 * 128 / 130 / 8, 1) for speed in (16, 32)] == [31.5, 63.0]
+    print("Four 64 MiB transfers through one or two independent 400 Gb/s exits: 5.37 or 2.68 ms (lower bounds).")
+
+    product = systolic(X, W)[-1][0]
+    bias = (-6, 0)
+    activated = [[max(0, v + bias[j]) for j, v in enumerate(row)] for row in product]
+    assert activated == [[0, 5], [4, 9]]
+    diagram = ElementTree.parse(ROOT / "book/chapters/figures/ch08/04-handoff.svg")
+    cells = [int(node.text) for node in diagram.iter("{http://www.w3.org/2000/svg}text")
+             if node.text and node.text.isdecimal()]
+    expected_row = [v for grid in (product, activated) for row in grid for v in row]
+    assert cells == expected_row * 2
+    assert projection(128)[1] == 34 * MIB
+    assert round(projection(128)[2], 2) == 120.47
+    assert round(2 * MIB / 2e12 * 1e6, 2) == 1.05
+    for stages, expected in [((3, 5, 2), 25), ((3, 2, 2), 16), ((3, 2, 1), 15)]:
+        ends = [0, 0, 0]
+        for _ in range(4):
+            arrival = 0
+            for i, duration in enumerate(stages):
+                ends[i] = max(ends[i], arrival) + duration
+                arrival = ends[i]
+        assert ends[-1] == expected
+    print("Four tiles, independent copy/matrix/vector stages: 25, 16 and 15 microseconds.")
+
+
 if __name__ == "__main__":
     check_execution()
     check_storage()
     check_architecture()
+    check_system_paths()
     check_manuscripts()
     print("Scheduling, memory traffic, array timing, Roofline budgets and exercises passed.")
 

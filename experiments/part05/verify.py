@@ -1,4 +1,4 @@
-"""Replay the teaching examples in chapters 24–27. Python standard library only."""
+"""Replay the teaching examples in chapters 23–26. Python standard library only."""
 import argparse
 from dataclasses import dataclass, field
 from fractions import Fraction as F

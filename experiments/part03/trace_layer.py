@@ -1,4 +1,4 @@
-"""Inspect the real layer from chapters 13–14. Reference run: PyTorch 2.8 CPU."""
+"""Inspect the real layer from chapters 12–13. Reference run: PyTorch 2.8 CPU."""
 import json
 import torch
 from torch.profiler import ProfilerActivity, profile

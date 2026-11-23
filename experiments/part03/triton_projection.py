@@ -1,4 +1,4 @@
-"""Chapter 10. On a Triton-supported CUDA GPU, run: python triton_projection.py"""
+"""Chapter 9. On a Triton-supported CUDA GPU, run: python triton_projection.py"""
 import torch
 import triton
 import triton.language as tl

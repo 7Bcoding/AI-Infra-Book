@@ -1,8 +1,8 @@
 # 阅读与发布说明
 
-《AI Infra 由浅入深》由权参撰写。可在 [GitHub 目录](README.md) 逐章阅读，也可从[阅读站](https://7bcoding.github.io/AI-Infra-Book/) 下载带书签的 PDF、离线 HTML 或 Markdown 与实验包。
+《AI Infra 由浅入深》由弦宇撰写。可在 [GitHub 目录](README.md) 逐章阅读，也可从[阅读站](https://7bcoding.github.io/AI-Infra-Book/) 下载带书签的 PDF、离线 HTML 或 Markdown 与实验包。
 
-本版分为八篇三十六章。第二篇的第 7 章讲 GPU 片内的数据复用与搬运，第 8 章讲 GPU 与主机的数据放置和共享。原第 8 章及以后各章顺延一章。使用旧书签的读者可以按章名从当前目录进入，也可打开[上一版目录](https://github.com/7Bcoding/AI-Infra-Book/tree/85a102641c9bc381c7a881440508a9def846d4ea)。
+本版分为八篇三十五章。第二篇共三章，第 6 章跟着一次前向计算走进 GPU，第 7 章沿硬件代际讨论显存、互联和网卡，第 8 章用同一个投影比较 GPU、TPU 与昇腾。上一版的第 10 章及以后各章在本版提前一章。使用旧书签的读者可以按章名从当前目录进入，也可对照[上一版目录](https://github.com/7Bcoding/AI-Infra-Book/tree/022c53d62be2f6ea7a6c89ac50f9cbfa876d3a84)。
 
 ## 在线阅读站
 

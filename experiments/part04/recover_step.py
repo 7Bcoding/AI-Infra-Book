@@ -1,4 +1,4 @@
-"""Checkpoint/replay for the Chapter 23 training recovery example, standard Python only.
+"""Checkpoint/replay for the Chapter 22 training recovery example, standard Python only.
 Optionally pass --directory PATH to keep artifacts in a new run folder.
 """
 import argparse

@@ -1,4 +1,4 @@
-"""Recompute the chapter 9 BF16 projection bounds using only the standard library."""
+"""Recompute the chapter 8 BF16 projection bounds using only the standard library."""
 
 from math import ceil
 

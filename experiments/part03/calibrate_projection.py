@@ -1,4 +1,4 @@
-"""第 12 章的七码投影实验。示例：python calibrate_projection.py 1 8"""
+"""第 11 章的七码投影实验。示例：python calibrate_projection.py 1 8"""
 import argparse
 from math import isclose
 

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="368" viewBox="0 0 1000 368" role="img" aria-labelledby="title desc">
+<title id="title">HBM 堆栈到计算裸片的封装剖面</title><desc id="desc">箭头从堆栈穿过中介层，连接到 GPU 的内存接口。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<rect x="69.000" y="283.000" width="847.000" height="26.000" fill="#ecedef" stroke="#66727b" stroke-width="1"/>
+<rect x="89.000" y="216.000" width="802.000" height="66.000" fill="#eef1f2" stroke="#66727b" stroke-width="1"/>
+<text x="807.000" y="263.000" class="small" text-anchor="middle" style="fill:#25333b">硅中介层</text>
+<text x="798.000" y="345.000" class="small" text-anchor="middle" style="fill:#25333b">封装基板</text>
+<line x1="804.000" y1="313.000" x2="804.000" y2="323.000" stroke="#66727b" stroke-width="1.3"/>
+<rect x="119.000" y="64.000" width="262.000" height="34.000" fill="#dce7ed" stroke="#66727b" stroke-width="1"/>
+<rect x="119.000" y="99.000" width="262.000" height="34.000" fill="#dce7ed" stroke="#66727b" stroke-width="1"/>
+<rect x="119.000" y="134.000" width="262.000" height="34.000" fill="#dce7ed" stroke="#66727b" stroke-width="1"/>
+<rect x="119.000" y="169.000" width="262.000" height="34.000" fill="#dce7ed" stroke="#66727b" stroke-width="1"/>
+<text x="242.000" y="51.000" class="" text-anchor="middle" style="fill:#25333b">堆叠的 DRAM</text>
+<line x1="151.000" y1="74.000" x2="151.000" y2="211.000" stroke="#4d7787" stroke-width="2"/>
+<line x1="181.000" y1="74.000" x2="181.000" y2="211.000" stroke="#4d7787" stroke-width="2"/>
+<line x1="212.000" y1="74.000" x2="212.000" y2="211.000" stroke="#4d7787" stroke-width="2"/>
+<line x1="243.000" y1="74.000" x2="243.000" y2="211.000" stroke="#4d7787" stroke-width="2"/>
+<text x="320.000" y="159.000" class="small" text-anchor="middle" style="fill:#25333b">垂直连线</text>
+<rect x="514.000" y="127.000" width="347.000" height="88.000" fill="#efe0d5" stroke="#66727b" stroke-width="1"/>
+<text x="688.000" y="179.000" class="" text-anchor="middle" style="fill:#25333b">GPU 计算裸片</text>
+<line x1="181.000" y1="210.000" x2="181.000" y2="251.000" stroke="#4d7787" stroke-width="2.5"/>
+<line x1="181.000" y1="251.000" x2="583.000" y2="251.000" stroke="#4d7787" stroke-width="2.5"/>
+<line x1="583.000" y1="251.000" x2="583.000" y2="214.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="387.000" y="239.000" class="small" text-anchor="middle" style="fill:#25333b">封装内宽接口</text>
+</svg>

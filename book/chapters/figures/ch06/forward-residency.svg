@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="350" viewBox="0 0 1000 350" role="img" aria-labelledby="title desc">
+<title id="title">从装入权重到取回一个词元</title><desc id="desc">主机和设备沿同一时间轴工作，权重与请求历史在设备侧驻留。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<text x="24.000" y="47.000" class="" text-anchor="start">时间</text>
+<line x1="104.000" y1="40.000" x2="939.000" y2="40.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="25.000" y="113.000" class="" text-anchor="start">主机</text>
+<text x="25.000" y="209.000" class="" text-anchor="start">GPU</text>
+<rect x="121.000" y="75.000" width="152.000" height="50.000" fill="#ecedef" stroke="#aeb9bf" stroke-width="1"/>
+<text x="197.000" y="107.000" class="" text-anchor="middle" style="fill:#25333b">装入权重</text>
+<rect x="318.000" y="75.000" width="154.000" height="50.000" fill="#ecedef" stroke="#aeb9bf" stroke-width="1"/>
+<text x="395.000" y="107.000" class="" text-anchor="middle" style="fill:#25333b">提交词元</text>
+<rect x="805.000" y="75.000" width="146.000" height="50.000" fill="#ecedef" stroke="#aeb9bf" stroke-width="1"/>
+<text x="878.000" y="107.000" class="" text-anchor="middle" style="fill:#25333b">取回编号</text>
+<line x1="196.000" y1="130.000" x2="196.000" y2="163.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<line x1="394.000" y1="130.000" x2="394.000" y2="163.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<line x1="878.000" y1="166.000" x2="878.000" y2="132.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="121.000" y="172.000" width="152.000" height="57.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="197.000" y="207.500" class="" text-anchor="middle" style="fill:#25333b">权重驻留</text>
+<rect x="318.000" y="172.000" width="154.000" height="57.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="395.000" y="207.500" class="" text-anchor="middle" style="fill:#25333b">嵌入与投影</text>
+<rect x="510.000" y="172.000" width="126.000" height="57.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="573.000" y="207.500" class="" text-anchor="middle" style="fill:#25333b">注意力</text>
+<rect x="669.000" y="172.000" width="117.000" height="57.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="727.500" y="207.500" class="" text-anchor="middle" style="fill:#25333b">后续层</text>
+<rect x="815.000" y="172.000" width="129.000" height="57.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="879.500" y="207.500" class="" text-anchor="middle" style="fill:#25333b">采样</text>
+<line x1="277.000" y1="200.000" x2="312.000" y2="200.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<line x1="477.000" y1="200.000" x2="503.000" y2="200.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<line x1="640.000" y1="200.000" x2="663.000" y2="200.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<line x1="790.000" y1="200.000" x2="808.000" y2="200.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<line x1="395.000" y1="235.000" x2="395.000" y2="285.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<line x1="396.000" y1="286.000" x2="568.000" y2="286.000" stroke="#66727b" stroke-width="1.6"/>
+<line x1="569.000" y1="285.000" x2="569.000" y2="235.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="490.000" y="328.000" class="small" text-anchor="middle" style="fill:#25333b">本层追加的 K、V 留在显存，后续词元继续读取</text>
+</svg>

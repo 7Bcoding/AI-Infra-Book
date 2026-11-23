@@ -1,4 +1,4 @@
-"""Replay a serialized KV link feeding one unbatched decode slot (chapter 26)."""
+"""Replay a serialized KV link feeding one unbatched decode slot (chapter 25)."""
 
 import argparse
 from dataclasses import dataclass
