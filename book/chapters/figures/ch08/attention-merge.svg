@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="339" viewBox="0 0 1000 339" role="img" aria-labelledby="title desc">
+<title id="title">两个注意力块的归一化统计量</title><desc id="desc">两个注意力块的归一化统计量</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<text x="36.000" y="118.000" class="" text-anchor="start">位置 1、2</text>
+<rect x="200.000" y="86.000" width="165.000" height="50.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="282.500" y="118.000" class="" text-anchor="middle" style="fill:#25333b">1.5，1</text>
+<line x1="374.000" y1="113.000" x2="514.000" y2="113.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="445.000" y="99.000" class="small" text-anchor="middle" style="fill:#25333b">× 1/2</text>
+<rect x="525.000" y="86.000" width="173.000" height="50.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="611.500" y="118.000" class="" text-anchor="middle" style="fill:#25333b">0.75，0.5</text>
+<line x1="710.000" y1="112.000" x2="796.000" y2="161.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="36.000" y="220.000" class="" text-anchor="start">位置 3、4</text>
+<rect x="200.000" y="188.000" width="165.000" height="50.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="282.500" y="220.000" class="" text-anchor="middle" style="fill:#25333b">1.25，7</text>
+<line x1="374.000" y1="215.000" x2="514.000" y2="215.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="445.000" y="201.000" class="small" text-anchor="middle" style="fill:#25333b">× 1</text>
+<rect x="525.000" y="188.000" width="173.000" height="50.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="611.500" y="220.000" class="" text-anchor="middle" style="fill:#25333b">1.25，7</text>
+<line x1="710.000" y1="214.000" x2="796.000" y2="161.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="283.000" y="51.000" class="" text-anchor="middle" style="fill:#25333b">局部 (l, u)</text>
+<text x="612.000" y="51.000" class="" text-anchor="middle" style="fill:#25333b">同一尺度 (l, u)</text>
+<rect x="807.000" y="137.000" width="146.000" height="50.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="880.000" y="169.000" class="" text-anchor="middle" style="fill:#25333b">2，7.5</text>
+<text x="880.000" y="113.000" class="" text-anchor="middle" style="fill:#25333b">相加</text>
+<text x="500.000" y="310.000" class="small" text-anchor="middle" style="fill:#25333b">分母和分子按同一比例换算，合并以后才做除法：7.5 / 2 = 3.75。</text>
+</svg>

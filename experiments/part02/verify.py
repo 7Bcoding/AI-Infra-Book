@@ -1,6 +1,6 @@
 """Reproduce the numerical examples in Part II. Run with standard Python 3."""
 from collections import Counter
-from math import ceil, gcd, isclose
+from math import ceil, exp, gcd, isclose, log
 from pathlib import Path
 from xml.etree import ElementTree
 import re
@@ -239,11 +239,76 @@ def check_system_paths():
     print("Four tiles, independent copy/matrix/vector stages: 25, 16 and 15 microseconds.")
 
 
+def check_layer_traffic():
+    width, heads, kv_heads, head_width = 4096, 32, 8, 128
+    assert heads * head_width == width
+    q_width, kv_width = width, kv_heads * head_width
+    assert [2 * width * d // MIB for d in (q_width, kv_width, kv_width)] == [32, 8, 8]
+    assert 2 * 2 * kv_width == 4 * KIB
+    assert 4096 * 4 * KIB == 16 * MIB
+    assert [round(pages * 64 * KIB / 32e9 * 1e6, 2) for pages in (1,64)] == [2.05,131.07]
+
+    for tile, expected in [(64, (32, 4, 67.2)), (128, (64, 2, 50.4))]:
+        panel_bytes = 2 * tile * 32 * 2
+        flops = 2 * tile * tile * 32
+        registers = (tile * tile // 256) + 16
+        resident = min(block_limits(registers, 2 * panel_bytes // KIB))
+        tiles = ceil(129 / tile) * ceil(128 / tile)
+        coverage = 129 * 128 / (tiles * tile * tile)
+        observed = (flops // panel_bytes, resident, round(100 * coverage, 1))
+        assert observed == expected
+        print(f"{tile} x {tile}: {observed[0]} FLOP/input byte, {resident} blocks/SM, "
+              f"{100*coverage:.1f}% useful output positions for 129 rows.")
+
+
+def check_hardware_budgets():
+    packed = (64 // 2) * 2 + (64 // 4) * 4 // 8
+    assert packed == 72 and isclose(256 / (128 + packed), 1.28)
+    assert [panels * 8 for panels in (4 * 2, 4 + 1)] == [64, 40]
+    for flops, expected in [(64e9, 1.64), (512e9, 3.17)]:
+        a100 = roof_time(flops, 1e9, 312, 2.039)
+        h100 = roof_time(flops, 1e9, 989, 3.35)
+        assert round(a100 / h100, 2) == expected
+        print(f"{flops/1e9:g} GFLOP and 1 GB: A100 >= {a100/1000:.3f} ms, "
+              f"H100 >= {h100/1000:.3f} ms (ideal model).")
+    for size, expected in [(4*KIB, (3.16,8.08)), (250_000, (13.0,13.0))]:
+        assert tuple(round(start + size / bw, 2) for start, bw in
+                     ((3,25_000), (8,50_000))) == expected
+
+
+def check_block_handoffs():
+    # A single slot can only be overwritten after the matrix unit releases it.
+    events = copy_compute(4, 3, 5)
+    assert [(r[1], r[2]) for r in events] == [(0,3),(3,6),(8,11),(13,16)]
+    assert events[-1][-1] + 2 == 25 and 4*(3+5)+2 == 34
+    assert 128 * 2048 * 2 == 512 * KIB and 128 * 4096 * 4 == 2 * MIB
+    assert 2 * 2 * 128 * 128 * 2 == 128 * KIB
+    # Rounding half to even on the BF16 grid immediately above 1.
+    value, step = 1 + 1/256, 1/128
+    assert round(value/step) * step - 1 == 0 and value - 1 == 1/256
+    scores = (0, log(2), 0, log(4))
+    values = (2, 0, 4, 6)
+    totals = []
+    for start in (0, 2):
+        block = scores[start:start+2]
+        m = max(block)
+        weights = [exp(s-m) for s in block]
+        totals.append((m, sum(weights), sum(w*v for w, v in zip(weights, values[start:start+2]))))
+    common_max = max(m for m, _, _ in totals)
+    denom = sum(exp(m-common_max)*l for m,l,_ in totals)
+    numer = sum(exp(m-common_max)*u for m,_,u in totals)
+    assert isclose(numer/denom, 3.75)
+    print(f"Attention block merge: numerator {numer:g}, denominator {denom:g}, output {numer/denom:g}.")
+
+
 if __name__ == "__main__":
     check_execution()
     check_storage()
     check_architecture()
     check_system_paths()
+    check_layer_traffic()
+    check_hardware_budgets()
+    check_block_handoffs()
     check_manuscripts()
     print("Scheduling, memory traffic, array timing, Roofline budgets and exercises passed.")
 

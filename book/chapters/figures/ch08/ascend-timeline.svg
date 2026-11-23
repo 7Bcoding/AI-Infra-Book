@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="404" viewBox="0 0 1000 404" role="img" aria-labelledby="title desc">
+<title id="title">双缓冲下的矩阵与向量流水</title><desc id="desc">双缓冲下的矩阵与向量流水</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<text x="40.000" y="99.000" class="" text-anchor="start">输入搬运</text>
+<line x1="180.000" y1="115.000" x2="920.000" y2="115.000" stroke="#aeb9bf" stroke-width="1.3"/>
+<rect x="180.000" y="68.000" width="88.800" height="46.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="224.400" y="98.000" class="" text-anchor="middle" style="fill:#25333b">A0</text>
+<rect x="268.800" y="68.000" width="88.800" height="46.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="313.200" y="98.000" class="" text-anchor="middle" style="fill:#25333b">B1</text>
+<rect x="416.800" y="68.000" width="88.800" height="46.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="461.200" y="98.000" class="" text-anchor="middle" style="fill:#25333b">A2</text>
+<rect x="564.800" y="68.000" width="88.800" height="46.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="609.200" y="98.000" class="" text-anchor="middle" style="fill:#25333b">B3</text>
+<text x="40.000" y="173.000" class="" text-anchor="start">Cube</text>
+<line x1="180.000" y1="189.000" x2="920.000" y2="189.000" stroke="#aeb9bf" stroke-width="1.3"/>
+<rect x="268.800" y="142.000" width="148.000" height="46.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="342.800" y="172.000" class="" text-anchor="middle" style="fill:#25333b">0</text>
+<rect x="416.800" y="142.000" width="148.000" height="46.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="490.800" y="172.000" class="" text-anchor="middle" style="fill:#25333b">1</text>
+<rect x="564.800" y="142.000" width="148.000" height="46.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="638.800" y="172.000" class="" text-anchor="middle" style="fill:#25333b">2</text>
+<rect x="712.800" y="142.000" width="148.000" height="46.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="786.800" y="172.000" class="" text-anchor="middle" style="fill:#25333b">3</text>
+<text x="40.000" y="247.000" class="" text-anchor="start">Vector</text>
+<line x1="180.000" y1="263.000" x2="920.000" y2="263.000" stroke="#aeb9bf" stroke-width="1.3"/>
+<rect x="416.800" y="216.000" width="59.200" height="46.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="446.400" y="246.000" class="" text-anchor="middle" style="fill:#25333b">0</text>
+<rect x="564.800" y="216.000" width="59.200" height="46.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="594.400" y="246.000" class="" text-anchor="middle" style="fill:#25333b">1</text>
+<rect x="712.800" y="216.000" width="59.200" height="46.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="742.400" y="246.000" class="" text-anchor="middle" style="fill:#25333b">2</text>
+<rect x="860.800" y="216.000" width="59.200" height="46.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="890.400" y="246.000" class="" text-anchor="middle" style="fill:#25333b">3</text>
+<line x1="180.000" y1="298.000" x2="937.000" y2="298.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<line x1="180.000" y1="294.000" x2="180.000" y2="304.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="180.000" y="329.000" class="small" text-anchor="middle" style="fill:#25333b">0</text>
+<line x1="268.800" y1="294.000" x2="268.800" y2="304.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="268.800" y="329.000" class="small" text-anchor="middle" style="fill:#25333b">3</text>
+<line x1="357.600" y1="294.000" x2="357.600" y2="304.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="357.600" y="329.000" class="small" text-anchor="middle" style="fill:#25333b">6</text>
+<line x1="416.800" y1="294.000" x2="416.800" y2="304.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="416.800" y="329.000" class="small" text-anchor="middle" style="fill:#25333b">8</text>
+<line x1="476.000" y1="294.000" x2="476.000" y2="304.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="476.000" y="329.000" class="small" text-anchor="middle" style="fill:#25333b">10</text>
+<line x1="564.800" y1="294.000" x2="564.800" y2="304.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="564.800" y="329.000" class="small" text-anchor="middle" style="fill:#25333b">13</text>
+<line x1="653.600" y1="294.000" x2="653.600" y2="304.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="653.600" y="329.000" class="small" text-anchor="middle" style="fill:#25333b">16</text>
+<line x1="712.800" y1="294.000" x2="712.800" y2="304.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="712.800" y="329.000" class="small" text-anchor="middle" style="fill:#25333b">18</text>
+<line x1="772.000" y1="294.000" x2="772.000" y2="304.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="772.000" y="329.000" class="small" text-anchor="middle" style="fill:#25333b">20</text>
+<line x1="860.800" y1="294.000" x2="860.800" y2="304.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="860.800" y="329.000" class="small" text-anchor="middle" style="fill:#25333b">23</text>
+<line x1="920.000" y1="294.000" x2="920.000" y2="304.000" stroke="#66727b" stroke-width="1.3"/>
+<text x="920.000" y="329.000" class="small" text-anchor="middle" style="fill:#25333b">25</text>
+<text x="552.000" y="378.000" class="small" text-anchor="middle" style="fill:#25333b">时间（µs）。数字为块号，A、B 是交替使用的输入槽。</text>
+</svg>

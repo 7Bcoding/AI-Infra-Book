@@ -2,7 +2,7 @@
 
 《AI Infra 由浅入深》由弦宇撰写。可在 [GitHub 目录](README.md) 逐章阅读，也可从[阅读站](https://7bcoding.github.io/AI-Infra-Book/) 下载带书签的 PDF、离线 HTML 或 Markdown 与实验包。
 
-本版分为八篇三十五章。第二篇共三章，第 6 章跟着一次前向计算走进 GPU，第 7 章沿硬件代际讨论显存、互联和网卡，第 8 章用同一个投影比较 GPU、TPU 与昇腾。上一版的第 10 章及以后各章在本版提前一章。使用旧书签的读者可以按章名从当前目录进入，也可对照[上一版目录](https://github.com/7Bcoding/AI-Infra-Book/tree/022c53d62be2f6ea7a6c89ac50f9cbfa876d3a84)。
+本书分为八篇三十五章。第二篇从单卡的执行和存储讲到代际演进、系统互联，再比较 GPU、TPU 与昇腾。随书算例可用 Python 标准库复算，包括分块覆盖率、显存传输时间和分块注意力。阅读过三十六章版的读者可对照[当时的目录](https://github.com/7Bcoding/AI-Infra-Book/tree/022c53d62be2f6ea7a6c89ac50f9cbfa876d3a84)，该版第 10 章起的内容在现行目录提前一章。
 
 ## 在线阅读站
 

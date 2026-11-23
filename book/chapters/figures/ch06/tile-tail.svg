@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="475" viewBox="0 0 1000 475" role="img" aria-labelledby="title desc">
+<title id="title">129 行输出的分块覆盖率</title><desc id="desc">129 行输出的分块覆盖率</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<text x="309.240" y="34.000" class="" text-anchor="middle" style="fill:#25333b">128 × 128 分块</text>
+<rect x="235.000" y="63.000" width="148.480" height="148.480" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="235.000" y="211.480" width="148.480" height="148.480" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="235.000" y="63.000" width="148.480" height="148.480" fill="none" stroke="#66727b" stroke-width="1"/>
+<rect x="235.000" y="211.480" width="148.480" height="148.480" fill="none" stroke="#66727b" stroke-width="1"/>
+<line x1="235.000" y1="212.060" x2="383.480" y2="212.060" stroke="#a45b3e" stroke-width="2.7"/>
+<text x="309.240" y="401.000" class="" text-anchor="middle" style="fill:#25333b">2 块 · 有效 50.4%</text>
+<text x="686.240" y="34.000" class="" text-anchor="middle" style="fill:#25333b">64 × 64 分块</text>
+<rect x="612.000" y="63.000" width="148.480" height="148.480" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="612.000" y="211.480" width="148.480" height="74.240" fill="#ffffff" stroke="#aeb9bf" stroke-width="1"/>
+<rect x="612.000" y="63.000" width="74.240" height="74.240" fill="none" stroke="#66727b" stroke-width="1"/>
+<rect x="686.240" y="63.000" width="74.240" height="74.240" fill="none" stroke="#66727b" stroke-width="1"/>
+<rect x="612.000" y="137.240" width="74.240" height="74.240" fill="none" stroke="#66727b" stroke-width="1"/>
+<rect x="686.240" y="137.240" width="74.240" height="74.240" fill="none" stroke="#66727b" stroke-width="1"/>
+<rect x="612.000" y="211.480" width="74.240" height="74.240" fill="none" stroke="#66727b" stroke-width="1"/>
+<rect x="686.240" y="211.480" width="74.240" height="74.240" fill="none" stroke="#66727b" stroke-width="1"/>
+<line x1="612.000" y1="212.060" x2="760.480" y2="212.060" stroke="#a45b3e" stroke-width="2.7"/>
+<text x="686.240" y="401.000" class="" text-anchor="middle" style="fill:#25333b">6 块 · 有效 67.2%</text>
+<text x="202.000" y="75.000" class="small" text-anchor="end">第 1 行</text>
+<text x="202.000" y="218.640" class="small" text-anchor="end" style="fill:#a45b3e">第 129 行</text>
+<text x="202.000" y="359.960" class="small" text-anchor="end">256 行位置</text>
+<text x="500.000" y="448.000" class="small" text-anchor="middle" style="fill:#25333b">淡色为有效输出。第 129 行以下为空位，两图横向都覆盖 128 列。</text>
+</svg>
