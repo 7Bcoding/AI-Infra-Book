@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="367" viewBox="0 0 1000 367" role="img" aria-labelledby="title desc">
+<title id="title">同一批请求的四种容量方案</title><desc id="desc">原速率下消除排队只多通过八条请求，解码速率加倍后超过九成目标。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<text x="240.000" y="42.000" class="" text-anchor="start">同时满足首词和完成时限的请求占比</text>
+<text x="216.000" y="95.000" class="" text-anchor="end">24 副本</text>
+<line x1="240.000" y1="86.000" x2="820.000" y2="86.000" stroke="#ecedef" stroke-width="1"/>
+<rect x="240.000" y="75.000" width="345.077" height="22.000" fill="#dce7ed" stroke="#38677f" stroke-width="1"/>
+<text x="855.000" y="95.000" class="" text-anchor="start">59.50%</text>
+<text x="216.000" y="150.000" class="" text-anchor="end">消除全部排队</text>
+<line x1="240.000" y1="141.000" x2="820.000" y2="141.000" stroke="#ecedef" stroke-width="1"/>
+<rect x="240.000" y="130.000" width="345.317" height="22.000" fill="#dce7ed" stroke="#38677f" stroke-width="1"/>
+<text x="855.000" y="150.000" class="" text-anchor="start">59.54%</text>
+<text x="216.000" y="205.000" class="" text-anchor="end">预填充速率加倍</text>
+<line x1="240.000" y1="196.000" x2="820.000" y2="196.000" stroke="#ecedef" stroke-width="1"/>
+<rect x="240.000" y="185.000" width="413.481" height="22.000" fill="#dce7ed" stroke="#38677f" stroke-width="1"/>
+<text x="855.000" y="205.000" class="" text-anchor="start">71.29%</text>
+<text x="216.000" y="260.000" class="" text-anchor="end">解码速率加倍</text>
+<line x1="240.000" y1="251.000" x2="820.000" y2="251.000" stroke="#ecedef" stroke-width="1"/>
+<rect x="240.000" y="240.000" width="530.314" height="22.000" fill="#dce7ed" stroke="#38677f" stroke-width="1"/>
+<text x="855.000" y="260.000" class="" text-anchor="start">91.43%</text>
+<line x1="762.000" y1="57.000" x2="762.000" y2="277.000" stroke="#a45b3e" stroke-width="2" stroke-dasharray="5 5"/>
+<text x="240.000" y="309.000" class="small" text-anchor="middle" style="fill:#66727b">0%</text>
+<text x="385.000" y="309.000" class="small" text-anchor="middle" style="fill:#66727b">25%</text>
+<text x="530.000" y="309.000" class="small" text-anchor="middle" style="fill:#66727b">50%</text>
+<text x="675.000" y="309.000" class="small" text-anchor="middle" style="fill:#66727b">75%</text>
+<text x="820.000" y="309.000" class="small" text-anchor="middle" style="fill:#66727b">100%</text>
+<text x="762.000" y="348.000" class="small" text-anchor="middle" style="fill:#a45b3e">90% 目标</text>
+</svg>

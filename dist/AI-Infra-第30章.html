@@ -59,7 +59,7 @@ dialog::backdrop { background: rgba(29,40,46,.54); }
 }
 
 </style></head><body><main><article id="ch30"><header><p class="book">AI Infra 由浅入深 · 第七篇</p><h1>第 30 章　检索增强与智能体执行</h1><p class="author">弦宇 著</p></header><p>模型从视频中识别出“第 2 秒，绿箱”后，仍需要查阅当时适用的仓库规程，才能填写并登记交接单。同一颜色在不同班次可能代表不同类别，因此规程版本和事件时间都应进入查询条件。语言模型可以生成工具调用请求，查询索引、提交数据库事务以及确认结果，则由模型之外的系统执行。</p>
-<p>下文以编号为 730 的任务为例，依次讨论证据检索、工具调用、等待期间的状态保存，以及写入失败后的重试。</p>
+<p>把编号 730 的任务追到数据库里，会遇到两种独立的失败。模型引用了作废条款，写入再快也得返工。引用正确但重试时登记了两次，文字评测又看不出问题。本章沿一次提交找能省下的时间与费用。验收一条结果，要同时核对证据版本、截止时刻和最终只有一笔有效登记。</p>
 <h2>30.1　检索增强生成与证据</h2>
 <p>把长手册按段落切开，每段保存文本、文档和版本标识、适用站点与时间范围。编码器把每段转成固定维数的向量；问题也经相容的编码器映到相同空间。若向量已归一化，余弦相似度就是内积。取一个二维例子，查询 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>q</mi><mo>=</mo><mo stretchy="false">(</mo><mn>1</mn><mo separator="true">,</mo><mn>0</mn><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">q=(1,0)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">q</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord">1</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">0</span><span class="mclose">)</span></span></span></span>，三个段落的单位向量及元数据为：</p>
 <div class="table-scroll"><table>
@@ -105,7 +105,7 @@ H400000v40H845.2724
 s-225.272,467,-225.272,467s-235,486,-235,486c-2.7,4.7,-9,7,-19,7
 c-6,0,-10,-1,-12,-3s-194,-422,-194,-422s-65,47,-65,47z
 M834 80h400000v40h-400000z"/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.1328em;"><span></span></span></span></span></span></span></span></span>。若先把每段的两个词向量平均，再把结果归一为单位向量，甲乙都变成了 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>u</mi></mrow><annotation encoding="application/x-tex">u</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">u</span></span></span></span>。用同法得到的查询去比较，两个余弦相似度都为 1。无论检索索引多精确，它都无法从这个分数找回原来的区别。</p>
-<p>ColBERT 把最后一次比较推迟到查询到来时。查询中的每个词各找段落里与它内积最大的词，再将这些最大值相加。这种“晚交互”保留了提前计算文档词向量的机会。逐个查询词计算：</p>
+<p>Omar Khattab 与 Matei Zaharia 在 ColBERT 中把段落的词向量提前算好，查询到来后才做细粒度的词间比较。查询中的每个词各找段落里与它内积最大的词，再将这些最大值相加。这种“晚交互”保留了提前计算文档词向量的机会。沿刚才两个查询词分别算一遍。</p>
 <div class="table-scroll"><table>
 <thead>
 <tr>
@@ -192,7 +192,7 @@ assert (finish(210), finish(0)) == (390, 330)
 <p>固定轨迹回答的是“这些已知工作能否执行得更高效”。它可隔离模型选择与控制流差异，但不能证明新系统在开放任务上会选择同样的证据、相同步数或同样正确的答案。完整执行回答的是“从原始问题出发能交付什么”，需要保留失败、循环、工具超时及轨迹长度分布。若两者结果相反，查看额外步骤和输出长度，比把所有时间归到模型 TPS 更有帮助。</p>
 <p>MLPerf 的端到端 RAG 基准将质量执行与性能回放分开，性能阶段使用固定的阶段输入和跳数来控制工作量；这一设计有利于比较系统执行，但其首个离线场景不能直接代表在线到达与排队。应用自己的评测也应明确是在复现一条已知轨迹，还是测量真实闭环中的行为。<a href="https://mlcommons.org/2026/08/endtoend-inference/">端到端 RAG 基准的质量与性能执行</a></p>
 <p>实际验收可将同一批任务分成按时且正确、正确但超时、按时但错误、失败或未决几类，逐类检查原始轨迹。对存在写操作的任务，还要核对最终外部效果。一个重复写入两张交接单的快速轨迹，不能因为语言答案正确就计为成功。</p>
-<p>用这条标准验收任务 730：输入视频有时间戳，答案指出证据段落，登记只产生一条记录，任务在预算内返回可查询的编号。模型调用、检索和工具耗时仍有诊断价值，但真正交付的是这份可追踪的结果。第三十五章要把这样的请求与仍在更新权重的训练作业放进同一座机房，讨论资源如何分配，以及训练进度、服务时延和故障恢复之间怎样取舍。</p>
+<p>回到任务 730。只要登记成功且不重复、证据来自当时生效的规程、用户及时拿到可查询的编号，就算交付一份有效结果。若索引先把正确规程漏掉，即便将图 30-3 中的两次模型调用都加快一倍，省下的 80 ms 也换不回这次成功。下一章把同一问题放到书店首页：一本相关的书若根本没进候选清单，给排序模型更多算力能救回几次展示？</p>
 <h2>练习与解答</h2>
 <h3>1. 再加多少重排分才够</h3>
 <p>图 30-1 排除过期项后，乙为 0.96，丙为 0.80。只给正确站点加分，若要求丙严格排第一，最少应满足什么条件？</p>
