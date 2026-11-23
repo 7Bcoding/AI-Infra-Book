@@ -82,11 +82,27 @@ def replay(rows, workers, prefill_rate, decode_rate):
     return result
 
 
+def half_window_counts(rows, result, prefill_rate):
+    """Group by arrival time after a continuous replay, retaining cross-window work."""
+    # Keep an arrival exactly at the midpoint in the second window, without rounding ticks.
+    boundary = (rows[0][0] + rows[-1][0] + 1) // 2
+    cut = bisect_right([row[0] for row in rows], boundary - 1)
+    windows = []
+    for start, stop in ((0, cut), (cut, len(rows))):
+        passed = sum(first <= 1.0 and end <= 4.0 for first, end in
+                     zip(result.first_latencies[start:stop], result.end_latencies[start:stop]))
+        long_prompts = sum(prompt > prefill_rate for _, prompt, _ in rows[start:stop])
+        windows.append((stop - start, passed, long_prompts))
+    return windows
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--workers", type=int, nargs="+", default=[8, 16, 24])
     parser.add_argument("--prefill", type=float, default=4000)
     parser.add_argument("--decode", type=float, default=100)
+    parser.add_argument("--split-windows", action="store_true",
+                        help="Report each half of the arrival span with the queue kept intact")
     args = parser.parse_args()
     if min(args.workers) < 1 or min(args.prefill, args.decode) <= 0:
         parser.error("use positive worker counts and per-second service rates")
@@ -114,6 +130,10 @@ def main():
               f" ttft_p95={percentile(result.first_latencies, .95):.3f}"
               f" e2e_p95={percentile(result.end_latencies, .95):.3f}"
               f" first_ok={first_ok} end_ok={end_ok} jointly_ok={both}")
+        if args.split_windows:
+            for i, (total, passed, oversized) in enumerate(half_window_counts(rows, result, args.prefill), 1):
+                print(f"  half {i}: arrivals={total} jointly_ok={passed}"
+                      f" prompt_alone_exceeds_first_deadline={oversized}")
 
     # One worker, two simultaneous arrivals at t=0, then one at t=2 exactly
     # when the first job finishes. The last job starts at t=3 and ends at t=4.
@@ -123,6 +143,7 @@ def main():
     assert [result.waiting(t) for t in [0, 2, 3, 4]] == [1, 1, 0, 0]
     assert result.window_metrics(1) == (2, 1, 2)
     assert result.deadlines() == (1, 3, 1)
+    assert half_window_counts(tiny, result, 4) == [(2, 1, 0), (1, 0, 0)]
     parallel = replay(tiny, 2, 4, 1)
     assert parallel.window_metrics(2) == (1, .75, 1)
     assert parallel.deadlines() == (3, 3, 3)

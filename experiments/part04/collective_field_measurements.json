@@ -1,0 +1,25 @@
+{
+  "falcon": {
+    "source": "https://arxiv.org/pdf/2410.12588v1#page=5",
+    "figure": "4",
+    "source_pdf_sha256": "9ef55c19e946189f50321dd07b8676b4c76ad3804203a78c658f991c8d39ea30",
+    "source_note": "Three approximate readings from the published vector curves, interpolated at the same x-axis minutes in each of the three panels. Training throughput is rounded to two decimals; notification rates to one decimal and average SM utilization to whole percent. These are not the authors' raw monitoring logs. The four CNP series are NIC0 through NIC3 in the legend.",
+    "configuration": "4 nodes, 8 A100 in total, GPT2-7B, TP=2, DP=4, PP=1",
+    "samples": [
+      {"minute": 60, "steps_per_second": 0.57, "cnp_thousands_per_second_by_nic": [0, 0, 0.7, 0], "average_sm_percent": 25},
+      {"minute": 150, "steps_per_second": 0.42, "cnp_thousands_per_second_by_nic": [0, 0, 5.5, 0], "average_sm_percent": 19},
+      {"minute": 280, "steps_per_second": 0.32, "cnp_thousands_per_second_by_nic": [2.5, 0, 8.6, 3.6], "average_sm_percent": 16}
+    ]
+  },
+  "exemplar": {
+    "source": "https://developer.nvidia.com/blog/nvidia-exemplar-cloud-lessons-for-unlocking-full-performance-on-ai-infrastructure/",
+    "section": "Case study 3, Figure 2 and the accompanying text",
+    "configuration": "512 GPUs, GB300 NVL72, ConnectX-8, Nemotron-4 15B pretraining",
+    "source_note": "Rounded author-reported timings. The comparison environment at 760 ms used a different NCCL version. Collective durations and iteration duration are distinct measurements.",
+    "reference_runs": [
+      {"qps_per_connection": 1, "iteration_ms": 1090, "allgather_ms": 375, "reducescatter_ms": 389},
+      {"qps_per_connection": 4, "iteration_ms": 830, "allgather_ms": 262, "reducescatter_ms": 273}
+    ],
+    "other_nccl_version_iteration_ms": 760
+  }
+}

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="407" viewBox="0 0 1000 407" role="img" aria-labelledby="title desc">
+<title id="title">工作项行数与权重工作集的实测对照</title><desc id="desc">配对差值以零为界，正值表示节省时间。四行版的两个对照全部为正，轮换权重表的两个对照均跨零。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<text x="255.000" y="38.000" class="" text-anchor="start">同轮主机等待时间的差值（毫秒）</text>
+<line x1="255.000" y1="60.000" x2="255.000" y2="298.000" stroke="#ecedef" stroke-width="1.5"/>
+<text x="255.000" y="326.000" class="small" text-anchor="middle">-1</text>
+<line x1="448.000" y1="60.000" x2="448.000" y2="298.000" stroke="#66727b" stroke-width="1.5"/>
+<text x="448.000" y="326.000" class="small" text-anchor="middle">0</text>
+<line x1="641.000" y1="60.000" x2="641.000" y2="298.000" stroke="#ecedef" stroke-width="1.5"/>
+<text x="641.000" y="326.000" class="small" text-anchor="middle">1</text>
+<line x1="834.000" y1="60.000" x2="834.000" y2="298.000" stroke="#ecedef" stroke-width="1.5"/>
+<text x="834.000" y="326.000" class="small" text-anchor="middle">2</text>
+<text x="222.000" y="94.000" class="" text-anchor="end">单表，改用四行</text>
+<line x1="701.438" y1="80.000" x2="869.415" y2="80.000" stroke="#38677f" stroke-width="2.5"/>
+<circle cx="760.858" cy="80.000" r="5" fill="#38677f"/>
+<line x1="824.282" y1="94.000" x2="877.550" y2="94.000" stroke="#a45b3e" stroke-width="2.5"/>
+<rect x="858.738" y="90.000" width="8.000" height="8.000" fill="#a45b3e" stroke="#a45b3e" stroke-width="1"/>
+<text x="222.000" y="154.000" class="" text-anchor="end">八表，改用四行</text>
+<line x1="591.669" y1="140.000" x2="832.649" y2="140.000" stroke="#38677f" stroke-width="2.5"/>
+<circle cx="696.188" cy="140.000" r="5" fill="#38677f"/>
+<line x1="809.817" y1="154.000" x2="871.770" y2="154.000" stroke="#a45b3e" stroke-width="2.5"/>
+<rect x="849.575" y="150.000" width="8.000" height="8.000" fill="#a45b3e" stroke="#a45b3e" stroke-width="1"/>
+<text x="222.000" y="214.000" class="" text-anchor="end">一行，改用轮换</text>
+<line x1="368.320" y1="200.000" x2="700.145" y2="200.000" stroke="#38677f" stroke-width="2.5"/>
+<circle cx="517.147" cy="200.000" r="5" fill="#38677f"/>
+<line x1="413.115" y1="214.000" x2="503.603" y2="214.000" stroke="#a45b3e" stroke-width="2.5"/>
+<rect x="441.771" y="210.000" width="8.000" height="8.000" fill="#a45b3e" stroke="#a45b3e" stroke-width="1"/>
+<text x="222.000" y="274.000" class="" text-anchor="end">四行，改用轮换</text>
+<line x1="321.334" y1="260.000" x2="644.522" y2="260.000" stroke="#38677f" stroke-width="2.5"/>
+<circle cx="440.285" cy="260.000" r="5" fill="#38677f"/>
+<line x1="361.459" y1="274.000" x2="473.380" y2="274.000" stroke="#a45b3e" stroke-width="2.5"/>
+<rect x="447.387" y="270.000" width="8.000" height="8.000" fill="#a45b3e" stroke="#a45b3e" stroke-width="1"/>
+<circle cx="115.000" cy="371.000" r="5" fill="#38677f"/>
+<text x="135.000" y="378.000" class="small" text-anchor="start">第一次运行</text>
+<rect x="304.000" y="367.000" width="8.000" height="8.000" fill="#a45b3e" stroke="#a45b3e" stroke-width="1"/>
+<text x="327.000" y="378.000" class="small" text-anchor="start">第二次运行</text>
+<text x="532.000" y="378.000" class="small" text-anchor="start">线段为八轮范围，标记为中位数。</text>
+</svg>
