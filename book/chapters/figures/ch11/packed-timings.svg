@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="400" viewBox="0 0 1000 400" role="img" aria-labelledby="title desc">
+<title id="title">八轮成对计时</title><desc id="desc">两种形状各自使用线性刻度。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<text x="38.000" y="43.000" class="" text-anchor="start">设备执行时间（微秒）</text>
+<text x="38.000" y="93.000" class="" text-anchor="start">1 行</text>
+<line x1="185.000" y1="98.000" x2="185.000" y2="177.000" stroke="#ecedef" stroke-width="1"/>
+<text x="185.000" y="204.000" class="small" text-anchor="middle">0</text>
+<line x1="363.750" y1="98.000" x2="363.750" y2="177.000" stroke="#ecedef" stroke-width="1"/>
+<text x="363.750" y="204.000" class="small" text-anchor="middle">100</text>
+<line x1="542.500" y1="98.000" x2="542.500" y2="177.000" stroke="#ecedef" stroke-width="1"/>
+<text x="542.500" y="204.000" class="small" text-anchor="middle">200</text>
+<line x1="721.250" y1="98.000" x2="721.250" y2="177.000" stroke="#ecedef" stroke-width="1"/>
+<text x="721.250" y="204.000" class="small" text-anchor="middle">300</text>
+<line x1="900.000" y1="98.000" x2="900.000" y2="177.000" stroke="#ecedef" stroke-width="1"/>
+<text x="900.000" y="204.000" class="small" text-anchor="middle">400</text>
+<text x="145.000" y="125.000" class="" text-anchor="end">FP32</text>
+<line x1="568.383" y1="118.000" x2="583.541" y2="118.000" stroke="#38677f" stroke-width="2"/>
+<circle cx="583.541" cy="118.000" r="4" fill="#38677f"/>
+<circle cx="568.383" cy="118.000" r="4" fill="#38677f"/>
+<circle cx="571.601" cy="118.000" r="4" fill="#38677f"/>
+<circle cx="571.029" cy="118.000" r="4" fill="#38677f"/>
+<circle cx="569.026" cy="118.000" r="4" fill="#38677f"/>
+<circle cx="571.100" cy="118.000" r="4" fill="#38677f"/>
+<circle cx="575.676" cy="118.000" r="4" fill="#38677f"/>
+<circle cx="573.602" cy="118.000" r="4" fill="#38677f"/>
+<text x="145.000" y="167.000" class="" text-anchor="end">四位</text>
+<line x1="364.894" y1="160.000" x2="366.896" y2="160.000" stroke="#a45b3e" stroke-width="2"/>
+<circle cx="366.896" cy="160.000" r="4" fill="#a45b3e"/>
+<circle cx="364.894" cy="160.000" r="4" fill="#a45b3e"/>
+<circle cx="366.038" cy="160.000" r="4" fill="#a45b3e"/>
+<circle cx="365.538" cy="160.000" r="4" fill="#a45b3e"/>
+<circle cx="365.609" cy="160.000" r="4" fill="#a45b3e"/>
+<circle cx="366.538" cy="160.000" r="4" fill="#a45b3e"/>
+<circle cx="366.324" cy="160.000" r="4" fill="#a45b3e"/>
+<circle cx="366.467" cy="160.000" r="4" fill="#a45b3e"/>
+<text x="38.000" y="262.000" class="" text-anchor="start">128 行</text>
+<line x1="185.000" y1="267.000" x2="185.000" y2="346.000" stroke="#ecedef" stroke-width="1"/>
+<text x="185.000" y="373.000" class="small" text-anchor="middle">0</text>
+<line x1="363.750" y1="267.000" x2="363.750" y2="346.000" stroke="#ecedef" stroke-width="1"/>
+<text x="363.750" y="373.000" class="small" text-anchor="middle">750</text>
+<line x1="542.500" y1="267.000" x2="542.500" y2="346.000" stroke="#ecedef" stroke-width="1"/>
+<text x="542.500" y="373.000" class="small" text-anchor="middle">1500</text>
+<line x1="721.250" y1="267.000" x2="721.250" y2="346.000" stroke="#ecedef" stroke-width="1"/>
+<text x="721.250" y="373.000" class="small" text-anchor="middle">2250</text>
+<line x1="900.000" y1="267.000" x2="900.000" y2="346.000" stroke="#ecedef" stroke-width="1"/>
+<text x="900.000" y="373.000" class="small" text-anchor="middle">3000</text>
+<text x="145.000" y="294.000" class="" text-anchor="end">FP32</text>
+<line x1="584.914" y1="287.000" x2="829.739" y2="287.000" stroke="#38677f" stroke-width="2"/>
+<circle cx="829.739" cy="287.000" r="4" fill="#38677f"/>
+<circle cx="718.638" cy="287.000" r="4" fill="#38677f"/>
+<circle cx="655.260" cy="287.000" r="4" fill="#38677f"/>
+<circle cx="595.038" cy="287.000" r="4" fill="#38677f"/>
+<circle cx="584.914" cy="287.000" r="4" fill="#38677f"/>
+<circle cx="677.111" cy="287.000" r="4" fill="#38677f"/>
+<circle cx="668.207" cy="287.000" r="4" fill="#38677f"/>
+<circle cx="646.900" cy="287.000" r="4" fill="#38677f"/>
+<text x="145.000" y="336.000" class="" text-anchor="end">四位</text>
+<line x1="413.247" y1="329.000" x2="531.193" y2="329.000" stroke="#a45b3e" stroke-width="2"/>
+<circle cx="531.193" cy="329.000" r="4" fill="#a45b3e"/>
+<circle cx="512.346" cy="329.000" r="4" fill="#a45b3e"/>
+<circle cx="428.844" cy="329.000" r="4" fill="#a45b3e"/>
+<circle cx="413.247" cy="329.000" r="4" fill="#a45b3e"/>
+<circle cx="414.963" cy="329.000" r="4" fill="#a45b3e"/>
+<circle cx="432.257" cy="329.000" r="4" fill="#a45b3e"/>
+<circle cx="452.648" cy="329.000" r="4" fill="#a45b3e"/>
+<circle cx="447.844" cy="329.000" r="4" fill="#a45b3e"/>
+</svg>

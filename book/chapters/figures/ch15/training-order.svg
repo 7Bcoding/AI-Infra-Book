@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="302" viewBox="0 0 1000 302" role="img" aria-labelledby="title desc">
+<title id="title">同一组目标的两种顺序</title><desc id="desc">先后次序改变第二步的梯度。</desc>
+<style>text{font-family:"Noto Serif CJK SC","SimSun","Songti SC",serif;font-size:21px;fill:#25333b} .small{font-size:18px} .tiny{font-size:16px} .math{font-family:Georgia,"Times New Roman",serif;font-style:italic} .muted{fill:#66727b}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#66727b" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="100%" fill="white"/>
+<text x="95.000" y="43.000" class="" text-anchor="middle">批次安排</text>
+<text x="304.000" y="43.000" class="" text-anchor="middle">第一次更新</text>
+<text x="500.000" y="43.000" class="" text-anchor="middle">更新后的 z</text>
+<text x="680.000" y="43.000" class="" text-anchor="middle">第二次更新</text>
+<text x="885.000" y="43.000" class="" text-anchor="middle">最终的 z</text>
+<text x="95.000" y="114.000" class="" text-anchor="middle">先文档后回答</text>
+<rect x="250.000" y="82.000" width="54.000" height="49.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="277.000" y="113.500" class="" text-anchor="middle" style="fill:#25333b">文</text>
+<rect x="307.000" y="82.000" width="54.000" height="49.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="334.000" y="113.500" class="" text-anchor="middle" style="fill:#25333b">文</text>
+<rect x="625.000" y="82.000" width="54.000" height="49.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="652.000" y="113.500" class="" text-anchor="middle" style="fill:#25333b">答</text>
+<rect x="682.000" y="82.000" width="54.000" height="49.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="709.000" y="113.500" class="" text-anchor="middle" style="fill:#25333b">答</text>
+<line x1="380.000" y1="106.000" x2="427.000" y2="106.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<line x1="756.000" y1="106.000" x2="805.000" y2="106.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="500.000" y="114.000" class="" text-anchor="middle">0.5000</text>
+<text x="885.000" y="114.000" class="" text-anchor="middle">−0.1225</text>
+<text x="95.000" y="198.000" class="" text-anchor="middle">每批各一半</text>
+<rect x="250.000" y="166.000" width="54.000" height="49.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="277.000" y="197.500" class="" text-anchor="middle" style="fill:#25333b">文</text>
+<rect x="307.000" y="166.000" width="54.000" height="49.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="334.000" y="197.500" class="" text-anchor="middle" style="fill:#25333b">答</text>
+<rect x="625.000" y="166.000" width="54.000" height="49.000" fill="#dce7ed" stroke="#aeb9bf" stroke-width="1"/>
+<text x="652.000" y="197.500" class="" text-anchor="middle" style="fill:#25333b">文</text>
+<rect x="682.000" y="166.000" width="54.000" height="49.000" fill="#efe0d5" stroke="#aeb9bf" stroke-width="1"/>
+<text x="709.000" y="197.500" class="" text-anchor="middle" style="fill:#25333b">答</text>
+<line x1="380.000" y1="190.000" x2="427.000" y2="190.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<line x1="756.000" y1="190.000" x2="805.000" y2="190.000" stroke="#66727b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="500.000" y="198.000" class="" text-anchor="middle">0</text>
+<text x="885.000" y="198.000" class="" text-anchor="middle">0</text>
+<text x="500.000" y="270.000" class="" text-anchor="middle">文：目标 A　　答：目标 B　　两行均从 z = 0 开始</text>
+</svg>
